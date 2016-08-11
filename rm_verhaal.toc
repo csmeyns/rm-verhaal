@@ -1,0 +1,48 @@
+\select@language {dutch}
+\contentsline {chapter}{Inhoudsopgave}{ii}
+\contentsline {part}{\partnumberline {I}De Familie}{1}
+\contentsline {chapter}{\chapternumberline {1}Familie Meijns}{3}
+\contentsline {chapter}{\chapternumberline {2}Opa Meijns}{7}
+\contentsline {chapter}{\chapternumberline {3}Familie Kriek}{13}
+\contentsline {chapter}{\chapternumberline {4}Mijn ouders}{19}
+\contentsline {chapter}{\chapternumberline {5}Rosmolenstraat 88}{21}
+\contentsline {chapter}{\chapternumberline {6}Kleuterschool}{35}
+\contentsline {chapter}{\chapternumberline {7}Stegen en straten}{37}
+\contentsline {chapter}{\chapternumberline {8}Wat er door de straat kwam}{41}
+\contentsline {chapter}{\chapternumberline {9}Luilak}{45}
+\contentsline {chapter}{\chapternumberline {10}Vreemde zaken}{49}
+\contentsline {chapter}{\chapternumberline {11}Sport}{51}
+\contentsline {chapter}{\chapternumberline {12}Het oude ziekenhuis}{57}
+\contentsline {chapter}{\chapternumberline {13}IJspret}{61}
+\contentsline {chapter}{\chapternumberline {14}Jongensdorp}{65}
+\contentsline {chapter}{\chapternumberline {15}Scheepswerf}{67}
+\contentsline {chapter}{\chapternumberline {16}Muziek}{71}
+\contentsline {chapter}{\chapternumberline {17}Jaren '50}{77}
+\contentsline {chapter}{\chapternumberline {18}Lagere school}{85}
+\contentsline {chapter}{\chapternumberline {19}ULO}{87}
+\contentsline {chapter}{\chapternumberline {20}Vader}{89}
+\contentsline {chapter}{\chapternumberline {21}Brommers en auto's}{91}
+\contentsline {chapter}{\chapternumberline {22}Hof van Holland 40}{95}
+\contentsline {chapter}{\chapternumberline {23}Hof van Holland 40 (2)}{103}
+\contentsline {part}{\partnumberline {II}Rock aan de Zaan}{104}
+\contentsline {chapter}{\chapternumberline {24}De muziek in}{111}
+\contentsline {chapter}{\chapternumberline {25}Es geht loss}{113}
+\contentsline {chapter}{\chapternumberline {26}Blue Rocking Strings}{115}
+\contentsline {chapter}{\chapternumberline {27}The Rolling Four}{119}
+\contentsline {chapter}{\chapternumberline {28}The Devotions}{125}
+\contentsline {chapter}{\chapternumberline {29}Bioscoop Arena}{133}
+\contentsline {chapter}{\chapternumberline {30}Duitsland}{137}
+\contentsline {chapter}{\chapternumberline {31}The Shameless}{143}
+\contentsline {chapter}{\chapternumberline {32}Waar we zoal naartoe gingen}{149}
+\contentsline {part}{\partnumberline {III}Het Werk}{157}
+\contentsline {chapter}{\chapternumberline {33}Werken, slapen, eten}{159}
+\contentsline {chapter}{\chapternumberline {34}Apotheek Hulp Artsen (+1962)}{169}
+\contentsline {chapter}{\chapternumberline {35}Pieter Schoen}{173}
+\contentsline {chapter}{\chapternumberline {36}Simon de Wit}{175}
+\contentsline {chapter}{\chapternumberline {37}Schoonmaakbedrijf van Heusden}{177}
+\contentsline {chapter}{\chapternumberline {38}Dagblad De Tijd}{189}
+\contentsline {chapter}{\chapternumberline {39}Uitkering(en)}{201}
+\contentsline {chapter}{\chapternumberline {40}Sociale Zaken}{207}
+\contentsline {chapter}{\chapternumberline {41}HVO}{223}
+\contentsline {chapter}{\chapternumberline {42}Scientology}{227}
+\contentsline {chapter}{\chapternumberline {43}De Zaanlander}{231}
