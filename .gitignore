@@ -1,4 +1,8 @@
 
+*.fdb_latexmk
+
+*.fls
+
 rm_verhaal.toc
 
 rm_verhaal.aux
@@ -28,5 +32,6 @@ rm_verhaal.run.xml
 rm_verhaal.synctex.gz
 
 rm_verhaal.toc
+>>>>>>> master
 
 *.toc
