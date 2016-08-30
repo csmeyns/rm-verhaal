@@ -36,17 +36,17 @@
 \contentsline {chapter}{\chapternumberline {32}Waar we zoal naartoe gingen}{197}
 \contentsline {part}{\partnumberline {III}Het Werk}{210}
 \contentsline {chapter}{\chapternumberline {33}Werken, slapen, eten}{213}
-\contentsline {chapter}{\chapternumberline {34}Apotheek Hulp Artsen (+1962)}{221}
-\contentsline {chapter}{\chapternumberline {35}Pieter Schoen}{225}
-\contentsline {chapter}{\chapternumberline {36}Simon de Wit}{227}
-\contentsline {chapter}{\chapternumberline {37}Schoonmaakbedrijf van Heusden}{229}
-\contentsline {chapter}{\chapternumberline {38}Losse arbeid}{231}
-\contentsline {chapter}{\chapternumberline {39}Dagblad De Tijd}{241}
-\contentsline {chapter}{\chapternumberline {40}Van der Molen}{247}
-\contentsline {chapter}{\chapternumberline {41}Uitkering(en)}{251}
-\contentsline {chapter}{\chapternumberline {42}Sociale Zaken}{257}
-\contentsline {chapter}{\chapternumberline {43}Hulp voor Onbehuisden (HVO)}{271}
-\contentsline {chapter}{\chapternumberline {44}Scientology}{275}
-\contentsline {chapter}{\chapternumberline {45}De Zaanlander}{279}
-\contentsline {chapter}{\chapternumberline {46}Archief}{289}
-\contentsline {chapter}{\chapternumberline {47}Vrijwilligerswerk}{293}
+\contentsline {chapter}{\chapternumberline {34}Apotheek Hulp Artsen (+1962)}{225}
+\contentsline {chapter}{\chapternumberline {35}Pieter Schoen}{229}
+\contentsline {chapter}{\chapternumberline {36}Simon de Wit}{231}
+\contentsline {chapter}{\chapternumberline {37}Schoonmaakbedrijf van Heusden}{233}
+\contentsline {chapter}{\chapternumberline {38}Losse arbeid}{235}
+\contentsline {chapter}{\chapternumberline {39}Dagblad De Tijd}{245}
+\contentsline {chapter}{\chapternumberline {40}Van der Molen}{251}
+\contentsline {chapter}{\chapternumberline {41}Uitkering(en)}{255}
+\contentsline {chapter}{\chapternumberline {42}Sociale Zaken}{261}
+\contentsline {chapter}{\chapternumberline {43}Hulp voor Onbehuisden (HVO)}{275}
+\contentsline {chapter}{\chapternumberline {44}Scientology}{279}
+\contentsline {chapter}{\chapternumberline {45}De Zaanlander}{283}
+\contentsline {chapter}{\chapternumberline {46}Archief}{293}
+\contentsline {chapter}{\chapternumberline {47}Vrijwilligerswerk}{297}

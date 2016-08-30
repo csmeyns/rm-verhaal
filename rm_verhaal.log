@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.17)  30 AUG 2016 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.17)  30 AUG 2016 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,20 +1503,11 @@ Package pdftex.def Info: img/ch2/ch2-afb05.jpg used on input line 273.
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
  [14]
+File: img/ch2/ch2-afb04.jpg Graphic file (type jpg)
 
-! LaTeX Error: File `img/??' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 \includegraphics[width=\textwidth]{img/??}
-                                                
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use img/ch2/ch2-afb04.jpg>
+Package pdftex.def Info: img/ch2/ch2-afb04.jpg used on input line 282.
+(pdftex.def)             Requested size: 293.37508pt x 198.72601pt.
 
 Underfull \vbox (badness 3907) has occurred while \output is active []
 
@@ -1558,26 +1549,25 @@ File: img/ch2/ch2-afb10.png Graphic file (type png)
 <use img/ch2/ch2-afb10.png>
 Package pdftex.def Info: img/ch2/ch2-afb10.png used on input line 312.
 (pdftex.def)             Requested size: 146.68753pt x 77.43561pt.
- [16 <./img/ch2/ch2-afb05.jpg>]
-Underfull \vbox (badness 1226) has occurred while \output is active []
 
- [17 <./img/ch2/ch2-afb06.jpg> <./img/ch2/ch2-afb07.png>] [18 <./img/ch2/ch2-af
-b08.jpg> <./img/ch2/ch2-afb09.png> <./img/ch2/ch2-afb10.png>]
-<img/ch2/ch2-afb11.jpg, id=106, 378.41376pt x 236.885pt>
+Underfull \vbox (badness 3281) has occurred while \output is active []
+
+ [16 <./img/ch2/ch2-afb05.jpg>] <img/ch2/ch2-afb11.jpg, id=99, 378.41376pt x 23
+6.885pt>
 File: img/ch2/ch2-afb11.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb11.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb11.jpg used on input line 321.
 (pdftex.def)             Requested size: 293.37508pt x 183.65265pt.
 
-<img/ch2/ch2-afb12.png, id=107, 230.3004pt x 151.767pt>
+<img/ch2/ch2-afb12.png, id=100, 230.3004pt x 151.767pt>
 File: img/ch2/ch2-afb12.png Graphic file (type png)
 
 <use img/ch2/ch2-afb12.png>
 Package pdftex.def Info: img/ch2/ch2-afb12.png used on input line 326.
 (pdftex.def)             Requested size: 293.37508pt x 193.34634pt.
 
-<img/ch2/ch2-afb13.jpg, id=108, 624.3325pt x 382.42876pt>
+<img/ch2/ch2-afb13.jpg, id=101, 624.3325pt x 382.42876pt>
 File: img/ch2/ch2-afb13.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb13.jpg>
@@ -1587,10 +1577,10 @@ File: img/ch2/ch2-afb13.jpg Graphic file (type jpg)
  <use img/ch2/ch2-afb13.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb13.jpg used on input line 336.
 (pdftex.def)             Requested size: 293.37508pt x 179.70651pt.
- [19 <./img/ch2/ch2-afb11.jpg>] [20 <./img/ch2/ch2-afb12.png>] [21 <./img/ch2/c
-h2-afb13.jpg>] [22
-
-]
+ [17] [18 <./img/ch2/ch2-afb06.jpg> <./img/ch2/ch2-afb07.png>] [19 <./img/ch2/c
+h2-afb08.jpg> <./img/ch2/ch2-afb09.png> <./img/ch2/ch2-afb10.png>] [20 <./img/c
+h2/ch2-afb11.jpg>]
+[21 <./img/ch2/ch2-afb12.png>] [22 <./img/ch2/ch2-afb13.jpg>]
 <img/ch3/Vermaningspad1910.jpg, id=123, 239.89626pt x 150.5625pt>
 File: img/ch3/Vermaningspad1910.jpg Graphic file (type jpg)
 
@@ -1604,7 +1594,9 @@ File: img/ch3/familie.jpeg Graphic file (type jpg)
 <use img/ch3/familie.jpeg>
 Package pdftex.def Info: img/ch3/familie.jpeg used on input line 353.
 (pdftex.def)             Requested size: 293.37508pt x 190.528pt.
- [23]
+ [23
+
+]
 <img/ch3/opoekriek.png, id=128, 157.0668pt x 153.6942pt>
 File: img/ch3/opoekriek.png Graphic file (type png)
 
@@ -2460,7 +2452,7 @@ Package pdftex.def Info: img/ch26/rf-4-moriaan.jpg used on input line 1391.
 File: img/ch27/promo3a.png Graphic file (type png)
 
 <use img/ch27/promo3a.png>
-Package pdftex.def Info: img/ch27/promo3a.png used on input line 1403.
+Package pdftex.def Info: img/ch27/promo3a.png used on input line 1404.
 (pdftex.def)             Requested size: 293.37508pt x 217.4112pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2469,17 +2461,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1960) has occurred while \output is active []
 
  [166 <./img/ch27/promo3a.png>]
-<img/ch27/duyn002prov01ill10.png, id=679, 471.7625pt x 351.3125pt>
-File: img/ch27/duyn002prov01ill10.png Graphic file (type png)
-
-<use img/ch27/duyn002prov01ill10.png>
-Package pdftex.def Info: img/ch27/duyn002prov01ill10.png used on input line 141
-8.
-(pdftex.def)             Requested size: 293.37508pt x 218.47084pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [167]
+<img/ch27/duyn002prov01ill10.png, id=682, 471.7625pt x 351.3125pt>
+File: img/ch27/duyn002prov01ill10.png Graphic file (type png)
+
+<use img/ch27/duyn002prov01ill10.png>
+Package pdftex.def Info: img/ch27/duyn002prov01ill10.png used on input line 142
+0.
+(pdftex.def)             Requested size: 293.37508pt x 218.47084pt.
+
 Underfull \vbox (badness 3471) has occurred while \output is active []
 
  [168 <./img/ch27/duyn002prov01ill10.png>]
@@ -2487,14 +2479,26 @@ Underfull \vbox (badness 3471) has occurred while \output is active []
 File: img/ch27/aug65EdE.png Graphic file (type png)
 
 <use img/ch27/aug65EdE.png>
-Package pdftex.def Info: img/ch27/aug65EdE.png used on input line 1429.
+Package pdftex.def Info: img/ch27/aug65EdE.png used on input line 1431.
 (pdftex.def)             Requested size: 293.37508pt x 213.36093pt.
  [169 <./img/ch27/aug65EdE.png>]
+
+! Class memoir Error: Font command \bf is not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1439 ...ijk zijn er twee singles verschenen: \bf
+                                                  {[NAMEN]}. (Eigenlijk drie...
+
+Use \textbf, or \bfseries{...}, or the oldfontcommands option
+
 <img/ch27/4pieces.png, id=691, 531.9875pt x 538.01pt>
 File: img/ch27/4pieces.png Graphic file (type png)
 
 <use img/ch27/4pieces.png>
-Package pdftex.def Info: img/ch27/4pieces.png used on input line 1438.
+Package pdftex.def Info: img/ch27/4pieces.png used on input line 1442.
 (pdftex.def)             Requested size: 293.37508pt x 296.70271pt.
 
 
@@ -2504,7 +2508,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1444 ... terugvroegen. Of dat nu kwam omdat we 
+l.1449 ... terugvroegen. Of dat nu kwam omdat we 
                                                   flink publiek trokken (dat...
 
 Your command was ignored.
@@ -2518,23 +2522,61 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1444 ...s en ik denk ook voor het publiek, een 
+l.1449 ...s en ik denk ook voor het publiek, een 
                                                   echt feest waren. Dat blee...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[170] [171 <./img/ch27/4pieces.png>]
 
-Underfull \vbox (badness 5741) has occurred while \output is active []
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
- [170]
-[171 <./img/ch27/4pieces.png>]
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1452 ...eden altijd uitgebreid onthaald werden 
+                                                  met gebakken eieren en and...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1452 ...t, want we gaven ons dan wel helemaal. 
+                                                  De adrenaline gierde nog l...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1452 ...er ik me nog Maasdijk in het Westland, 
+                                                  waar we met een touringcar...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 <img/ch27/hartland.jpg, id=699, 329.23pt x 275.0275pt>
 File: img/ch27/hartland.jpg Graphic file (type jpg)
 
 <use img/ch27/hartland.jpg>
-Package pdftex.def Info: img/ch27/hartland.jpg used on input line 1449.
+Package pdftex.def Info: img/ch27/hartland.jpg used on input line 1455.
 (pdftex.def)             Requested size: 293.37508pt x 245.08005pt.
 
 
@@ -2544,8 +2586,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1453 Die zaken werden prima georganiseerd door 
-                                                  Marja, de vriendin/vrouw v...
+l.1459 Die zaken 
+                  werden prima georganiseerd door Marja, de vriendin en lat...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2558,8 +2600,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1453 ...erd door Marja, de vriendin/vrouw van 
-                                                  Jan Abbing. De Kruisweg in...
+l.1459 ...zaken werden prima georganiseerd door 
+                                                  Marja, de vriendin en late...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2572,8 +2614,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1453 .... De Kruisweg in Marum Groningen, waar 
-                                                  pas daarvoor de Kinks nog ...
+l.1459 ...�Marja, de vriendin en later vrouw van 
+                                                  Jan Abbing. We speelden oo...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2586,13 +2628,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1455 ...andere golflengte zaten telde wel mee. 
-                                                  
+l.1459 ...eg in Marum, provincie Groningen, waar 
+                                                  pas daarvoor The Kinks nog...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[172 <./img/ch27/hartland.jpg>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2600,16 +2642,27 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1457 ...ks niet mee had), Rotterdam, Groningen 
+l.1461 ...andere golflengte zaten telde wel mee. 
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1463 ...ks niet mee had), Rotterdam, Groningen 
                                                   en weet ik waar allemaal. ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[173] [174
-
-]
+[172] [173 <./img/ch27/hartland.jpg>] [174]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2617,7 +2670,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1470 ...voornamelijk van de vroege ochtend tot 
+l.1478 ...voornamelijk van de vroege ochtend tot 
                                                   de late middag. Na het on...
 
 Your command was ignored.
@@ -2631,7 +2684,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1470 ...de vroege ochtend tot de late middag. 
+l.1478 ...de vroege ochtend tot de late middag. 
                                                   Na het ontbijt gingen we ...
 
 Your command was ignored.
@@ -2645,7 +2698,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1470 ...d tot de late middag. Na het ontbijt 
+l.1478 ...d tot de late middag. Na het ontbijt 
                                                   gingen we in pyjama het ni...
 
 Your command was ignored.
@@ -2659,7 +2712,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1470 ... Dan weer ruim voor openingstijd in de 
+l.1478 ... Dan weer ruim voor openingstijd in de 
                                                   zaal om het nieuw ingestud...
 
 Your command was ignored.
@@ -2673,7 +2726,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1472 ...oire bestond op een gegeven moment uit 
+l.1480 ...oire bestond op een gegeven moment uit 
                                                   enige honderden nummers, z...
 
 Your command was ignored.
@@ -2683,14 +2736,16 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [175]
+ [175
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [176]
 <img/ch28/tudor.jpg, id=716, 469.755pt x 250.9375pt>
 File: img/ch28/tudor.jpg Graphic file (type jpg)
  <use img/ch28/tudor.jpg>
-Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1483.
+Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1491.
 (pdftex.def)             Requested size: 293.37508pt x 156.71684pt.
 
 [177 <./img/ch28/tudor.jpg>] [178
@@ -2700,7 +2755,7 @@ Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1483.
 File: img/ch29/double.png Graphic file (type png)
 
 <use img/ch29/double.png>
-Package pdftex.def Info: img/ch29/double.png used on input line 1493.
+Package pdftex.def Info: img/ch29/double.png used on input line 1501.
 (pdftex.def)             Requested size: 293.37508pt x 99.24232pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2710,20 +2765,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <img/ch29/soest.png, id=732, 117.5592pt x 83.8332pt>
 File: img/ch29/soest.png Graphic file (type png)
  <use img/ch29/soest.png>
-Package pdftex.def Info: img/ch29/soest.png used on input line 1504.
+Package pdftex.def Info: img/ch29/soest.png used on input line 1512.
 (pdftex.def)             Requested size: 293.37508pt x 209.2588pt.
 
 <img/ch29/rockadzaan4.jpg, id=733, 351.3125pt x 229.85875pt>
 File: img/ch29/rockadzaan4.jpg Graphic file (type jpg)
 
 <use img/ch29/rockadzaan4.jpg>
-Package pdftex.def Info: img/ch29/rockadzaan4.jpg used on input line 1509.
+Package pdftex.def Info: img/ch29/rockadzaan4.jpg used on input line 1517.
 (pdftex.def)             Requested size: 293.37508pt x 191.96468pt.
 
 <img/ch29/Anita.png, id=734, 96.8418pt x 136.3494pt>
 File: img/ch29/Anita.png Graphic file (type png)
  <use img/ch29/Anita.png>
-Package pdftex.def Info: img/ch29/Anita.png used on input line 1517.
+Package pdftex.def Info: img/ch29/Anita.png used on input line 1525.
 (pdftex.def)             Requested size: 293.37508pt x 413.1832pt.
 
 [181 <./img/ch29/soest.png>]
@@ -2734,7 +2789,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1528 ...ter nog uitgenodigd om op te treden op 
+l.1536 ...ter nog uitgenodigd om op te treden op 
                                                   een of ander jaarfeest van...
 
 Your command was ignored.
@@ -2748,7 +2803,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1528 ...dese militairen. Het was geen probleem 
+l.1536 ...dese militairen. Het was geen probleem 
                                                   voor ze om ons met een paa...
 
 Your command was ignored.
@@ -2762,7 +2817,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1528 ...e nu zou zeggen. Daarna nog doorgezakt 
+l.1536 ...e nu zou zeggen. Daarna nog doorgezakt 
                                                   met de dochter van de Brig...
 
 Your command was ignored.
@@ -2777,7 +2832,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1530 De 
+l.1538 De 
            derde kennismaking was met de Nederlandse Krijgsmacht. Die maakte...
 
 Your command was ignored.
@@ -2791,7 +2846,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1530 ...n blijkbaar niet zonder Hennie en mij. 
+l.1538 ...n blijkbaar niet zonder Hennie en mij. 
                                                   Ik was er weliswaar tameli...
 
 Your command was ignored.
@@ -2802,7 +2857,7 @@ or  <return>  to continue without it.
 File: img/ch29/rockadzaan8.jpg Graphic file (type jpg)
 
 <use img/ch29/rockadzaan8.jpg>
-Package pdftex.def Info: img/ch29/rockadzaan8.jpg used on input line 1539.
+Package pdftex.def Info: img/ch29/rockadzaan8.jpg used on input line 1547.
 (pdftex.def)             Requested size: 293.37508pt x 284.46562pt.
  [184] [185 <./img/ch29/rockadzaan8.jpg>]
 [186
@@ -2811,11 +2866,11 @@ Package pdftex.def Info: img/ch29/rockadzaan8.jpg used on input line 1539.
 File: img/ch30/shameless2.png Graphic file (type png)
 
 <use img/ch30/shameless2.png>
-Package pdftex.def Info: img/ch30/shameless2.png used on input line 1552.
+Package pdftex.def Info: img/ch30/shameless2.png used on input line 1560.
 (pdftex.def)             Requested size: 293.37508pt x 82.75517pt.
  [187 <./img/ch30/shameless2.png>]
 ! Misplaced alignment tab character &.
-l.1562 ... ik in The Devotions gewend was, meer R&
+l.1570 ... ik in The Devotions gewend was, meer R&
                                                   B. We deden Otis Redding, ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2828,7 +2883,7 @@ might try typing `S' now just to see what is salvageable.
 File: img/ch30/optournee2a.png Graphic file (type png)
 
 <use img/ch30/optournee2a.png>
-Package pdftex.def Info: img/ch30/optournee2a.png used on input line 1567.
+Package pdftex.def Info: img/ch30/optournee2a.png used on input line 1575.
 (pdftex.def)             Requested size: 293.37508pt x 201.1326pt.
 
 Underfull \vbox (badness 5741) has occurred while \output is active []
@@ -2837,7 +2892,7 @@ Underfull \vbox (badness 5741) has occurred while \output is active []
 <img/ch30/film.png, id=764, 158.337pt x 207.2835pt>
 File: img/ch30/film.png Graphic file (type png)
  <use img/ch30/film.png>
-Package pdftex.def Info: img/ch30/film.png used on input line 1576.
+Package pdftex.def Info: img/ch30/film.png used on input line 1584.
 (pdftex.def)             Requested size: 293.37508pt x 384.12315pt.
 
 [189 <./img/ch30/optournee2a.png>] [190 <./img/ch30/film.png>] [191]
@@ -2845,17 +2900,17 @@ Package pdftex.def Info: img/ch30/film.png used on input line 1576.
 File: img/ch30/optourneeAs.png Graphic file (type png)
 
 <use img/ch30/optourneeAs.png>
-Package pdftex.def Info: img/ch30/optourneeAs.png used on input line 1593.
+Package pdftex.def Info: img/ch30/optourneeAs.png used on input line 1601.
 (pdftex.def)             Requested size: 293.37508pt x 425.96861pt.
 
 
-LaTeX Warning: Float too large for page by 6.20639pt on input line 1595.
+LaTeX Warning: Float too large for page by 6.20639pt on input line 1603.
 
 <img/ch30/schamensich.jpg, id=777, 729.72626pt x 890.32625pt>
 File: img/ch30/schamensich.jpg Graphic file (type jpg)
 
 <use img/ch30/schamensich.jpg>
-Package pdftex.def Info: img/ch30/schamensich.jpg used on input line 1601.
+Package pdftex.def Info: img/ch30/schamensich.jpg used on input line 1609.
 (pdftex.def)             Requested size: 293.37508pt x 357.93103pt.
  [192] [193 <./img/ch30/optourneeAs.png>]
 [194 <./img/ch30/schamensich.jpg>]
@@ -2863,7 +2918,7 @@ Package pdftex.def Info: img/ch30/schamensich.jpg used on input line 1601.
 File: img/ch30/Devotions.jpg Graphic file (type jpg)
 
 <use img/ch30/Devotions.jpg>
-Package pdftex.def Info: img/ch30/Devotions.jpg used on input line 1612.
+Package pdftex.def Info: img/ch30/Devotions.jpg used on input line 1620.
 (pdftex.def)             Requested size: 293.37508pt x 294.58041pt.
  [195 <./img/ch30/Devotions.jpg>] [196
 
@@ -2872,19 +2927,19 @@ Package pdftex.def Info: img/ch30/Devotions.jpg used on input line 1612.
 File: img/ch31/jeugd.png Graphic file (type png)
 
 <use img/ch31/jeugd.png>
-Package pdftex.def Info: img/ch31/jeugd.png used on input line 1624.
+Package pdftex.def Info: img/ch31/jeugd.png used on input line 1632.
 (pdftex.def)             Requested size: 293.37508pt x 448.92906pt.
 
 <img/ch31/posterkleur68235.jpg, id=797, 235.88126pt x 357.335pt>
 File: img/ch31/posterkleur68235.jpg Graphic file (type jpg)
 
 <use img/ch31/posterkleur68235.jpg>
-Package pdftex.def Info: img/ch31/posterkleur68235.jpg used on input line 1629.
+Package pdftex.def Info: img/ch31/posterkleur68235.jpg used on input line 1637.
 
 (pdftex.def)             Requested size: 293.37508pt x 444.43758pt.
 
 
-LaTeX Warning: Float too large for page by 11.47528pt on input line 1631.
+LaTeX Warning: Float too large for page by 11.47528pt on input line 1639.
 
 
 Underfull \vbox (badness 1910) has occurred while \output is active []
@@ -2892,7 +2947,7 @@ Underfull \vbox (badness 1910) has occurred while \output is active []
  [197]
 [198 <./img/ch31/jeugd.png>] [199 <./img/ch31/posterkleur68235.jpg>]
 ! Misplaced alignment tab character &.
-l.1640 ...e hem op 27 november 1971 voor The Flo &
+l.1648 ...e hem op 27 november 1971 voor The Flo &
                                                    Eddie tour. Al op de heen...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2905,7 +2960,7 @@ might try typing `S' now just to see what is salvageable.
 File: img/ch31/zappa.png Graphic file (type png)
 
 <use img/ch31/zappa.png>
-Package pdftex.def Info: img/ch31/zappa.png used on input line 1645.
+Package pdftex.def Info: img/ch31/zappa.png used on input line 1653.
 (pdftex.def)             Requested size: 293.37508pt x 422.01248pt.
 
 Underfull \vbox (badness 2932) has occurred while \output is active []
@@ -2916,7 +2971,7 @@ Underfull \vbox (badness 2932) has occurred while \output is active []
 File: img/ch31/zappaolga.jpg Graphic file (type jpg)
 
 <use img/ch31/zappaolga.jpg>
-Package pdftex.def Info: img/ch31/zappaolga.jpg used on input line 1656.
+Package pdftex.def Info: img/ch31/zappaolga.jpg used on input line 1664.
 (pdftex.def)             Requested size: 293.37508pt x 195.92252pt.
 
 Underfull \vbox (badness 3954) has occurred while \output is active []
@@ -2926,11 +2981,11 @@ Underfull \vbox (badness 3954) has occurred while \output is active []
 File: img/ch31/reed.png Graphic file (type png)
 
 <use img/ch31/reed.png>
-Package pdftex.def Info: img/ch31/reed.png used on input line 1669.
+Package pdftex.def Info: img/ch31/reed.png used on input line 1677.
 (pdftex.def)             Requested size: 293.37508pt x 438.80452pt.
 
 
-LaTeX Warning: Float too large for page by 5.84222pt on input line 1671.
+LaTeX Warning: Float too large for page by 5.84222pt on input line 1679.
 
 
 Underfull \vbox (badness 5741) has occurred while \output is active []
@@ -2940,7 +2995,7 @@ Underfull \vbox (badness 5741) has occurred while \output is active []
 <img/ch31/ff.jpg, id=829, 1083.04625pt x 1078.0275pt>
 File: img/ch31/ff.jpg Graphic file (type jpg)
  <use img/ch31/ff.jpg>
-Package pdftex.def Info: img/ch31/ff.jpg used on input line 1680.
+Package pdftex.def Info: img/ch31/ff.jpg used on input line 1688.
 (pdftex.def)             Requested size: 293.37508pt x 292.00893pt.
 
 Underfull \vbox (badness 1005) has occurred while \output is active []
@@ -2951,7 +3006,7 @@ File: img/ch31/Spandoek-cantate-klein.jpg Graphic file (type jpg)
 
 <use img/ch31/Spandoek-cantate-klein.jpg>
 Package pdftex.def Info: img/ch31/Spandoek-cantate-klein.jpg used on input line
- 1691.
+ 1699.
 (pdftex.def)             Requested size: 293.37508pt x 220.0503pt.
 
 Underfull \vbox (badness 4886) has occurred while \output is active []
@@ -2964,7 +3019,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1702 ...e kon hem uitknijpen na het concert.  
+l.1710 ...e kon hem uitknijpen na het concert.  
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2977,36 +3032,953 @@ Underfull \vbox (badness 5741) has occurred while \output is active []
 <img/ch31/dali.jpg, id=840, 235.88126pt x 416.55624pt>
 File: img/ch31/dali.jpg Graphic file (type jpg)
  <use img/ch31/dali.jpg>
-Package pdftex.def Info: img/ch31/dali.jpg used on input line 1715.
+Package pdftex.def Info: img/ch31/dali.jpg used on input line 1723.
 (pdftex.def)             Requested size: 234.70094pt x 414.47676pt.
 
 [208] [209 <./img/ch31/dali.jpg>] [210
 
-] [211])
-Runaway argument?
-{\emph {'kap hout, draag water'}{} \par \chapter {Werken, slapen, ete\ETC.
-! File ended while scanning use of \epigraph.
+] [211] [212]
+<img/ch32/DeBeer.png, id=857, 620.3175pt x 450.68375pt>
+File: img/ch32/DeBeer.png Graphic file (type png)
+
+<use img/ch32/DeBeer.png>
+Package pdftex.def Info: img/ch32/DeBeer.png used on input line 1742.
+(pdftex.def)             Requested size: 293.37508pt x 213.14862pt.
+ [213
+
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1759 ...=\textwidth]{img/ch32/Sabel met_stoom15}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: File `img/ch32/Sabel met_stoom15' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1759 ...=\textwidth]{img/ch32/Sabel met_stoom15}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1759 ...=\textwidth]{img/ch32/Sabel met_stoom15}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (948.18747pt too wide) in paragraph at lines 1759--1760
+[]\T1/jkp/m/n/12 (-20) met$[]\OML/jkp/m/it/12 toom\OT1/jkp/m/n/12 (-20) 15.\OML
+/jkp/m/it/12 pngmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 pdfmet[]toom
+\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jpgmet[]toom\OT1/jkp/m/n/12 (-20) 15.
+\OML/jkp/m/it/12 mpsmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jpegmet[
+]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jbig\OT1/jkp/m/n/12 (-20) 2\OML/
+jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jb\OT1/jkp/m/n/1
+2 (-20) 2\OML/jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 PN
+Gmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 PDFmet[]toom\OT1/jkp/m/n/12
+ (-20) 15.\OML/jkp/m/it/12 JPGmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/1
+2 JPEGmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 JBIG\OT1/jkp/m/n/12 (-
+20) 2\OML/jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 JB\OT1
+/jkp/m/n/12 (-20) 2\OML/jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/
+m/it/12 eps$ 
+ []
+
+[214 <./img/ch32/DeBeer.png>]
+<img/ch32/scado.jpg, id=866, 212.795pt x 150.5625pt>
+File: img/ch32/scado.jpg Graphic file (type jpg)
+ <use img/ch32/scado.jpg>
+Package pdftex.def Info: img/ch32/scado.jpg used on input line 1771.
+(pdftex.def)             Requested size: 293.37508pt x 207.58806pt.
+
+[215 <./img/ch32/scado.jpg>]
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [216]
+<img/ch32/image-2.png, id=873, 210.7875pt x 160.6pt>
+File: img/ch32/image-2.png Graphic file (type png)
+
+<use img/ch32/image-2.png>
+Package pdftex.def Info: img/ch32/image-2.png used on input line 1792.
+(pdftex.def)             Requested size: 293.37508pt x 223.52985pt.
+ [217 <./img/ch32/image-2.png>]
+<img/ch32/Fris.jpg, id=878, 240.9pt x 226.8475pt>
+File: img/ch32/Fris.jpg Graphic file (type jpg)
+ <use img/ch32/Fris.jpg>
+Package pdftex.def Info: img/ch32/Fris.jpg used on input line 1805.
+(pdftex.def)             Requested size: 293.37508pt x 276.28624pt.
+
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+ [218]
+Underfull \vbox (badness 8170) has occurred while \output is active []
+
+ [219 <./img/ch32/Fris.jpg>] <img/ch32/antennae.png, id=885, 707.64375pt x 265.
+99374pt>
+File: img/ch32/antennae.png Graphic file (type png)
+
+<use img/ch32/antennae.png>
+Package pdftex.def Info: img/ch32/antennae.png used on input line 1818.
+(pdftex.def)             Requested size: 293.37508pt x 110.27576pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [220 <./img/ch32/antennae.png>] <img/ch32/image-4.png, id=891, 632.3625pt x 34
+6.29375pt>
+File: img/ch32/image-4.png Graphic file (type png)
+
+<use img/ch32/image-4.png>
+Package pdftex.def Info: img/ch32/image-4.png used on input line 1833.
+(pdftex.def)             Requested size: 293.37508pt x 160.66032pt.
+ [221 <./img/ch32/image-4.png>] [222]
+<img/ch32/Hilko2.jpg, id=899, 624.3325pt x 404.51125pt>
+File: img/ch32/Hilko2.jpg Graphic file (type jpg)
+
+<use img/ch32/Hilko2.jpg>
+Package pdftex.def Info: img/ch32/Hilko2.jpg used on input line 1852.
+(pdftex.def)             Requested size: 293.37508pt x 190.08327pt.
+
+<img/ch32/image-5.png, id=900, 798.985pt x 466.74374pt>
+File: img/ch32/image-5.png Graphic file (type png)
+
+<use img/ch32/image-5.png>
+Package pdftex.def Info: img/ch32/image-5.png used on input line 1859.
+(pdftex.def)             Requested size: 293.37508pt x 171.38203pt.
+ [223 <./img/ch32/Hilko2.jpg>] [224 <./img/ch32/image-5.png>]
+Underfull \vbox (badness 4531) has occurred while \output is active []
+
+ [225
+
+]
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [226]
+[227] [228
+
+]
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [229]
+[230] [231
+
+] [232
+
+]
+Underfull \vbox (badness 4531) has occurred while \output is active []
+
+ [233]
+[234]
+
+LaTeX Warning: File `img/...' not found on input line 1932.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1932 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[235
+
+]
+
+LaTeX Warning: File `img/...' not found on input line 1949.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1949 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[236]
+
+LaTeX Warning: File `img/...' not found on input line 1958.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1958 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[237] [238]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [239]
+
+LaTeX Warning: File `img/...' not found on input line 1983.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1983 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 1992.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1992 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[240]
+
+LaTeX Warning: File `img/...' not found on input line 2003.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2003 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[241] [242]
+
+LaTeX Warning: File `img/...' not found on input line 2016.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2016 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[243] [244]
+
+LaTeX Warning: File `img/...' not found on input line 2034.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2034 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[245
+
+] [246]
+
+LaTeX Warning: File `img/...' not found on input line 2055.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2055 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 2066.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2066 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 2071.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2071 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[247] [248]
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [249]
+
+LaTeX Warning: File `img/...' not found on input line 2099.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2099 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 2104.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2104 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[250] [251
+
+]
+
+LaTeX Warning: File `img/...' not found on input line 2126.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2126 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 2133.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2133 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 2142.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2142 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[252] [253]
+
+LaTeX Warning: File `img/...' not found on input line 2157.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2157 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[254]
+
+LaTeX Warning: File `img/...' not found on input line 2169.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2169 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[255
+
+]
+
+LaTeX Warning: File `img/...' not found on input line 2178.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2178 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[256]
+
+LaTeX Warning: File `img/...' not found on input line 2185.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2185 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[257]
+
+LaTeX Warning: File `img/...' not found on input line 2202.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2202 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+<argument> ...orespaces {\foottextfont CHEcK wie &
+                                                   wanneer?}\@finalstrut \st...
+l.2206 ...werkt had\footnote{CHEcK wie & wanneer?}
+                                                  . Het was een bonte tijd. ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[258] [259] [260
+
+]
+
+LaTeX Warning: File `img/...' not found on input line 2218.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2218 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [261]
+
+LaTeX Warning: File `img/...' not found on input line 2235.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2235 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[262]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [263]
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [264]
+Underfull \vbox (badness 5519) has occurred while \output is active []
+
+ [265]
+
+LaTeX Warning: File `img/...' not found on input line 2274.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2274 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[266] [267]
+
+LaTeX Warning: File `img/...' not found on input line 2291.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2291 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [268]
+
+LaTeX Warning: File `img/...' not found on input line 2302.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2302 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[269]
+
+LaTeX Warning: File `img/...' not found on input line 2313.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2313 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[270]
+
+LaTeX Warning: File `img/...' not found on input line 2330.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2330 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[271]
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+ [272]
+
+LaTeX Warning: File `img/...' not found on input line 2347.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2347 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[273] [274
+
+]
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [275]
+
+LaTeX Warning: File `img/...' not found on input line 2367.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2367 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [276]
+
+LaTeX Warning: File `img/...' not found on input line 2376.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2376 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[277] [278]
+
+LaTeX Warning: File `img/...' not found on input line 2390.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2390 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [279
+
+]
+
+LaTeX Warning: File `img/...' not found on input line 2401.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2401 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[280] [281] [282
+
+] [283]
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+ [284]
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [285]
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+ [286]
+
+LaTeX Warning: File `img/...' not found on input line 2455.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2455 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2460--2460
+[][] [][]\T1/jkp/m/n/10 (+20) door Weert Schenk, 24/11/00,
+ []
+
+
+LaTeX Warning: File `img/...' not found on input line 2471.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2471 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Argument of \caption@ydblarg has an extra }.
 <inserted text> 
                 \par 
-<*> rm_verhaal.tex
-                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+l.2472 ...n der Heijden. Syll Damave nam de foto.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-! Emergency stop.
-<*> rm_verhaal.tex
-                  
-*** (job aborted, no legal \end found)
+Runaway argument?
+{\@caption \@captype }{\@xfootnote }\def \reserved@b {\stepcounter \@mpfn \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.2472 ...n der Heijden. Syll Damave nam de foto.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
- 
+! Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.2472 ...n der Heijden. Syll Damave nam de foto.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\@caption \@captype }{\@xfootnote }\def \reserved@b {\stepcounter \@mpfn \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.2472 ...n der Heijden. Syll Damave nam de foto.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[287]
+Underfull \vbox (badness 5519) has occurred while \output is active []
+
+ [288]
+
+LaTeX Warning: File `img/...' not found on input line 2488.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2488 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[289]
+Underfull \hbox (badness 1297) in paragraph at lines 2498--2499
+[]\T1/jkp/m/n/12 (+20) Ik deed alle werk-lo-zen die drie jaar of lan-ger
+ []
+
+
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+ [290]
+[291] [292
+
+]
+
+LaTeX Warning: File `img/...' not found on input line 2512.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2512 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [293]
+
+LaTeX Warning: File `img/...' not found on input line 2529.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2529 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `img/...' not found on input line 2534.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2534 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[294]
+
+LaTeX Warning: File `img/...' not found on input line 2545.
+
+
+! LaTeX Error: Unknown graphics extension: ....
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2545 \includegraphics[width=\textwidth]{img/...}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[295] [296] [297
+
+]
+\tf@toc=\write4
+\openout4 = `rm_verhaal.toc'.
+
+ (./rm_verhaal.aux) ) 
 Here is how much of TeX's memory you used:
- 12729 strings out of 493089
- 185225 string characters out of 6134841
- 356190 words of memory out of 5000000
- 15460 multiletter control sequences out of 15000+600000
- 173671 words of font info for 437 fonts, out of 8000000 for 9000
+ 12849 strings out of 493089
+ 187034 string characters out of 6134841
+ 288224 words of memory out of 5000000
+ 15516 multiletter control sequences out of 15000+600000
+ 191106 words of font info for 486 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,38p,914b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 42i,12n,38p,921b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8
+r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-exper
+t.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb>
+Output written on rm_verhaal.pdf (300 pages, 19100441 bytes).
+PDF statistics:
+ 1181 PDF objects out of 1200 (max. 8388607)
+ 699 compressed objects within 7 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 67206 words of extra memory for PDF output out of 74296 (max. 10000000)
+
