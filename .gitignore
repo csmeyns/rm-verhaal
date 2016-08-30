@@ -35,3 +35,11 @@ rm_verhaal.toc
 >>>>>>> master
 
 *.toc
+
+*.aux
+
+*.aux
+
+*.log
+
+*.toc

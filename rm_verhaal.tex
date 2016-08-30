@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside]{memoir}
+\documentclass[12pt,twoside, openright]{memoir}
 % \documentclass[12pt,twoside,openright]{memoir}
 %\usepackage{createspace}
 %\usepackage[size=pocket,noicc]{createspace}
@@ -8,28 +8,79 @@
 
 \usepackage[dutch]{babel}
 \usepackage{mathpazo}
-\usepackage{graphicx}
+
 
 %\usepackage{mathpazo}
 \usepackage[protrusion=true,expansion=true]{microtype}
 %\usepackage{type1cm}
 %\usepackage{lettrine}
+\usepackage{xcolor,graphicx}
+ \selectcolormodel{gray}
 
+% \setlength\midchapskip{10pt}
+% \makechapterstyle{VZ23}{
+%   \renewcommand\chapternamenum{}
+% \renewcommand\printchaptername{}
+% \renewcommand\chapnumfont{\Huge\bfseries\centering}
+% \renewcommand\chaptitlefont{\Huge\scshape\centering}
+% \renewcommand\afterchapternum{%
+%   \par\nobreak\vskip\midchapskip\hrule\vskip\midchapskip}
+% \renewcommand\printchapternonum{%
+%   \vphantom{\chapnumfont \thechapter}
+%   \par\nobreak\vskip\midchapskip\hrule\vskip\midchapskip}
+% }
+% \chapterstyle{VZ23}
 
-
-\setlength\midchapskip{10pt}
-\makechapterstyle{VZ23}{
-  \renewcommand\chapternamenum{}
-\renewcommand\printchaptername{}
-\renewcommand\chapnumfont{\Huge\bfseries\centering}
-\renewcommand\chaptitlefont{\Huge\scshape\centering}
-\renewcommand\afterchapternum{%
-  \par\nobreak\vskip\midchapskip\hrule\vskip\midchapskip}
-\renewcommand\printchapternonum{%
-  \vphantom{\chapnumfont \thechapter}
-  \par\nobreak\vskip\midchapskip\hrule\vskip\midchapskip}
-}
-\chapterstyle{VZ23}
+\usepackage{kpfonts}
+\setSingleSpace{1.1}
+\SingleSpacing
+\usepackage{xcolor,calc}
+\definecolor{chaptercolor}{gray}{0.8}
+\usepackage[T1]{fontenc}
+\newcommand\numlifter[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
+\newcommand\numindent{\kern37pt}
+\newlength\chaptertitleboxheight
+\makechapterstyle{hansen}{
+  \renewcommand\printchaptername{\raggedleft}
+  \renewcommand\printchapternum{%
+    \begingroup%
+    \leavevmode%
+    \chapnumfont%
+    \strut%
+    \numlifter{\thechapter}%
+    \numindent%
+\endgroup }
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\begingroup%
+      \leavevmode%
+      \chapnumfont%
+      \numlifter{\vphantom{9}}%
+      \numindent%
+      \endgroup}
+    \afterchapternum}
+  \setlength\midchapskip{0pt}
+  \setlength\beforechapskip{0.5\baselineskip}
+  \setlength{\afterchapskip}{3\baselineskip}
+  \renewcommand\chapnumfont{%
+    \fontsize{4cm}{0cm}%
+    \bfseries%
+    \sffamily%
+    \color{chaptercolor}%
+  }
+  \renewcommand\chaptitlefont{%
+    \normalfont%
+    \huge%
+    \bfseries%
+    \raggedleft%
+  }%
+  \settototalheight\chaptertitleboxheight{%
+    \parbox{\textwidth}{\chaptitlefont \strut bg\\bg\strut}}
+  \renewcommand\printchaptertitle[1]{%
+    \parbox[t][\chaptertitleboxheight][t]{\textwidth}{%
+      %\microtypesetup{protrusion=false}% add this if you use microtype
+      \chaptitlefont\strut ##1\strut}%
+} }
+\chapterstyle{hansen}
 
 \usepackage[font=scriptsize,font=it,labelfont=bf, hang]{caption}
 
@@ -66,7 +117,7 @@
 \makeatother
 \author{Ruud Meijns}
 \author{Ruud Meijns}
-\title{Mijn Eerste Jaren}
+\title{Omkijken}
 \date{}
 
 
@@ -79,8 +130,11 @@
 \drop = 0.1\textheight
 \centering
 \vspace*{\drop}
-{\Huge \thetitle}\\[\baselineskip]
-{\large\itshape door \theauthor}\\[\baselineskip]
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/titelpagina}
+\end{figure}
+
 \vfill
 \rule{0.4\textwidth}{0.4pt}\\[\baselineskip]
 {\large\itshape Zaanse Verhalen \\[0.5cm] 2016}\par
@@ -102,13 +156,13 @@
 \null\vfill
 \thispagestyle{empty}
 \begin{flushleft}
-\textit{Mijn Eerste Jaren}\\
+\textit{Omkijken}\\
 \vfil
 Zaandam 
 2016
-
-
 \end{flushleft}
+\clearpage
+
 \let\cleardoublepage\clearpage
 \clearpage
 \setcounter{tocdepth}{-1}
@@ -119,10 +173,20 @@ Zaandam
 \mainmatter
 \sloppy
 
-\part{De Familie}
+
+
+\part{Mijn Eerste Jaren}
+
+\epigraph{\emph{leven is niet het leven dat je hebt geleefd,
+maar dat je je herinnert en hoe je het je herinnert
+om het te vertellen.}}{Gabriel Garcia Marquez}
+
+\epigraph{\emph{La réalité ne se forme que dans la mémoire}}{Marcel Proust}
+
 \thispagestyle{empty}
 \chapter{Familie Meijns} % (fold)
 \label{cha:familie_meijns}
+
 
 Onze familie is, voor zover ik me dat kan herinneren, geen familie-familie geweest. Geen grote hechte clan waarvan alle leden altijd om elkaar heen draaiden. Ik heb dan ook weinig herinneringen aan mijn grootouders. Dat zal ook te maken hebben gehad met het feit dat ik een nakomertje was, geboren in 1946. Mijn oudere broers Gerard en Harry (geboren in respectievelijk 1930 en 1937) hebben hen veel langer meegemaakt. 
 
@@ -215,8 +279,8 @@ Op een foto uit 1931 van het revuegezelschap `Voorwaarts' staat hij rechts voora
 Dat mijn opa muzikaal was blijkt ook weer uit een foto waarop hij samen met ome Cas met een instrument afgebeeld staat. Aan de bebouwing te zien is het in de Domniee Baxstraat.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/??}
-\caption*{\footnotesize Opa Meijns recht vooraan in het midden. Ome Cas staat tweede rij van boven, vierde van rechts.}
+\includegraphics[width=\textwidth]{img/ch2/ch2-afb04}
+\caption*{\footnotesize Opa Meijns recht vooraan in het midden. Ome Cas staat tweede rij van boven, vierde van rechts. \textbf{controleren}}
 \end{figure}
 
 Hij deed ook werk voor de geheelonthouders en vocht, in de krant, een debat uit met partijgenoten en tegenstanders die hem nogal radicaal vonden. Bijgaand het afsluitende stukje van de polemiek die 1930 in de krant \emph{Het Volk} gevoerd werd naar aanleiding van opa’s opmerkingen aangaande drankgebruik.
@@ -1148,16 +1212,26 @@ De begrafenis was aan de Zuiddijk tegenover z’n oude werkgever. Iedereen die w
 
 M’n tweede jeugd, na de Rosmolenstraat, heb ik doorgebracht in Hof van Holland tot en met de trouwerij met Olga. Want net als Harry en Jannie hebben wij daar de eerste jaren op een kamertje ingewoond.
 
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{img/ch22/joho_0001}
+% \caption*{\footnotesize }
+\end{figure}
+
+
 \part{Rock aan de Zaan}
 
-\begin{quote}
-Rock and Roll is dood, maar ik leef nog \\
-Herman Brusselmans
-\end{quote}
+\chapter{Rockaandezaan}
 
-Geachte lezer, ik moet een bekentenis doen: Het optreden voor een publiek is het leukste wat ik ooit heb ervaren. Laten we beginnen.
+\epigraph{\emph{Rock and Roll is dood, maar ik leef nog}}{Herman Brusselmans}
+
+\noindent Geachte lezer, ik moet een bekentenis doen: Het optreden voor een publiek is het leukste wat ik ooit heb ervaren. Laten we beginnen.
 
 Hoe kom je aan muzikaal- of ritmisch gevoel? Geen idee. Hoewel? Tijdens recent onderzoek kwam ik te weten dat mijn grootvader in de dertiger jaren in een aantal muziekgroepen zat. Veel muziek werd er thuis niet gespeeld. Wel platen, 78-toeren, zoals Edmundo Ross met `London is the Place for Me', of Johnnie Ray, een crooner met `Cry' en `Walking in the Rain'. De pianiste Winnifred Atwell kon er wat van, je kreeg veel piano voor je geld. Ik kan ze nog dromen. Gek hoeveel muziek je kunt onthouden. Als ik de beginmaten hoor kan ik zo verder fluiten, al is het zestig jaar terug. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch23/koopm}
+\caption*{\footnotesize Koopman op de Gracht}
+\end{figure}
 
 De meeste muziek kwam van de radio natuurlijk. Eerst hadden we draadomroep met een schakelaar met vijf of zes stations en één luidspreker. 
 
@@ -1171,46 +1245,51 @@ Dit keer was ik niet de enige. In tegenstelling tot de privélessen bij ome Free
 
 Als eerste werden ons het C, F en G-akkoord geleerd. Op commando barstte “Faria, Faria, Faria”, vijftienvoudig door het kleine zaaltje. Wat een vreselijk lawaai, alles door elkaar. Dat was heel erg en ik heb het niet lang volgehouden. Nog even heb ik een periode les gehad bij de andere muziekhandel Eshuys, met lessen van moeder Eshuys. Ik heb de jonge Margriet nog wel om een hoekje zien kijken. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{De winkel met scherm.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch23/Eshuijs}
+\caption*{\footnotesize De winkel met scherm.}
 \end{figure}
 
 Iets wat we nu niet meer kennen waren de openbare optredens van drum-, fanfare- of harmoniekorpsen, of zelfs van muzikanten die langs de deuren kwamen. 
-
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Drumband Czaar Peter}
-\end{figure}
 
 Ik vond het door de straat komen van zo’n harmonieorkest bijzonder opwindend. Zodra je het eerste geluid in de verte hoorde hoopte je dat ze ook door onze straat zouden komen. Zo’n tambour-maître die voor het spul uitloopt en de maat en de richting aangeeft, met dan het hele korps er in de maat achteraan. Dat massale geluid als ze allemaal gingen blazen ondersteund door het slagwerk. Als je dan, nadat je een tijdje had meegelopen, weer huiswaarts keerde, liep je nog in een marstempo.
 
 Tijdens een van die schaarse optochten liepen we mee met de stoet, dansend en huppelend over de stoepen, toen Peter Baas een oplawaai kreeg van een van de trommelaars. Hij werd vol op z’n oog geraakt door een overslagstok van zo’n trommelaar. 
 Dat kan flink aankomen. Niemand van het korps merkte het, want met al dat lawaai hoor je de pijnkreet van zo’n jongetje natuurlijk niet.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch23/drumband2}
+\caption*{\footnotesize Drumband Czaar Peter}
+\end{figure}
+
 Van een ander kaliber waren de straatmuzikanten. Zij probeerden hun inkomsten op te halen door langs de huizen te gaan. Het waren voornamelijk violisten, waarvan er één ‘de danser’ werd genoemd. Hij maakte dansjes terwijl hij speelde. Ik heb hem ook wel bij bouwwerken zien staan. Voor de bouwvakkers was hij een onderwerp van plezier en wat spot, in ieder geval een leuke onderbreking.
 
-\chapter{De muziek in} % (fold)
-\label{cha:muziek_in}
-
-Hoe ik bij het gezelschap van Siem Vonk ben beland weet ik niet meer. Ik was wel bekend met Vonk omdat hij naast mijn tante Lena in de Czaar Peterstraat woonde. Mogelijk is die connectie van belang geweest. Ik kon meedoen met een variétéachtig gezelschap van jongeren onder leiding van Siem als dirigent. Een wonderlijk groepje. Een allegaartje van jongeren die iets speelden, met Siem ervoor als dirigent.
+% \chapter{De muziek in} % (fold)
+% \label{cha:muziek_in}
 
 \chapter{Es geht loss} % (fold)
 \label{cha:gehtloss}
 
-Drummer Ruud Meijns: 
+Hoe ik bij het gezelschap van Siem Vonk ben beland weet ik niet meer. Ik was wel bekend met Vonk omdat hij naast mijn tante Lena in de Czaar Peterstraat woonde. Mogelijk is die connectie van belang geweest. Ik kon meedoen met een variétéachtig gezelschap van jongeren onder leiding van Siem als dirigent. Een wonderlijk groepje. Een allegaartje van jongeren die iets speelden, met Siem ervoor als dirigent.
+
+Rob Hendriks, die de Zaanse Popgeschiedenis optekende in het \emph{Noord Hollands Dagblad}, liet henzelf aan het woord. Hier spreekt de drummer, Ruud Meijns: 
 
 \begin{quote}
-Onze manager/dirigent was Siem Vonk. We repeteerden in de voorkamer van de ouderlijke woning van Vonk, in de Czaar Peterstraat in Zaandam. We traden regelmatig op in de Zaanstreek, ik herinner me de Jonge Prins in Wormerveer, en de zaal van de Lindeboomschool in Koog aan de Zaan, en een enkele maal buiten de Zaanstreek, onder andere op een feestavond in kamp Bakkum samen met ``The Allround Players" van Ed Vermeulen.\footnote{(in de krant)}
+Onze manager/dirigent was Siem Vonk. We repeteerden in de voorkamer van de ouderlijke woning van Vonk, in de Czaar Peterstraat in Zaandam. We traden regelmatig op in de Zaanstreek, ik herinner me de Jonge Prins in Wormerveer, en de zaal van de Lindeboomschool in Koog aan de Zaan, en een enkele maal buiten de Zaanstreek, onder andere op een feestavond in kamp Bakkum samen met ``The Allround Players" van Ed Vermeulen.
 \end{quote}
 
 Onder welke naam we speelden is mij ontschoten. We traden ook op voor weeskinderen van Oosterweide, waarbij we voor de stemming clowneske bewegingen en blokfluiten met talkpoeder tussen de muziek inlasten, met veel lawaai en vallen. 
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch24/Oosterweide}
+\caption*{\footnotesize Drumband Czaar Peter}
+\end{figure}
+
 Een paar maal speelden we voor bejaarden. Dit gebeurde in samenwerking met de Coca-Cola, die dan voor zonnekleppen en versnaperingen zorgde. Als we opkwamen zagen we een zaal vol cola-zonnekleppen. De meeste sliepen al. Ik speelde eerst gitaar, maar door het wegvallen van de drummer werd ik als zodanig ingeschakeld. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Ed Vermeulen (op de foto 2e van links)}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch24/rollers}
+\caption*{\footnotesize The Rollers, Ed Vermeulen is de 2e van links}
 \end{figure}
 
 Via \emph{The Rollers}, volgens mij \emph{de} band van dat moment in de Zaanstreek, kon ik van Ed Vermeulen een overtollig drumstel kopen en was ik drummer. Gelukkig niet voor erg lang, want ik had dan wel ritmegevoel, maar absoluut geen techniek. Ik was altijd blij als een nummer afgelopen was. Doodmoe probeerde ik m'n armen te ontspannen, maar de tijd was altijd tekort. Siem Vonk had de gewoonte te dirigeren. Volgens ons droeg dat niets bij aan het succes. Wij wilden meer en een rockgroep met een dirigent vonden we niks, dus: uit elkaar. 
@@ -1218,28 +1297,31 @@ Via \emph{The Rollers}, volgens mij \emph{de} band van dat moment in de Zaanstre
 \chapter{Blue Rocking Strings} % (fold)
 \label{cha:bluerocking}
 
-Arnout Rol:
+Arnout Rol in het \emph{Noord Hollands Dagblad}: 
 
 \begin{quote}
-In 1961 speelde ik klarinet in een bandje genaamd The Blue Rocking Strings. De andere bandleden waren Jan Abbing (sologitaar en zang), Nico Bakker (gitaar), Jan Krook (gitaar), Ruud Meijns (drums), en de zangeressen Jolanda Vergouw en Mieke Schneider en basgitarist Arjan Hooft. Jan Hos was ook betrokken bij de organisatie rondom de band.\footnote{(in de krant)}
+In 1961 speelde ik klarinet in een bandje genaamd The Blue Rocking Strings. De andere bandleden waren Jan Abbing (sologitaar en zang), Nico Bakker (gitaar), Jan Krook (gitaar), Ruud Meijns (drums), en de zangeressen Jolanda Vergouw en Mieke Schneider en basgitarist Arjan Hooft. Jan Hos was ook betrokken bij de organisatie rondom de band. [...] Het bandje kwam voort uit een schoolorkestje van de toenmalige IVO-school [Individueel Voortgezet Onderwijs] in Zaandam, waarin Jan Abbing, Nico Bakker en Arnout Rol destijds (1960) speelden. We speelden eerst onder de naam The IVO Rocking Stars en later dus als The Blue Rocking Stars.
 \end{quote}
  
-\bf{Arnout Rol weer.}\footnote{CHECK?} Het bandje kwam voort uit een schoolorkestje van de toenmalige IVO-school\footnote{Individueel Voortgezet Onderwijs} in Zaandam, waarin Jan Abbing, Nico Bakker en Arnout Rol destijds (1960) speelden. We speelden eerst onder de naam The IVO Rocking Stars en later dus als The Blue Rocking Stars. 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch25/bluerocking}
+\caption*{\footnotesize \emph{De Typhoon}, zaterdag 9 september 1961}
+\end{figure}
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Nico Bakker (met gitaar) in 1960 tijdens de IVO-school periode. The Flyland Four.}
-\end{figure}	
+\noindent Ik zat toen al niet meer op school, denk ik, maar ik kende iedereen van de ULO. Ed Eichenberger, Henny van Wijngaarden (later The Rolling Four), Henk van de Wissel (later de Rocking Idolaters), Marieke Schneider en Jolanda Vergouw zaten daar ook allemaal op, of hadden erop gezeten. Zo komen die bandjes bij elkaar.
 
-Ik zat toen al niet meer op school, denk ik, maar ik kende iedereen van de ULO. Ed Eichenberger, Henny van Wijngaarden (later The Rolling Four), Henk van de Wissel (later de Rocking Idolaters), Marieke Schneider en Jolanda Vergouw zaten daar ook allemaal op, of hadden erop gezeten. Zo komen die bandjes bij elkaar.
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch25/nico}
+\caption*{\footnotesize Nico Bakker (met gitaar) in 1960 tijdens de IVO-school periode. The Flyland Four.}
+\end{figure}
 
 Via de ULO vormde ik met vriend Ed en een buurjongen een tijdje The Flyland Four, naar de Vlielandstraat waar Ed en de buurjongen woonden. De bas was een echte theekist. Ik geloof dat we een keer in de Lindenboom gespeeld hebben, in een revue van volleybalclub De Molenwiek. 
 
 In deze samenstelling trokken we over de wereld en speelden de muziek die bij een stad paste. We eindigden in Amsterdam met `Aan de Amsterdamse grachten'. Enkelen van ons groepje waren bij Hawaï al achter een palmboom in slaap gevallen van de drank. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{?Henny van Wijngaarden en Henk van der Wissel foto.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch25/ri-2}
+\caption*{\footnotesize Rocking Idolaters, met Henny van Wijngaarden en Henk van der Wissel}
 \end{figure}  
 
 Een aardig intermezzo vormen de bezigheden van Dick Eichenberger, de broer van Ed. In die tijd was hij bassist in de jazzformatie Les Routiers du Jazz. Als wij bij de buren met de Flyland Four repeteerden konden we soms zijn studie aan de bas horen. Favoriet was bij ons Het Wilhelmus dat hij zong terwijl hij de bas zichzelf strijkend begeleidde. 
@@ -1253,26 +1335,38 @@ We zijn tot Fécamp gekomen, meen ik. De eerste avond kwamen we laat op de campi
 \chapter{The Rolling Four} % (fold)
 \label{cha:rollingfour}
 
-In de periode daarna hebben we nog verschillende pogingen tot het vormen van een bandje gedaan. Enige tijd heb ik gekeken bij een groep die repeteerde bij Koert Groot thuis in de Oostzijde, vlakbij Hof van Holland waar ik woonde. Wat ik me daarvan voornamelijk nog herinner is het nummer `I’m gonna knock on your door, ring on your bell' waarbij de drummer (Co Smit) een elektrische bel onder z’n drumstel had gemonteerd.
+In de periode daarna hebben we nog verschillende pogingen tot het vormen van een bandje gedaan. Enige tijd heb ik gekeken bij een groep die repeteerde bij Koert Groot thuis in de Oostzijde. Dat was vlakbij Hof van Holland, waar ik toen woonde. Wat ik me daarvan voornamelijk nog herinner is het nummer `I’m gonna knock on your door, ring on your bell' waarbij de drummer, Co Smit, een elektrische bel onder z’n drumstel had gemonteerd.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch26/rollingfour}
+\caption*{\footnotesize Ed, Co, Piet van Petten, Gonnie Rijkers et moi.}
+\end{figure}
+
+Ik ontmoette Co via mijn werk bij Apotheek Hulp Artsen, een pillenfabriek in Zaandam. Co had me uitgenodigd eens langs te komen. Andere leden van groep waren, naast Koert, die zang en gitaar deed, Piet van Petten als sologitarist en Luc Smit.  
+
+Ze speelden topmuziek, goed geluid. Veel Cliff en The Shadows, inclusief de danspasjes. Ook deden ze Amerikaanse popmuziek. Vanuit deze groep vormde zich The Rolling Four. Ik verving Luc, waarom weet ik niet meer.
 
 \begin{figure}[t]
 \includegraphics[width=\textwidth]{img/...}
-\caption{Ed, Co, Piet van Petten, Gonnie Rijkers et moi.}
+\caption{(zie installatie op de foto -- ORIGINALLY FROM CH Apotheek Hulp Artsen -- get from there!)}
 \end{figure}
 
-Co Smit had me uitgenodigd eens langs te komen. Ik werkte met Co bij Apotheek Hulpartsen, een pillenfabriek in Zaandam.
+Co was de oudste en was de leider van de groep. Hij woonde in de Javastraat in Wormerveer bij snackbar Java (hele goeie patat, overigens). Co had een rijbewijs en een auto, een Opel Olympia. We hebben heel wat reisjes gemaakt in dat Opeltje, waar iedereen en alles in moest. Wat een prachtig autootje!
 
-Zo groepeerde zich de Rolling Four. Co Smit woonde in de Javastraat in Wormerveer bij snackbar Java (hele goeie patat, overigens) en had de leiding.
+Toen dat een beetje begon te lopen hebben we onze kledingkeuze in Amsterdam gemaakt bij Tip de Bruyn in de Kalverstraat. Een zwarte broek en jasjes in verschillende kleuren. We deden veel werk van The Shadows, keurig in een rijtje en dezelfde pasjes om het wat leuker te maken. De Four werden later uitgebreid met Gonnie Rijkers als zangeres. 
 
-Co was de oudste, had een rijbewijs en een auto (Opel Olympia) en was de leider van de groep. Piet van Petten was sologitarist. Toen dat een beetje begon te lopen hebben we onze kledingkeuze in Amsterdam gemaakt bij Tip de Bruyn in de Kalverstraat. Een zwarte broek en jasjes in verschillende kleuren. We dededn veel werk van The Shadows, keurig in een rijtje en dezelfde pasjes om het wat leuker te maken. De Four werden later uitgebreid met Gonnie Rijkers als zangeres. We hebben heel wat reisjes gemaakt in dat Opeltje, waar iedereen en alles in moest. Wat een prachtig autootje!
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch26/opel_olympia_big}
+\caption*{\footnotesize Opel Olympia}
+\end{figure}
 
-We repeteerden bij de oma van Co in de Dubbele Buurt te Wormerveer. Met de brommer reden we (Ed, Henny en ik) van Zaandam naar de oefenruimte, door weer en wind. Een favoriet spelletje was dat de bemanning van de voorste brommer in de lucht spuugde en de tweede dat probeerde op te vangen. Tja ...
+We repeteerden bij de oma van Co in de Dubbele Buurt te Wormerveer\footnote{CHECK is dit hetzelfde als bij Koert thuis, Oostzijde?}. Met de brommer reden we (Ed, Henny\footnote{CHECK waar komen Ed & Henny hier vandaan?} en ik) van Zaandam naar de oefenruimte, door weer en wind. Een favoriet spelletje was dat de bemanning van de voorste brommer in de lucht spuugde en de tweede dat probeerde op te vangen. Tja...
 
 We traden regelmatig op in onder andere Café Jongejans in Assendelft, in het Moriaanshoofd in Wormer. Een keer speelden we voor slechts een paar meiden, die hebben we ook nog met ruzie de deur uit hebben gewerkt. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Moriaanshoofd in Wormer (foto)}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch26/Moriaanshoofd}
+\caption*{\footnotesize Moriaanshoofd in Wormer (foto)}
 \end{figure}
 
 Ook speelden we in een of andere tent in Beverwijk. Daar was het heel leuk spelen. Eens verscheen zigeunerkoning Koko Petalo met een uitgebreid gevolg van vooral mooie meiden. Op een gegeven moment zei hij: ``Geef mij die gitaar maar eens, dan zal ik hem laten huilen''. Hij kon er echt geen hout van, waarop ik zei: ``Geef maar weer terug, dan zal ik hem weer laten lachen.'' Hij waardeerde dat en zo mochten we met de dames dansen in de pauze.
@@ -1281,9 +1375,9 @@ In die tijd hebben we nog contact gehad met Bob Bouber, die toen zanger was bij 
 
 We hadden het idee dat we meer de popkant op wilden en minder de dansmuziek. Toen zijn we met z’n drieën verder gegaan; Henny van Wijngaarden kwam in de plaats van Co Smit. We hebben zelfs nog eens een groep gehad van zeven man.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{De foto is op het toekomstige terrein van het Zaans Medisch Centrum.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch26/1965}
+\caption*{\footnotesize De foto is op het toekomstige terrein van het Zaans Medisch Centrum.}
 \end{figure}
 
 Uiteindelijk verdween ook Gonnie, die een solocarrière begon met Bob Bouber onder de naam `Deedee Pit'. Ze heeft nog een aantal plaatjes bij hem gemaakt.
@@ -1296,14 +1390,9 @@ In het voorjaar van '62 ging ik voor 14 dagen naar Londen, i.h.k.v. een soort u
 Ik werd meteen gepakt door het specifieke geluid van de merseybeat. De ritmische accenten kwamen anders te liggen, het fluwelen gitaargeluid verdween en er kwam veel meer harmonische zang in. Met die ervaring kwam ik enthousiast terug. Die kant wilden wij toen ook op en we begonnen toen al met de echte “beatmuziek”. Een groot verschil met de gladde jaren vijftig rock&roll die alle bandjes in die tijd speelden.\footnote{(in de krant)}
 \end{quote}
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{V.l.n.r. Piet van Pette, Ed Eichenberger, Henny van Wijngaarden, Ruud Meijns.}
-\end{figure}
- 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{In het Moriaanshoofd in Wormer.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch26/rf-4-moriaan}
+\caption*{\footnotesize In het Moriaanshoofd in Wormer. V.l.n.r. Piet van Pette, Ed Eichenberger, Henny van Wijngaarden, Ruud Meijns.}
 \end{figure}
 
 Later, toen Henny al in de Rolling Four zat, ben ik nog eens een weekeinde bij hem op Texel gaan logeren. Zijn ouders hadden daar een huisje gehuurd. Op de brommer naar Texel, verliefd geworden op een meisje uit Utrecht, haar nog eens opgezocht maar elkaar op het station al misgelopen. Geen goed voorteken, lijkt me.
@@ -1311,53 +1400,85 @@ Later, toen Henny al in de Rolling Four zat, ben ik nog eens een weekeinde bij h
 \chapter{The Devotions} % (fold)
 \label{cha:devotions}
 
-The Devotions zijn ontstaan uit leden van twee Zaanse bandjes; The Rolling Four en The Rolling Devotions. Maart 1965 spraken Jan Abbing en ik over het opzetten van een nieuwe band uit leden van beide groepjes. Jan had me gevraagd om in te vallen voor een gitarist die in dienst moest (veel voorkomend euvel in die leeftijd). Vanuit de Rolling Four kwamen Henny van Wijngaarden, Ed Eichenberger en ik over en Jan Abbing en Nico Bakker uit The Rolling Devotions. Vanwege het karakter van de band, een zanger met een band werd voor de naam gekozen van John Hatton (Jan Abbing) and the Devotions ((de naam is afgeleid van het Everly Brothers nummer Devoted to You).
+The Devotions zijn ontstaan uit leden van twee Zaanse bandjes: The Rolling Four en The Rolling Devotions. In maart 1965 spraken Jan Abbing en ik over het opzetten van een nieuwe band uit leden van beide groepjes. Jan had me gevraagd om in te vallen voor een gitarist die in dienst moest (een veel voorkomend euvel op die leeftijd). Vanuit de Rolling Four kwamen Henny van Wijngaarden, Ed Eijchenberger en ik over; Jan Abbing en Nico Bakker kwamen uit The Rolling Devotions. Vanwege het karakter van de band---een zanger met een band---werd gekozen voor de naam: `John Hatton and the Devotions'. (Jan Abbing was John Hatton. De rest van de naam is afgeleid van het Everly Brothers nummer `Devoted to You'.)
+
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch27/promo3a}
+\caption*{\footnotesize The Devotions}
+\end{figure}
 
 We repeteerden in de kantine van de rolschaatsbaan St. Theresia aan de Leo de XIIIe-straat. Ondanks het feit dat we nog maar een paar maanden bestonden besloten we mee te doen aan het Brasemconcour in Roelofarendsveen. Volgens ons was het optreden een kleine ramp want we begonnen met het verkeerde nummer en tijdens het optreden besloten we over te gaan naar het bedoelde nummer. Wat overigens met 1 knik naar elkaar goed lukte. 
 
-Dit, in onze ogen dramatische optreden, deed ons besluiten toch maar op vakantie te gaan. Maar voor de jury was het voldoende om ons een prijs toe te kennen. Radio/TV-opnames en we mochten een plaatje maken. Maar de één zat op Texel en de anderen verspreid over Europa. Toen we weer bij elkaar waren brachten we nog een nachtelijk bezoek aan het Spui waar zich een happening afspeelde en waar tot onze verrassing Ed Eijchenberger opgepakt en uiteindelijk berecht werd.
+Dit in onze ogen dramatische optreden deed ons besluiten toch maar op vakantie te gaan. Voor de jury was het echter voldoende om ons een prijs toe te kennen. Radio- en TV-opnames werden ons beloofd en we mochten een plaatje maken. Maar de één zat op Texel en de anderen waren verspreid over Europa. Toen we weer bij elkaar waren brachten we op een zaterdag nog een nachtelijk bezoek aan het Spui, waar zich een happening afspeelde. Tot onze verrassing werd Ed Eijchenberger opgepakt en uiteindelijk berecht.
 
-Daarover kan ik nog het volgende vertellen. Die avond kwamen we bijeen in Het Spinnenwiel, een café waar de ‘intellectuele elite’ van Zaandam samenkwam. Ed en ik troffen die avond onder andere Sarah, nog wat mensen en iemand met een auto. Sarah was de vriendin van Rob Stolk, de bekende Zaanse anarchist die bij Provo betrokken was. Eerst trokken we met wat drank naar het in ’t Veldpark tot Sarah vertelde dat er die avond (zaterdag) nog een Happening aan het Spui zou zijn. Daarop besloot de hele ploeg naar Amsterdam te vertrekken. 
+Daarover kan ik het volgende vertellen. Die avond waren we bijeen gekomen in Het Spinnenwiel, een café waar de `intellectuele elite' van Zaandam samenkwam. Ed en ik troffen die avond onder andere Sarah, nog wat mensen en iemand met een auto. Sarah Jansje Duys was de vriendin van Rob Stolk, de bekende Zaanse anarchist die bij Provo betrokken was. Eerst trokken we met wat drank naar het In ’t Veldpark tot Sarah vertelde dat er die avond nog een happening aan het Spui zou zijn. Daarop besloot de hele ploeg naar Amsterdam te vertrekken. 
 
-Alles was aanwezig voor een fijne avond; omstanders en politie. Wij stonden voor de Atheneum boekhandel het schouwspel te bekijken, deden mee aan het ‘ge-uch’ van de verstokte roker, het Lieverdje brandde al, de politie wilde iedereen verspreiden toen er plots een politiebusje voor ons stopte en Ed vanuit het publiek het busje ingetrokken werd. Wij nog proberen hem er weer uit te trekken maar dat mislukte en busje weer weg. ??? Je bent in een shock. Waarom, hoe kan dit? Wat nu? 
+Alles was aanwezig voor een fijne avond: omstanders en politie. Wij stonden voor de Atheneum Boekhandel het schouwspel te bekijken, deden mee aan het ‘ge-uch’ van de verstokte roker, het Lieverdje brandde al. De politie wilde iedereen uiteendrijven. Plots stopte er voor ons een politiebusje en werd Ed vanuit het publiek het busje ingetrokken. Wij nog proberen om hem er weer uit te trekken, maar dat mislukte en het busje weer weg. Huh?! Je bent in een shock. Waarom, hoe kan dit? Wat nu? 
 
-Dat laatste werd voor ons beslist omdat de politie met motoren de trottoirs begon schoon te vegen. Ons groepje werd uiteen geslagen. Met Hans, een Indische jongen, kwam ik terecht in de smalle Huidenstraat naar De Singel. Daar kwam ons een motor met zijspan tegemoet dus weer terug naar het Spui. We hadden de keus uit Spui richting Singel waar nog behoorlijk gevochten werd, de politiemotor of het Spui richting Station. Het laatste want daar stonden maar een paar agenten. 
+Dat laatste werd voor ons beslist, omdat de politie met motoren de trottoirs begon schoon te vegen. Ons groepje werd uiteen geslagen. Met Hans, een Indische jongen, kwam ik terecht in de smalle Huidenstraat naar de Singel. Daar kwam ons een motor met zijspan tegemoet, dus gingen we weer terug naar het Spui. We hadden drie keuzes: het Spui richting Singel waar nog behoorlijk gevochten werd, de politiemotor, of het Spui richting Centraal Station. We hebben maar voor het laatste gekozen, want daar stonden maar een paar agenten. 
 
-Toen we het op een rennen zetten kwamen er uit de zijstraatjes nog een flink aantal agenten het Spui op. Al rennend kregen we nog een paar flinke meppen met de wapenstok en o wonder, de rest van ons groepje stond te wachten. Sarah nam ons mee naar het huis van Roel van Duyn (foto)waar we de nacht op zolder doorbrachten. Ed moest voorkomen en werd uiteindelijk veroordeeld voor ‘er zijn’ denk ik. Op de foto voor het huis van Van Duijn links Roel van Duijn, 3e van rechts Rob Stolk en helemaal rechts op de foto Rens Adelaar ook uit Zaandam
 
-Die ochtend zijn we naar Zaandam gereisd en ben ik naar Ed’s ouders gegaan om het nieuws over te brengen. Zie hieronder voor de publikaties.
-
-Daarna ben ik nog een paar keer met Sarah en haar zus Henny op stap geweest. Met Henny naar een feest nabij het Tropenmuseum waar we een pand betraden en vanaf de eerste verdieping lagen er mensen in gangen, kamertjes en kamers te blowen, te snuiven. Er was weer een lading aangekomen. Op drie hoog had de bewoner een bed aan het plafond bevestigd en zweefde zo door de kamer. Dat was m’n eerste goeie kennismaking met marihuana. Op de terugweg, de volgende ochtend, was ik niet geheel bekomen van de stuff want ik kletste maar door over het houden van konijnen (volgens derden).
-
-Intussen kwam er van allerlei kanten belangstelling voor het management. Er was zelfs sprake dat we met het bureau van Paul Acket in zee zouden gaan. Ik had in ieder geval m’n baan opgezegd, maar door het uitblijven van grote contracten ben ik ’s avonds gaan schoonmaken via van Heusden en kaas inpakken bij Simon de Wit. Toch hielden we wat over aan het concours.
-
-Wat de singeltjes betreft kwamen we bij Dureco terecht, met als producer Cees van Zijtvelt, bekende D.J. van Veronica etc. We mochten in de Decca-studio in Brussel de opnamen maken. Ter ondersteuning hadden we Carl Kalf, trompet, meegenomen. Uiteindelijk zijn er twee singels verschenen. Eigenlijk drie want men had op één persing een verkeerd nummer gezet. In Amsterdam werden bij studio Hartland professionele foto’s genomen voor de hoesjes. De bekende fotograaf Claude vd Heye fotografeerde ons voor een blad bij het Krimp.
-
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{De singles en een onduidelijke foto uit Brussel}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch27/duyn002prov01ill10}
+\caption*{\footnotesize Voor het huis van Van Duijn. Links Roel van Duijn, 3e van rechts Rob Stolk, en helemaal rechts Rens Adelaar, ook uit Zaandam}
 \end{figure}
 
-En we deden voor de NCRV een TV-opname die we in een cafeetje ergens in het land nog hebben kunnen zien. Gelukkig kwam Ed in 2010 met een opname van dit optreden die een van zoons had weten te bemachtigen.
+Toen we het op een rennen zetten kwamen er uit de zijstraatjes nog een flink aantal agenten het Spui op. Al rennend kregen we nog een paar flinke meppen met de wapenstok en o wonder, de rest van ons groepje stond te wachten. Sarah nam ons mee naar het huis van Roel van Duyn (foto)waar we de nacht op zolder doorbrachten. Ed moest voorkomen en werd uiteindelijk veroordeeld voor ‘er zijn’ denk ik. 
 
-Ed (in de krant) Opvallend was in ieder geval dat vele organisatoren/zaaleigenaren ons steeds weer terugvroegen. Of dat nu kwam omdat we flink publiek trokken (dat hoop ik maar) of omdat we ons lieten onderbetalen, dat weet ik niet. Wat ik wel weet is dat deze optredens meestal voor ons en ik denk ook voor het publiek, een echt feest waren. Dat bleek ook wel uit de fanmail die we (Jan vooral) dan ontvingen. 
 
-Ik herinner mij zaal Groot in Medemblik, waar we na het optreden altijd uitgebreid onthaald werden met gebakken eieren en andere lekkernijen. Na zo'n optreden lustte je wel wat want we gaven ons dan wel helemaal. Na die optredens gierde de adrenaline nog lang door je aderen. Maasdijk in het Westland, waar we met een touringcar, samen met zo'n vijftig fans naar toe trokken. 
+Die volgende ochtend zijn we naar Zaandam gereisd en ben ik naar Ed’s ouders gegaan om het nieuws over te brengen. 
 
-Die zaken werden prima georganiseerd door Marja, de vriendin/vrouw van Jan Abbing. De Kruisweg in Marum Groningen, waar pas daarvoor de Kinks nog hadden opgetreden.
 
-Stadskanaal, waar we nog onenigheid kregen met een paar meisjes in het publiek, die dan ook de zaal verlieten (gelukkig niet allemaal). Waar het door kwam weet ik niet meer, maar dat we qua taal op een andere golflengte zaten telde wel mee. 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch27/aug65EdE}
+% \caption*{\footnotesize }
+\end{figure}
 
-Heel veel fijne optredens in de Zaanstreek, Heemskerk, Purmerend, Bergen, Arnhem (waar Hennie z'n drumsticks niet mee had), Rotterdam, Groningen en weet ik waar allemaal. Ten zuiden van de grote rivieren zijn we dacht ik nooit geweest. 
+Daarna ben ik nog een paar keer met Sarah en haar zus Henny op stap geweest. Met Henny ging ik naar een feest nabij het Tropenmuseum. Toen we het pand betraden lagen er al vanaf de eerste verdieping mensen in gangen en kamers te blowen, te snuiven. Er was weer een lading aangekomen. Op drie hoog had de bewoner een bed aan het plafond bevestigd en zweefde zo door de kamer. Dat was m’n eerste goeie kennismaking met marihuana. Op de terugweg de volgende ochtend, was ik nog niet geheel bekomen van de stuff, want ik kletste maar door over het houden van konijnen (volgens derden).
 
-We speelden overal door het land en in november kregen we een contract in de nachtclub ‘de Tudor’ aan de Nieuwe Binnenweg in Rotterdam voor een maand. We speelden 5 (of 6?) dagen van 9 ’s avonds tot ’s morgens 4 uur. Zo doe je in ieder geval heel veel routine en kennis van het nachtleven in Rotterdam op. Na deze maand, nog een maand, wegens succes geprolongeerd. Wij hadden kamers op De Kruiskade en hebben bijna geen daglicht gezien omdat we in de winter optraden. 
+Intussen kwam er van allerlei kanten belangstelling voor het management van onze band. Er was zelfs sprake van dat we met het bureau van impresario Paul Acket, die later nog het North Sea Jazz Festival heef opgezet, in zee zouden gaan. Ik had in ieder geval m’n baan opgezegd. Door het uitblijven van grote contracten ben ik ’s avonds gaan schoonmaken via van Heusden en kaas gaan inpakken bij Simon de Wit. Toch hielden we wat over aan het concours.
 
-Ed: “Gedurende enkele maanden hebben we 6 dagen per week gespeeld in dancing/nachtclub Tudor in Rotterdam. Dinsdags t/m donderdags een nachtclub, maar in het weekend een dancing waar uitsluitend uitgaansjeugd kwam. 
+Wat de singletjes betreft kwamen we bij platenlabel Dureco terecht, met als producer Cees van Zijtvelt; een bekende dj van Veronica enzo. We mochten in de Decca-studio in Brussel de opnamen maken. Ter ondersteuning hadden we Carl Kalf voor op de trompet meegenomen. Uiteindelijk zijn er twee singles verschenen: \bf{[NAMEN]}. (Eigenlijk drie, want men had op één persing een verkeerd nummer gezet.) In Amsterdam werden bij studio Hartland professionele foto’s genomen voor de hoesjes. De bekende fotograaf Claude van Heye fotografeerde ons voor een blad bij het Krimp.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch27/4pieces}
+\caption*{\footnotesize De singles en een onduidelijke foto uit Brussel}
+\end{figure}
+
+Voor de NCRV deden we een TV-opname, die we in een cafeetje ergens in het land nog hebben kunnen zien. Gelukkig kwam Ed in 2010 via een van zijn zoons met een opname van dit optreden. Ed: 
+
+\begin{quote}
+Opvallend was in ieder geval dat vele organisatoren/zaaleigenaren ons steeds weer terugvroegen. Of dat nu kwam omdat we flink publiek trokken (dat hoop ik maar) of omdat we ons lieten onderbetalen, dat weet ik niet. Wat ik wel weet is dat deze optredens meestal voor ons en ik denk ook voor het publiek, een echt feest waren. Dat bleek ook wel uit de fanmail die we (Jan vooral) dan ontvingen.\footnote{(in de krant - CHECK txt)}
+\end{quote}
+
+Ik herinner mij de zaal Groot in Medemblik, waar we na het optreden altijd uitgebreid onthaald werden met gebakken eieren en andere lekkernijen. Na zo'n optreden lustte je wel wat, want we gaven ons dan wel helemaal. De adrenaline gierde nog lang door je aderen. Ook herinner ik me nog Maasdijk in het Westland, waar we met een touringcar naar toe trokken, samen met zo'n vijftig fans. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch27/hartland}
+% \caption*{\footnotesize }
+\end{figure}
+
+Die zaken werden prima georganiseerd door Marja, de vriendin en later vrouw van Jan Abbing. We speelden ook bij de Kruisweg in Marum, provincie Groningen, waar pas daarvoor The Kinks nog hadden opgetreden.
+
+In Stadskanaal kregen we nog onenigheid met een paar meisjes in het publiek, die dan ook de zaal verlieten. (Gelukkig niet allemaal.) Waar het door kwam weet ik niet meer, maar dat we qua taal op een andere golflengte zaten telde wel mee. 
+
+Er waren ook heel veel fijne optredens in de Zaanstreek, Heemskerk, Purmerend, Bergen, Arnhem (waar Hennie z'n drumsticks niet mee had), Rotterdam, Groningen en weet ik waar allemaal. Ten zuiden van de grote rivieren zijn we dacht ik nooit geweest. 
+
+We speelden overal door het land. In november 1965\footnote{CHECK date} kregen we een contract in de nachtclub Tudor aan de Nieuwe Binnenweg in Rotterdam voor een maand. We speelden vijf (of zes?) dagen van 9 uur `s avonds tot `s morgens 4 uur. Zo bouw je in ieder geval heel veel routine en kennis van het nachtleven in Rotterdam op. Na deze maand deden we het nog een maand; wegens succes geprolongeerd. Wij hadden kamers op de Kruiskade en hebben bijna geen daglicht gezien omdat we in de winter optraden. 
+
+
+Ed: 
+
+\begin{quote}
+Gedurende enkele maanden hebben we 6 dagen per week gespeeld in dancing/nachtclub Tudor in Rotterdam. Dinsdags t/m donderdags een nachtclub, maar in het weekend een dancing waar uitsluitend uitgaansjeugd kwam.
+\end{quote} 
+
 
 \chapter{Bioscoop Arena} % (fold)
 \label{cha:arena}
 
-Toen we veel in Tudor speelden woonden we in Rotterdam in een pension tegenover de bioscoop Arena. We verbleven er voornamelijk van de vroege ochtend tot de late middag. Na het ontbijt gingen we in pyjama het nieuwe nummer voor die dag instuderen, even de stad in, eten in restaurant Shell (daar hadden ze lekkere gebakken lever en een leuke cheffin). Dan weer ruim voor openingstijd in de zaal om het nieuw ingestudeerde nummer nog gauw een paar keer te oefenen. 
+Toen we veel in Tudor speelden woonden we in Rotterdam in een pension tegenover de bioscoop Arena. We verbleven er voornamelijk van de vroege ochtend tot de late middag. Na het ontbijt gingen we in pyjama het nieuwe nummer voor die dag instuderen, even de stad in, eten in restaurant Shell (daar hadden ze lekkere gebakken lever en een leuke cheffin). Dan weer ruim voor openingstijd in de zaal om het nieuw ingestudeerde nummer nog gauw een paar keer te oefenen. 
 
 Ons repertoire bestond op een gegeven moment uit enige honderden nummers, zowel covers als nummers van Jan Abbing, want die was altijd al creatief en schreef nogal wat. Ik wil ons niet te veel op de borst te kloppen, maar na twee weken stond het in het weekend zwart van het volk in die tent. Ook werden we goed bekeken door plaatselijke en Haagse bandjes. Ik weet nog dat de nieuwe Beatles single `Daytripper/We Can Work It Out' zou uitkomen. Eén dag voor de officiele release speelden we hem al. We hadden een dealtje met een plaatselijke platenzaak die hem al een paar dagen in huis had, zodoende. Reputatie gevestigd. 
 
@@ -1369,9 +1490,9 @@ Door onze populariteit in de Tudor drongen allerlei mensen zich aan ons op. Zo k
 
 Er kwam van alles in de Tudor Bodega. In een aangrenzend zaaltje, met veel pluche, kwam Jan een dame tegen. Hij was helemaal verkikkerd. Wij kijken, gezellig aan het tafeltje met de dame zitten kletsen en toen weer terug. Zegt Ed of Henny: ``Heb je niet naar z’n handen gekeken? Dat is een vent.'' 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Foto: Nw. Binnenweg met rechts een stukje Tudor Bar.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch28/tudor}
+\caption*{\footnotesize Nieuwe Binnenweg met rechts een stukje Tudor Bar.}
 \end{figure}
 
 \chapter{Duitsland} % (fold)
@@ -1379,32 +1500,33 @@ Er kwam van alles in de Tudor Bodega. In een aangrenzend zaaltje, met veel pluch
 
 Na Rotterdam vertrokken we naar Duitsland. In Soest, bij Dortmund, speelden we in de Oase, de club van Frau Krückel. Weer zes dagen per week, van 9 uur `s avonds tot 4 uur `s morgens. Je leerde niet alleen routine, maar ook behoorlijk innemen. Bij Frau Krückel woonden we in kamers boven de dancing. Op muren waren nog sporen van andere groepen te vinden, waaronder The Thielman Brothers. We voelden ons opgenomen in de wereld van de grote namen. Het had ook wel wat. Frau Krückel was een kleine, tanige tante. Als er gelazer was in de heren WC schrok ze er niet voor terug om daar naar binnen te stormen en de lastpakken bij hun nekvel te pakken en de zaak uit te gooien.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch29/double}
+\caption*{\footnotesize Oase in Dortmund. Rechts: Pete, Tony en Webber}
+\end{figure}
+
 Bezoekers waren lokale jeugd, maar vooral Engelse en Canadese militairen. Naast ons was er ook een vast koppeltje dames om te animeren. Bij het animeren werden wij van tijd tot tijd ook nog ingeschakeld, zeker als er veel te verteren was op de betaaldag van de militairen. Het meeste werd door ons dan onder tafel op de vloer geleegd, anders zou het teveel worden. Geleerd van de meisjes. 
 
 Ook in deze zaak hadden we snel weer fans en aanhang. Vooral de soldaten kwamen graag. Ze nodigden ons uit om naar hun kazerne te komen. Bij de Canadezen, met Henny, zagen we nog een film van Elvis in Hawaï. Ik heb in een lokale bios \emph{A Bridge Too Far} gezien, in het Duits. Dat was heel raar. Ook de Engelsen en Amerikanen spraken allemaal Duits. Gelukkig wonnen ze.\footnote{CLARIFY what does this mean?}
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Pete, Tony en Webber}
-\end{figure}
-
 In Soest maakten we vrienden, gingen vaak Torten eten en haalden op de terugweg Bratwürsten bij het stalletje op het plein. We kookten zelf, en dronken des te meer. Frau Krückel moedigde ons aan om elke glaasje dat ons werd aangeboden ook aan te nemen en dat resulteerde al snel in een vorm van alcoholisme. Drank doet gekke dingen. Zo hebben we Nico eens in een kast opgesloten (geintje!) en hem daarna vergeten. Toen hij wakker werd kon hij bijna niet meer lopen van de kramp. Zelf ben ik eens wakker geworden, voelde om me heen en dacht ``Doperwten?'' M’n haar zat vol, maar ik had helemaal niets gemerkt. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Op de foto mijn bed.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch29/soest}
+\caption*{\footnotesize Mijn bed.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch29/rockadzaan4}
+\caption*{\footnotesize Ik}
 \end{figure}
 
 En romances. Ik had een lokaal vriendinnetje, Anita. Geen idee wat ze overdag deed, maar ze stond ons vaak op te wachten en kwam ook naar de Oase. Er was nog een meisje dat mij wel erg claimde. Toen ik daar niet op in ging kwam ze met Beatle teksten om mij terecht te wijzen. Ed deed het wat romantiek betreft nog beter. Hij leerde Ushi kennen, die een auto had. Ze raakten sterk bevriend en hij trok zelfs bij haar in. Na ons vertrek uit Duitsland heeft hij haar meegenomen naar Zaandam. Het is nooit iets permanents geworden.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Anita}
-\end{figure}
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Stukken in de Zaanse krant over het einde en over de verloving van Ed met zijn Ushi uit Duitsland. Maar het was over.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch29/Anita}
+\caption*{\footnotesize Anita}
 \end{figure}
 
 Op de dagen dat we vrij hadden schnabbelden we ook nog wat in andere tenten. In Beat Club Soest bijvoorbeeld. Geld heb ik nooit gezien. 
@@ -1414,18 +1536,19 @@ In andere tenten in de omgeving speelden ook bandjes. Soms gingen we kijken of k
 Ed:
 
 \begin{quote}
-``Door de Canadezen werden we later nog uitgenodigd om op te treden op een of ander jaarfeest van (kinderen van) Canadese militairen. Het was geen probleem voor ze om ons met een paar wagens even uit Nederland te halen en weer terug te brengen. Vet opgetreden zoals je nu zou zeggen. Daarna nog doorgezakt met de dochter van de Brigadegeneraal in hun landhuis aan de Möhnesee. Dat was onze tweede kennismaking met het leger. We hadden ook al eens opgetreden voor Amerikanen op de luchtmachtbasis Soesterberg. 
+Door de Canadezen werden we later nog uitgenodigd om op te treden op een of ander jaarfeest van (kinderen van) Canadese militairen. Het was geen probleem voor ze om ons met een paar wagens even uit Nederland te halen en weer terug te brengen. Vet opgetreden zoals je nu zou zeggen. Daarna nog doorgezakt met de dochter van de Brigadegeneraal in hun landhuis aan de Möhnesee. Dat was onze tweede kennismaking met het leger. We hadden ook al eens opgetreden voor Amerikanen op de luchtmachtbasis Soesterberg. 
 
-De derde kennismaking was met de Nederlandse Krijgsmacht. Die maakte een eind aan de pret, want ze konden blijkbaar niet zonder Hennie en mij. Ik was er weliswaar tamelijk snel weer uit dienst, maar het kwaad was reeds geschied. The Devotions hebben nooit meer gespeeld.'' 
+De derde kennismaking was met de Nederlandse Krijgsmacht. Die maakte een eind aan de pret, want ze konden blijkbaar niet zonder Hennie en mij. Ik was er weliswaar tamelijk snel weer uit dienst, maar het kwaad was reeds geschied. The Devotions hebben nooit meer gespeeld.
 \end{quote}
 
-Het sprookje uit. Klaar. Kort maar krachtig.
+Het sprookje uit. Klaar. Kort maar krachtig. Er waren nog stukken in de Zaanse krant over het einde en over de verloving van Ed met zijn Ushi uit Duitsland. Maar het was over.
 
 Achteraf gezien hadden we nooit in het nachtclubcircuit terecht moeten komen. Je verkoopt lokaal wel wat plaatjes, maar verder kom je nergens. Als we in die Nederbeattijd furore hadden willen maken, hadden we elke dag ergens anders moeten spelen.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Op de trap in het kantoor van dagblad de Typhoon waar Derk Peeters wat foto’s van ons nam voor een `Back in Town'- verhaal.}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch29/rockadzaan8}
+\caption*{\footnotesize Op de trap in het kantoor van dagblad de Typhoon waar Derk Peeters wat foto’s van ons nam voor een `Back in Town'- verhaal.}
 \end{figure}
 
 
@@ -1435,6 +1558,11 @@ Achteraf gezien hadden we nooit in het nachtclubcircuit terecht moeten komen. Je
 Toen The Devotions stopten heb ik maar een baantje gezocht. Dat vond ik via bemiddeling van Henny Cornet, eigenaar van een kroeg in de Lage Horn. Ik kreeg werk als lasser en sloper bij een losse ploeg bij van Hattum en Blankenvoort in Spaarndam.
 
 Ook probeerde ik weer een bandje te vinden. Enkele keren heb ik gerepeteerd bij The Rocking Idolaters (met Grad IJff, Henk van de Wissel), maar uiteindelijk werd het The Shameless met Jan en Jaap Stompé, Nico Way en Jan Visser (welke ook in de Skunks speelde). De manager was Joop Koekkoek. Joop deed in het begin alles nog op z’n brommer en tufte door heel het land. Later kreeg hij een behoorlijk groot theaterbureau. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch30/shameless2}
+% \caption*{\footnotesize }
+\end{figure}
 
 Vader Stompé reed de bus en wij hingen achterin. Soms gingen Olga en Annie, de vriendin van Jan Visser, mee. Dan was het met Jan songs van Dylan reciteren, maar vooral heel laat thuiskomen en doodmoe je bed in.
 
@@ -1446,9 +1574,19 @@ Jan en ik namen de zang over en we speelden daarna veel ruiger dan wat ik in The
 
 Net als zoveel bandjes trokken we door het hele land en zelfs nog een enkele keer naar Duitsland. Natuurlijk speelden we ook veel in de Zaanstreek. Soms was het wel heel apart, zoals een weekend op Texel. We speelden daar in Sarasani, met onder andere de Bintangs en Cuby + Blizzards optraden. Verder was het elke week de bus in en ergens spelen. Lange reizen heen en terug.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch30/optournee2a}
+% \caption*{\footnotesize .}
+\end{figure}
+
 Soms voel je je zo goed dat je denk alles te kunnen maken. Een keer in de Achterhoek speelden we in flinke zaal. Olga en Annie waren ook mee, die zaten aan tafeltje. In de pauzes gingen wij weer bij ze zitten. 
 
 Maar een paar jongens uit het publiek pakten onze plaatsen in en deden dat ook de volgende pauze weer. Opeens had ik er zo genoeg van dat ik door de microfoon riep of die boeren eens plaats wilden maken. Dat was dom en onhandig. Het hele publiek keerde zich tegen ons. De meisjes snel achter het toneel en wij stonden klaar met de poten van de microfoon om ons te verdedigen. We zijn uiteindelijk onder begeleiding van de politie in ons busje afgevoerd.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch30/film}
+\caption*{\footnotesize Aankondiging \emph{Leve het Leven}}
+\end{figure}
 
 Als Zaanse band werden we uitgenodigd om mee te doen aan de opnames van een film die Lau Ruyter zou gaan maken. De opnames vonden plaats in de Lindenboomschool in Koog aan de Zaan. Het was een ambitieus plan, want alle bekende groepen waren op komen draven. Hoe ze dat financieel voor elkaar kregen weet ik niet, maar ik geloof niet dat wij er ook maar een cent voor kregen. De eer was al genoeg. Tijdens onze opnamedag stonden we met Cuby + Blizzards, The Haigs (toen nog met Barry Hay) op het podium. Van deze film is later nooit meer iets vernomen. Naspeuringen van de redacteur van de Zaanse Pophistorie, Rob Hendriks, hebben ook niet veel opgeleverd, behalve het volgende citaat op de site van Rob Hendriks: 
 
@@ -1462,7 +1600,18 @@ Prachtig verhaal, echt iets voor Lau Ruyter.
 
 We trokken naar Duitsland voor een optreden in Hamm. De reis was al bijzonder. Vlak voor de grens ontdekte Jaap dat hij z’n paspoort vergeten was. Na rijp beraad besloten we hem in de aanhanger te verbergen en zo de grens over te gaan. Eerst alles eruit, Jaap achterin de aanhanger en daarna alles weer opgevuld. De grens was geen probleem en een paar kilometer in Duitsland hebben we Jaap er weer uit gehaald. 
 
-In Hamm moesten we spelen in een enorme hal. Herman Brood met The Moan waren hier eerder geweest. Ze probeerden ons als de band van de \emph{Provo’s aus Amsterdam} te slijten. Ik tijdens een eetpauze op weg naar een optreden bijeen hoopje kippenbotjes.\footnote{CHECK what was meant?} Ik geloof dat we ze aardig plat hebben gespeeld.
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch30/optourneeAs}
+\caption*{\footnotesize Ik tijdens een eetpauze op weg naar een optreden bij een hoopje kippenbotjes..}
+\end{figure}
+
+
+In Hamm moesten we spelen in een enorme hal. Herman Brood met The Moan waren hier eerder geweest. Ze probeerden ons als de band van de \emph{Provo’s aus Amsterdam} te slijten. Ik geloof dat we ze aardig plat hebben gespeeld.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch30/schamensich}
+% \caption*{\footnotesize .}
+\end{figure}
 
 Op de terugweg volgde weer dezelfde procedure met Jaap. Eén probleempje deed zich voor toen een douanier merkte dat een achterlichtje van de aanhanger kapot was. Of we dat bij de eerstevolgende bezinepomp even wilden herstellen. Opgelucht kwamen we het vaderland weer binnen. Zeker Jaap, die alles vanuit die aanhanger hoorde.
 
@@ -1470,9 +1619,9 @@ Al die tijd zat ik overdag in de metaal in Spaarndam en dan in het weekend spele
 
 Ik vond het wel goed zo. De professionele gitaar heb ik aan de wilgen gehangen en ook nooit meer opgepakt. Er zijn nog wel verzoeken gekomen om opnieuw iets te formeren, maar voor mij was het genoeg. Enige jaren geleden heb ik nog een paar jaar klassiek les gehad. Veel leuke componisten leren kennen.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Mijn gitaar werd door de heer Thomson gemaakt.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch30/Devotions}
+\caption*{\footnotesize Mijn gitaar werd door de heer Thomson gemaakt.}
 \end{figure} 
 
 \chapter{Waar we zoal naartoe gingen} % (fold)
@@ -1482,9 +1631,14 @@ Wat ik me als vroegste bezoek kan herinneren is Huize Negrijn op de Hogendijk, w
 
 Het eerste grote optreden waar Olga en ik samen naartoe gingen was Flight to Lowlands Paradise in Utrecht, 1968.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Flight to Lowlands Paradise Utrecht 1968}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/jeugd}
+% \caption*{\footnotesize Mijn gitaar werd door de heer Thomson gemaakt.}
+\end{figure} 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/posterkleur68235}
+\caption*{\footnotesize Flight to Lowlands Paradise Utrecht 1968}
 \end{figure}
 
 In een grote tent speelden onder andere Pink Floyd, Bonzo Dog Doo-Dah Band, Tyrannosaurus Rex. Pink Floyd speelde met van die dia-vloeistofprojecties op de achtegrond. Later hoorde ik van Frans Room dat het zijn projecties waren geweest die daar te zien waren.
@@ -1496,56 +1650,90 @@ Natuurlijk gingen we naar Frank Zappa, de grote meester. We hebben later nog ver
 
 In Ahoy, Rotterdam, zagen we hem op 27 november 1971 voor The Flo & Eddie tour. Al op de heenweg was het een avontuur, omdat de auto door z’n water heen was en we rokend langs de snelweg stonden. 
 
-Toen we eindelijk bij Ahoy aankwamen liepen we wat om het gebouw heen en kwamen we Eddie, één van de zangers, tegen. Wat gekletst en hij zei dat ik wel mee naar binnen mocht om wat foto's te maken. De band was nog aan het repeteren. Er is en wielerbaan in Ahoy en op die baan liep de saxofonist wat te toeteren. Een waanzinnig beeld van een muzikant op die steile wielerbaan. Geen gelukte foto. Zappa was druk bezig en ik kon m’n camera bijna niet vasthouden van de zenuwen. Gelukkig heb ik de repetitie nog gedaan en later wat van het concert. 
+Toen we eindelijk bij Ahoy aankwamen liepen we wat om het gebouw heen en kwamen we Eddie, één van de zangers, tegen. Wat gekletst en hij zei dat ik wel mee naar binnen mocht om wat foto's te maken. De band was nog aan het repeteren. Er is en wielerbaan in Ahoy en op die baan liep de saxofonist wat te toeteren. Een waanzinnig beeld van een muzikant op die steile wielerbaan. Geen gelukte foto. Zappa was druk bezig en ik kon m’n camera bijna niet vasthouden van de zenuwen. Gelukkig heb ik de repetitie nog gedaan en later wat van het concert.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/zappa}
+% \caption*{\footnotesize Flight to Lowlands Paradise Utrecht 1968}
+\end{figure} 
+
+
 
 Na afloop kwam Frank nog even terug en begon in z’n eentje aan een solo-improvisatie. Er waren al mensen vertrokken, anderen dachten misschien dat er iets via het systeem afgespeeld werd. Maar uit wat hij daar op toneel deed bleek maar weer eens wat een fabuleus gitarist hij was.
 
 Ook zagen we Zappa nog een keer in Amsterdam. Soms weet ik niet meer precies waar het was, het Concertgebouw of de Stadschouwburg. Ik had Olga mee naar het podium genomen om haar samen met Zappa op de foto te krijgen. Kijk ‘m kijken. Mijn fantasieën zijn vaak opwindender dan de werkelijkheid.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Op deze foto is het haar van Olga links nog te zien.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/zappaolga}
+\caption*{\footnotesize Op deze foto is het haar van Olga links nog te zien.}
 \end{figure}
 
 Er zijn nog wat concerten geweest waar ik geen camera bij me had, zoals King Crimson in de Stadschouwburg. Volgens Google was het in het Concertgebouw op 23 november 1973. Dit had een indrukwekkende opening met heen-en-weer zweven, waarbij het geluid van de Moog minutenlang doorging. De band opende met een donderend geweld met `21st Century Schizoid Man'. Ik dacht dat de zaal ontplofte.
 
-Wel heb ik plaatjes van het concert van Billy Cobham in Amsterdam. Tja, het was wel erg donker daar. Dat was in de tijd dat Chick Corea en Cobham erg populair waren met hun Return to Forever. Wat een energie. 
+Wel heb ik plaatjes van het concert van Billy Cobham in Amsterdam. Tja, het was wel erg donker daar. Dat was in de tijd dat Cobham en Chick Corea erg populair waren met hun Return to Forever. Wat een energie. 
 
-Een hele serie van groepen die allemaal tot Miles Davis terug te herleiden zijn kwamen bovendrijven. Weatherreport, Stanley Clark. Jon MacLaughlin die op den duur wel heel erg begon te zweven met z’n Mahavishnu Orchestra.
+Een hele serie van groepen die allemaal tot Miles Davis terug te herleiden zijn kwamen bovendrijven. Weather Report, Stanley Clark. Jon McLaughlin die op den duur wel heel erg begon te zweven met z’n Mahavishnu Orchestra.
 
-Rock and Roll Animal van Lou Reed was een heel ander optreden. Hij had kort wit haar, was volledig in het leer en volgens velen zwaar onder invloed. Mij overtuigde hij wel als Rock and Roll Animal.
+Rock'n'Roll Animal van Lou Reed was een heel ander optreden. Hij had kort wit haar, was volledig in het leer en volgens velen zwaar onder invloed. Mij overtuigde hij wel als rock'n'roll animal.
 
-Een vriendin van Olga was getrouwd met Dick Vennik, een bekend saxofonist die op allerlei podia speelde onder anderen met Rein de Graaf en in het Metropool. Ik ben een aantal keren met hem naar z’n eigen optreden geweest onder andere bij Max Theeuwisse in Den Oever of ging met hem naar Ben Webster in Paradiso. Hij liet me toen het koffertje van een niet nader te noemen saxofonist zien waarbij de ene kant gevuld was met rieten etc. en de andere kant met allerlei stimulantia. Dick vertelde dat het weinig uitmaakte want als je hem een saxofoon in z’n mond duwde hij gewoon speelde.
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/reed}
+\caption*{\footnotesize Lou Reed.}
+\end{figure}
 
-Toen ik al lang gestopt was, maar Jan Visser nog volop in de race was ging ik wel met hem mee naar The Dizzy Mans Band. Ik kende wel wat mensen in die band en het was altijd feest op het toneel. Nog een keer met Jan mee naar een opname geweest voor zijn soloproject Fisher and Friends. Hij had toen net een MG gekocht. Geen beste aankoop, wel een mooie en een schip van bijleg. 
+Een vriendin van Olga was getrouwd met Dick Vennik, een bekend saxofonist die op allerlei podia speelde, onder andere met Rein de Graaff en in het Metropole Orkest. Ik ben een aantal keren met hem naar z’n eigen optreden geweest. Zo ging ik mee naar een optreden bij Max Teeuwisse in Den Oever, of naar Ben Webster in Paradiso. Hij liet me toen het koffertje van een niet nader te noemen saxofonist zien, waarbij de ene kant gevuld was met rieten enzovoorts en de andere kant met allerlei stimulantia. Dick vertelde dat het weinig uitmaakte, want als je hem een saxofoon in z’n mond duwde hij gewoon speelde.
 
-We reden in z’n MG, met linnen dak, in de winter, kacheltje deed het niet, naar de studio. Tijdens de opname moest er nog een stukje sitar in. Er werd gebeld en een uurtje later stapte Robbie van Leeuwen binnen, speelde wat hem gevraagd werd en verdween weer. Van Leeuwen, componist van ‘Venus’ en gitarist in Shocking Blue. Wat het plaatje gedaan heeft weet ik niet.
 
-Nog een keer naar Thin Lizzy geweest met Howard omdat die er een fan van was. Was vooral heel hard. 
+Toen ik al lang gestopt was, maar Jan Visser nog volop in de race was, ging ik wel met hem mee naar de Dizzy Man's Band. Ik kende wel wat mensen in die band en het was altijd feest op het toneel. Nog een keer ben ik met Jan mee naar een opname geweest voor zijn soloproject Fisher and Friends. Hij had toen net een MG gekocht. Geen beste aankoop, wel een mooie en een schip van bijleg.\footnote{CHECK einde van de zin begrijp ik niet} 
 
-En naar Todd Rundgren in Den Haag met z’n Utopia. Een stuk dat als een soort opera bedoeld was. Een goeie rocker, goed geluid. Toen ik naar voren liep om wat fotoos te maken begon er net een nieuw nummer en ik werd, omdat ik vlak voor een speakertoren stond bijna terug de zaal ingeblazen.
+We reden in de winter in z’n MG---linnen dak, kacheltje deed het niet---naar de studio. Tijdens de opname moest er nog een stukje sitar in. Er werd gebeld. Een uurtje later stapte Robbie van Leeuwen binnen, speelde wat hem gevraagd werd en verdween weer. Van Leeuwen was componist van ‘Venus’ en gitarist in Shocking Blue. Wat het plaatje gedaan heeft weet ik niet.
 
-Ik was het bijna vergeten, maar niet onbelangrijk waren de concerten van Pasveer op zaterdagmiddag met Bach in de Bullekerk. Altijd met een kleine inleiding van de dirigent en zo kon je met zo’n prachtige cantate weer gerust het weekend in.
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/ff}
+% \caption*{\footnotesize }
+\end{figure}
 
-Eén keer ging het fout, met Pasen. Ik had een kaartje gekocht voor de Matthäus passion, meldde me op de afgesproken tijd in de kerk. Ik was er helemaal klaar voor want bij de vorige uitvoering kon ik het bij de opening al niet droog houden. Dat is altijd zo overweldigend dat ik bijna m’n keel moest inslikken om niet uit tranen uit te barsten. De drie uur daarna zijn wel erg lang. 
+Met mijn zwager Howard ben ik nog een keer naar Thin Lizzy geweest, omdat die daar fan van was. Dat was vooral heel hard. 
 
-Toch maar weer eens naar de Matthäus, hoewel de lengte me altijd tegenstond. Maar goed, alles klaar, stilte in de zaal en ..., bleek dit jaar de Johannes op het programma te staan. Had ik helemaal niet opgemerkt. Het kwam niet meer goed en in de pauze heb ik de kerk verlaten. Smitje die aan de deur stond meldde nog dat het nog niet afgelopen was, maar ik zei dat ik me niet goed voelde. Wat ook zo was.
+In Den Haag zijn we naar Todd Rundgren geweest met z’n Utopia, een stuk dat als een soort opera bedoeld was. Een goeie rocker, goed geluid. Toen ik naar voren liep om wat foto's te maken begon er net een nieuw nummer en werd ik, omdat ik vlak voor een speakertoren stond, bijna terug de zaal ingeblazen.
 
-Ik heb ook nog eens een Matthäus bijgewoond in IJmuiden. Ik werkte daar en velen nodigden me uit om ook eens in IJmuiden dit evenement bij te wonen. Vooruit, kan nooit kwaad om wat goodwill te kweken, je hebt een eigen winkeltje zou Gerard Reve zeggen. Stond als dirigent de pianoleraar van Chrissy voor het geheel. 
+Niet onbelangrijk waren de concerten van Jan Pasveer op zaterdagmiddag met Bach in de Bullekerk. Altijd met een kleine inleiding van de dirigent. Zo kon je met zo’n prachtige cantate weer gerust het weekend in.
 
-Goed om te zien dat hij z’n vleugels begon uit te slaan, deed het goed. Je kon hem uitknijpen na het concert.  
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch31/Spandoek-cantate-klein}
+% \caption*{\footnotesize }
+\end{figure}
 
-Maar het was wel een opoffering. Ik kan niet zo lang zitten want dan krijg ik last van m’n knieën en moet ik eigenlijk even lopen, maar dat doe je niet zo snel tijdens een uitvoering. Een Matthäus passie is een hele opoffering.
+Eén keer, met Pasen, ging het fout. Ik had een kaartje gekocht voor de Matthäus Passion en meldde me op de afgesproken tijd in de kerk. Ik was er helemaal klaar voor. De vorige keer kon ik het bij de opening al niet droog houden. Dat is altijd zo overweldigend dat ik bijna m’n keel moest inslikken om niet in tranen uit te barsten. De drie uur daarna zijn wel erg lang. 
 
-In winter van 1970-1971 bezochten we de tentoonstelling van Salvador Dali in Boymans –van Beuningen in Rotterdam. Een grote tentoonstelling met schilderijen en juwelen waaronder het spraakmakende gouden kloppend hart. Wat mij imponeerde was de christus aan het kruis. Wij woonden in de Botenmakersstraat met een enorm lange gang en ik zag het al direct voor me; ook zo’n kruis in m’n huis. Het is er, door technisch gebrek mijnerzijds niet van gekomen.
+De lengte stond me altijd tegen, maar dit jaar ging ik dan toch maar weer eens naar de Matthäus. Alles klaar, stilte in de zaal... bleek dit jaar de Johannes op het programma te staan. Dat had ik helemaal niet opgemerkt. Het kwam niet meer goed. In de pauze heb ik de kerk verlaten. Smitje\footnote{CHECK is dit een persoon of een functie?} die aan de deur stond meldde nog dat het nog niet afgelopen was, maar ik zei dat ik me niet goed voelde. Dat was ook zo.
 
-Dali
 
-Een andere tentoonstelling die me nogal aangreep was ‘Bewogen Beweging’ in het Stedelijk in Amsterdam. Kienholz, Tinguely, de Saint Phalle. Bij binnenkomst moest je door een smalle gang waar de vloer en wanden ondersteunt waren door vering. Je raakte je evenwicht totaal kwijt. Zo kwam je binnen. Een goed begin. Zeg dat.
+Ik heb ook nog eens in IJmuiden een Matthäus gehoord. Ik werkte daar en velen nodigden me uit om daar dit evenement bij te wonen. Vooruit, kan nooit kwaad om wat \emph{goodwill} te kweken. Je hebt een eigen winkeltje, zou Gerard Reve zeggen. Stond daar als dirigent de pianoleraar van Chrissy voor het geheel. 
 
-Enorme installaties van raderwerken van Tinguely. Dan moest je met een trappetje omhoog en dan zag je een vossenstaart op- en neer bewegen. De beroemde bar van Edward Kienholz. Een radio waarbij de zenderknop door een machientje geregeld werd en je de hele schaal van zenders afliep. Klokken die allemaal op verschillende snelheden liepen – wat is tijd? 
+Mooi om te zien dat hij z’n vleugels begon uit te slaan. Hij deed het goed. Na het concert kon je hem uitknijpen.  
+
+Maar het blijft wel een hele rit. Ik kan niet zo lang zitten. Dan krijg ik last van m’n knieën en moet ik eigenlijk even lopen, maar dat doe je niet zo snel tijdens een uitvoering. Een Matthäuspassie is een hele opoffering.
+
+\footnote{CHECK - Misschien hier een nieuw hoofdstuk `Tentoonstellingen'?}
+
+In winter van 1970-1971 bezochten we de tentoonstelling van Salvador Dalí in Museum Boijmans Van Beuningen in Rotterdam. Een grote tentoonstelling met schilderijen en juwelen, waaronder het spraakmakende gouden kloppend hart. Wat mij imponeerde was de Christus aan het kruis. Wij woonden toen in de Botenmakersstraat met een enorm lange gang. Ik zag het al direct voor me, ook zo’n kruis in m’n huis. Het is er, door technisch gebrek mijnerzijds, niet van gekomen.
+
+Een andere tentoonstelling die me nogal aangreep was `Bewogen Beweging' in het Stedelijk in Amsterdam---Kienholz, Tinguely, de Saint Phalle. Bij binnenkomst moest je door een smalle gang waar de vloer en wanden ondersteunt waren door vering. Je raakte je evenwicht totaal kwijt. Een goed begin, zeg dat.
+
+Er waren enorme installaties met raderwerken van Tinguely. Dan moest je met een trappetje omhoog en zag je een vossenstaart op en neer bewegen. De beroemde bar van Edward Kienholz was er ook. En een radio waarbij de zenderknop door een machientje geregeld werd en je de hele schaal van zenders afliep. Klokken die allemaal op verschillende snelheden liepen---wat is tijd? 
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{img/ch31/dali}
+\caption*{\footnotesize Dali}
+\end{figure}
+
 
 \part{Het Werk}
+
+\epigraph{\emph{'kap hout, draag water'}}{}
 
 \chapter{Werken, slapen, eten} % (fold)
 \label{cha:werkenslapen}
@@ -1555,6 +1743,11 @@ Geld verdienen, werken om geld te verdienen. Er zijn er die werk aanbieden en er
 Mijn vader werkte dus bij scheepswerf Kraaijer (later De Beer). Toen ik voor het eerst met m’n vader mee mocht keek ik m’n ogen uit. Alles is zo groot en zo machtig interessant.
 
 Oudere mannen die je meenemen naar de werkplaats en je van alles laten zien. En vooral nergens aankomen. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/DeBeer}
+\caption*{\footnotesize Scheepswerf De Beerli}
+\end{figure}
 
 M’n vader was de baas in het magazijn. Iedereen die iets nodig had klopte aan en vroeg of die kleine van hem was. Zo leerde je veel mensen kennen. 
 
@@ -1568,11 +1761,22 @@ Toen Harry ging werken ben ik ook nog wel eens met hem mee geweest naar verffabr
 
 Harry werkte op het laboratorium, maar interessanter was de fabriek zelf, waar grote drijfriemen door het gebouw liepen en het hele zaakje van energie voorzagen. In feite zoals het in oude molens ging.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/Sabel met_stoom15}
+\caption*{\footnotesize Verffabriek A.W. Sabel}
+\end{figure}
+
+
 De oude heer van de Nieuwendijk, vader van Siem\footnote{CHECK een eerdergenoemde Siem?}, werkte daar ook. Alpinopet op en een pruim in z’n mond. Ik heb ook eens zo’n pruim als welkomsgeschenk in m’n hand gedrukt gekregen. Bij Sabel ben ik een nagel van m’n rechter ringvinger kwijtgeraakt, die ergens tussen klem kwam te zitten.
 
 Mijn moeder werkte in de avonduren (van 18.00 tot 19.30 uur) bij Het Hart en de Zwaan, later Scado N.V. Ze maakte het kantoor schoon met een vriendin. Dat deed ze al lang en zo kon ze voor mij een vakantiebaantje bemachtigen op het kantoor. 
 
 Op dat kantoor zat een oudere heer en ik mocht (tien jaar oud, denk ik) wat papier heen en weer schuiven. Ik vond het zo prachtig dat ik de hele dag liep te fluiten, tot de oude man in wanhoop uitriep: ``Hou nou toch ’s op met dat gefluit!''
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/scado}
+\caption*{\footnotesize Het Hart en de Zwaan, later Scado NV}
+\end{figure}
 
 Dit was mijn inleiding tot het werk; kennis maken met fabrieken enzovoorts. Mijn echte carrière in de wereld van werk begon wat later.
 
@@ -1590,6 +1794,11 @@ Zo werd ik in het complot gezogen. Als het laatste zaagje of boortje uitgereikt 
 
 Op naar de Familie Perk, achter het postkantoor. Daar stond---zo ik veertig jaar later pas te weten kwam---een jonge aankomende verkoper, Hans Hollander. Met Hans heb ik later nog jaren ’s avonds in de Vrije School geklust. 
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/image-2}
+\caption*{\footnotesize Fa. Perk (achter het postkantoor)}
+\end{figure}
+
 Hans was een gezellige kletser en goeie verkoper. Wij een sigaretje draaien, wat zaagjes inslaan en weer terug. Het einde kwam al snel toen ik het idee kreeg dat ik ook wel boortjes of een schaar kon slijpen. 
 
 Dat het slijpen van boortjes en scharen buiten de mij toegestane werkzaamheden lag, merkte ik pas door de woede van de chef. Die zette me voor straf aan het sorteren van moertjes en boutjes, allemaal metrisch gelukkig. Hij toverde een volle emmer met dit spul voor m’n neus en ik kon aan de gang, M4 bij M4, enzovoorts. 
@@ -1597,6 +1806,11 @@ Dat het slijpen van boortjes en scharen buiten de mij toegestane werkzaamheden l
 M’n gevoel zei me naar een andere baan uit te kijken, want dit zou nooit meer goed komen. Gelukkig hoefde je in die tijd je vinger maar in de lucht te steken of je had al ander werk. Zo kwam ik bij de Familie Fris op de Gedempte Gracht terecht.
 
 De Familie Fris was een grote speciaalzaak in huishoudelijke artikelen met een afdeling voor reparatie achter de winkel. In die laatste kon ik beginnen. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/Fris}
+\caption*{\footnotesize Fa. Fris op de Gedempte Gracht}
+\end{figure}
 
 Ik had bij Tot \& Beers gewerkt, dus dachten ze dat ik wel iets van electriciteit af wist. Om te beginnen mocht ik het klein huishoudelijk goed repareren, zoals scheerapparaten, koffiemolens en dergelijke. De baas deed de radio’s en de TV’s. De man lag dan soms met dat hele lijf in zo’n grote TV kast. 
 
@@ -1606,24 +1820,24 @@ Naast de reparaties moest ik ook meehelpen met het wegbrengen van aangekochte of
 
 De jongen die de auto reed deed dat al heel lang en was zeer geraffineerd. Hij had speciale trucs om koffie te krijgen. Ik denk dat hij ook nog wel eens iets had met eenzame huisvrouwen. Sommigen gaven wel aanleiding, denk ik nu, want we werden soms ontvangen als ze nog niet aangekleed waren, of alsof ze zich net hadden uitgekleed. Ik had overigens ook wel fantasieën, maar het is nooit tot aktie gekomen. 
 
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/antennae}
+\caption*{\footnotesize Het bedrijf van Familie Husslage was gevestigd in het witte gebouw rechts aan het eind van de straat.}
+\end{figure}
+
 Waar wel een eind aan kwam was m’n dienstverband. Toen ik op een ongelukkige ochtend door de winkel liep om een TV naar de auto te brengen, stootte ik bij de winkeldeur tegen iets in de etalage aan, waardoor achter me de halve uitstalling in elkaar donderde. Ik mocht nooit meer via de winkel lopen en kon maar beter uitkijken naar een andere baas.
 
 Het bedrijf van Familie Husslage, gevestigd op de Dam, was eigenlijk een electronicazaak, maar had zich gespecialiseerd in industriële communicatie. Interne geluidssystemen en dergelijke. 
 
 Aan de achterkant van het gecombineerde woonhuis en winkel was een bedrijfje ontstaan, met de ingang aan de Rozengracht. In die tijd was er in die straat ook nog wekelijks de markt (verplaatst van de Gedempte Gracht\footnote{CHECK moet dat de Burcht zijn? en eerder of later verplaatst}), dus gezelligheid troef. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{ Op de foto is het het witte gebouw rechts aan het eind van de straat.}
-\end{figure}
-
 Omdat ik al wist hoe je draadjes aan iets vast moest maken, maar verder niets, begon ik natuurlijk weer onder aan de ladder. Wel een gezellige ploeg collega’s. Er was een jongen uit Koog aan de Zaan die gek was van oude radio’s en het opvoeren van brommers, een jongen uit Tuindorp Oostzaan, een man met suikerziekte, een chef die gek was van zeilen en altijd gesuikerde sigaren van Ritmeester rookte en natuurlijk de jonge en oude bazen Husslage. 
 
 Het werk bestond voornamelijk uit het in elkaar zetten van communicatiesystemen. De schakelingen liepen toen nog mechanisch, zoals bij oude telefooncentrales. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Een zgn. ‘zoeker’.}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/image-4}
+\caption*{\footnotesize Een zgn. ‘zoeker’.}
 \end{figure}
 
 Als je een nummer draaide hoorde je de relais van één tot tien lopen om het nummer te vinden---\emph{tikke-tikke-tikke-tikke-tik}, zo’n geluid was dat. 
@@ -1640,46 +1854,45 @@ Ook kan ik me werk bij de Hilko aan de Oostzijde herinneren en bij de Honig in d
 
 Je drukt op een knopje, ergens anders klinkt een geluid, de ander drukt de antwoordknop in en je kunt praten.	
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{Hilko}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/Hilko2}
+\caption*{\footnotesize Hilko}
 \end{figure}
 
 De brommergek op ons werk was Sjako. Tussen de middag zat Sjako z'n brommers op te voeren en kregen we allemaal het virus te pakken. Hij had veel verstand van motoren. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/...}
-\caption{DEM (foto)}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/ch32/image-5}
+\caption*{\footnotesize DEM (foto)}
 \end{figure}
 
 Geklooi met cilinders, carburator en in- en uitlaat. Hij had een Demm en nog een andere brommer van een Italiaans merk. Ik had een Puch en de jongen uit Amsterdam Noord een Kreidler. Maar het mooiste was een eitje op een fiets knutselen of op een autostep.\footnote{CHECK deze zin begrijp ik niet?}
 
 Als het markt was haalde een collega wel eens een trucje uit.  Dan begon hij met twee spijlen in z'n handen tegen het open raam naar het marktpubliek te schreeuwen: ``Help, help, ik wil eruit, ze houden me hier vast!''
 
-\chapter{Apotheek Hulp Artsen (+1962)} % (fold)
+\chapter{Apotheek Hulp Artsen} % (fold)
 \label{cha:apotheek}
 
-Door Ed Eichenberger werd ik attent gemaakt op het feit dat ik bij de Rolling Four (beatgroep) zat waar Co Smit drummer was. Maar Co was ook chauffeur bij de Apotheek H.A. We zijn nog eens met de bedrijfswagen, zittend in de open achterbak, een middagje naar Wijk aan Zee geweest. Onderweg naar het strand ben ik, zittend op de rand van de bak, m’n portemonnee kwijt geraakt.
+Ik kwam bij op de administratie bij de Apotheek Hulp Artsen te werken.\footnote{CHECK klopt dat?} Daar was ene Ton de chef. Mijn andere collega's waren een jongen uit Westzaan en Margreet die later een boerderij in Nauerna opende waar ze speelgoed verkocht. 
 
-Ik kan me nog een moment herinneren, toen speelde ik al bij de Roling Four, dat Co mij, op het werk `even wilde spreken' want een meisje uit Assendelft had laten weten dat ze zwanger was van mij. Ik had wel eens met haar gevreeën na een optreden, maar omdat iedereen dan op je stond te wachten kwam je meestal niet veel verder dan zoenen enz. en daar raak je niet zwanger van. 
+\begin{figure}[t]
+\includegraphics[width=\textwidth]{img/...}
+\caption{Het witte gebouw is A.H.A.}
+\end{figure}
 
-Ik zat daar op de administratie waar ene Ton chef was, nog een jongen uit Westzaan en Margreet die later een boerderij in Nauerna opende waar ze speelgoed verkocht. 
+Bij de Apotheek Hulp Artsen was er een kantoor (voor de witte boorden), een fabriek (met overalls) en een technische dienst. Het was een pillenfabriek, waar grote machines pillen draaiden. De technische dienst hield dat allemaal aan de gang. Daarnaast was er ook een groothandel in medicijnen. 
 
-\emph{Het witte gebouw is A.H.A.}
+Dit was een periode waarin de `computer' in opkomst kwam. Op het kantoor werd nog gewerkt met een handboekhouding en tegelijkertijd met computerponskaarten voor de administratie. 
 
-Er was een kantoor (witte boorden) en een fabriek (overalls) en een technische dienst. Het was een pillenfabriek, waar grote machines pillen draaiden. De technische dienst hield dat allemaal aan de gang. En er was een groothandel in medicijnen. 
+Toen ik daar werkte werd de eerste sorteermachine geplaatst, een IBM. Een enorm apparaat dat een halve kamer besloeg en in een razend tempo de ponskaarten er doorheen joeg, sorteerde en telde. Je kon te weten komen over je bedrijf wat je maar wilde  door er ponskaarten met gegevens in te stoppen. Ton, de chef, heeft heel wat momenten van paniek en wanhoop meegemaakt. Dan vloog zo’n hele stapel kaarten verkeerde kanten op, of bleven ze haken. Teams van IBM kwamen over de vloer, iedereen blij dat er nog een schaduwboekhouding was. Ik was vooral stil verliefd op alle mooie, al wat oudere dames. Die waren wel aantrekkelijk, maar ook meestal al getrouwd. 
 
-Het was een periode waarin de “computer” in opkomst kwam. Op het kantoor werd nog gewerkt met zeg maar een handboekhouding en tegelijkertijd met computerponskaarten voor de administratie. 
+Co Smit, drummer van beatgroep de Rolling Four waar ik ook een tijdje bij zat, was chauffeur bij de Apotheek Hulp Artsen. We zijn nog eens met de bedrijfswagen een middagje naar Wijk aan Zee geweest. Onderweg naar het strand ben ik vanaf de rand van de bak m’n portemonnee kwijtgeraakt.
 
-Toen ik daar werkte werd de eerste sorteermachine geplaatst. Een IBM. Een enorm apparaat dat een halve kamer besloeg en in een razend tempo de ponskaarten er doorheen joeg, sorteerde en telde. Wat je maar wilde kon je door er ponskaarten met gegevens erin te stoppen, te weten komen over je bedrijf. Ton, (de chef) heeft heel wat momenten van paniek, wanhoop meegemaakt. Dan vloog zo’n hele stapel kaarten verkeerde kanten op, of bleven ze haken. Teams van IBM over de vloer, iedereen blij dat er nog een schaduwboekhouding was. Ik was vooral stil verliefd op alle mooie dames, al wat ouder waren, wel aantrekkelijk, maar ook meestal al getrouwd. 
+Ik kan me nog een moment herinneren, zo rond 1962, dat Co mij op het werk `even wilde spreken'. Een meisje uit Assendelft had laten weten dat ze zwanger was van mij. Ik had wel eens met haar gevreeën na een optreden, maar omdat iedereen dan op je stond te wachten kwam je meestal niet veel verder dan zoenen enzo. Daar raak je niet zwanger van. 
 
-Ik heb nooit enige feeling gehad met boekhouden, maar techniek wel. Zo liep ik weleens bij de technische dienst binnen om eens te kijken wat ze uitvoerden. Het was HTS-niveau, vanwege het machinepark. 
+Ik heb nooit enige \emph{feeling} gehad met boekhouden, maar wel met techniek. Zo liep ik weleens bij de technische dienst binnen om eens te kijken wat ze uitvoerden. Het was HTS-niveau\footnote{? Hogere Technische School - CHECK}, vanwege het machinepark. 
 
-Toen er een vacature kwam, heb ik contact met de chef van die dienst opgenomen en heb ik gesolliciteerd. Toen bleek dat dat niet mogelijk was. Je kon niet van kantoor naar de fabriek gaan, dat voelde als een degradatie voor hen. Exit dus.
-
-Voor de geschiedenis moet evenwel vermeld worden dat ik bij de A.H.A. Co Smit ontmoette die drummer was bij de Rolling Four met zanger/gitarist Koert Groot, Piet van Petten en Luc en Co Smit. Koert woonde in de Oostzijde, daar werd ook gerepeteerd. Op uitnodiging van Co ben ik daar eens wezen kijken. 
-
-Ze speelden top-muziek, goed geluid (zie installatie op de foto). Veel Cliff en The Shadows incl. de danspasjes, maar ook Amerikaanse popmuziek. Ik verving Luc, waarom weet ik niet meer. (Zie voor verdere avonturen De Muziek)
+Toen er bij de technische dienst een vacature kwam, heb ik contact met de chef daar opgenomen en gesolliciteerd. Toen bleek dat dat niet mogelijk was. Je kon niet van kantoor naar de fabriek gaan, dat voelde voor hen als een degradatie. Exit dus.
 
 \chapter{Pieter Schoen} % (fold)
 \label{cha:schoen}
@@ -1704,15 +1917,19 @@ Simon de Wit was een grootgrutter zoals ook Albert Heijn er één was. Ik kwam t
 \chapter{Schoonmaakbedrijf van Heusden} % (fold)
 \label{cha:schoonmaakbedrijf}
 
-Er was meer te verdienen in de schoonmaak. Zo maakte ik kennis met van Heusden Schoonmaakbedrijf. Het bedrijf was nog klein; twee broers en de kinderen, zoals zoon Rob. 
+Er was meer te verdienen in de schoonmaak. Zo maakte ik kennis met van Heusden Schoonmaakbedrijf. Het bedrijf was nog klein. Twee broers en de kinderen, zoals zoon Rob. 
 
-Met Rob begon ik te klussen. Winkels schoonmaken, na sluitingstijd natuurlijk. Maar ook nieuwe huizen schoonmaken voor oplevering. Een speciale klus vond ik die bij Albert Heijn (foto) waar we twee keer p/w de cacaoafdeling in de fabriek schoonmaakten. In die afdeling werden de grote brokken cacao gekraakt wat resulteerde in een cacaolaag op de vloer. Het punt was om die laag los te bikken en af te voeren. Daarna met een spuit met gloeiend heet water schoonspuiten, nog wat schrobben hier en daar. Als laatste de dweilen erover heen en klaar was Kees. Het was er altijd bloedheet vanwege ovens. 
+Met Rob begon ik te klussen. Winkels schoonmaken, na sluitingstijd natuurlijk. Maar ook nieuwe huizen voor oplevering. Een speciale klus vond ik die bij Albert Heijn waar we twee keer per week de cacaoafdeling in de fabriek schoonmaakten. In die afdeling werden de grote brokken cacao gekraakt, wat resulteerde in een cacaolaag op de vloer. Het punt was om die laag los te bikken en af te voeren. Daarna moest je het met een spuit met gloeiend heet water schoonspuiten, nog wat schrobben hier en daar. Als laatste de dweilen eroverheen en klaar was Kees. Het was er altijd bloedheet vanwege de ovens. De man die in die snikhete fabriek de machines bediende was broodmager, werkte in z’n hemd en droop van het zweet.
 
-Jaren later, toen ik een oudere dame interviewde kwam deze episode terug omdat ik plotseling haar overleden man op een foto herkende als de man die de machines in die snikhete fabriek bediende. Hij was broodmager, werkte in z’n hemd en droop van het zweet. Toen ze meer foto’s liet zien herkende ik hem direct en kon ik haar mijn verhaal over hem vertellen.
+\begin{figure}[t]
+\includegraphics[width=\textwidth]{img/...}
+\caption{Albert Heijn}
+\end{figure}
 
-Enfin, we kregen een engagement in Rotterdam en dus nam ik afscheid van de van Heusdens. Ze boden me aan om bij hen te blijven want het klikte wel, maar er zat meer brood in de muziek. Dertig jaar later waren ze marktleider in Noord-Holland en was Rob de directeur; tja.
+Ik afscheid van de van Heusdens toen het begon te lopen met de muziek. We wonnen een concours, hadden een engagement in Rotterdam kregen en een platencontract. We werden beroeps. De Heusdens boden me aan om bij hen te blijven, want het klikte wel, maar er zat meer brood in de muziek. Dertig jaar later waren ze marktleider in Noord-Holland en was Rob de directeur.
 
-Maar toen begon het te lopen met de muziek. We wonnen een concours en kregen een platencontract. We werden beroeps. 
+\chapter{Losse arbeid} % (fold)
+\label{cha:lossearbeid}
 
 
 \chapter{Losse arbeid} % (fold)
