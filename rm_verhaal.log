@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.17)  30 AUG 2016 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.17)  31 AUG 2016 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -38,8 +38,8 @@ Package ifluatex Info: LuaTeX not detected.
 Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
 \et@xins=\count81
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/memoir/mem12.clo
-File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+(/usr/local/texlive/2015/texmf-dist/tex/latex/memoir/mem10.clo
+File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
 )
 \binding=\skip48
 \spinemargin=\skip49
@@ -1257,11 +1257,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \drop=\skip193
 
-(./rm_verhaal.aux
-
-LaTeX Warning: Label `cha:lossearbeid' multiply defined.
-
-)
+(./rm_verhaal.aux)
 \openout1 = `rm_verhaal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 144.
@@ -1293,20 +1289,20 @@ LaTeX Font Info:    ... okay on input line 144.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 36.135pt
 * modes: twoside 
-* h-part:(L,W,R)=(50.29358pt, 293.37508pt, 75.44043pt)
-* v-part:(T,H,B)=(78.5304pt, 458.08736pt, 117.79562pt)
-* \paperwidth=455.24408pt
-* \paperheight=654.41338pt
-* \textwidth=293.37508pt
-* \textheight=458.08736pt
-* \oddsidemargin=14.15858pt
-* \evensidemargin=3.17044pt
-* \topmargin=-28.11339pt
-* \headheight=14.5pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=102.0pt
+* h-part:(L,W,R)=(46.2305pt, 269.67398pt, 69.34576pt)
+* v-part:(T,H,B)=(71.66754pt, 418.05461pt, 107.50134pt)
+* \paperwidth=421.38524pt
+* \paperheight=597.2235pt
+* \textwidth=269.67398pt
+* \textheight=418.05461pt
+* \oddsidemargin=10.0955pt
+* \evensidemargin=-2.92422pt
+* \topmargin=-30.66994pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=128.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=12.0pt plus 4.0pt minus 4.0pt
@@ -1393,7 +1389,7 @@ File: img/titelpagina.pdf Graphic file (type pdf)
 
 <use img/titelpagina.pdf>
 Package pdftex.def Info: img/titelpagina.pdf used on input line 149.
-(pdftex.def)             Requested size: 293.37508pt x 113.80383pt.
+(pdftex.def)             Requested size: 269.67398pt x 104.60982pt.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/t
@@ -1435,774 +1431,687 @@ File: img/ch1/omaJasykofstr.png Graphic file (type png)
 
 <use img/ch1/omaJasykofstr.png>
 Package pdftex.def Info: img/ch1/omaJasykofstr.png used on input line 196.
-(pdftex.def)             Requested size: 293.37508pt x 199.73083pt.
-
-Underfull \vbox (badness 4531) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 269.67398pt x 183.59575pt.
  [5]
 <img/ch1/famMeijns2.png, id=47, 191.7564pt x 158.0304pt>
 File: img/ch1/famMeijns2.png Graphic file (type png)
 
 <use img/ch1/famMeijns2.png>
 Package pdftex.def Info: img/ch1/famMeijns2.png used on input line 205.
-(pdftex.def)             Requested size: 293.37508pt x 241.78328pt.
-
-Underfull \vbox (badness 1478) has occurred while \output is active []
-
- [6 <./img/ch1/omaJasykofstr.png>] [7 <./img/ch1/famMeijns2.png>]
-<img/ch1-afb03.jpg, id=57, 468.75125pt x 365.365pt>
+(pdftex.def)             Requested size: 269.67398pt x 222.24896pt.
+ [6 <./img/ch1/omaJasykofstr.png>]
+<img/ch1-afb03.jpg, id=53, 468.75125pt x 365.365pt>
 File: img/ch1-afb03.jpg Graphic file (type jpg)
  <use img/ch1-afb03.jpg>
 Package pdftex.def Info: img/ch1-afb03.jpg used on input line 218.
-(pdftex.def)             Requested size: 293.37508pt x 228.66476pt.
+(pdftex.def)             Requested size: 269.67398pt x 210.19473pt.
 
-[8 <./img/ch1-afb03.jpg>] <img/ch1/oudnieuw.jpg, id=62, 461.725pt x 353.32pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./img/ch1/famMeijns2.png>]
+Underfull \vbox (badness 3128) has occurred while \output is active []
+
+ [8 <./img/ch1-afb03.jpg>] <img/ch1/oudnieuw.jpg, id=62, 461.725pt x 353.32pt>
 File: img/ch1/oudnieuw.jpg Graphic file (type jpg)
 
 <use img/ch1/oudnieuw.jpg>
 Package pdftex.def Info: img/ch1/oudnieuw.jpg used on input line 227.
-(pdftex.def)             Requested size: 293.37508pt x 224.49588pt.
- [9] [10 <./img/ch1/oudnieuw.jpg>]
+(pdftex.def)             Requested size: 269.67398pt x 206.3598pt.
+ [9 <./img/ch1/oudnieuw.jpg>] [10
+
+]
 <img/ch2/ch2-afb01.jpg, id=70, 778.91pt x 553.06625pt>
 File: img/ch2/ch2-afb01.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb01.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb01.jpg used on input line 241.
-(pdftex.def)             Requested size: 343.5655pt x 243.94907pt.
+(pdftex.def)             Requested size: 313.54095pt x 222.62346pt.
 
 <img/ch2/ch2-afb02.jpg, id=71, 253.94875pt x 171.64125pt>
 File: img/ch2/ch2-afb02.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb02.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb02.jpg used on input line 248.
-(pdftex.def)             Requested size: 251.94943pt x 170.29462pt.
+(pdftex.def)             Requested size: 229.9313pt x 155.41328pt.
 
 <img/ch2/ch2-afb03.jpg, id=72, 783.92876pt x 500.87125pt>
 File: img/ch2/ch2-afb03.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb03.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb03.jpg used on input line 253.
-(pdftex.def)             Requested size: 251.94943pt x 160.97755pt.
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [11
-
-]
-[12 <./img/ch2/ch2-afb01.jpg>] [13 <./img/ch2/ch2-afb02.jpg> <./img/ch2/ch2-afb
-03.jpg>] <img/ch2/ch2-afb04.jpg, id=82, 1216.545pt x 824.07875pt>
+(pdftex.def)             Requested size: 229.9313pt x 146.9074pt.
+ [11] [12 <./img/ch2/ch2-afb01.jpg>] [13 <./img/ch2/ch2-afb02.jpg> <./img/ch2/c
+h2-afb03.jpg>]
+<img/ch2/ch2-afb04.jpg, id=82, 1216.545pt x 824.07875pt>
 File: img/ch2/ch2-afb04.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb04.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb04.jpg used on input line 268.
-(pdftex.def)             Requested size: 293.37508pt x 198.72601pt.
+(pdftex.def)             Requested size: 269.67398pt x 182.66849pt.
 
 <img/ch2/ch2-afb05.jpg, id=83, 642.4pt x 477.785pt>
 File: img/ch2/ch2-afb05.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb05.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb05.jpg used on input line 273.
-(pdftex.def)             Requested size: 293.37508pt x 218.20174pt.
-
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [14]
+(pdftex.def)             Requested size: 269.67398pt x 200.57355pt.
 File: img/ch2/ch2-afb04.jpg Graphic file (type jpg)
-
-<use img/ch2/ch2-afb04.jpg>
+ <use img/ch2/ch2-afb04.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb04.jpg used on input line 282.
-(pdftex.def)             Requested size: 293.37508pt x 198.72601pt.
-
-Underfull \vbox (badness 3907) has occurred while \output is active []
-
- [15 <./img/ch2/ch2-afb04.jpg>] <img/ch2/ch2-afb06.jpg, id=90, 632.3625pt x 404
-.51125pt>
+(pdftex.def)             Requested size: 269.67398pt x 182.66849pt.
+ [14]
+<img/ch2/ch2-afb06.jpg, id=87, 632.3625pt x 404.51125pt>
 File: img/ch2/ch2-afb06.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb06.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb06.jpg used on input line 289.
-(pdftex.def)             Requested size: 293.37508pt x 187.66989pt.
+(pdftex.def)             Requested size: 269.67398pt x 172.50446pt.
 
-<img/ch2/ch2-afb07.png, id=91, 489.32813pt x 184.43906pt>
+<img/ch2/ch2-afb07.png, id=88, 489.32813pt x 184.43906pt>
 File: img/ch2/ch2-afb07.png Graphic file (type png)
 
 <use img/ch2/ch2-afb07.png>
 Package pdftex.def Info: img/ch2/ch2-afb07.png used on input line 296.
-(pdftex.def)             Requested size: 146.68753pt x 55.28992pt.
+(pdftex.def)             Requested size: 134.83699pt x 50.82361pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/ch2/ch2-afb08.jpg, id=92, 619.31375pt x 373.395pt>
+<img/ch2/ch2-afb08.jpg, id=89, 619.31375pt x 373.395pt>
 File: img/ch2/ch2-afb08.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb08.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb08.jpg used on input line 301.
-(pdftex.def)             Requested size: 293.37508pt x 176.88586pt.
+(pdftex.def)             Requested size: 269.67398pt x 162.59644pt.
 
-<img/ch2/ch2-afb09.png, id=93, 292.84406pt x 150.5625pt>
+<img/ch2/ch2-afb09.png, id=90, 292.84406pt x 150.5625pt>
 File: img/ch2/ch2-afb09.png Graphic file (type png)
 
 <use img/ch2/ch2-afb09.png>
 Package pdftex.def Info: img/ch2/ch2-afb09.png used on input line 307.
-(pdftex.def)             Requested size: 146.68753pt x 75.42119pt.
+(pdftex.def)             Requested size: 134.83699pt x 69.3285pt.
 
-<img/ch2/ch2-afb10.png, id=94, 202.50656pt x 106.89937pt>
+<img/ch2/ch2-afb10.png, id=91, 202.50656pt x 106.89937pt>
 File: img/ch2/ch2-afb10.png Graphic file (type png)
 
 <use img/ch2/ch2-afb10.png>
 Package pdftex.def Info: img/ch2/ch2-afb10.png used on input line 312.
-(pdftex.def)             Requested size: 146.68753pt x 77.43561pt.
-
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
- [16 <./img/ch2/ch2-afb05.jpg>] <img/ch2/ch2-afb11.jpg, id=99, 378.41376pt x 23
-6.885pt>
+(pdftex.def)             Requested size: 134.83699pt x 71.17851pt.
+ [15 <./img/ch2/ch2-afb04.jpg>]
+<img/ch2/ch2-afb11.jpg, id=95, 378.41376pt x 236.885pt>
 File: img/ch2/ch2-afb11.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb11.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb11.jpg used on input line 321.
-(pdftex.def)             Requested size: 293.37508pt x 183.65265pt.
+(pdftex.def)             Requested size: 269.67398pt x 168.81483pt.
 
-<img/ch2/ch2-afb12.png, id=100, 230.3004pt x 151.767pt>
+<img/ch2/ch2-afb12.png, id=96, 230.3004pt x 151.767pt>
 File: img/ch2/ch2-afb12.png Graphic file (type png)
 
 <use img/ch2/ch2-afb12.png>
 Package pdftex.def Info: img/ch2/ch2-afb12.png used on input line 326.
-(pdftex.def)             Requested size: 293.37508pt x 193.34634pt.
+(pdftex.def)             Requested size: 269.67398pt x 177.72644pt.
 
-<img/ch2/ch2-afb13.jpg, id=101, 624.3325pt x 382.42876pt>
+<img/ch2/ch2-afb13.jpg, id=97, 624.3325pt x 382.42876pt>
 File: img/ch2/ch2-afb13.jpg Graphic file (type jpg)
 
 <use img/ch2/ch2-afb13.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb13.jpg used on input line 331.
-(pdftex.def)             Requested size: 293.37508pt x 179.70651pt.
+(pdftex.def)             Requested size: 269.67398pt x 165.18808pt.
 File: img/ch2/ch2-afb13.jpg Graphic file (type jpg)
  <use img/ch2/ch2-afb13.jpg>
 Package pdftex.def Info: img/ch2/ch2-afb13.jpg used on input line 336.
-(pdftex.def)             Requested size: 293.37508pt x 179.70651pt.
- [17] [18 <./img/ch2/ch2-afb06.jpg> <./img/ch2/ch2-afb07.png>] [19 <./img/ch2/c
-h2-afb08.jpg> <./img/ch2/ch2-afb09.png> <./img/ch2/ch2-afb10.png>] [20 <./img/c
-h2/ch2-afb11.jpg>]
-[21 <./img/ch2/ch2-afb12.png>] [22 <./img/ch2/ch2-afb13.jpg>]
+(pdftex.def)             Requested size: 269.67398pt x 165.18808pt.
+ [16 <./img/ch2/ch2-afb05.jpg>] [17] [18 <./img/ch2/ch2-afb06.jpg> <./img/ch2/c
+h2-afb07.png>] [19 <./img/ch2/ch2-afb08.jpg> <./img/ch2/ch2-afb09.png> <./img/c
+h2/ch2-afb10.png>]
+[20 <./img/ch2/ch2-afb11.jpg>] [21 <./img/ch2/ch2-afb12.png> <./img/ch2/ch2-afb
+13.jpg>] [22]
 <img/ch3/Vermaningspad1910.jpg, id=123, 239.89626pt x 150.5625pt>
 File: img/ch3/Vermaningspad1910.jpg Graphic file (type jpg)
 
 <use img/ch3/Vermaningspad1910.jpg>
 Package pdftex.def Info: img/ch3/Vermaningspad1910.jpg used on input line 348.
-(pdftex.def)             Requested size: 293.37508pt x 184.14084pt.
+(pdftex.def)             Requested size: 269.67398pt x 169.26521pt.
 
 <img/ch3/familie.jpeg, id=124, 795.97375pt x 516.93124pt>
 File: img/ch3/familie.jpeg Graphic file (type jpg)
 
 <use img/ch3/familie.jpeg>
 Package pdftex.def Info: img/ch3/familie.jpeg used on input line 353.
-(pdftex.def)             Requested size: 293.37508pt x 190.528pt.
- [23
+(pdftex.def)             Requested size: 269.67398pt x 175.13116pt.
 
-]
-<img/ch3/opoekriek.png, id=128, 157.0668pt x 153.6942pt>
+<img/ch3/opoekriek.png, id=125, 157.0668pt x 153.6942pt>
 File: img/ch3/opoekriek.png Graphic file (type png)
 
 <use img/ch3/opoekriek.png>
 Package pdftex.def Info: img/ch3/opoekriek.png used on input line 370.
-(pdftex.def)             Requested size: 293.37508pt x 287.08067pt.
+(pdftex.def)             Requested size: 269.67398pt x 263.88918pt.
 
-<img/ch3/opakriek2.jpg, id=129, 473.77pt x 297.11pt>
+<img/ch3/opakriek2.jpg, id=126, 473.77pt x 297.11pt>
 File: img/ch3/opakriek2.jpg Graphic file (type jpg)
 
 <use img/ch3/opakriek2.jpg>
 Package pdftex.def Info: img/ch3/opakriek2.jpg used on input line 375.
-(pdftex.def)             Requested size: 293.37508pt x 183.98415pt.
- [24 <./img/ch3/Vermaningspad1910.jpg>]
+(pdftex.def)             Requested size: 269.67398pt x 169.12325pt.
+ [23
+
+] [24 <./img/ch3/Vermaningspad1910.jpg> <./img/ch3/familie.jpeg>]
 <img/ch3/Louiscorfransfred.jpg, id=133, 318.18875pt x 316.18124pt>
 File: img/ch3/Louiscorfransfred.jpg Graphic file (type jpg)
 
 <use img/ch3/Louiscorfransfred.jpg>
 Package pdftex.def Info: img/ch3/Louiscorfransfred.jpg used on input line 384.
-(pdftex.def)             Requested size: 293.37508pt x 291.52228pt.
+(pdftex.def)             Requested size: 269.67398pt x 267.96892pt.
 
-<img/ch3/indebakfiets.jpg, id=134, 472.76625pt x 318.18875pt>
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+ [25 <./img/ch3/opoekriek.png>]
+<img/ch3/indebakfiets.jpg, id=138, 472.76625pt x 318.18875pt>
 File: img/ch3/indebakfiets.jpg Graphic file (type jpg)
 
 <use img/ch3/indebakfiets.jpg>
 Package pdftex.def Info: img/ch3/indebakfiets.jpg used on input line 393.
-(pdftex.def)             Requested size: 293.37508pt x 197.45462pt.
- [25 <./img/ch3/familie.jpeg>]
-<img/ch3/opbezoek.jpg, id=138, 329.23pt x 316.18124pt>
+(pdftex.def)             Requested size: 269.67398pt x 181.5054pt.
+
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [26 <./img/ch3/opakriek2.jpg>] <img/ch3/opbezoek.jpg, id=142, 329.23pt x 316.1
+8124pt>
 File: img/ch3/opbezoek.jpg Graphic file (type jpg)
 
 <use img/ch3/opbezoek.jpg>
 Package pdftex.def Info: img/ch3/opbezoek.jpg used on input line 402.
-(pdftex.def)             Requested size: 293.37508pt x 281.75261pt.
- [26 <./img/ch3/opoekriek.png>]
-<img/ch3/vandebios.jpg, id=143, 265.99374pt x 398.48875pt>
+(pdftex.def)             Requested size: 269.67398pt x 258.99046pt.
+ [27 <./img/ch3/Louiscorfransfred.jpg>]
+<img/ch3/vandebios.jpg, id=146, 265.99374pt x 398.48875pt>
 File: img/ch3/vandebios.jpg Graphic file (type jpg)
 
 <use img/ch3/vandebios.jpg>
 Package pdftex.def Info: img/ch3/vandebios.jpg used on input line 413.
-(pdftex.def)             Requested size: 293.37508pt x 439.54898pt.
+(pdftex.def)             Requested size: 269.67398pt x 404.03313pt.
 
 
-LaTeX Warning: Float too large for page by 19.78676pt on input line 415.
+LaTeX Warning: Float too large for page by 18.80362pt on input line 415.
 
-<img/ch3/opoe82jr.png, id=144, 275.5896pt x 187.4202pt>
+<img/ch3/opoe82jr.png, id=147, 275.5896pt x 187.4202pt>
 File: img/ch3/opoe82jr.png Graphic file (type png)
 
 <use img/ch3/opoe82jr.png>
 Package pdftex.def Info: img/ch3/opoe82jr.png used on input line 418.
-(pdftex.def)             Requested size: 293.37508pt x 199.53384pt.
+(pdftex.def)             Requested size: 269.67398pt x 183.41315pt.
 
-<img/ch3/Zussen.png, id=145, 226.9278pt x 155.6214pt>
+<img/ch3/Zussen.png, id=148, 226.9278pt x 155.6214pt>
 File: img/ch3/Zussen.png Graphic file (type png)
  <use img/ch3/Zussen.png>
 Package pdftex.def Info: img/ch3/Zussen.png used on input line 423.
-(pdftex.def)             Requested size: 293.37508pt x 201.20596pt.
+(pdftex.def)             Requested size: 269.67398pt x 184.9519pt.
 
-[27 <./img/ch3/opakriek2.jpg>] [28 <./img/ch3/Louiscorfransfred.jpg>] [29 <./im
-g/ch3/indebakfiets.jpg>] [30 <./img/ch3/opbezoek.jpg>] [31 <./img/ch3/vandebios
-.jpg>] [32 <./img/ch3/opoe82jr.png>] [33 <./img/ch3/Zussen.png>] [34
-
-]
-<img/ch4/ouders1.png, id=174, 300.12125pt x 414.54875pt>
+[28 <./img/ch3/indebakfiets.jpg>] [29 <./img/ch3/opbezoek.jpg>] [30 <./img/ch3/
+vandebios.jpg>] [31 <./img/ch3/opoe82jr.png>] [32 <./img/ch3/Zussen.png>]
+<img/ch4/ouders1.png, id=167, 300.12125pt x 414.54875pt>
 File: img/ch4/ouders1.png Graphic file (type png)
 
 <use img/ch4/ouders1.png>
 Package pdftex.def Info: img/ch4/ouders1.png used on input line 433.
-(pdftex.def)             Requested size: 293.37508pt x 405.26189pt.
+(pdftex.def)             Requested size: 269.67398pt x 372.52112pt.
 
-<img/ch4/ouders2.png, id=175, 312.16624pt x 502.87875pt>
+<img/ch4/ouders2.png, id=168, 312.16624pt x 502.87875pt>
 File: img/ch4/ouders2.png Graphic file (type png)
 
 <use img/ch4/ouders2.png>
 Package pdftex.def Info: img/ch4/ouders2.png used on input line 438.
-(pdftex.def)             Requested size: 293.37508pt x 472.61401pt.
+(pdftex.def)             Requested size: 269.67398pt x 434.43933pt.
 
 
-LaTeX Warning: Float too large for page by 39.65172pt on input line 440.
+LaTeX Warning: Float too large for page by 38.75977pt on input line 440.
 
-[35] [36 <./img/ch4/ouders1.png>] [37 <./img/ch4/ouders2.png>] [38
+[33
+
+] [34 <./img/ch4/ouders1.png>] [35 <./img/ch4/ouders2.png>] [36
 
 ]
-<img/ch5/rosmolen2.png, id=190, 331.2375pt x 115.43124pt>
+<img/ch5/rosmolen2.png, id=184, 331.2375pt x 115.43124pt>
 File: img/ch5/rosmolen2.png Graphic file (type png)
 
 <use img/ch5/rosmolen2.png>
 Package pdftex.def Info: img/ch5/rosmolen2.png used on input line 447.
-(pdftex.def)             Requested size: 293.37508pt x 102.24207pt.
- [39 <./img/ch5/rosmolen2.png>]
-<img/ch5/Rosmstraat3.png, id=195, 233.1912pt x 154.176pt>
+(pdftex.def)             Requested size: 269.67398pt x 93.98138pt.
+ [37 <./img/ch5/rosmolen2.png>]
+<img/ch5/Rosmstraat3.png, id=189, 233.1912pt x 154.176pt>
 File: img/ch5/Rosmstraat3.png Graphic file (type png)
 
 <use img/ch5/Rosmstraat3.png>
 Package pdftex.def Info: img/ch5/Rosmstraat3.png used on input line 462.
-(pdftex.def)             Requested size: 293.37508pt x 193.96869pt.
- [40]
-<img/ch5/RuudHarry2.jpg, id=200, 439.6425pt x 752.8125pt>
+(pdftex.def)             Requested size: 269.67398pt x 178.29846pt.
+ [38 <./img/ch5/Rosmstraat3.png>]
+<img/ch5/RuudHarry2.jpg, id=194, 439.6425pt x 752.8125pt>
 File: img/ch5/RuudHarry2.jpg Graphic file (type jpg)
 
 <use img/ch5/RuudHarry2.jpg>
 Package pdftex.def Info: img/ch5/RuudHarry2.jpg used on input line 471.
-(pdftex.def)             Requested size: 293.37508pt x 502.37154pt.
+(pdftex.def)             Requested size: 269.67398pt x 461.77655pt.
 
 
-LaTeX Warning: Float too large for page by 69.40924pt on input line 473.
+LaTeX Warning: Float too large for page by 66.09698pt on input line 473.
 
-
-Underfull \hbox (badness 1178) in paragraph at lines 477--478
-[]\T1/jkp/m/n/12 (+20) Pa had het kip-pen-hok ge-bouwd voor z'n baas,
- []
-
-<img/ch5/kippenhok.png, id=201, 199.4652pt x 226.446pt>
+<img/ch5/kippenhok.png, id=195, 199.4652pt x 226.446pt>
 File: img/ch5/kippenhok.png Graphic file (type png)
 
 <use img/ch5/kippenhok.png>
 Package pdftex.def Info: img/ch5/kippenhok.png used on input line 480.
-(pdftex.def)             Requested size: 293.37508pt x 333.1031pt.
+(pdftex.def)             Requested size: 269.67398pt x 306.19336pt.
 
-Underfull \vbox (badness 5908) has occurred while \output is active []
-
- [41 <./img/ch5/Rosmstraat3.png>] [42 <./img/ch5/RuudHarry2.jpg>] [43 <./img/ch
-5/kippenhok.png>] <img/ch5/zaanselftal-2.jpg, id=213, 590.205pt x 392.46625pt>
+<img/ch5/zaanselftal-2.jpg, id=196, 590.205pt x 392.46625pt>
 File: img/ch5/zaanselftal-2.jpg Graphic file (type jpg)
 
 <use img/ch5/zaanselftal-2.jpg>
 Package pdftex.def Info: img/ch5/zaanselftal-2.jpg used on input line 487.
-(pdftex.def)             Requested size: 293.37508pt x 195.08882pt.
+(pdftex.def)             Requested size: 269.67398pt x 179.32697pt.
 
-<img/ch5/peterme.jpg, id=214, 283.0575pt x 429.605pt>
+<img/ch5/peterme.jpg, id=197, 283.0575pt x 429.605pt>
 File: img/ch5/peterme.jpg Graphic file (type jpg)
 
 <use img/ch5/peterme.jpg>
 Package pdftex.def Info: img/ch5/peterme.jpg used on input line 492.
-(pdftex.def)             Requested size: 293.37508pt x 445.30373pt.
+(pdftex.def)             Requested size: 269.67398pt x 409.3286pt.
 
 
-LaTeX Warning: Float too large for page by 25.5415pt on input line 494.
+LaTeX Warning: Float too large for page by 24.09909pt on input line 494.
 
-[44 <./img/ch5/zaanselftal-2.jpg>] [45 <./img/ch5/peterme.jpg>]
-<img/ch5/indetuin.jpeg, id=221, 176.8206pt x 151.767pt>
+[39] [40 <./img/ch5/RuudHarry2.jpg>] [41 <./img/ch5/kippenhok.png>]
+<img/ch5/indetuin.jpeg, id=208, 176.8206pt x 151.767pt>
 File: img/ch5/indetuin.jpeg Graphic file (type jpg)
 
 <use img/ch5/indetuin.jpeg>
 Package pdftex.def Info: img/ch5/indetuin.jpeg used on input line 507.
-(pdftex.def)             Requested size: 293.37508pt x 251.81734pt.
-
-<img/ch5/Bakkum2.png, id=222, 235.6002pt x 154.176pt>
+(pdftex.def)             Requested size: 269.67398pt x 231.47327pt.
+ [42 <./img/ch5/zaanselftal-2.jpg>] [43 <./img/ch5/peterme.jpg>] [44 <./img/ch5
+/indetuin.jpeg>]
+<img/ch5/Bakkum2.png, id=219, 235.6002pt x 154.176pt>
 File: img/ch5/Bakkum2.png Graphic file (type png)
 
 <use img/ch5/Bakkum2.png>
 Package pdftex.def Info: img/ch5/Bakkum2.png used on input line 518.
-(pdftex.def)             Requested size: 293.37508pt x 191.98785pt.
-
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [46]
-<img/ch5/cpn.jpg, id=227, 213.79875pt x 301.125pt>
+(pdftex.def)             Requested size: 269.67398pt x 176.4776pt.
+ <img/ch5/cpn.jpg, id=220, 213.79875pt x 301.125pt>
 File: img/ch5/cpn.jpg Graphic file (type jpg)
- <use img/ch5/cpn.jpg>
-Package pdftex.def Info: img/ch5/cpn.jpg used on input line 525.
-(pdftex.def)             Requested size: 293.37508pt x 413.23256pt.
 
-[47 <./img/ch5/indetuin.jpeg>]
-<img/ch5/vanharte.jpeg, id=231, 215.3646pt x 140.2038pt>
+<use img/ch5/cpn.jpg>
+Package pdftex.def Info: img/ch5/cpn.jpg used on input line 525.
+(pdftex.def)             Requested size: 269.67398pt x 379.8514pt.
+ [45 <./img/ch5/Bakkum2.png>] [46 <./img/ch5/cpn.jpg>]
+<img/ch5/vanharte.jpeg, id=229, 215.3646pt x 140.2038pt>
 File: img/ch5/vanharte.jpeg Graphic file (type jpg)
 
 <use img/ch5/vanharte.jpeg>
 Package pdftex.def Info: img/ch5/vanharte.jpeg used on input line 539.
-(pdftex.def)             Requested size: 293.37508pt x 191.00623pt.
- [48 <./img/ch5/Bakkum2.png>] [49 <./img/ch5/cpn.jpg>] [50 <./img/ch5/vanharte.
-jpeg>]
-<img/ch5/1950s.png, id=242, 240.9pt x 368.37625pt>
+(pdftex.def)             Requested size: 269.67398pt x 175.5752pt.
+ [47 <./img/ch5/vanharte.jpeg>]
+<img/ch5/1950s.png, id=233, 240.9pt x 368.37625pt>
 File: img/ch5/1950s.png Graphic file (type png)
  <use img/ch5/1950s.png>
 Package pdftex.def Info: img/ch5/1950s.png used on input line 554.
-(pdftex.def)             Requested size: 293.37508pt x 448.65952pt.
+(pdftex.def)             Requested size: 269.67398pt x 412.41556pt.
 
 
-LaTeX Warning: Float too large for page by 15.69722pt on input line 556.
+LaTeX Warning: Float too large for page by 16.736pt on input line 556.
 
 
-Underfull \vbox (badness 1067) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+[]\T1/jkp/m/n/10 (+20) Tante Hanny met de Ver-re-kij-ker waarin wetens-
+ []
 
- [51]
-[52 <./img/ch5/1950s.png>]
-<img/ch5/schillenboer.jpeg, id=251, 487.8225pt x 290.08376pt>
+[48] [49 <./img/ch5/1950s.png>]
+<img/ch5/schillenboer.jpeg, id=241, 487.8225pt x 290.08376pt>
 File: img/ch5/schillenboer.jpeg Graphic file (type jpg)
 
 <use img/ch5/schillenboer.jpeg>
 Package pdftex.def Info: img/ch5/schillenboer.jpeg used on input line 577.
-(pdftex.def)             Requested size: 293.37508pt x 174.45438pt.
- [53 <./img/ch5/schillenboer.jpeg>]
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [54]
-<img/ch5/Spar-Poortstr.jpg, id=258, 211.79124pt x 136.51pt>
+(pdftex.def)             Requested size: 269.67398pt x 160.361pt.
+ [50 <./img/ch5/schillenboer.jpeg>]
+<img/ch5/Spar-Poortstr.jpg, id=245, 211.79124pt x 136.51pt>
 File: img/ch5/Spar-Poortstr.jpg Graphic file (type jpg)
 
 <use img/ch5/Spar-Poortstr.jpg>
 Package pdftex.def Info: img/ch5/Spar-Poortstr.jpg used on input line 593.
-(pdftex.def)             Requested size: 293.37508pt x 189.10262pt.
+(pdftex.def)             Requested size: 269.67398pt x 173.82402pt.
 
-<img/ch5/poortstrsteeg.jpeg, id=259, 223.0734pt x 227.8914pt>
+<img/ch5/poortstrsteeg.jpeg, id=246, 223.0734pt x 227.8914pt>
 File: img/ch5/poortstrsteeg.jpeg Graphic file (type jpg)
 
 <use img/ch5/poortstrsteeg.jpeg>
 Package pdftex.def Info: img/ch5/poortstrsteeg.jpeg used on input line 598.
-(pdftex.def)             Requested size: 293.37508pt x 299.72221pt.
- [55 <./img/ch5/Spar-Poortstr.jpg>] [56 <./img/ch5/poortstrsteeg.jpeg>] <img/ch
-5/gn0102.png, id=266, 297.11pt x 146.5475pt>
+(pdftex.def)             Requested size: 269.67398pt x 275.5095pt.
+ [51]
+<img/ch5/gn0102.png, id=250, 297.11pt x 146.5475pt>
 File: img/ch5/gn0102.png Graphic file (type png)
-
-<use img/ch5/gn0102.png>
+ <use img/ch5/gn0102.png>
 Package pdftex.def Info: img/ch5/gn0102.png used on input line 609.
-(pdftex.def)             Requested size: 293.37508pt x 144.71124pt.
+(pdftex.def)             Requested size: 269.67398pt x 133.02075pt.
 
-<img/ch5/trouwengn.png, id=267, 153.738pt x 238.491pt>
+<img/ch5/trouwengn.png, id=251, 153.738pt x 238.491pt>
 File: img/ch5/trouwengn.png Graphic file (type png)
 
 <use img/ch5/trouwengn.png>
 Package pdftex.def Info: img/ch5/trouwengn.png used on input line 618.
-(pdftex.def)             Requested size: 293.37508pt x 455.1609pt.
+(pdftex.def)             Requested size: 269.67398pt x 418.3917pt.
 
 
-LaTeX Warning: Float too large for page by 35.39868pt on input line 620.
+LaTeX Warning: Float too large for page by 33.16219pt on input line 620.
 
-[57 <./img/ch5/gn0102.png>] [58 <./img/ch5/trouwengn.png>]
-<img/ch5/gevonden_0009.jpeg, id=277, 480.79625pt x 305.14pt>
+[52 <./img/ch5/Spar-Poortstr.jpg>] [53 <./img/ch5/poortstrsteeg.jpeg>]
+<img/ch5/gevonden_0009.jpeg, id=259, 480.79625pt x 305.14pt>
 File: img/ch5/gevonden_0009.jpeg Graphic file (type jpg)
 
 <use img/ch5/gevonden_0009.jpeg>
 Package pdftex.def Info: img/ch5/gevonden_0009.jpeg used on input line 627.
-(pdftex.def)             Requested size: 293.37508pt x 186.19565pt.
- [59 <./img/ch5/gevonden_0009.jpeg>]
-<img/ch5/ComedyCapers.jpg, id=281, 401.5pt x 265.99374pt>
+(pdftex.def)             Requested size: 269.67398pt x 171.15193pt.
+ [54 <./img/ch5/gn0102.png>] [55 <./img/ch5/trouwengn.png>] <img/ch5/ComedyCape
+rs.jpg, id=268, 401.5pt x 265.99374pt>
 File: img/ch5/ComedyCapers.jpg Graphic file (type jpg)
 
 <use img/ch5/ComedyCapers.jpg>
 Package pdftex.def Info: img/ch5/ComedyCapers.jpg used on input line 638.
-(pdftex.def)             Requested size: 293.37508pt x 194.37268pt.
-
-Underfull \vbox (badness 5460) has occurred while \output is active []
-
- [60 <./img/ch5/ComedyCapers.jpg>] <img/ch5/apollo.jpg, id=285, 606.265pt x 378
-.41376pt>
+(pdftex.def)             Requested size: 269.67398pt x 178.66945pt.
+ [56 <./img/ch5/gevonden_0009.jpeg>]
+<img/ch5/apollo.jpg, id=272, 606.265pt x 378.41376pt>
 File: img/ch5/apollo.jpg Graphic file (type jpg)
-
-<use img/ch5/apollo.jpg>
+ <use img/ch5/apollo.jpg>
 Package pdftex.def Info: img/ch5/apollo.jpg used on input line 647.
-(pdftex.def)             Requested size: 293.37508pt x 183.12048pt.
- [61 <./img/ch5/apollo.jpg>] [62
+(pdftex.def)             Requested size: 269.67398pt x 168.32141pt.
 
-]
-<img/ch6/Frobelschool.jpg, id=292, 331.2375pt x 206.7725pt>
+[57 <./img/ch5/ComedyCapers.jpg>] [58 <./img/ch5/apollo.jpg>]
+<img/ch6/Frobelschool.jpg, id=280, 331.2375pt x 206.7725pt>
 File: img/ch6/Frobelschool.jpg Graphic file (type jpg)
 
 <use img/ch6/Frobelschool.jpg>
 Package pdftex.def Info: img/ch6/Frobelschool.jpg used on input line 657.
-(pdftex.def)             Requested size: 293.37508pt x 183.14667pt.
+(pdftex.def)             Requested size: 269.67398pt x 168.34929pt.
 
-<img/ch6/klschool53.jpg, id=293, 1013.7875pt x 651.43375pt>
+<img/ch6/klschool53.jpg, id=281, 1013.7875pt x 651.43375pt>
 File: img/ch6/klschool53.jpg Graphic file (type jpg)
 
 <use img/ch6/klschool53.jpg>
 Package pdftex.def Info: img/ch6/klschool53.jpg used on input line 664.
-(pdftex.def)             Requested size: 293.37508pt x 188.51334pt.
- [63 <./img/ch6/Frobelschool.jpg>]
-<img/ch6/kleuterschool2.jpg, id=297, 1011.78pt x 664.4825pt>
+(pdftex.def)             Requested size: 269.67398pt x 173.28516pt.
+
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+ [59
+
+ <./img/ch6/Frobelschool.jpg>]
+<img/ch6/kleuterschool2.jpg, id=285, 1011.78pt x 664.4825pt>
 File: img/ch6/kleuterschool2.jpg Graphic file (type jpg)
 
 <use img/ch6/kleuterschool2.jpg>
 Package pdftex.def Info: img/ch6/kleuterschool2.jpg used on input line 674.
-(pdftex.def)             Requested size: 293.37508pt x 192.6747pt.
- [64 <./img/ch6/klschool53.jpg>] [65 <./img/ch6/kleuterschool2.jpg>] [66
+(pdftex.def)             Requested size: 269.67398pt x 177.11107pt.
+ [60 <./img/ch6/klschool53.jpg>] [61 <./img/ch6/kleuterschool2.jpg>] [62
 
-]
-Underfull \vbox (badness 4531) has occurred while \output is active []
-
- [67]
-<img/ch7/Bouwmeesterstraat.jpg, id=311, 612.2875pt x 391.4625pt>
+] [63]
+<img/ch7/Bouwmeesterstraat.jpg, id=298, 612.2875pt x 391.4625pt>
 File: img/ch7/Bouwmeesterstraat.jpg Graphic file (type jpg)
 
 <use img/ch7/Bouwmeesterstraat.jpg>
 Package pdftex.def Info: img/ch7/Bouwmeesterstraat.jpg used on input line 692.
-(pdftex.def)             Requested size: 293.37508pt x 187.56535pt.
-
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [68]
-<img/ch7/alzn.jpg, id=315, 323.2075pt x 275.0275pt>
+(pdftex.def)             Requested size: 269.67398pt x 172.41127pt.
+ [64 <./img/ch7/Bouwmeesterstraat.jpg>]
+<img/ch7/alzn.jpg, id=303, 323.2075pt x 275.0275pt>
 File: img/ch7/alzn.jpg Graphic file (type jpg)
  <use img/ch7/alzn.jpg>
 Package pdftex.def Info: img/ch7/alzn.jpg used on input line 703.
-(pdftex.def)             Requested size: 293.37508pt x 249.65431pt.
+(pdftex.def)             Requested size: 269.67398pt x 229.48557pt.
 
-[69 <./img/ch7/Bouwmeesterstraat.jpg>]
-Underfull \vbox (badness 1721) has occurred while \output is active []
-
- [70 <./img/ch7/alzn.jpg>] [71] [72
-
-]
-<img/ch8/langelaar1966.jpg, id=329, 240.9pt x 168.63pt>
+[65 <./img/ch7/alzn.jpg>] [66]
+<img/ch8/langelaar1966.jpg, id=310, 240.9pt x 168.63pt>
 File: img/ch8/langelaar1966.jpg Graphic file (type jpg)
 
 <use img/ch8/langelaar1966.jpg>
 Package pdftex.def Info: img/ch8/langelaar1966.jpg used on input line 727.
-(pdftex.def)             Requested size: 293.37508pt x 205.38092pt.
- [73]
-Underfull \hbox (badness 1158) in paragraph at lines 739--740
-[]\T1/jkp/m/n/12 (+20) De vod-den-man, een klein ge-dron-gen man-ne-tje,
- []
+(pdftex.def)             Requested size: 269.67398pt x 188.78967pt.
+ [67
 
-[74 <./img/ch8/langelaar1966.jpg>]
-<img/ch8/Tempo.jpg, id=336, 191.71625pt x 241.90375pt>
+] [68 <./img/ch8/langelaar1966.jpg>]
+<img/ch8/Tempo.jpg, id=317, 191.71625pt x 241.90375pt>
 File: img/ch8/Tempo.jpg Graphic file (type jpg)
  <use img/ch8/Tempo.jpg>
 Package pdftex.def Info: img/ch8/Tempo.jpg used on input line 748.
-(pdftex.def)             Requested size: 293.37508pt x 370.22595pt.
+(pdftex.def)             Requested size: 269.67398pt x 340.31656pt.
 
-[75] [76 <./img/ch8/Tempo.jpg>]
-<img/ch9/luilak1954.jpg, id=344, 243.91125pt x 180.675pt>
+[69] [70 <./img/ch8/Tempo.jpg>]
+<img/ch9/luilak1954.jpg, id=325, 243.91125pt x 180.675pt>
 File: img/ch9/luilak1954.jpg Graphic file (type jpg)
 
 <use img/ch9/luilak1954.jpg>
 Package pdftex.def Info: img/ch9/luilak1954.jpg used on input line 760.
-(pdftex.def)             Requested size: 293.37508pt x 217.31616pt.
- [77
+(pdftex.def)             Requested size: 269.67398pt x 199.76038pt.
+ [71
 
-] [78 <./img/ch9/luilak1954.jpg>]
-<img/ch9/politburo.jpg, id=351, 573.14125pt x 393.47pt>
+]
+<img/ch9/politburo.jpg, id=329, 573.14125pt x 393.47pt>
 File: img/ch9/politburo.jpg Graphic file (type jpg)
 
 <use img/ch9/politburo.jpg>
 Package pdftex.def Info: img/ch9/politburo.jpg used on input line 777.
-(pdftex.def)             Requested size: 293.37508pt x 201.41151pt.
- [79 <./img/ch9/politburo.jpg>] [80]
-<img/ch10/rolstoel.jpg, id=358, 466.74374pt x 352.31625pt>
+(pdftex.def)             Requested size: 269.67398pt x 185.13504pt.
+ [72 <./img/ch9/luilak1954.jpg>] [73 <./img/ch9/politburo.jpg>] [74
+
+] <img/ch10/rolstoel.jpg, id=339, 466.74374pt x 352.31625pt>
 File: img/ch10/rolstoel.jpg Graphic file (type jpg)
 
 <use img/ch10/rolstoel.jpg>
 Package pdftex.def Info: img/ch10/rolstoel.jpg used on input line 793.
-(pdftex.def)             Requested size: 293.37508pt x 221.46045pt.
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [81
-
-]
-[82 <./img/ch10/rolstoel.jpg>]
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [83
-
-]
-<img/ch11/image.png, id=369, 241.90375pt x 179.67125pt>
+(pdftex.def)             Requested size: 269.67398pt x 203.56943pt.
+ [75] [76 <./img/ch10/rolstoel.jpg>]
+<img/ch11/image.png, id=347, 241.90375pt x 179.67125pt>
 File: img/ch11/image.png Graphic file (type png)
 
 <use img/ch11/image.png>
 Package pdftex.def Info: img/ch11/image.png used on input line 821.
-(pdftex.def)             Requested size: 293.37508pt x 217.92375pt.
- [84 <./img/ch11/image.png>]
-<img/ch11/zfc.jpg, id=374, 220.825pt x 163.61125pt>
+(pdftex.def)             Requested size: 269.67398pt x 200.3202pt.
+ [77
+
+]
+<img/ch11/zfc.jpg, id=351, 220.825pt x 163.61125pt>
 File: img/ch11/zfc.jpg Graphic file (type jpg)
  <use img/ch11/zfc.jpg>
 Package pdftex.def Info: img/ch11/zfc.jpg used on input line 830.
-(pdftex.def)             Requested size: 293.37508pt x 217.37553pt.
+(pdftex.def)             Requested size: 269.67398pt x 199.81262pt.
 
-[85 <./img/ch11/zfc.jpg>]
-<img/ch11/wilhelminaschool.jpg, id=378, 243.91125pt x 177.66376pt>
+[78 <./img/ch11/image.png>] [79 <./img/ch11/zfc.jpg>]
+<img/ch11/wilhelminaschool.jpg, id=359, 243.91125pt x 177.66376pt>
 File: img/ch11/wilhelminaschool.jpg Graphic file (type jpg)
 
 <use img/ch11/wilhelminaschool.jpg>
 Package pdftex.def Info: img/ch11/wilhelminaschool.jpg used on input line 843.
-(pdftex.def)             Requested size: 293.37508pt x 213.69424pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86]
-<img/ch11/sportbad.jpg, id=382, 250.9375pt x 177.66376pt>
+(pdftex.def)             Requested size: 269.67398pt x 196.43106pt.
+ [80 <./img/ch11/wilhelminaschool.jpg>]
+<img/ch11/sportbad.jpg, id=363, 250.9375pt x 177.66376pt>
 File: img/ch11/sportbad.jpg Graphic file (type jpg)
 
 <use img/ch11/sportbad.jpg>
 Package pdftex.def Info: img/ch11/sportbad.jpg used on input line 854.
-(pdftex.def)             Requested size: 293.37508pt x 207.73291pt.
- [87 <./img/ch11/wilhelminaschool.jpg>]
-Underfull \vbox (badness 1062) has occurred while \output is active []
+(pdftex.def)             Requested size: 269.67398pt x 190.95227pt.
 
- [88 <./img/ch11/sportbad.jpg>] [89] [90
+Underfull \vbox (badness 1484) has occurred while \output is active []
 
-]
-<img/ch12/zkhuis2.jpg, id=396, 215.80624pt x 138.5175pt>
+ [81 <./img/ch11/sportbad.jpg>] [82]
+<img/ch12/zkhuis2.jpg, id=371, 215.80624pt x 138.5175pt>
 File: img/ch12/zkhuis2.jpg Graphic file (type jpg)
 
 <use img/ch12/zkhuis2.jpg>
 Package pdftex.def Info: img/ch12/zkhuis2.jpg used on input line 878.
-(pdftex.def)             Requested size: 293.37508pt x 188.32634pt.
+(pdftex.def)             Requested size: 269.67398pt x 173.11261pt.
 
-<img/ch12/knikker.jpg, id=397, 250.9375pt x 193.72375pt>
+<img/ch12/knikker.jpg, id=372, 250.9375pt x 193.72375pt>
 File: img/ch12/knikker.jpg Graphic file (type jpg)
 
 <use img/ch12/knikker.jpg>
 Package pdftex.def Info: img/ch12/knikker.jpg used on input line 885.
-(pdftex.def)             Requested size: 293.37508pt x 226.51102pt.
+(pdftex.def)             Requested size: 269.67398pt x 208.21349pt.
+ [83
 
-Underfull \vbox (badness 4531) has occurred while \output is active []
-
- [91]
-<img/ch12/paaskerk.jpg, id=401, 220.825pt x 142.5325pt>
+]
+<img/ch12/paaskerk.jpg, id=376, 220.825pt x 142.5325pt>
 File: img/ch12/paaskerk.jpg Graphic file (type jpg)
 
 <use img/ch12/paaskerk.jpg>
 Package pdftex.def Info: img/ch12/paaskerk.jpg used on input line 896.
-(pdftex.def)             Requested size: 293.37508pt x 189.37009pt.
- [92 <./img/ch12/zkhuis2.jpg>]
-<img/ch12/vuur.jpg, id=405, 212.795pt x 155.58125pt>
+(pdftex.def)             Requested size: 269.67398pt x 174.06989pt.
+
+<img/ch12/vuur.jpg, id=377, 212.795pt x 155.58125pt>
 File: img/ch12/vuur.jpg Graphic file (type jpg)
  <use img/ch12/vuur.jpg>
 Package pdftex.def Info: img/ch12/vuur.jpg used on input line 903.
-(pdftex.def)             Requested size: 293.37508pt x 214.50768pt.
+(pdftex.def)             Requested size: 269.67398pt x 197.17764pt.
 
-[93 <./img/ch12/knikker.jpg>] [94 <./img/ch12/paaskerk.jpg>] [95 <./img/ch12/vu
-ur.jpg>] [96
+[84 <./img/ch12/zkhuis2.jpg>] [85 <./img/ch12/knikker.jpg>] [86 <./img/ch12/paa
+skerk.jpg>] [87 <./img/ch12/vuur.jpg>] [88
 
-] <img/ch13/Gouwbrug.jpg, id=420, 250.9375pt x 182.6825pt>
+]
+<img/ch13/Gouwbrug.jpg, id=394, 250.9375pt x 182.6825pt>
 File: img/ch13/Gouwbrug.jpg Graphic file (type jpg)
 
 <use img/ch13/Gouwbrug.jpg>
 Package pdftex.def Info: img/ch13/Gouwbrug.jpg used on input line 917.
-(pdftex.def)             Requested size: 293.37508pt x 213.60106pt.
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [97]
-Underfull \vbox (badness 6252) has occurred while \output is active []
-
- [98 <./img/ch13/Gouwbrug.jpg>] <img/ch13/metpa2.jpeg, id=427, 131.0496pt x 166
-.221pt>
+(pdftex.def)             Requested size: 269.67398pt x 196.34639pt.
+ [89]
+<img/ch13/metpa2.jpeg, id=398, 131.0496pt x 166.221pt>
 File: img/ch13/metpa2.jpeg Graphic file (type jpg)
 
 <use img/ch13/metpa2.jpeg>
 Package pdftex.def Info: img/ch13/metpa2.jpeg used on input line 934.
-(pdftex.def)             Requested size: 293.37508pt x 372.1625pt.
- [99] [100 <./img/ch13/metpa2.jpeg>]
-<img/ch14/jongensdorp1953.jpg, id=435, 220.825pt x 156.585pt>
+(pdftex.def)             Requested size: 269.67398pt x 342.09438pt.
+
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [90 <./img/ch13/Gouwbrug.jpg>] [91] [92 <./img/ch13/metpa2.jpeg>]
+<img/ch14/jongensdorp1953.jpg, id=408, 220.825pt x 156.585pt>
 File: img/ch14/jongensdorp1953.jpg Graphic file (type jpg)
 
 <use img/ch14/jongensdorp1953.jpg>
 Package pdftex.def Info: img/ch14/jongensdorp1953.jpg used on input line 946.
-(pdftex.def)             Requested size: 293.37508pt x 208.04039pt.
- [101
+(pdftex.def)             Requested size: 269.67398pt x 191.23172pt.
+ [93
 
-] [102 <./img/ch14/jongensdorp1953.jpg>] <img/ch15/1964.jpg, id=442, 626.34pt x
- 462.72874pt>
+] [94 <./img/ch14/jongensdorp1953.jpg>]
+<img/ch15/1964.jpg, id=417, 626.34pt x 462.72874pt>
 File: img/ch15/1964.jpg Graphic file (type jpg)
  <use img/ch15/1964.jpg>
 Package pdftex.def Info: img/ch15/1964.jpg used on input line 959.
-(pdftex.def)             Requested size: 293.37508pt x 216.74823pt.
+(pdftex.def)             Requested size: 269.67398pt x 199.23778pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[95
 
- [103
-
-]
-<img/ch15/schuttevaer12.jpg, id=446, 338.26375pt x 524.96124pt>
+] <img/ch15/schuttevaer12.jpg, id=421, 338.26375pt x 524.96124pt>
 File: img/ch15/schuttevaer12.jpg Graphic file (type jpg)
 
 <use img/ch15/schuttevaer12.jpg>
 Package pdftex.def Info: img/ch15/schuttevaer12.jpg used on input line 970.
-(pdftex.def)             Requested size: 293.37508pt x 455.3108pt.
+(pdftex.def)             Requested size: 269.67398pt x 418.52771pt.
 
 
-LaTeX Warning: Float too large for page by 22.34851pt on input line 972.
+LaTeX Warning: Float too large for page by 22.84814pt on input line 972.
 
-[104 <./img/ch15/1964.jpg>] [105 <./img/ch15/schuttevaer12.jpg>] [106]
-Underfull \vbox (badness 4531) has occurred while \output is active []
-
- [107
-
-]
-<img/ch16/muziek.png, id=460, 270.00874pt x 280.04625pt>
+[96 <./img/ch15/1964.jpg>] [97 <./img/ch15/schuttevaer12.jpg>] [98]
+<img/ch16/muziek.png, id=431, 270.00874pt x 280.04625pt>
 File: img/ch16/muziek.png Graphic file (type png)
 
 <use img/ch16/muziek.png>
 Package pdftex.def Info: img/ch16/muziek.png used on input line 992.
-(pdftex.def)             Requested size: 293.37508pt x 304.28716pt.
+(pdftex.def)             Requested size: 269.67398pt x 279.70369pt.
+ [99
 
-Underfull \vbox (badness 1629) has occurred while \output is active []
+] [100 <./img/ch16/muziek.png>]
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
- [108 <./img/ch16/muziek.png>]
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [109]
-<img/ch16/volmer.png, id=468, 225.84375pt x 152.57pt>
+ [101]
+<img/ch16/volmer.png, id=443, 225.84375pt x 152.57pt>
 File: img/ch16/volmer.png Graphic file (type png)
 
 <use img/ch16/volmer.png>
 Package pdftex.def Info: img/ch16/volmer.png used on input line 1020.
-(pdftex.def)             Requested size: 293.37508pt x 198.21759pt.
+(pdftex.def)             Requested size: 269.67398pt x 182.20308pt.
 
-Underfull \vbox (badness 5741) has occurred while \output is active []
+Underfull \vbox (badness 1337) has occurred while \output is active []
 
- [110]
-Underfull \vbox (badness 5403) has occurred while \output is active []
+ [102 <./img/ch16/volmer.png>] [103] [104
 
- [111 <./img/ch16/volmer.png>] [112]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [105]
+Underfull \vbox (badness 6477) has occurred while \output is active []
 
- [113
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [114]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [115]
-<img/ch17/waarheid.jpg, id=489, 574.145pt x 252.945pt>
+ [106]
+<img/ch17/waarheid.jpg, id=461, 574.145pt x 252.945pt>
 File: img/ch17/waarheid.jpg Graphic file (type jpg)
 
 <use img/ch17/waarheid.jpg>
 Package pdftex.def Info: img/ch17/waarheid.jpg used on input line 1053.
-(pdftex.def)             Requested size: 293.37508pt x 129.25111pt.
- [116 <./img/ch17/waarheid.jpg>]
-<img/ch17/Felix_Meritis1.jpg, id=493, 325.215pt x 231.86626pt>
+(pdftex.def)             Requested size: 269.67398pt x 118.81082pt.
+
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [107]
+[108 <./img/ch17/waarheid.jpg>]
+<img/ch17/Felix_Meritis1.jpg, id=468, 325.215pt x 231.86626pt>
 File: img/ch17/Felix_Meritis1.jpg Graphic file (type jpg)
 
 <use img/ch17/Felix_Meritis1.jpg>
 Package pdftex.def Info: img/ch17/Felix_Meritis1.jpg used on input line 1070.
-(pdftex.def)             Requested size: 293.37508pt x 209.18008pt.
-
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [117]
-[118 <./img/ch17/Felix_Meritis1.jpg>]
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [119
-
-]
-<img/ch18/lwschool.jpeg, id=504, 485.1726pt x 311.2428pt>
+(pdftex.def)             Requested size: 269.67398pt x 192.28264pt.
+ [109 <./img/ch17/Felix_Meritis1.jpg>]
+[110] <img/ch18/lwschool.jpeg, id=475, 485.1726pt x 311.2428pt>
 File: img/ch18/lwschool.jpeg Graphic file (type jpg)
 
 <use img/ch18/lwschool.jpeg>
 Package pdftex.def Info: img/ch18/lwschool.jpeg used on input line 1092.
-(pdftex.def)             Requested size: 293.37508pt x 188.20511pt.
- [120 <./img/ch18/lwschool.jpeg>]
-<img/ch19/ULOSchool.jpg, id=508, 983.675pt x 648.4225pt>
+(pdftex.def)             Requested size: 269.67398pt x 173.00299pt.
+ [111
+
+] [112 <./img/ch18/lwschool.jpeg>]
+<img/ch19/ULOSchool.jpg, id=483, 983.675pt x 648.4225pt>
 File: img/ch19/ULOSchool.jpg Graphic file (type jpg)
 
 <use img/ch19/ULOSchool.jpg>
 Package pdftex.def Info: img/ch19/ULOSchool.jpg used on input line 1107.
-(pdftex.def)             Requested size: 293.37508pt x 193.39043pt.
+(pdftex.def)             Requested size: 269.67398pt x 177.76761pt.
+ [113
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [121
-
-]
-[122 <./img/ch19/ULOSchool.jpg>] [123
-
-] [124
+] [114 <./img/ch19/ULOSchool.jpg>] [115
 
 ]
-<img/ch20/Typhoon2-55A.png, id=522, 130.086pt x 155.6214pt>
+[116
+
+] <img/ch20/Typhoon2-55A.png, id=496, 130.086pt x 155.6214pt>
 File: img/ch20/Typhoon2-55A.png Graphic file (type png)
 
 <use img/ch20/Typhoon2-55A.png>
 Package pdftex.def Info: img/ch20/Typhoon2-55A.png used on input line 1130.
-(pdftex.def)             Requested size: 293.37508pt x 351.02585pt.
+(pdftex.def)             Requested size: 269.67398pt x 322.66614pt.
+ [117] [118 <./img/ch20/Typhoon2-55A.png>]
+[119] [120
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [125]
-[126 <./img/ch20/Typhoon2-55A.png>] [127] [128
-
-]
-<img/ch21/skoda.png, id=535, 275.1078pt x 181.6386pt>
+] <img/ch21/skoda.png, id=510, 275.1078pt x 181.6386pt>
 File: img/ch21/skoda.png Graphic file (type png)
- <use img/ch21/skoda.png>
+
+<use img/ch21/skoda.png>
 Package pdftex.def Info: img/ch21/skoda.png used on input line 1156.
-(pdftex.def)             Requested size: 293.37508pt x 193.70836pt.
+(pdftex.def)             Requested size: 269.67398pt x 178.05725pt.
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [129]
-<img/ch21/luxvak.png, id=539, 299.1175pt x 138.5175pt>
+<img/ch21/luxvak.png, id=511, 299.1175pt x 138.5175pt>
 File: img/ch21/luxvak.png Graphic file (type png)
 
 <use img/ch21/luxvak.png>
 Package pdftex.def Info: img/ch21/luxvak.png used on input line 1169.
-(pdftex.def)             Requested size: 293.37508pt x 135.86668pt.
-
-Underfull \vbox (badness 3179) has occurred while \output is active []
-
- [130 <./img/ch21/skoda.png>] [131 <./img/ch21/luxvak.png>]
-<img/ch21/gitarist.jpeg, id=548, 470.75874pt x 424.58624pt>
+(pdftex.def)             Requested size: 269.67398pt x 124.89073pt.
+ [121] [122 <./img/ch21/skoda.png>]
+<img/ch21/gitarist.jpeg, id=518, 470.75874pt x 424.58624pt>
 File: img/ch21/gitarist.jpeg Graphic file (type jpg)
 
 <use img/ch21/gitarist.jpeg>
 Package pdftex.def Info: img/ch21/gitarist.jpeg used on input line 1186.
-(pdftex.def)             Requested size: 293.37508pt x 264.60126pt.
+(pdftex.def)             Requested size: 269.67398pt x 243.2217pt.
 
 
 ! Class memoir Error: Font command \bf is not supported.
@@ -2216,10 +2125,7 @@ l.1192 ...etatoueerde roos van Tennessee Williams}
 
 Use \textbf, or \bfseries{...}, or the oldfontcommands option
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [132 <./img/ch21/gitarist.jpeg>]
+[123 <./img/ch21/luxvak.png>] [124 <./img/ch21/gitarist.jpeg>]
 ! Undefined control sequence.
 l.1199 ...in het Dagblad voor de Zaanstreek, \emhp
                                                   {De Typhoon} een artikel o...
@@ -2257,10 +2163,10 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (90.95923pt too wide) in paragraph at lines 1199--1199
-[][] [][]\T1/jkp/m/n/10 (-20) Bron: https://nl.wikipedia.org/wiki/Cornelis$[]\O
-ML/jkp/m/it/10 oerman\OT1/jkp/m/n/10 (-20) , \OML/jkp/m/it/10 geraadpleegdvoorj
-aar\OT1/jkp/m/n/10 (-20) 2016.|$ 
+Overfull \hbox (39.7019pt too wide) in paragraph at lines 1199--1199
+[][] [][]\T1/jkp/m/n/8 (-20) Bron: https://nl.wikipedia.org/wiki/Cornelis$[]\OM
+L/jkp/m/it/8 oerman\OT1/jkp/m/n/8 (-20) , \OML/jkp/m/it/8 geraadpleegdvoorjaar\
+OT1/jkp/m/n/8 (-20) 2016.|$ 
  []
 
 ! Missing } inserted.
@@ -2274,63 +2180,56 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[133] [134] [135] [136
-
-]
-<img/ch22/joho_0001.jpeg, id=566, 778.91pt x 488.82625pt>
+[125] [126] <img/ch22/joho_0001.jpeg, id=534, 778.91pt x 488.82625pt>
 File: img/ch22/joho_0001.jpeg Graphic file (type jpg)
 
 <use img/ch22/joho_0001.jpeg>
 Package pdftex.def Info: img/ch22/joho_0001.jpeg used on input line 1220.
-(pdftex.def)             Requested size: 293.37508pt x 184.11494pt.
- [137 <./img/ch22/joho_0001.jpeg>] [138
+(pdftex.def)             Requested size: 269.67398pt x 169.23448pt.
+ [127
 
-] [139]
-[140
+ <./img/ch22/joho_0001.jpeg>] [128
 
-] <img/ch23/koopm.jpg, id=579, 268.00125pt x 390.45876pt>
+] [129]
+[130
+
+] <img/ch23/koopm.jpg, id=548, 268.00125pt x 390.45876pt>
 File: img/ch23/koopm.jpg Graphic file (type jpg)
 
 <use img/ch23/koopm.jpg>
 Package pdftex.def Info: img/ch23/koopm.jpg used on input line 1236.
-(pdftex.def)             Requested size: 293.37508pt x 427.42664pt.
- [141] [142 <./img/ch23/koopm.jpg>]
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [143]
-<img/ch23/Eshuijs.jpg, id=591, 610.28pt x 459.7175pt>
+(pdftex.def)             Requested size: 269.67398pt x 392.89458pt.
+ [131] [132 <./img/ch23/koopm.jpg>]
+<img/ch23/Eshuijs.jpg, id=555, 610.28pt x 459.7175pt>
 File: img/ch23/Eshuijs.jpg Graphic file (type jpg)
 
 <use img/ch23/Eshuijs.jpg>
 Package pdftex.def Info: img/ch23/Eshuijs.jpg used on input line 1253.
-(pdftex.def)             Requested size: 293.37508pt x 221.0056pt.
- [144 <./img/ch23/Eshuijs.jpg>]
-<img/ch23/drumband2.png, id=595, 308.15125pt x 155.58125pt>
+(pdftex.def)             Requested size: 269.67398pt x 203.14615pt.
+ [133]
+<img/ch23/drumband2.png, id=559, 308.15125pt x 155.58125pt>
 File: img/ch23/drumband2.png Graphic file (type png)
 
 <use img/ch23/drumband2.png>
 Package pdftex.def Info: img/ch23/drumband2.png used on input line 1265.
-(pdftex.def)             Requested size: 293.37508pt x 148.13132pt.
+(pdftex.def)             Requested size: 269.67398pt x 136.16411pt.
+ [134 <./img/ch23/Eshuijs.jpg>] [135 <./img/ch23/drumband2.png>] [136
 
-Underfull \vbox (badness 3907) has occurred while \output is active []
-
- [145 <./img/ch23/drumband2.png>] [146] [147
-
-]
-<img/ch24/Oosterweide.jpg, id=606, 599.23875pt x 372.39125pt>
+] [137]
+<img/ch24/Oosterweide.jpg, id=574, 599.23875pt x 372.39125pt>
 File: img/ch24/Oosterweide.jpg Graphic file (type jpg)
 
 <use img/ch24/Oosterweide.jpg>
 Package pdftex.def Info: img/ch24/Oosterweide.jpg used on input line 1288.
-(pdftex.def)             Requested size: 293.37508pt x 182.31989pt.
+(pdftex.def)             Requested size: 269.67398pt x 167.58588pt.
 
-<img/ch24/rollers.jpg, id=607, 256.96pt x 137.51375pt>
+<img/ch24/rollers.jpg, id=575, 256.96pt x 137.51375pt>
 File: img/ch24/rollers.jpg Graphic file (type jpg)
 
 <use img/ch24/rollers.jpg>
 Package pdftex.def Info: img/ch24/rollers.jpg used on input line 1295.
-(pdftex.def)             Requested size: 293.37508pt x 157.0128pt.
- [148 <./img/ch24/Oosterweide.jpg>] [149 <./img/ch24/rollers.jpg>] [150
+(pdftex.def)             Requested size: 269.67398pt x 144.32864pt.
+ [138 <./img/ch24/Oosterweide.jpg>] [139 <./img/ch24/rollers.jpg>] [140
 
 ]
 
@@ -2346,71 +2245,50 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/ch25/bluerocking.jpg, id=618, 600.2425pt x 509.905pt>
+<img/ch25/bluerocking.jpg, id=585, 600.2425pt x 509.905pt>
 File: img/ch25/bluerocking.jpg Graphic file (type jpg)
 
 <use img/ch25/bluerocking.jpg>
 Package pdftex.def Info: img/ch25/bluerocking.jpg used on input line 1311.
-(pdftex.def)             Requested size: 293.37508pt x 249.2254pt.
- [151]
-<img/ch25/nico.jpg, id=622, 602.25pt x 449.68pt>
+(pdftex.def)             Requested size: 269.67398pt x 229.08943pt.
+
+<img/ch25/nico.jpg, id=586, 602.25pt x 449.68pt>
 File: img/ch25/nico.jpg Graphic file (type jpg)
  <use img/ch25/nico.jpg>
 Package pdftex.def Info: img/ch25/nico.jpg used on input line 1318.
-(pdftex.def)             Requested size: 293.37508pt x 219.06201pt.
+(pdftex.def)             Requested size: 269.67398pt x 201.36606pt.
 
-Underfull \vbox (badness 2027) has occurred while \output is active []
-
- [152 <./img/ch25/bluerocking.jpg>] <img/ch25/ri-2.jpg, id=626, 570.13pt x 357.
-335pt>
+[141] <img/ch25/ri-2.jpg, id=590, 570.13pt x 357.335pt>
 File: img/ch25/ri-2.jpg Graphic file (type jpg)
 
 <use img/ch25/ri-2.jpg>
 Package pdftex.def Info: img/ch25/ri-2.jpg used on input line 1327.
-(pdftex.def)             Requested size: 293.37508pt x 183.87418pt.
-
-Underfull \vbox (badness 2875) has occurred while \output is active []
-
- [153 <./img/ch25/nico.jpg>]
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
- [154 <./img/ch25/ri-2.jpg>] [155] [156
-
-]
-<img/ch26/rollingfour.jpg, id=640, 306.14375pt x 430.60875pt>
+(pdftex.def)             Requested size: 269.67398pt x 169.0216pt.
+ [142 <./img/ch25/bluerocking.jpg>] [143 <./img/ch25/nico.jpg>] [144 <./img/ch2
+5/ri-2.jpg>]
+<img/ch26/rollingfour.jpg, id=602, 306.14375pt x 430.60875pt>
 File: img/ch26/rollingfour.jpg Graphic file (type jpg)
 
 <use img/ch26/rollingfour.jpg>
 Package pdftex.def Info: img/ch26/rollingfour.jpg used on input line 1345.
-(pdftex.def)             Requested size: 293.37508pt x 412.67007pt.
+(pdftex.def)             Requested size: 269.67398pt x 379.33109pt.
 
+<img/ch33/four.jpg, id=603, 283.0575pt x 210.7875pt>
+File: img/ch33/four.jpg Graphic file (type jpg)
+ <use img/ch33/four.jpg>
+Package pdftex.def Info: img/ch33/four.jpg used on input line 1354.
+(pdftex.def)             Requested size: 269.67398pt x 200.83879pt.
 
-LaTeX Warning: File `img/...' not found on input line 1354.
+[145
 
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1354 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [157]
-[158 <./img/ch26/rollingfour.jpg>]
-<img/ch26/opel_olympia_big.png, id=647, 135.6705pt x 92.3085pt>
+] [146 <./img/ch26/rollingfour.jpg>]
+<img/ch26/opel_olympia_big.png, id=610, 135.6705pt x 92.3085pt>
 File: img/ch26/opel_olympia_big.png Graphic file (type png)
 
 <use img/ch26/opel_olympia_big.png>
 Package pdftex.def Info: img/ch26/opel_olympia_big.png used on input line 1363.
 
-(pdftex.def)             Requested size: 293.37508pt x 199.62843pt.
+(pdftex.def)             Requested size: 269.67398pt x 183.50096pt.
 
 ! Misplaced alignment tab character &.
 <argument> ...{\foottextfont CHECK waar komen Ed &
@@ -2424,18 +2302,22 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<img/ch26/Moriaanshoofd.jpg, id=648, 561.09625pt x 375.4025pt>
+[147 <./img/ch33/four.jpg>]
+<img/ch26/Moriaanshoofd.jpg, id=614, 561.09625pt x 375.4025pt>
 File: img/ch26/Moriaanshoofd.jpg Graphic file (type jpg)
 
 <use img/ch26/Moriaanshoofd.jpg>
 Package pdftex.def Info: img/ch26/Moriaanshoofd.jpg used on input line 1372.
-(pdftex.def)             Requested size: 293.37508pt x 196.28159pt.
- [159] [160 <./img/ch26/opel_olympia_big.png> <./img/ch26/Moriaanshoofd.jpg>]
-<img/ch26/1965.jpg, id=656, 642.4pt x 468.75125pt>
+(pdftex.def)             Requested size: 269.67398pt x 180.426pt.
+
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [148 <./img/ch26/opel_olympia_big.png>]
+<img/ch26/1965.jpg, id=619, 642.4pt x 468.75125pt>
 File: img/ch26/1965.jpg Graphic file (type jpg)
  <use img/ch26/1965.jpg>
 Package pdftex.def Info: img/ch26/1965.jpg used on input line 1383.
-(pdftex.def)             Requested size: 293.37508pt x 214.07608pt.
+(pdftex.def)             Requested size: 269.67398pt x 196.78119pt.
 
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
@@ -2451,7 +2333,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[161]
+[149 <./img/ch26/Moriaanshoofd.jpg>]
 ! Misplaced alignment tab character &.
 l.1394 ...rschil met de gladde jaren vijftig rock&
                                                   roll die alle bandjes in d...
@@ -2462,53 +2344,47 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [162 <./img/ch26/1965.jpg>] <img/ch26/rf-4-moriaan.jpg, id=663, 602.25pt x 444
-.66125pt>
+[150 <./img/ch26/1965.jpg>]
+<img/ch26/rf-4-moriaan.jpg, id=626, 602.25pt x 444.66125pt>
 File: img/ch26/rf-4-moriaan.jpg Graphic file (type jpg)
 
 <use img/ch26/rf-4-moriaan.jpg>
 Package pdftex.def Info: img/ch26/rf-4-moriaan.jpg used on input line 1398.
-(pdftex.def)             Requested size: 293.37508pt x 216.61713pt.
- [163 <./img/ch26/rf-4-moriaan.jpg>] [164
+(pdftex.def)             Requested size: 269.67398pt x 199.11867pt.
+ [151 <./img/ch26/rf-4-moriaan.jpg>] [152
 
 ]
-<img/ch27/promo3a.png, id=670, 220.752pt x 163.593pt>
+<img/ch27/promo3a.png, id=633, 220.752pt x 163.593pt>
 File: img/ch27/promo3a.png Graphic file (type png)
 
 <use img/ch27/promo3a.png>
 Package pdftex.def Info: img/ch27/promo3a.png used on input line 1411.
-(pdftex.def)             Requested size: 293.37508pt x 217.4112pt.
+(pdftex.def)             Requested size: 269.67398pt x 199.84775pt.
+ [153]
+Underfull \vbox (badness 1515) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [165]
-Underfull \vbox (badness 1960) has occurred while \output is active []
-
- [166 <./img/ch27/promo3a.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [167]
-<img/ch27/duyn002prov01ill10.png, id=682, 471.7625pt x 351.3125pt>
+ [154 <./img/ch27/promo3a.png>]
+<img/ch27/duyn002prov01ill10.png, id=642, 471.7625pt x 351.3125pt>
 File: img/ch27/duyn002prov01ill10.png Graphic file (type png)
 
 <use img/ch27/duyn002prov01ill10.png>
 Package pdftex.def Info: img/ch27/duyn002prov01ill10.png used on input line 142
 7.
-(pdftex.def)             Requested size: 293.37508pt x 218.47084pt.
+(pdftex.def)             Requested size: 269.67398pt x 200.82378pt.
 
-Underfull \vbox (badness 3471) has occurred while \output is active []
-
- [168 <./img/ch27/duyn002prov01ill10.png>]
-<img/ch27/aug65EdE.png, id=686, 411.939pt x 299.592pt>
+<img/ch27/aug65EdE.png, id=643, 411.939pt x 299.592pt>
 File: img/ch27/aug65EdE.png Graphic file (type png)
 
 <use img/ch27/aug65EdE.png>
 Package pdftex.def Info: img/ch27/aug65EdE.png used on input line 1438.
-(pdftex.def)             Requested size: 293.37508pt x 213.36093pt.
- [169 <./img/ch27/aug65EdE.png>]
+(pdftex.def)             Requested size: 269.67398pt x 196.12218pt.
+
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [155]
+Underfull \vbox (badness 2884) has occurred while \output is active []
+
+ [156 <./img/ch27/duyn002prov01ill10.png>]
 
 ! Class memoir Error: Font command \bf is not supported.
 
@@ -2521,13 +2397,16 @@ l.1446 ...ijk zijn er twee singles verschenen: \bf
 
 Use \textbf, or \bfseries{...}, or the oldfontcommands option
 
-<img/ch27/4pieces.png, id=691, 531.9875pt x 538.01pt>
+<img/ch27/4pieces.png, id=650, 531.9875pt x 538.01pt>
 File: img/ch27/4pieces.png Graphic file (type png)
 
 <use img/ch27/4pieces.png>
 Package pdftex.def Info: img/ch27/4pieces.png used on input line 1449.
-(pdftex.def)             Requested size: 293.37508pt x 296.70271pt.
+(pdftex.def)             Requested size: 269.67398pt x 272.73138pt.
 
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [157 <./img/ch27/aug65EdE.png>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2556,7 +2435,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[170] [171 <./img/ch27/4pieces.png>]
+[158 <./img/ch27/4pieces.png>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2599,12 +2478,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/ch27/hartland.jpg, id=699, 329.23pt x 275.0275pt>
+<img/ch27/hartland.jpg, id=659, 329.23pt x 275.0275pt>
 File: img/ch27/hartland.jpg Graphic file (type jpg)
 
 <use img/ch27/hartland.jpg>
 Package pdftex.def Info: img/ch27/hartland.jpg used on input line 1462.
-(pdftex.def)             Requested size: 293.37508pt x 245.08005pt.
+(pdftex.def)             Requested size: 269.67398pt x 225.28061pt.
 
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
@@ -2689,7 +2568,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[172] [173 <./img/ch27/hartland.jpg>] [174]
+[159] [160 <./img/ch27/hartland.jpg>] [161] [162
+
+]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2760,55 +2641,45 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [175
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [176]
-<img/ch28/tudor.jpg, id=716, 469.755pt x 250.9375pt>
+[163] <img/ch28/tudor.jpg, id=676, 469.755pt x 250.9375pt>
 File: img/ch28/tudor.jpg Graphic file (type jpg)
- <use img/ch28/tudor.jpg>
-Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1498.
-(pdftex.def)             Requested size: 293.37508pt x 156.71684pt.
 
-[177 <./img/ch28/tudor.jpg>] [178
+<use img/ch28/tudor.jpg>
+Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1498.
+(pdftex.def)             Requested size: 269.67398pt x 144.05437pt.
+ [164] [165 <./img/ch28/tudor.jpg>] [166
 
 ]
-<img/ch29/double.png, id=724, 543.02875pt x 183.68625pt>
+<img/ch29/double.png, id=687, 543.02875pt x 183.68625pt>
 File: img/ch29/double.png Graphic file (type png)
 
 <use img/ch29/double.png>
 Package pdftex.def Info: img/ch29/double.png used on input line 1508.
-(pdftex.def)             Requested size: 293.37508pt x 99.24232pt.
+(pdftex.def)             Requested size: 269.67398pt x 91.22345pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3568) has occurred while \output is active []
 
- [179]
-[180 <./img/ch29/double.png>]
-<img/ch29/soest.png, id=732, 117.5592pt x 83.8332pt>
+ [167 <./img/ch29/double.png>] <img/ch29/soest.png, id=692, 117.5592pt x 83.833
+2pt>
 File: img/ch29/soest.png Graphic file (type png)
- <use img/ch29/soest.png>
-Package pdftex.def Info: img/ch29/soest.png used on input line 1519.
-(pdftex.def)             Requested size: 293.37508pt x 209.2588pt.
 
-<img/ch29/rockadzaan4.jpg, id=733, 351.3125pt x 229.85875pt>
+<use img/ch29/soest.png>
+Package pdftex.def Info: img/ch29/soest.png used on input line 1519.
+(pdftex.def)             Requested size: 269.67398pt x 192.35303pt.
+
+<img/ch29/rockadzaan4.jpg, id=693, 351.3125pt x 229.85875pt>
 File: img/ch29/rockadzaan4.jpg Graphic file (type jpg)
 
 <use img/ch29/rockadzaan4.jpg>
 Package pdftex.def Info: img/ch29/rockadzaan4.jpg used on input line 1524.
-(pdftex.def)             Requested size: 293.37508pt x 191.96468pt.
-
-<img/ch29/Anita.png, id=734, 96.8418pt x 136.3494pt>
+(pdftex.def)             Requested size: 269.67398pt x 176.45865pt.
+ [168]
+<img/ch29/Anita.png, id=697, 96.8418pt x 136.3494pt>
 File: img/ch29/Anita.png Graphic file (type png)
  <use img/ch29/Anita.png>
 Package pdftex.def Info: img/ch29/Anita.png used on input line 1532.
-(pdftex.def)             Requested size: 293.37508pt x 413.1832pt.
+(pdftex.def)             Requested size: 269.67398pt x 379.80331pt.
 
-[181 <./img/ch29/soest.png>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2851,7 +2722,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[182 <./img/ch29/rockadzaan4.jpg>] [183 <./img/ch29/Anita.png>]
+[169 <./img/ch29/soest.png>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2880,22 +2751,26 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/ch29/rockadzaan8.jpg, id=744, 330.23375pt x 320.19624pt>
+
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+ [170 <./img/ch29/rockadzaan4.jpg>] [171 <./img/ch29/Anita.png>]
+<img/ch29/rockadzaan8.jpg, id=707, 330.23375pt x 320.19624pt>
 File: img/ch29/rockadzaan8.jpg Graphic file (type jpg)
 
 <use img/ch29/rockadzaan8.jpg>
 Package pdftex.def Info: img/ch29/rockadzaan8.jpg used on input line 1554.
-(pdftex.def)             Requested size: 293.37508pt x 284.46562pt.
- [184] [185 <./img/ch29/rockadzaan8.jpg>]
-[186
+(pdftex.def)             Requested size: 269.67398pt x 261.48773pt.
+ [172] [173 <./img/ch29/rockadzaan8.jpg>]
+[174
 
-] <img/ch30/shameless2.png, id=755, 907.39pt x 255.95625pt>
+] <img/ch30/shameless2.png, id=718, 907.39pt x 255.95625pt>
 File: img/ch30/shameless2.png Graphic file (type png)
 
 <use img/ch30/shameless2.png>
 Package pdftex.def Info: img/ch30/shameless2.png used on input line 1567.
-(pdftex.def)             Requested size: 293.37508pt x 82.75517pt.
- [187 <./img/ch30/shameless2.png>]
+(pdftex.def)             Requested size: 269.67398pt x 76.06883pt.
+ [175 <./img/ch30/shameless2.png>]
 ! Misplaced alignment tab character &.
 l.1577 ... ik in The Devotions gewend was, meer R&
                                                   B. We deden Otis Redding, ...
@@ -2906,73 +2781,62 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<img/ch30/optournee2a.png, id=760, 119.4864pt x 81.906pt>
+<img/ch30/optournee2a.png, id=723, 119.4864pt x 81.906pt>
 File: img/ch30/optournee2a.png Graphic file (type png)
 
 <use img/ch30/optournee2a.png>
 Package pdftex.def Info: img/ch30/optournee2a.png used on input line 1582.
-(pdftex.def)             Requested size: 293.37508pt x 201.1326pt.
-
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [188]
-<img/ch30/film.png, id=764, 158.337pt x 207.2835pt>
+(pdftex.def)             Requested size: 269.67398pt x 184.88292pt.
+ [176]
+<img/ch30/film.png, id=727, 158.337pt x 207.2835pt>
 File: img/ch30/film.png Graphic file (type png)
  <use img/ch30/film.png>
 Package pdftex.def Info: img/ch30/film.png used on input line 1591.
-(pdftex.def)             Requested size: 293.37508pt x 384.12315pt.
+(pdftex.def)             Requested size: 269.67398pt x 353.0889pt.
 
-[189 <./img/ch30/optournee2a.png>] [190 <./img/ch30/film.png>] [191]
-<img/ch30/optourneeAs.png, id=776, 169.5936pt x 246.1998pt>
+[177 <./img/ch30/optournee2a.png>] [178 <./img/ch30/film.png>]
+<img/ch30/optourneeAs.png, id=736, 169.5936pt x 246.1998pt>
 File: img/ch30/optourneeAs.png Graphic file (type png)
 
 <use img/ch30/optourneeAs.png>
 Package pdftex.def Info: img/ch30/optourneeAs.png used on input line 1608.
-(pdftex.def)             Requested size: 293.37508pt x 425.96861pt.
+(pdftex.def)             Requested size: 269.67398pt x 391.55724pt.
 
-
-LaTeX Warning: Float too large for page by 6.20639pt on input line 1610.
-
-<img/ch30/schamensich.jpg, id=777, 729.72626pt x 890.32625pt>
+<img/ch30/schamensich.jpg, id=737, 729.72626pt x 890.32625pt>
 File: img/ch30/schamensich.jpg Graphic file (type jpg)
 
 <use img/ch30/schamensich.jpg>
 Package pdftex.def Info: img/ch30/schamensich.jpg used on input line 1616.
-(pdftex.def)             Requested size: 293.37508pt x 357.93103pt.
- [192] [193 <./img/ch30/optourneeAs.png>]
-[194 <./img/ch30/schamensich.jpg>]
-<img/ch30/Devotions.jpg, id=788, 487.8225pt x 489.83pt>
+(pdftex.def)             Requested size: 269.67398pt x 329.02158pt.
+ [179] [180 <./img/ch30/optourneeAs.png>]
+[181 <./img/ch30/schamensich.jpg>]
+<img/ch30/Devotions.jpg, id=747, 487.8225pt x 489.83pt>
 File: img/ch30/Devotions.jpg Graphic file (type jpg)
 
 <use img/ch30/Devotions.jpg>
 Package pdftex.def Info: img/ch30/Devotions.jpg used on input line 1627.
-(pdftex.def)             Requested size: 293.37508pt x 294.58041pt.
- [195 <./img/ch30/Devotions.jpg>] [196
+(pdftex.def)             Requested size: 269.67398pt x 270.78258pt.
+ [182] [183 <./img/ch30/Devotions.jpg>] [184
 
 ]
-<img/ch31/jeugd.png, id=796, 399.4925pt x 611.28375pt>
+<img/ch31/jeugd.png, id=758, 399.4925pt x 611.28375pt>
 File: img/ch31/jeugd.png Graphic file (type png)
 
 <use img/ch31/jeugd.png>
 Package pdftex.def Info: img/ch31/jeugd.png used on input line 1639.
-(pdftex.def)             Requested size: 293.37508pt x 448.92906pt.
+(pdftex.def)             Requested size: 269.67398pt x 412.66402pt.
 
-<img/ch31/posterkleur68235.jpg, id=797, 235.88126pt x 357.335pt>
+<img/ch31/posterkleur68235.jpg, id=759, 235.88126pt x 357.335pt>
 File: img/ch31/posterkleur68235.jpg Graphic file (type jpg)
 
 <use img/ch31/posterkleur68235.jpg>
 Package pdftex.def Info: img/ch31/posterkleur68235.jpg used on input line 1644.
 
-(pdftex.def)             Requested size: 293.37508pt x 444.43758pt.
+(pdftex.def)             Requested size: 269.67398pt x 408.53296pt.
 
 
-LaTeX Warning: Float too large for page by 11.47528pt on input line 1646.
+LaTeX Warning: Float too large for page by 12.8534pt on input line 1646.
 
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [197]
-[198 <./img/ch31/jeugd.png>] [199 <./img/ch31/posterkleur68235.jpg>]
 ! Misplaced alignment tab character &.
 l.1655 ...e hem op 27 november 1971 voor The Flo &
                                                    Eddie tour. Al op de heen...
@@ -2983,59 +2847,52 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<img/ch31/zappa.png, id=808, 464.73625pt x 668.4975pt>
+[185] [186 <./img/ch31/jeugd.png>] [187 <./img/ch31/posterkleur68235.jpg>]
+<img/ch31/zappa.png, id=770, 464.73625pt x 668.4975pt>
 File: img/ch31/zappa.png Graphic file (type png)
 
 <use img/ch31/zappa.png>
 Package pdftex.def Info: img/ch31/zappa.png used on input line 1660.
-(pdftex.def)             Requested size: 293.37508pt x 422.01248pt.
+(pdftex.def)             Requested size: 269.67398pt x 387.92262pt.
 
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [200]
-[201 <./img/ch31/zappa.png>]
-<img/ch31/zappaolga.jpg, id=816, 580.1675pt x 387.4475pt>
+<img/ch31/zappaolga.jpg, id=771, 580.1675pt x 387.4475pt>
 File: img/ch31/zappaolga.jpg Graphic file (type jpg)
 
 <use img/ch31/zappaolga.jpg>
 Package pdftex.def Info: img/ch31/zappaolga.jpg used on input line 1671.
-(pdftex.def)             Requested size: 293.37508pt x 195.92252pt.
+(pdftex.def)             Requested size: 269.67398pt x 180.09619pt.
 
-Underfull \vbox (badness 3954) has occurred while \output is active []
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
- [202 <./img/ch31/zappaolga.jpg>] <img/ch31/reed.png, id=821, 459.7175pt x 687.
-56876pt>
+ [188]
+[189 <./img/ch31/zappa.png>]
+<img/ch31/reed.png, id=779, 459.7175pt x 687.56876pt>
 File: img/ch31/reed.png Graphic file (type png)
-
-<use img/ch31/reed.png>
+ <use img/ch31/reed.png>
 Package pdftex.def Info: img/ch31/reed.png used on input line 1684.
-(pdftex.def)             Requested size: 293.37508pt x 438.80452pt.
+(pdftex.def)             Requested size: 269.67398pt x 403.35393pt.
 
 
-LaTeX Warning: Float too large for page by 5.84222pt on input line 1686.
+LaTeX Warning: Float too large for page by 7.67436pt on input line 1686.
 
-
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [203]
-[204 <./img/ch31/reed.png>]
-<img/ch31/ff.jpg, id=829, 1083.04625pt x 1078.0275pt>
+[190 <./img/ch31/zappaolga.jpg>] [191 <./img/ch31/reed.png>]
+<img/ch31/ff.jpg, id=788, 1083.04625pt x 1078.0275pt>
 File: img/ch31/ff.jpg Graphic file (type jpg)
  <use img/ch31/ff.jpg>
 Package pdftex.def Info: img/ch31/ff.jpg used on input line 1696.
-(pdftex.def)             Requested size: 293.37508pt x 292.00893pt.
+(pdftex.def)             Requested size: 269.67398pt x 268.42055pt.
 
-<img/ch31/Spandoek-cantate-klein.jpg, id=830, 301.125pt x 225.84375pt>
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [192]
+<img/ch31/Spandoek-cantate-klein.jpg, id=792, 301.125pt x 225.84375pt>
 File: img/ch31/Spandoek-cantate-klein.jpg Graphic file (type jpg)
 
 <use img/ch31/Spandoek-cantate-klein.jpg>
 Package pdftex.def Info: img/ch31/Spandoek-cantate-klein.jpg used on input line
  1707.
-(pdftex.def)             Requested size: 293.37508pt x 220.0503pt.
- [205]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [206 <./img/ch31/ff.jpg>]
+(pdftex.def)             Requested size: 269.67398pt x 202.27534pt.
+ [193 <./img/ch31/ff.jpg>] [194 <./img/ch31/Spandoek-cantate-klein.jpg>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -3049,166 +2906,163 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[207 <./img/ch31/Spandoek-cantate-klein.jpg>]
-<img/ch31/dali.jpg, id=840, 235.88126pt x 416.55624pt>
+<img/ch31/dali.jpg, id=800, 235.88126pt x 416.55624pt>
 File: img/ch31/dali.jpg Graphic file (type jpg)
  <use img/ch31/dali.jpg>
 Package pdftex.def Info: img/ch31/dali.jpg used on input line 1733.
-(pdftex.def)             Requested size: 234.70094pt x 414.47676pt.
+(pdftex.def)             Requested size: 215.74pt x 380.99268pt.
 
-[208] [209 <./img/ch31/dali.jpg>] [210
+[195] [196] [197 <./img/ch31/dali.jpg>] [198
 
-] [211] [212]
-<img/ch32/DeBeer.png, id=857, 620.3175pt x 450.68375pt>
+] [199] [200]
+<img/ch32/DeBeer.png, id=820, 620.3175pt x 450.68375pt>
 File: img/ch32/DeBeer.png Graphic file (type png)
 
 <use img/ch32/DeBeer.png>
 Package pdftex.def Info: img/ch32/DeBeer.png used on input line 1752.
-(pdftex.def)             Requested size: 293.37508pt x 213.14862pt.
- [213
+(pdftex.def)             Requested size: 269.67398pt x 195.92892pt.
+
+<img/ch32/sabel.jpg, id=821, 351.3125pt x 219.82124pt>
+File: img/ch32/sabel.jpg Graphic file (type jpg)
+
+<use img/ch32/sabel.jpg>
+Package pdftex.def Info: img/ch32/sabel.jpg used on input line 1769.
+(pdftex.def)             Requested size: 269.67398pt x 168.75302pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [201
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1769 ...=\textwidth]{img/ch32/Sabel met_stoom15}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: File `img/ch32/Sabel met_stoom15' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1769 ...=\textwidth]{img/ch32/Sabel met_stoom15}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1769 ...=\textwidth]{img/ch32/Sabel met_stoom15}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (948.18747pt too wide) in paragraph at lines 1769--1770
-[]\T1/jkp/m/n/12 (-20) met$[]\OML/jkp/m/it/12 toom\OT1/jkp/m/n/12 (-20) 15.\OML
-/jkp/m/it/12 pngmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 pdfmet[]toom
-\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jpgmet[]toom\OT1/jkp/m/n/12 (-20) 15.
-\OML/jkp/m/it/12 mpsmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jpegmet[
-]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jbig\OT1/jkp/m/n/12 (-20) 2\OML/
-jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 jb\OT1/jkp/m/n/1
-2 (-20) 2\OML/jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 PN
-Gmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 PDFmet[]toom\OT1/jkp/m/n/12
- (-20) 15.\OML/jkp/m/it/12 JPGmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/1
-2 JPEGmet[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 JBIG\OT1/jkp/m/n/12 (-
-20) 2\OML/jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/m/it/12 JB\OT1
-/jkp/m/n/12 (-20) 2\OML/jkp/m/it/12 met[]toom\OT1/jkp/m/n/12 (-20) 15.\OML/jkp/
-m/it/12 eps$ 
- []
-
-[214 <./img/ch32/DeBeer.png>]
-<img/ch32/scado.jpg, id=866, 212.795pt x 150.5625pt>
+[202 <./img/ch32/DeBeer.png> <./img/ch32/sabel.jpg>]
+<img/ch32/scado.jpg, id=830, 212.795pt x 150.5625pt>
 File: img/ch32/scado.jpg Graphic file (type jpg)
  <use img/ch32/scado.jpg>
 Package pdftex.def Info: img/ch32/scado.jpg used on input line 1781.
-(pdftex.def)             Requested size: 293.37508pt x 207.58806pt.
+(pdftex.def)             Requested size: 269.67398pt x 190.81708pt.
 
-[215 <./img/ch32/scado.jpg>]
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [216]
-<img/ch32/image-2.png, id=873, 210.7875pt x 160.6pt>
+[203] [204 <./img/ch32/scado.jpg>]
+<img/ch32/image-2.png, id=837, 210.7875pt x 160.6pt>
 File: img/ch32/image-2.png Graphic file (type png)
 
 <use img/ch32/image-2.png>
 Package pdftex.def Info: img/ch32/image-2.png used on input line 1802.
-(pdftex.def)             Requested size: 293.37508pt x 223.52985pt.
- [217 <./img/ch32/image-2.png>]
-<img/ch32/Fris.jpg, id=878, 240.9pt x 226.8475pt>
+(pdftex.def)             Requested size: 269.67398pt x 205.46925pt.
+ [205 <./img/ch32/image-2.png>]
+<img/ch32/Fris.jpg, id=842, 240.9pt x 226.8475pt>
 File: img/ch32/Fris.jpg Graphic file (type jpg)
  <use img/ch32/Fris.jpg>
 Package pdftex.def Info: img/ch32/Fris.jpg used on input line 1815.
-(pdftex.def)             Requested size: 293.37508pt x 276.28624pt.
+(pdftex.def)             Requested size: 269.67398pt x 253.96707pt.
 
-Underfull \vbox (badness 1701) has occurred while \output is active []
-
- [218]
-Underfull \vbox (badness 8170) has occurred while \output is active []
-
- [219 <./img/ch32/Fris.jpg>] <img/ch32/antennae.png, id=885, 707.64375pt x 265.
-99374pt>
+<img/ch32/antennae.png, id=843, 707.64375pt x 265.99374pt>
 File: img/ch32/antennae.png Graphic file (type png)
 
 <use img/ch32/antennae.png>
 Package pdftex.def Info: img/ch32/antennae.png used on input line 1828.
-(pdftex.def)             Requested size: 293.37508pt x 110.27576pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [220 <./img/ch32/antennae.png>] <img/ch32/image-4.png, id=891, 632.3625pt x 34
-6.29375pt>
+(pdftex.def)             Requested size: 269.67398pt x 101.36684pt.
+ [206] [207 <./img/ch32/Fris.jpg>]
+<img/ch32/image-4.png, id=850, 632.3625pt x 346.29375pt>
 File: img/ch32/image-4.png Graphic file (type png)
 
 <use img/ch32/image-4.png>
 Package pdftex.def Info: img/ch32/image-4.png used on input line 1843.
-(pdftex.def)             Requested size: 293.37508pt x 160.66032pt.
- [221 <./img/ch32/image-4.png>] [222]
-<img/ch32/Hilko2.jpg, id=899, 624.3325pt x 404.51125pt>
+(pdftex.def)             Requested size: 269.67398pt x 147.6775pt.
+ [208 <./img/ch32/antennae.png>] [209 <./img/ch32/image-4.png>] <img/ch32/Hilko
+2.jpg, id=860, 624.3325pt x 404.51125pt>
 File: img/ch32/Hilko2.jpg Graphic file (type jpg)
 
 <use img/ch32/Hilko2.jpg>
 Package pdftex.def Info: img/ch32/Hilko2.jpg used on input line 1862.
-(pdftex.def)             Requested size: 293.37508pt x 190.08327pt.
+(pdftex.def)             Requested size: 269.67398pt x 174.7265pt.
 
-<img/ch32/image-5.png, id=900, 798.985pt x 466.74374pt>
+<img/ch32/image-5.png, id=861, 798.985pt x 466.74374pt>
 File: img/ch32/image-5.png Graphic file (type png)
 
 <use img/ch32/image-5.png>
 Package pdftex.def Info: img/ch32/image-5.png used on input line 1869.
-(pdftex.def)             Requested size: 293.37508pt x 171.38203pt.
- [223 <./img/ch32/Hilko2.jpg>] [224 <./img/ch32/image-5.png>]
+(pdftex.def)             Requested size: 269.67398pt x 157.53702pt.
+ [210 <./img/ch32/Hilko2.jpg>] [211 <./img/ch32/image-5.png>] [212
 
-LaTeX Warning: File `img/...' not found on input line 1883.
+] <img/ch33/image.png, id=872, 238.8925pt x 162.6075pt>
+File: img/ch33/image.png Graphic file (type png)
 
+<use img/ch33/image.png>
+Package pdftex.def Info: img/ch33/image.png used on input line 1883.
+(pdftex.def)             Requested size: 269.67398pt x 183.57065pt.
+ [213 <./img/ch33/image.png>]
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
-! LaTeX Error: Unknown graphics extension: ....
+ [214]
+[215] [216
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1883 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+] <img/ch34/image.png, id=887, 228.855pt x 156.585pt>
+File: img/ch34/image.png Graphic file (type png)
 
-[225
+<use img/ch34/image.png>
+Package pdftex.def Info: img/ch34/image.png used on input line 1909.
+(pdftex.def)             Requested size: 269.67398pt x 184.5202pt.
+ [217] [218 <./img/ch34/image.png>] [219
 
-] [226] [227] [228
-
-]
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [229]
-[230] [231
-
-] [232
+] [220
 
 ]
+File: img/ch34/image.png Graphic file (type png)
 
-LaTeX Warning: File `img/...' not found on input line 1929.
+<use img/ch34/image.png>
+Package pdftex.def Info: img/ch34/image.png used on input line 1934.
+(pdftex.def)             Requested size: 269.67398pt x 184.5202pt.
+ [221] [222]
+<img/ch38/image.png, id=908, 250.9375pt x 189.70876pt>
+File: img/ch38/image.png Graphic file (type png)
+
+<use img/ch38/image.png>
+Package pdftex.def Info: img/ch38/image.png used on input line 1946.
+(pdftex.def)             Requested size: 269.67398pt x 203.8982pt.
+ [223
+
+] [224 <./img/ch38/image.png>]
+<img/ch38/coentunnel3.jpg, id=915, 250.9375pt x 189.70876pt>
+File: img/ch38/coentunnel3.jpg Graphic file (type jpg)
+
+<use img/ch38/coentunnel3.jpg>
+Package pdftex.def Info: img/ch38/coentunnel3.jpg used on input line 1963.
+(pdftex.def)             Requested size: 269.67398pt x 203.8982pt.
+ [225 <./img/ch38/coentunnel3.jpg>]
+<img/ch38/joho_0011.jpg, id=919, 382.42876pt x 568.1225pt>
+File: img/ch38/joho_0011.jpg Graphic file (type jpg)
+
+<use img/ch38/joho_0011.jpg>
+Package pdftex.def Info: img/ch38/joho_0011.jpg used on input line 1972.
+(pdftex.def)             Requested size: 269.67398pt x 400.6391pt.
+
+
+LaTeX Warning: Float too large for page by 15.40959pt on input line 1974.
+
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [226]
+[227 <./img/ch38/joho_0011.jpg>]
+Underfull \vbox (badness 6477) has occurred while \output is active []
+
+ [228]
+<img/ch38/liebher.jpg, id=930, 259.97125pt x 194.7275pt>
+File: img/ch38/liebher.jpg Graphic file (type jpg)
+
+<use img/ch38/liebher.jpg>
+Package pdftex.def Info: img/ch38/liebher.jpg used on input line 1997.
+(pdftex.def)             Requested size: 269.67398pt x 201.9948pt.
+
+<img/ch38/portaalkraan.jpg, id=931, 211.79124pt x 147.55125pt>
+File: img/ch38/portaalkraan.jpg Graphic file (type jpg)
+
+<use img/ch38/portaalkraan.jpg>
+Package pdftex.def Info: img/ch38/portaalkraan.jpg used on input line 2006.
+(pdftex.def)             Requested size: 269.67398pt x 187.8833pt.
+ [229] [230 <./img/ch38/liebher.jpg>] [231 <./img/ch38/portaalkraan.jpg>]
+
+LaTeX Warning: File `img/ch38/...' not found on input line 2025.
 
 
 ! LaTeX Error: Unknown graphics extension: ....
@@ -3217,365 +3071,127 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1929 \includegraphics[width=\textwidth]{img/...}
+l.2025 ...graphics[width=\textwidth]{img/ch38/...}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \vbox (badness 4531) has occurred while \output is active []
+Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [233]
-[234] [235
+ [232]
+[233] [234
 
-] [236
+] <img/ch39/image.png, id=951, 1204.5pt x 897.3525pt>
+File: img/ch39/image.png Graphic file (type png)
+
+<use img/ch39/image.png>
+Package pdftex.def Info: img/ch39/image.png used on input line 2043.
+(pdftex.def)             Requested size: 269.67398pt x 200.90973pt.
+ [235]
+Underfull \vbox (badness 2799) has occurred while \output is active []
+
+ [236 <./img/ch39/image.png>] <img/ch39/Opmaak2.jpg, id=958, 516.93124pt x 387.
+4475pt>
+File: img/ch39/Opmaak2.jpg Graphic file (type jpg)
+
+<use img/ch39/Opmaak2.jpg>
+Package pdftex.def Info: img/ch39/Opmaak2.jpg used on input line 2064.
+(pdftex.def)             Requested size: 269.67398pt x 202.13008pt.
+
+<img/ch39/snurk.jpg, id=959, 1758.57pt x 1280.785pt>
+File: img/ch39/snurk.jpg Graphic file (type jpg)
+ <use img/ch39/snurk.jpg>
+Package pdftex.def Info: img/ch39/snurk.jpg used on input line 2075.
+(pdftex.def)             Requested size: 269.67398pt x 196.38942pt.
+
+<img/ch39/rustzacht.jpg, id=960, 1758.57pt x 1280.785pt>
+File: img/ch39/rustzacht.jpg Graphic file (type jpg)
+
+<use img/ch39/rustzacht.jpg>
+Package pdftex.def Info: img/ch39/rustzacht.jpg used on input line 2080.
+(pdftex.def)             Requested size: 269.67398pt x 196.38942pt.
+ [237] [238 <./img/ch39/Opmaak2.jpg>]
+Underfull \vbox (badness 2012) has occurred while \output is active []
+
+ [239 <./img/ch39/snurk.jpg>] [240 <./img/ch39/rustzacht.jpg>]
+<img/ch39/barleus1.jpg, id=974, 587.19376pt x 407.5225pt>
+File: img/ch39/barleus1.jpg Graphic file (type jpg)
+
+<use img/ch39/barleus1.jpg>
+Package pdftex.def Info: img/ch39/barleus1.jpg used on input line 2108.
+(pdftex.def)             Requested size: 269.67398pt x 187.15793pt.
+
+<img/ch39/aschool001.jpg, id=975, 786.94pt x 476.78125pt>
+File: img/ch39/aschool001.jpg Graphic file (type jpg)
+
+<use img/ch39/aschool001.jpg>
+Package pdftex.def Info: img/ch39/aschool001.jpg used on input line 2113.
+(pdftex.def)             Requested size: 269.67398pt x 163.38388pt.
+ [241] [242 <./img/ch39/barleus1.jpg>] [243 <./img/ch39/aschool001.jpg>] [244
 
 ]
-
-LaTeX Warning: File `img/...' not found on input line 1945.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1945 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[237]
-
-LaTeX Warning: File `img/...' not found on input line 1962.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1962 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[238]
-
-LaTeX Warning: File `img/...' not found on input line 1971.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1971 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[239] [240]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [241]
-
-LaTeX Warning: File `img/...' not found on input line 1996.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1996 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2005.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2005 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[242]
-
-LaTeX Warning: File `img/...' not found on input line 2016.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2016 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[243] [244]
-
-LaTeX Warning: File `img/...' not found on input line 2029.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2029 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[245] [246]
-
-LaTeX Warning: File `img/...' not found on input line 2047.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2047 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[247
-
-] [248]
-
-LaTeX Warning: File `img/...' not found on input line 2068.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2068 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2079.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2079 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2084.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2084 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[249] [250]
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [251]
-
-LaTeX Warning: File `img/...' not found on input line 2112.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2112 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2117.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2117 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[252] [253
-
-]
-
-LaTeX Warning: File `img/...' not found on input line 2139.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2139 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2146.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2146 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2155.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2155 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[254] [255]
-
-LaTeX Warning: File `img/...' not found on input line 2170.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2170 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[256]
-
-LaTeX Warning: File `img/...' not found on input line 2182.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2182 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[257
-
-]
-
-LaTeX Warning: File `img/...' not found on input line 2191.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2191 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[258]
-
-LaTeX Warning: File `img/...' not found on input line 2198.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2198 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[259]
-
-LaTeX Warning: File `img/...' not found on input line 2215.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2215 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<img/ch40/21.jpg, id=990, 235.88126pt x 154.5775pt>
+File: img/ch40/21.jpg Graphic file (type jpg)
+ <use img/ch40/21.jpg>
+Package pdftex.def Info: img/ch40/21.jpg used on input line 2135.
+(pdftex.def)             Requested size: 269.67398pt x 176.7249pt.
+
+[245] <img/ch40/kat_0002.jpg, id=994, 383.4325pt x 554.07pt>
+File: img/ch40/kat_0002.jpg Graphic file (type jpg)
+
+<use img/ch40/kat_0002.jpg>
+Package pdftex.def Info: img/ch40/kat_0002.jpg used on input line 2142.
+(pdftex.def)             Requested size: 269.67398pt x 389.70633pt.
+
+<img/ch40/molenvd.jpg, id=995, 1915.155pt x 1446.40375pt>
+File: img/ch40/molenvd.jpg Graphic file (type jpg)
+
+<use img/ch40/molenvd.jpg>
+Package pdftex.def Info: img/ch40/molenvd.jpg used on input line 2151.
+(pdftex.def)             Requested size: 269.67398pt x 203.66487pt.
+ [246 <./img/ch40/21.jpg>]
+<img/ch40/tekenz.jpg, id=999, 1402.23875pt x 1027.84pt>
+File: img/ch40/tekenz.jpg Graphic file (type jpg)
+
+<use img/ch40/tekenz.jpg>
+Package pdftex.def Info: img/ch40/tekenz.jpg used on input line 2166.
+(pdftex.def)             Requested size: 269.67398pt x 197.65984pt.
+ [247] [248 <./img/ch40/kat_0002.jpg>] [249 <./img/ch40/molenvd.jpg>] [250 <./i
+mg/ch40/tekenz.jpg>]
+<img/ch41/stadt.jpg, id=1013, 220.825pt x 166.6225pt>
+File: img/ch41/stadt.jpg Graphic file (type jpg)
+ <use img/ch41/stadt.jpg>
+Package pdftex.def Info: img/ch41/stadt.jpg used on input line 2178.
+(pdftex.def)             Requested size: 269.67398pt x 203.49016pt.
+
+[251
+
+] <img/ch41/ambachtschool.jpg, id=1017, 234.8775pt x 148.555pt>
+File: img/ch41/ambachtschool.jpg Graphic file (type jpg)
+
+<use img/ch41/ambachtschool.jpg>
+Package pdftex.def Info: img/ch41/ambachtschool.jpg used on input line 2187.
+(pdftex.def)             Requested size: 269.67398pt x 170.56262pt.
+ [252 <./img/ch41/stadt.jpg>]
+<img/ch41/IMG_0002.jpg, id=1021, 640.3925pt x 331.2375pt>
+File: img/ch41/IMG_0002.jpg Graphic file (type jpg)
+
+<use img/ch41/IMG_0002.jpg>
+Package pdftex.def Info: img/ch41/IMG_0002.jpg used on input line 2194.
+(pdftex.def)             Requested size: 269.67398pt x 139.48775pt.
+ [253 <./img/ch41/ambachtschool.jpg>]
+<img/ch41/Hogendijk.jpg, id=1025, 1284.8pt x 951.555pt>
+File: img/ch41/Hogendijk.jpg Graphic file (type jpg)
+
+<use img/ch41/Hogendijk.jpg>
+Package pdftex.def Info: img/ch41/Hogendijk.jpg used on input line 2211.
+(pdftex.def)             Requested size: 269.67398pt x 199.7163pt.
 
 ! Misplaced alignment tab character &.
 <argument> ...orespaces {\foottextfont CHEcK wie &
                                                    wanneer?}\@finalstrut \st...
-l.2219 ...werkt had\footnote{CHEcK wie & wanneer?}
+l.2215 ...werkt had\footnote{CHEcK wie & wanneer?}
                                                   . Het was een bonte tijd. ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3584,453 +3200,269 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[260] [261] [262
+[254 <./img/ch41/IMG_0002.jpg>] [255 <./img/ch41/Hogendijk.jpg>] [256]
+<img/ch42/soos01.jpg, id=1036, 325.215pt x 323.2075pt>
+File: img/ch42/soos01.jpg Graphic file (type jpg)
+
+<use img/ch42/soos01.jpg>
+Package pdftex.def Info: img/ch42/soos01.jpg used on input line 2227.
+(pdftex.def)             Requested size: 269.67398pt x 268.03036pt.
+ [257
 
 ]
+<img/ch42/IMG_0001.jpg, id=1040, 608.2725pt x 407.5225pt>
+File: img/ch42/IMG_0001.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `img/...' not found on input line 2231.
+<use img/ch42/IMG_0001.jpg>
+Package pdftex.def Info: img/ch42/IMG_0001.jpg used on input line 2245.
+(pdftex.def)             Requested size: 269.67398pt x 180.67847pt.
 
+<img/ch42/gem.jpg, id=1041, 242.9075pt x 170.6375pt>
+File: img/ch42/gem.jpg Graphic file (type jpg)
+ <use img/ch42/gem.jpg>
+Package pdftex.def Info: img/ch42/gem.jpg used on input line 2250.
+(pdftex.def)             Requested size: 269.67398pt x 189.43849pt.
 
-! LaTeX Error: Unknown graphics extension: ....
+[258 <./img/ch42/soos01.jpg>] [259 <./img/ch42/IMG_0001.jpg> <./img/ch42/gem.jp
+g>]
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2231 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ [260]
+<img/ch42/5-5-2009_011a.jpg, id=1051, 1372.12625pt x 1096.095pt>
+File: img/ch42/5-5-2009_011a.jpg Graphic file (type jpg)
 
+<use img/ch42/5-5-2009_011a.jpg>
+Package pdftex.def Info: img/ch42/5-5-2009_011a.jpg used on input line 2269.
+(pdftex.def)             Requested size: 269.67398pt x 215.41853pt.
+ [261] [262 <./img/ch42/5-5-2009_011a.jpg>]
+<img/ch42/krant.png, id=1059, 590.205pt x 639.38875pt>
+File: img/ch42/krant.png Graphic file (type png)
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [263]
-
-LaTeX Warning: File `img/...' not found on input line 2248.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2248 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[264]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use img/ch42/krant.png>
+Package pdftex.def Info: img/ch42/krant.png used on input line 2294.
+(pdftex.def)             Requested size: 269.67398pt x 292.15163pt.
+ [263] [264 <./img/ch42/krant.png>]
+Underfull \vbox (badness 6477) has occurred while \output is active []
 
  [265]
-Underfull \vbox (badness 2932) has occurred while \output is active []
+<img/ch42/image.png, id=1070, 158.5925pt x 211.79124pt>
+File: img/ch42/image.png Graphic file (type png)
 
- [266]
-Underfull \vbox (badness 5519) has occurred while \output is active []
+<use img/ch42/image.png>
+Package pdftex.def Info: img/ch42/image.png used on input line 2311.
+(pdftex.def)             Requested size: 269.67398pt x 360.1987pt.
 
- [267]
+<img/ch42/woonwagenkamp1977.jpg, id=1071, 241.90375pt x 178.6675pt>
+File: img/ch42/woonwagenkamp1977.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `img/...' not found on input line 2287.
+<use img/ch42/woonwagenkamp1977.jpg>
+Package pdftex.def Info: img/ch42/woonwagenkamp1977.jpg used on input line 2322
+.
+(pdftex.def)             Requested size: 269.67398pt x 199.20111pt.
+ [266] [267 <./img/ch42/image.png>]
+<img/ch42/prinsenstraat.jpg, id=1079, 220.825pt x 166.6225pt>
+File: img/ch42/prinsenstraat.jpg Graphic file (type jpg)
 
+<use img/ch42/prinsenstraat.jpg>
+Package pdftex.def Info: img/ch42/prinsenstraat.jpg used on input line 2333.
+(pdftex.def)             Requested size: 269.67398pt x 203.49016pt.
+ [268 <./img/ch42/woonwagenkamp1977.jpg>]
+[269 <./img/ch42/prinsenstraat.jpg>]
+<img/ch42/desoos_0004.jpeg, id=1087, 499.1448pt x 345.4506pt>
+File: img/ch42/desoos_0004.jpeg Graphic file (type jpg)
 
-! LaTeX Error: Unknown graphics extension: ....
+<use img/ch42/desoos_0004.jpeg>
+Package pdftex.def Info: img/ch42/desoos_0004.jpeg used on input line 2350.
+(pdftex.def)             Requested size: 269.67398pt x 186.64069pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2287 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[268] [269]
-
-LaTeX Warning: File `img/...' not found on input line 2304.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2304 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [270]
+Underfull \vbox (badness 1648) has occurred while \output is active []
 
-LaTeX Warning: File `img/...' not found on input line 2315.
+ [271 <./img/ch42/desoos_0004.jpeg>]
+<img/ch42/4-9-2009_002.jpg, id=1094, 2531.4575pt x 1647.15375pt>
+File: img/ch42/4-9-2009_002.jpg Graphic file (type jpg)
 
+<use img/ch42/4-9-2009_002.jpg>
+Package pdftex.def Info: img/ch42/4-9-2009_002.jpg used on input line 2367.
+(pdftex.def)             Requested size: 269.67398pt x 175.45703pt.
+ [272] [273 <./img/ch42/4-9-2009_002.jpg>]
+[274
 
-! LaTeX Error: Unknown graphics extension: ....
+] <img/ch43/hvo.jpg, id=1105, 140.525pt x 104.39pt>
+File: img/ch43/hvo.jpg Graphic file (type jpg)
+ <use img/ch43/hvo.jpg>
+Package pdftex.def Info: img/ch43/hvo.jpg used on input line 2379.
+(pdftex.def)             Requested size: 269.67398pt x 200.36276pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+[275] [276 <./img/ch43/hvo.jpg>]
+<img/ch43/hall.jpg, id=1112, 789.95125pt x 503.8825pt>
+File: img/ch43/hall.jpg Graphic file (type jpg)
+ <use img/ch43/hall.jpg>
+Package pdftex.def Info: img/ch43/hall.jpg used on input line 2392.
+(pdftex.def)             Requested size: 269.67398pt x 172.01744pt.
+
+<img/ch43/group.png, id=1113, 531.9072pt x 380.50156pt>
+File: img/ch43/group.png Graphic file (type png)
+
+<use img/ch43/group.png>
+Package pdftex.def Info: img/ch43/group.png used on input line 2401.
+(pdftex.def)             Requested size: 269.67398pt x 192.92105pt.
+
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [277 <./img/ch43/hall.jpg>] [278 <./img/ch43/group.png>]
+<img/ch44/NZVBwal_0006.jpg, id=1121, 1501.61pt x 1031.855pt>
+File: img/ch44/NZVBwal_0006.jpg Graphic file (type jpg)
+
+<use img/ch44/NZVBwal_0006.jpg>
+Package pdftex.def Info: img/ch44/NZVBwal_0006.jpg used on input line 2415.
+(pdftex.def)             Requested size: 269.67398pt x 185.30077pt.
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [279
+
+ <./img/ch44/NZVBwal_0006.jpg>]
+<img/ch44/9-25-2009_002.jpg, id=1125, 2601.72pt x 1686.3pt>
+File: img/ch44/9-25-2009_002.jpg Graphic file (type jpg)
+
+<use img/ch44/9-25-2009_002.jpg>
+Package pdftex.def Info: img/ch44/9-25-2009_002.jpg used on input line 2426.
+(pdftex.def)             Requested size: 269.67398pt x 174.78955pt.
+
+! Undefined control sequence.
+<argument> \footnotesizePiet 
+                             en de zondagsdienst
+l.2427 ...*{\footnotesizePiet en de zondagsdienst}
                                                   
-l.2315 \includegraphics[width=\textwidth]{img/...}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \footnotesizePiet 
+                             en de zondagsdienst
+l.2427 ...*{\footnotesizePiet en de zondagsdienst}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[271]
-
-LaTeX Warning: File `img/...' not found on input line 2326.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2326 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[272]
-
-LaTeX Warning: File `img/...' not found on input line 2343.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Unknown graphics extension: ....
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2343 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[273]
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [274]
-
-LaTeX Warning: File `img/...' not found on input line 2360.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2360 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[275] [276
+ [280]
+[281 <./img/ch44/9-25-2009_002.jpg>] [282] [283
 
 ]
-Underfull \vbox (badness 1910) has occurred while \output is active []
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
- [277]
+ [284]
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
-LaTeX Warning: File `img/...' not found on input line 2380.
+ [285]
+<img/ch46/krant.png, id=1145, 317.2653pt x 519.80197pt>
+File: img/ch46/krant.png Graphic file (type png)
 
+<use img/ch46/krant.png>
+Package pdftex.def Info: img/ch46/krant.png used on input line 2481.
+(pdftex.def)             Requested size: 188.77095pt x 309.28996pt.
 
-! LaTeX Error: Unknown graphics extension: ....
+<img/ch46/crew.jpeg, id=1146, 1716.4125pt x 1167.36125pt>
+File: img/ch46/crew.jpeg Graphic file (type jpg)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2380 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use img/ch46/crew.jpeg>
+Package pdftex.def Info: img/ch46/crew.jpeg used on input line 2486.
+(pdftex.def)             Requested size: 269.67398pt x 183.39725pt.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [278]
-
-LaTeX Warning: File `img/...' not found on input line 2389.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2389 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[279] [280]
-
-LaTeX Warning: File `img/...' not found on input line 2403.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2403 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [281
-
-]
-
-LaTeX Warning: File `img/...' not found on input line 2414.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2414 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[282] [283] [284
-
-] [285]
-Underfull \vbox (badness 5741) has occurred while \output is active []
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
  [286]
-Underfull \vbox (badness 2932) has occurred while \output is active []
+[287 <./img/ch46/krant.png>] [288 <./img/ch46/crew.jpeg>]
+<img/ch46/velse_0001.jpeg, id=1158, 1039.885pt x 743.77875pt>
+File: img/ch46/velse_0001.jpeg Graphic file (type jpg)
 
- [287]
-Underfull \vbox (badness 5741) has occurred while \output is active []
+<use img/ch46/velse_0001.jpeg>
+Package pdftex.def Info: img/ch46/velse_0001.jpeg used on input line 2503.
+(pdftex.def)             Requested size: 269.67398pt x 192.87854pt.
+ [289] [290 <./img/ch46/velse_0001.jpeg>]
+<img/ch46/velsen_0002.jpeg, id=1165, 590.205pt x 873.2625pt>
+File: img/ch46/velsen_0002.jpeg Graphic file (type jpg)
 
- [288]
+<use img/ch46/velsen_0002.jpeg>
+Package pdftex.def Info: img/ch46/velsen_0002.jpeg used on input line 2518.
+(pdftex.def)             Requested size: 269.67398pt x 399.01399pt.
+ [291] [292 <./img/ch46/velsen_0002.jpeg>]
+<img/ch47/kerk.jpg, id=1173, 200.75pt x 285.065pt>
+File: img/ch47/kerk.jpg Graphic file (type jpg)
+ <use img/ch47/kerk.jpg>
+Package pdftex.def Info: img/ch47/kerk.jpg used on input line 2532.
+(pdftex.def)             Requested size: 269.67398pt x 382.99425pt.
 
-LaTeX Warning: File `img/...' not found on input line 2468.
+[293
 
+] [294 <./img/ch47/kerk.jpg>]
+<img/ch47/afscheid.jpg, id=1181, 642.4pt x 481.8pt>
+File: img/ch47/afscheid.jpg Graphic file (type jpg)
 
-! LaTeX Error: Unknown graphics extension: ....
+<use img/ch47/afscheid.jpg>
+Package pdftex.def Info: img/ch47/afscheid.jpg used on input line 2549.
+(pdftex.def)             Requested size: 269.67398pt x 202.25903pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2468 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<img/ch47/haarlem.jpeg, id=1182, 256.96pt x 222.0295pt>
+File: img/ch47/haarlem.jpeg Graphic file (type jpg)
 
+<use img/ch47/haarlem.jpeg>
+Package pdftex.def Info: img/ch47/haarlem.jpeg used on input line 2554.
+(pdftex.def)             Requested size: 269.67398pt x 233.03279pt.
+ [295 <./img/ch47/afscheid.jpg>]
+<img/ch47/Stinie.jpeg, id=1186, 1606.0pt x 1204.5pt>
+File: img/ch47/Stinie.jpeg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 2473--2473
-[][] [][]\T1/jkp/m/n/10 (+20) door Weert Schenk, 24/11/00,
+<use img/ch47/Stinie.jpeg>
+Package pdftex.def Info: img/ch47/Stinie.jpeg used on input line 2565.
+(pdftex.def)             Requested size: 269.67398pt x 202.24434pt.
+
+Underfull \hbox (badness 2277) in paragraph at lines 2569--2570
+\T1/jkp/m/n/10 (+20) voor Ken-ne-mer-land. Ge-luk-kig wil-den de buren---een
  []
 
-
-LaTeX Warning: File `img/...' not found on input line 2484.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2484 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Argument of \caption@ydblarg has an extra }.
-<inserted text> 
-                \par 
-l.2485 ...n der Heijden. Syll Damave nam de foto.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-{\@caption \@captype }{\@xfootnote }\def \reserved@b {\stepcounter \@mpfn \ETC.
-! Paragraph ended before \caption@ydblarg was complete.
-<to be read again> 
-                   \par 
-l.2485 ...n der Heijden. Syll Damave nam de foto.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \caption@ydblarg has an extra }.
-<inserted text> 
-                \par 
-l.2485 ...n der Heijden. Syll Damave nam de foto.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-{\@caption \@captype }{\@xfootnote }\def \reserved@b {\stepcounter \@mpfn \ETC.
-! Paragraph ended before \caption@ydblarg was complete.
-<to be read again> 
-                   \par 
-l.2485 ...n der Heijden. Syll Damave nam de foto.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[289]
-Underfull \vbox (badness 5519) has occurred while \output is active []
-
- [290]
-
-LaTeX Warning: File `img/...' not found on input line 2501.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2501 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[291]
-Underfull \hbox (badness 1297) in paragraph at lines 2511--2512
-[]\T1/jkp/m/n/12 (+20) Ik deed alle werk-lo-zen die drie jaar of lan-ger
- []
-
-
-Underfull \vbox (badness 5741) has occurred while \output is active []
-
- [292]
-[293] [294
-
-]
-
-LaTeX Warning: File `img/...' not found on input line 2525.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2525 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [295]
-
-LaTeX Warning: File `img/...' not found on input line 2542.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2542 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/...' not found on input line 2547.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2547 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[296]
-
-LaTeX Warning: File `img/...' not found on input line 2558.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2558 \includegraphics[width=\textwidth]{img/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[297] [298] [299
+[296 <./img/ch47/haarlem.jpeg>] [297 <./img/ch47/Stinie.jpeg>] [298] [299
 
 ]
 \tf@toc=\write4
 \openout4 = `rm_verhaal.toc'.
 
- (./rm_verhaal.aux)
 
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./rm_verhaal.aux) ) 
 Here is how much of TeX's memory you used:
- 12853 strings out of 493089
- 187073 string characters out of 6134841
- 289255 words of memory out of 5000000
- 15516 multiletter control sequences out of 15000+600000
- 191530 words of font info for 489 fonts, out of 8000000 for 9000
+ 13005 strings out of 493089
+ 191166 string characters out of 6134841
+ 289177 words of memory out of 5000000
+ 15663 multiletter control sequences out of 15000+600000
+ 183430 words of font info for 435 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,38p,921b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2015/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/kpfonts/jkpssbn8a.pfb>
-Output written on rm_verhaal.pdf (302 pages, 19088581 bytes).
+ 42i,12n,38p,921b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r
+.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert
+.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb>
+Output written on rm_verhaal.pdf (302 pages, 38586159 bytes).
 PDF statistics:
- 1189 PDF objects out of 1200 (max. 8388607)
+ 1241 PDF objects out of 1440 (max. 8388607)
  704 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 67206 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 65900 words of extra memory for PDF output out of 74296 (max. 10000000)
 
