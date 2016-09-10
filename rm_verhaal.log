@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.17)  10 SEP 2016 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.17)  10 SEP 2016 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2150,41 +2150,44 @@ File: img/epi/epi3.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/epi/epi3.pdf used on input line 1291.
 (pdftex.def)             Requested size: 215.74pt x 44.91089pt.
 
-<img/ch23/koopm.jpg, id=465, 268.00125pt x 390.45876pt>
-File: img/ch23/koopm.jpg Graphic file (type jpg)
+<img/128-koopman.jpg, id=465, 338.26375pt x 481.8pt>
+File: img/128-koopman.jpg Graphic file (type jpg)
+ <use img/128-koopman.jpg>
+Package pdftex.def Info: img/128-koopman.jpg used on input line 1303.
+(pdftex.def)             Requested size: 269.67398pt x 384.11722pt.
 
-<use img/ch23/koopm.jpg>
-Package pdftex.def Info: img/ch23/koopm.jpg used on input line 1303.
-(pdftex.def)             Requested size: 269.67398pt x 392.89458pt.
- [101 <./img/epi/epi3.pdf>] [102 <./img/ch23/koopm.jpg>] <img/ch23/Eshuijs.jpg,
- id=488, 610.28pt x 459.7175pt>
+[101 <./img/epi/epi3.pdf>] [102 <./img/128-koopman.jpg>]
+<img/ch23/Eshuijs.jpg, id=488, 610.28pt x 459.7175pt>
 File: img/ch23/Eshuijs.jpg Graphic file (type jpg)
 
 <use img/ch23/Eshuijs.jpg>
 Package pdftex.def Info: img/ch23/Eshuijs.jpg used on input line 1320.
 (pdftex.def)             Requested size: 269.67398pt x 203.14615pt.
- [103] [104 <./img/ch23/Eshuijs.jpg>]
-<img/ch23/drumband2.png, id=495, 308.15125pt x 155.58125pt>
-File: img/ch23/drumband2.png Graphic file (type png)
+ [103]
+<img/131CzPeter3.jpg, id=492, 270.2898pt x 199.4652pt>
+File: img/131CzPeter3.jpg Graphic file (type jpg)
 
-<use img/ch23/drumband2.png>
-Package pdftex.def Info: img/ch23/drumband2.png used on input line 1332.
-(pdftex.def)             Requested size: 269.67398pt x 136.16411pt.
- [105 <./img/ch23/drumband2.png>]
-<img/ch24/Oosterweide.jpg, id=501, 599.23875pt x 372.39125pt>
-File: img/ch24/Oosterweide.jpg Graphic file (type jpg)
+<use img/131CzPeter3.jpg>
+Package pdftex.def Info: img/131CzPeter3.jpg used on input line 1329.
+(pdftex.def)             Requested size: 269.67398pt x 199.01425pt.
+ [104 <./img/ch23/Eshuijs.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use img/ch24/Oosterweide.jpg>
-Package pdftex.def Info: img/ch24/Oosterweide.jpg used on input line 1355.
-(pdftex.def)             Requested size: 269.67398pt x 167.58588pt.
+ [105 <./img/131CzPeter3.jpg>] <img/134-Oosterweide.jpg, id=500, 642.4pt x 416.
+55624pt>
+File: img/134-Oosterweide.jpg Graphic file (type jpg)
 
-<img/ch24/rollers.jpg, id=502, 256.96pt x 137.51375pt>
-File: img/ch24/rollers.jpg Graphic file (type jpg)
+<use img/134-Oosterweide.jpg>
+Package pdftex.def Info: img/134-Oosterweide.jpg used on input line 1355.
+(pdftex.def)             Requested size: 269.67398pt x 174.8698pt.
 
-<use img/ch24/rollers.jpg>
-Package pdftex.def Info: img/ch24/rollers.jpg used on input line 1362.
-(pdftex.def)             Requested size: 269.67398pt x 144.32864pt.
- [106] [107 <./img/ch24/Oosterweide.jpg> <./img/ch24/rollers.jpg>]
+<img/135-rollers-foto1.jpg, id=501, 778.107pt x 414.8298pt>
+File: img/135-rollers-foto1.jpg Graphic file (type jpg)
+
+<use img/135-rollers-foto1.jpg>
+Package pdftex.def Info: img/135-rollers-foto1.jpg used on input line 1362.
+(pdftex.def)             Requested size: 269.67398pt x 143.7684pt.
+ [106] [107 <./img/134-Oosterweide.jpg>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2198,43 +2201,48 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/ch25/bluerocking.jpg, id=509, 600.2425pt x 509.905pt>
+<img/ch25/bluerocking.jpg, id=508, 600.2425pt x 509.905pt>
 File: img/ch25/bluerocking.jpg Graphic file (type jpg)
 
 <use img/ch25/bluerocking.jpg>
 Package pdftex.def Info: img/ch25/bluerocking.jpg used on input line 1378.
 (pdftex.def)             Requested size: 269.67398pt x 229.08943pt.
-
-<img/ch25/nico.jpg, id=510, 602.25pt x 449.68pt>
+ [108 <./img/135-rollers-foto1.jpg>]
+<img/ch25/nico.jpg, id=512, 602.25pt x 449.68pt>
 File: img/ch25/nico.jpg Graphic file (type jpg)
  <use img/ch25/nico.jpg>
 Package pdftex.def Info: img/ch25/nico.jpg used on input line 1385.
 (pdftex.def)             Requested size: 269.67398pt x 201.36606pt.
 
-[108] <img/ch25/ri-2.jpg, id=514, 570.13pt x 357.335pt>
+[109 <./img/ch25/bluerocking.jpg>]
+<img/ch25/ri-2.jpg, id=516, 570.13pt x 357.335pt>
 File: img/ch25/ri-2.jpg Graphic file (type jpg)
-
-<use img/ch25/ri-2.jpg>
+ <use img/ch25/ri-2.jpg>
 Package pdftex.def Info: img/ch25/ri-2.jpg used on input line 1394.
 (pdftex.def)             Requested size: 269.67398pt x 169.0216pt.
- [109 <./img/ch25/bluerocking.jpg>] [110 <./img/ch25/nico.jpg>]
+
+[110 <./img/ch25/nico.jpg>]
 Underfull \vbox (badness 2600) has occurred while \output is active []
 
- [111 <./img/ch25/ri-2.jpg>] <img/ch26/rollingfour.jpg, id=525, 306.14375pt x 4
-30.60875pt>
-File: img/ch26/rollingfour.jpg Graphic file (type jpg)
+ [111 <./img/ch25/ri-2.jpg>] <img/142-RF.jpg, id=524, 216.05719pt x 324.46219pt
+>
+File: img/142-RF.jpg Graphic file (type jpg)
 
-<use img/ch26/rollingfour.jpg>
-Package pdftex.def Info: img/ch26/rollingfour.jpg used on input line 1412.
-(pdftex.def)             Requested size: 269.67398pt x 379.33109pt.
+<use img/142-RF.jpg>
+Package pdftex.def Info: img/142-RF.jpg used on input line 1412.
+(pdftex.def)             Requested size: 269.67398pt x 405.02718pt.
 
-<img/ch33/four.jpg, id=526, 283.0575pt x 210.7875pt>
+
+LaTeX Warning: Float too large for page by 9.34761pt on input line 1414.
+
+<img/ch33/four.jpg, id=525, 283.0575pt x 210.7875pt>
 File: img/ch33/four.jpg Graphic file (type jpg)
  <use img/ch33/four.jpg>
 Package pdftex.def Info: img/ch33/four.jpg used on input line 1421.
 (pdftex.def)             Requested size: 269.67398pt x 200.83879pt.
 
-<img/ch26/opel_olympia_big.png, id=527, 135.6705pt x 92.3085pt>
+[112] [113 <./img/142-RF.jpg>]
+<img/ch26/opel_olympia_big.png, id=532, 135.6705pt x 92.3085pt>
 File: img/ch26/opel_olympia_big.png Graphic file (type png)
 
 <use img/ch26/opel_olympia_big.png>
@@ -2254,16 +2262,18 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[112] [113 <./img/ch26/rollingfour.jpg>]
-<img/ch26/Moriaanshoofd.jpg, id=534, 561.09625pt x 375.4025pt>
+[114 <./img/ch33/four.jpg>]
+<img/ch26/Moriaanshoofd.jpg, id=536, 561.09625pt x 375.4025pt>
 File: img/ch26/Moriaanshoofd.jpg Graphic file (type jpg)
 
 <use img/ch26/Moriaanshoofd.jpg>
 Package pdftex.def Info: img/ch26/Moriaanshoofd.jpg used on input line 1439.
 (pdftex.def)             Requested size: 269.67398pt x 180.426pt.
- [114 <./img/ch33/four.jpg>] [115 <./img/ch26/opel_olympia_big.png> <./img/ch26
-/Moriaanshoofd.jpg>]
-<img/ch26/1965.jpg, id=541, 642.4pt x 468.75125pt>
+
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [115 <./img/ch26/opel_olympia_big.png>]
+<img/ch26/1965.jpg, id=540, 642.4pt x 468.75125pt>
 File: img/ch26/1965.jpg Graphic file (type jpg)
  <use img/ch26/1965.jpg>
 Package pdftex.def Info: img/ch26/1965.jpg used on input line 1450.
@@ -2283,6 +2293,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[116 <./img/ch26/Moriaanshoofd.jpg>]
 ! Misplaced alignment tab character &.
 l.1461 ...rschil met de gladde jaren vijftig rock&
                                                   roll die alle bandjes in d...
@@ -2293,41 +2304,51 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[116] <img/ch26/rf-4-moriaan.jpg, id=545, 602.25pt x 444.66125pt>
-File: img/ch26/rf-4-moriaan.jpg Graphic file (type jpg)
 
-<use img/ch26/rf-4-moriaan.jpg>
-Package pdftex.def Info: img/ch26/rf-4-moriaan.jpg used on input line 1465.
-(pdftex.def)             Requested size: 269.67398pt x 199.11867pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [117 <./img/ch26/1965.jpg>]
-<img/ch27/promo3a.png, id=550, 220.752pt x 163.593pt>
+
+! LaTeX Error: File `img/ch26/147-MoriaanA' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1465 ...width=\textwidth]{img/ch26/147-MoriaanA}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<img/ch27/promo3a.png, id=548, 220.752pt x 163.593pt>
 File: img/ch27/promo3a.png Graphic file (type png)
 
 <use img/ch27/promo3a.png>
 Package pdftex.def Info: img/ch27/promo3a.png used on input line 1478.
 (pdftex.def)             Requested size: 269.67398pt x 199.84775pt.
- [118 <./img/ch26/rf-4-moriaan.jpg>] [119 <./img/ch27/promo3a.png>]
-Underfull \vbox (badness 6477) has occurred while \output is active []
+ [118]
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [119 <./img/ch27/promo3a.png>] <img/152-duijn-stolk.jpg, id=556, 358.4592pt x 
+289.08pt>
+File: img/152-duijn-stolk.jpg Graphic file (type jpg)
+
+<use img/152-duijn-stolk.jpg>
+Package pdftex.def Info: img/152-duijn-stolk.jpg used on input line 1494.
+(pdftex.def)             Requested size: 269.67398pt x 217.48875pt.
+
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [120]
-<img/ch27/duyn002prov01ill10.png, id=561, 471.7625pt x 351.3125pt>
-File: img/ch27/duyn002prov01ill10.png Graphic file (type png)
-
-<use img/ch27/duyn002prov01ill10.png>
-Package pdftex.def Info: img/ch27/duyn002prov01ill10.png used on input line 149
-4.
-(pdftex.def)             Requested size: 269.67398pt x 200.82378pt.
-
-<img/ch27/aug65EdE.png, id=562, 411.939pt x 299.592pt>
+<img/ch27/aug65EdE.png, id=560, 411.939pt x 299.592pt>
 File: img/ch27/aug65EdE.png Graphic file (type png)
 
 <use img/ch27/aug65EdE.png>
 Package pdftex.def Info: img/ch27/aug65EdE.png used on input line 1505.
 (pdftex.def)             Requested size: 269.67398pt x 196.12218pt.
- [121 <./img/ch27/duyn002prov01ill10.png>]
-Underfull \vbox (badness 1342) has occurred while \output is active []
-
- [122 <./img/ch27/aug65EdE.png>]
+ [121 <./img/152-duijn-stolk.jpg>]
 
 ! Class memoir Error: Font command \bf is not supported.
 
@@ -2340,7 +2361,11 @@ l.1513 ...ijk zijn er twee singles verschenen: \bf
 
 Use \textbf, or \bfseries{...}, or the oldfontcommands option
 
-<img/ch27/4pieces.png, id=570, 531.9875pt x 538.01pt>
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [122 <./img/ch27/aug65EdE.png>] <img/ch27/4pieces.png, id=568, 531.9875pt x 53
+8.01pt>
 File: img/ch27/4pieces.png Graphic file (type png)
 
 <use img/ch27/4pieces.png>
@@ -2417,13 +2442,24 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[123] [124 <./img/ch27/4pieces.png>]
-<img/ch27/hartland.jpg, id=579, 329.23pt x 275.0275pt>
-File: img/ch27/hartland.jpg Graphic file (type jpg)
 
-<use img/ch27/hartland.jpg>
-Package pdftex.def Info: img/ch27/hartland.jpg used on input line 1529.
-(pdftex.def)             Requested size: 269.67398pt x 225.28061pt.
+! LaTeX Error: File `img/156-13 - Hartland3' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1529 ...idth=\textwidth]{img/156-13 - Hartland3}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 1529--1531
+\T1/jkp/m/n/10 (+20) land3.JPEG - Hart-land3.JBIG2 - Hart-land3.JB2 - Hart-
+ []
 
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
@@ -2481,6 +2517,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[123] [124 <./img/ch27/4pieces.png>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2508,7 +2545,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[125 <./img/ch27/hartland.jpg>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2516,7 +2552,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1549 ...voornamelijk van de vroege ochtend tot 
+l.1550 ...voornamelijk van de vroege ochtend tot 
                                                   de late middag. Na het on...
 
 Your command was ignored.
@@ -2530,7 +2566,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1549 ...de vroege ochtend tot de late middag. 
+l.1550 ...de vroege ochtend tot de late middag. 
                                                   Na het ontbijt gingen we ...
 
 Your command was ignored.
@@ -2544,7 +2580,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1549 ...d tot de late middag. Na het ontbijt 
+l.1550 ...d tot de late middag. Na het ontbijt 
                                                   gingen we in pyjama het ni...
 
 Your command was ignored.
@@ -2558,7 +2594,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1549 ... Dan weer ruim voor openingstijd in de 
+l.1550 ... Dan weer ruim voor openingstijd in de 
                                                   zaal om het nieuw ingestud...
 
 Your command was ignored.
@@ -2566,61 +2602,64 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+ [125]
+
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1551 ...oire bestond op een gegeven moment uit 
+l.1552 ...oire bestond op een gegeven moment uit 
                                                   enige honderden nummers, z...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[126]
-Underfull \vbox (badness 6477) has occurred while \output is active []
-
- [127]
-<img/ch28/tudor.jpg, id=589, 469.755pt x 250.9375pt>
+[126] <img/ch28/tudor.jpg, id=583, 469.755pt x 250.9375pt>
 File: img/ch28/tudor.jpg Graphic file (type jpg)
- <use img/ch28/tudor.jpg>
-Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1562.
+
+<use img/ch28/tudor.jpg>
+Package pdftex.def Info: img/ch28/tudor.jpg used on input line 1563.
 (pdftex.def)             Requested size: 269.67398pt x 144.05437pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [128 <./img/ch28/tudor.jpg>] <img/ch29/double.png, id=593, 543.02875pt x 183.6
-8625pt>
+ [127]
+<img/ch29/double.png, id=587, 543.02875pt x 183.68625pt>
 File: img/ch29/double.png Graphic file (type png)
 
 <use img/ch29/double.png>
-Package pdftex.def Info: img/ch29/double.png used on input line 1572.
+Package pdftex.def Info: img/ch29/double.png used on input line 1573.
 (pdftex.def)             Requested size: 269.67398pt x 91.22345pt.
- [129 <./img/ch29/double.png>]
-<img/ch29/soest.png, id=600, 117.5592pt x 83.8332pt>
-File: img/ch29/soest.png Graphic file (type png)
- <use img/ch29/soest.png>
-Package pdftex.def Info: img/ch29/soest.png used on input line 1583.
-(pdftex.def)             Requested size: 269.67398pt x 192.35303pt.
+ [128 <./img/ch28/tudor.jpg> <./img/ch29/double.png>]
 
-<img/ch29/rockadzaan4.jpg, id=601, 351.3125pt x 229.85875pt>
-File: img/ch29/rockadzaan4.jpg Graphic file (type jpg)
+! LaTeX Error: File `img/163-Soest1A' not found.
 
-<use img/ch29/rockadzaan4.jpg>
-Package pdftex.def Info: img/ch29/rockadzaan4.jpg used on input line 1588.
-(pdftex.def)             Requested size: 269.67398pt x 176.45865pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1584 ...phics[width=\textwidth]{img/163-Soest1A}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<img/ch29/Anita.png, id=602, 96.8418pt x 136.3494pt>
-File: img/ch29/Anita.png Graphic file (type png)
- <use img/ch29/Anita.png>
-Package pdftex.def Info: img/ch29/Anita.png used on input line 1596.
-(pdftex.def)             Requested size: 269.67398pt x 379.80331pt.
+<img/164beatclub.png, id=592, 225.9642pt x 144.54pt>
+File: img/164beatclub.png Graphic file (type png)
+ <use img/164beatclub.png>
+Package pdftex.def Info: img/164beatclub.png used on input line 1589.
+(pdftex.def)             Requested size: 269.67398pt x 172.51859pt.
 
-Underfull \vbox (badness 2726) has occurred while \output is active []
+[129] <img/165-Soest1.png, id=598, 190.7928pt x 277.035pt>
+File: img/165-Soest1.png Graphic file (type png)
 
- [130]
+<use img/165-Soest1.png>
+Package pdftex.def Info: img/165-Soest1.png used on input line 1597.
+(pdftex.def)             Requested size: 269.67398pt x 391.59164pt.
+
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2628,7 +2667,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1607 ...ter nog uitgenodigd om op te treden op 
+l.1608 ...ter nog uitgenodigd om op te treden op 
                                                   een of ander jaarfeest van...
 
 Your command was ignored.
@@ -2642,7 +2681,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1607 ...dese militairen. Het was geen probleem 
+l.1608 ...dese militairen. Het was geen probleem 
                                                   voor ze om ons met een paa...
 
 Your command was ignored.
@@ -2656,13 +2695,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1607 ...e nu zou zeggen. Daarna nog doorgezakt 
+l.1608 ...e nu zou zeggen. Daarna nog doorgezakt 
                                                   met de dochter van de Brig...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[130 <./img/164beatclub.png (PNG copy)>] [131 <./img/165-Soest1.png>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2670,7 +2710,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1609 De 
+l.1610 De 
            derde kennismaking was met de Nederlandse Krijgsmacht. Die maakte...
 
 Your command was ignored.
@@ -2684,31 +2724,43 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1609 ...n blijkbaar niet zonder Hennie en mij. 
+l.1610 ...n blijkbaar niet zonder Hennie en mij. 
                                                   Ik was er weliswaar tameli...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[131 <./img/ch29/soest.png>]
-<img/ch29/rockadzaan8.jpg, id=609, 330.23375pt x 320.19624pt>
+<img/ch29/rockadzaan8.jpg, id=606, 330.23375pt x 320.19624pt>
 File: img/ch29/rockadzaan8.jpg Graphic file (type jpg)
 
 <use img/ch29/rockadzaan8.jpg>
-Package pdftex.def Info: img/ch29/rockadzaan8.jpg used on input line 1618.
+Package pdftex.def Info: img/ch29/rockadzaan8.jpg used on input line 1619.
 (pdftex.def)             Requested size: 269.67398pt x 261.48773pt.
- [132 <./img/ch29/rockadzaan4.jpg>] [133 <./img/ch29/Anita.png>] [134 <./img/ch
-29/rockadzaan8.jpg>]
-<img/ch30/shameless2.png, id=619, 907.39pt x 255.95625pt>
-File: img/ch30/shameless2.png Graphic file (type png)
+ [132] [133 <./img/ch29/rockadzaan8.jpg>]
 
-<use img/ch30/shameless2.png>
-Package pdftex.def Info: img/ch30/shameless2.png used on input line 1631.
-(pdftex.def)             Requested size: 269.67398pt x 76.06883pt.
- [135 <./img/ch30/shameless2.png>]
+! LaTeX Error: File `img/169JoopB' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1632 ...graphics[width=\textwidth]{img/169JoopB}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<img/170biljet.png, id=613, 980.66376pt x 1464.47125pt>
+File: img/170biljet.png Graphic file (type png)
+
+<use img/170biljet.png>
+Package pdftex.def Info: img/170biljet.png used on input line 1641.
+(pdftex.def)             Requested size: 269.67398pt x 402.69733pt.
+
 ! Misplaced alignment tab character &.
-l.1641 ... ik in The Devotions gewend was, meer R&
+l.1647 ... ik in The Devotions gewend was, meer R&
                                                   B. We deden Otis Redding, ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2717,65 +2769,61 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<img/ch30/optournee2a.png, id=625, 119.4864pt x 81.906pt>
+[134] [135 <./img/170biljet.png (PNG copy)>]
+<img/ch30/optournee2a.png, id=621, 119.4864pt x 81.906pt>
 File: img/ch30/optournee2a.png Graphic file (type png)
 
 <use img/ch30/optournee2a.png>
-Package pdftex.def Info: img/ch30/optournee2a.png used on input line 1646.
+Package pdftex.def Info: img/ch30/optournee2a.png used on input line 1652.
 (pdftex.def)             Requested size: 269.67398pt x 184.88292pt.
 
-<img/ch30/film.png, id=626, 158.337pt x 207.2835pt>
+<img/ch30/film.png, id=622, 158.337pt x 207.2835pt>
 File: img/ch30/film.png Graphic file (type png)
  <use img/ch30/film.png>
-Package pdftex.def Info: img/ch30/film.png used on input line 1655.
+Package pdftex.def Info: img/ch30/film.png used on input line 1661.
 (pdftex.def)             Requested size: 269.67398pt x 353.0889pt.
 
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
- [136]
-[137 <./img/ch30/optournee2a.png>] [138 <./img/ch30/film.png>]
-<img/ch30/optourneeAs.png, id=637, 169.5936pt x 246.1998pt>
+[136 <./img/ch30/optournee2a.png>] [137 <./img/ch30/film.png>] [138]
+<img/ch30/optourneeAs.png, id=633, 169.5936pt x 246.1998pt>
 File: img/ch30/optourneeAs.png Graphic file (type png)
 
 <use img/ch30/optourneeAs.png>
-Package pdftex.def Info: img/ch30/optourneeAs.png used on input line 1672.
+Package pdftex.def Info: img/ch30/optourneeAs.png used on input line 1678.
 (pdftex.def)             Requested size: 269.67398pt x 391.55724pt.
 
-<img/ch30/schamensich.jpg, id=638, 729.72626pt x 890.32625pt>
+<img/ch30/schamensich.jpg, id=634, 729.72626pt x 890.32625pt>
 File: img/ch30/schamensich.jpg Graphic file (type jpg)
 
 <use img/ch30/schamensich.jpg>
-Package pdftex.def Info: img/ch30/schamensich.jpg used on input line 1680.
+Package pdftex.def Info: img/ch30/schamensich.jpg used on input line 1686.
 (pdftex.def)             Requested size: 269.67398pt x 329.02158pt.
- [139] [140 <./img/ch30/optourneeAs.png>]
-[141 <./img/ch30/schamensich.jpg>]
-<img/ch30/Devotions.jpg, id=649, 487.8225pt x 489.83pt>
+
+<img/ch30/Devotions.jpg, id=635, 487.8225pt x 489.83pt>
 File: img/ch30/Devotions.jpg Graphic file (type jpg)
 
 <use img/ch30/Devotions.jpg>
-Package pdftex.def Info: img/ch30/Devotions.jpg used on input line 1691.
+Package pdftex.def Info: img/ch30/Devotions.jpg used on input line 1697.
 (pdftex.def)             Requested size: 269.67398pt x 270.78258pt.
- [142 <./img/ch30/Devotions.jpg>]
-<img/ch31/jeugd.png, id=653, 399.4925pt x 611.28375pt>
-File: img/ch31/jeugd.png Graphic file (type png)
-
-<use img/ch31/jeugd.png>
-Package pdftex.def Info: img/ch31/jeugd.png used on input line 1703.
-(pdftex.def)             Requested size: 269.67398pt x 412.66402pt.
-
-<img/ch31/posterkleur68235.jpg, id=654, 235.88126pt x 357.335pt>
-File: img/ch31/posterkleur68235.jpg Graphic file (type jpg)
-
-<use img/ch31/posterkleur68235.jpg>
-Package pdftex.def Info: img/ch31/posterkleur68235.jpg used on input line 1708.
-
-(pdftex.def)             Requested size: 269.67398pt x 408.53296pt.
+ [139] [140 <./img/ch30/optourneeAs.png>] [141 <./img/ch30/schamensich.jpg>] [1
+42 <./img/ch30/Devotions.jpg>]
+<img/180ohjeugd.png, id=649, 204.765pt x 358.4592pt>
+File: img/180ohjeugd.png Graphic file (type png)
+ <use img/180ohjeugd.png>
+Package pdftex.def Info: img/180ohjeugd.png used on input line 1709.
+(pdftex.def)             Requested size: 269.67398pt x 472.11742pt.
 
 
-LaTeX Warning: Float too large for page by 12.8534pt on input line 1710.
+LaTeX Warning: Float too large for page by 54.0628pt on input line 1711.
+
+<img/181-flightutrecht.jpg, id=650, 501.875pt x 331.2375pt>
+File: img/181-flightutrecht.jpg Graphic file (type jpg)
+
+<use img/181-flightutrecht.jpg>
+Package pdftex.def Info: img/181-flightutrecht.jpg used on input line 1714.
+(pdftex.def)             Requested size: 269.67398pt x 177.99118pt.
 
 ! Misplaced alignment tab character &.
-l.1719 ...e hem op 27 november 1971 voor The Flo &
+l.1725 ...e hem op 27 november 1971 voor The Flo &
                                                    Eddie tour. Al op de heen...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2784,52 +2832,49 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[143] [144 <./img/ch31/jeugd.png>] [145 <./img/ch31/posterkleur68235.jpg>]
-<img/ch31/zappa.png, id=665, 464.73625pt x 668.4975pt>
+[143] [144 <./img/180ohjeugd.png (PNG copy)>]
+<img/ch31/zappa.png, id=657, 464.73625pt x 668.4975pt>
 File: img/ch31/zappa.png Graphic file (type png)
 
 <use img/ch31/zappa.png>
-Package pdftex.def Info: img/ch31/zappa.png used on input line 1724.
+Package pdftex.def Info: img/ch31/zappa.png used on input line 1730.
 (pdftex.def)             Requested size: 269.67398pt x 387.92262pt.
 
-<img/ch31/zappaolga.jpg, id=666, 580.1675pt x 387.4475pt>
+<img/ch31/zappaolga.jpg, id=658, 580.1675pt x 387.4475pt>
 File: img/ch31/zappaolga.jpg Graphic file (type jpg)
 
 <use img/ch31/zappaolga.jpg>
-Package pdftex.def Info: img/ch31/zappaolga.jpg used on input line 1735.
+Package pdftex.def Info: img/ch31/zappaolga.jpg used on input line 1740.
 (pdftex.def)             Requested size: 269.67398pt x 180.09619pt.
-
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
- [146]
-[147 <./img/ch31/zappa.png>]
-<img/ch31/reed.png, id=675, 459.7175pt x 687.56876pt>
+ [145 <./img/181-flightutrecht.jpg>] [146 <./img/ch31/zappa.png>] [147 <./img/c
+h31/zappaolga.jpg>]
+<img/ch31/reed.png, id=670, 459.7175pt x 687.56876pt>
 File: img/ch31/reed.png Graphic file (type png)
  <use img/ch31/reed.png>
-Package pdftex.def Info: img/ch31/reed.png used on input line 1748.
+Package pdftex.def Info: img/ch31/reed.png used on input line 1753.
 (pdftex.def)             Requested size: 269.67398pt x 403.35393pt.
 
 
-LaTeX Warning: Float too large for page by 7.67436pt on input line 1750.
+LaTeX Warning: Float too large for page by 7.67436pt on input line 1755.
 
-[148 <./img/ch31/zappaolga.jpg>] [149 <./img/ch31/reed.png>]
-<img/ch31/ff.jpg, id=683, 1083.04625pt x 1078.0275pt>
+<img/ch31/ff.jpg, id=671, 1083.04625pt x 1078.0275pt>
 File: img/ch31/ff.jpg Graphic file (type jpg)
  <use img/ch31/ff.jpg>
-Package pdftex.def Info: img/ch31/ff.jpg used on input line 1760.
+Package pdftex.def Info: img/ch31/ff.jpg used on input line 1765.
 (pdftex.def)             Requested size: 269.67398pt x 268.42055pt.
 
-<img/ch31/Spandoek-cantate-klein.jpg, id=684, 301.125pt x 225.84375pt>
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [148]
+[149 <./img/ch31/reed.png>]
+<img/ch31/Spandoek-cantate-klein.jpg, id=679, 301.125pt x 225.84375pt>
 File: img/ch31/Spandoek-cantate-klein.jpg Graphic file (type jpg)
 
 <use img/ch31/Spandoek-cantate-klein.jpg>
 Package pdftex.def Info: img/ch31/Spandoek-cantate-klein.jpg used on input line
- 1771.
+ 1776.
 (pdftex.def)             Requested size: 269.67398pt x 202.27534pt.
- [150]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [151 <./img/ch31/ff.jpg>]
+ [150 <./img/ch31/ff.jpg>] [151 <./img/ch31/Spandoek-cantate-klein.jpg>]
 
 ! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
@@ -2837,1060 +2882,794 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1782 ...a het concert kon je hem uitknijpen.  
+l.1787 ...a het concert kon je hem uitknijpen.  
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[152 <./img/ch31/Spandoek-cantate-klein.jpg>]
-<img/ch31/dali.jpg, id=694, 235.88126pt x 416.55624pt>
-File: img/ch31/dali.jpg Graphic file (type jpg)
- <use img/ch31/dali.jpg>
-Package pdftex.def Info: img/ch31/dali.jpg used on input line 1795.
-(pdftex.def)             Requested size: 215.74pt x 380.99268pt.
 
-[153] [154 <./img/ch31/dali.jpg>]
-<img/epi/epi2.pdf, id=702, 547.21982pt x 113.72829pt>
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [152]
+<img/190dali.jpg, id=689, 203.8014pt x 365.6862pt>
+File: img/190dali.jpg Graphic file (type jpg)
+ <use img/190dali.jpg>
+Package pdftex.def Info: img/190dali.jpg used on input line 1800.
+(pdftex.def)             Requested size: 215.74pt x 387.11217pt.
+
+[153] [154 <./img/190dali.jpg>]
+<img/epi/epi2.pdf, id=697, 547.21982pt x 113.72829pt>
 File: img/epi/epi2.pdf Graphic file (type pdf)
  <use img/epi/epi2.pdf>
-Package pdftex.def Info: img/epi/epi2.pdf used on input line 1805.
+Package pdftex.def Info: img/epi/epi2.pdf used on input line 1810.
 (pdftex.def)             Requested size: 215.74pt x 44.838pt.
 
-<img/ch32/DeBeer.png, id=703, 620.3175pt x 450.68375pt>
-File: img/ch32/DeBeer.png Graphic file (type png)
 
-<use img/ch32/DeBeer.png>
-Package pdftex.def Info: img/ch32/DeBeer.png used on input line 1819.
-(pdftex.def)             Requested size: 269.67398pt x 195.92892pt.
- [155
+! LaTeX Error: File `img/196debeer' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1824 ...raphics[width=\textwidth]{img/196debeer}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[155
 
  <./img/epi/epi2.pdf>]
-<img/ch32/sabel.jpg, id=723, 351.3125pt x 219.82124pt>
+<img/ch32/sabel.jpg, id=717, 351.3125pt x 219.82124pt>
 File: img/ch32/sabel.jpg Graphic file (type jpg)
 
 <use img/ch32/sabel.jpg>
-Package pdftex.def Info: img/ch32/sabel.jpg used on input line 1836.
+Package pdftex.def Info: img/ch32/sabel.jpg used on input line 1841.
 (pdftex.def)             Requested size: 269.67398pt x 168.75302pt.
+ [156 <./img/ch32/sabel.jpg>]
 
-Underfull \vbox (badness 1168) has occurred while \output is active []
+! LaTeX Error: File `img/197scado' not found.
 
- [156 <./img/ch32/DeBeer.png>] <img/ch32/scado.jpg, id=728, 212.795pt x 150.562
-5pt>
-File: img/ch32/scado.jpg Graphic file (type jpg)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1853 ...graphics[width=\textwidth]{img/197scado}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use img/ch32/scado.jpg>
-Package pdftex.def Info: img/ch32/scado.jpg used on input line 1848.
-(pdftex.def)             Requested size: 269.67398pt x 190.81708pt.
+[157]
 
-Underfull \vbox (badness 1424) has occurred while \output is active []
+! LaTeX Error: File `img/199perk' not found.
 
- [157 <./img/ch32/sabel.jpg>] [158 <./img/ch32/scado.jpg>]
-<img/ch32/image-2.png, id=735, 210.7875pt x 160.6pt>
-File: img/ch32/image-2.png Graphic file (type png)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1874 ...egraphics[width=\textwidth]{img/199perk}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use img/ch32/image-2.png>
-Package pdftex.def Info: img/ch32/image-2.png used on input line 1869.
-(pdftex.def)             Requested size: 269.67398pt x 205.46925pt.
- <img/ch32/Fris.jpg, id=736, 240.9pt x 226.8475pt>
-File: img/ch32/Fris.jpg Graphic file (type jpg)
+[158]
 
-<use img/ch32/Fris.jpg>
-Package pdftex.def Info: img/ch32/Fris.jpg used on input line 1882.
-(pdftex.def)             Requested size: 269.67398pt x 253.96707pt.
- [159] [160 <./img/ch32/image-2.png>]
-<img/ch32/antennae.png, id=745, 707.64375pt x 265.99374pt>
-File: img/ch32/antennae.png Graphic file (type png)
+! LaTeX Error: File `img/200fris' not found.
 
-<use img/ch32/antennae.png>
-Package pdftex.def Info: img/ch32/antennae.png used on input line 1895.
-(pdftex.def)             Requested size: 269.67398pt x 101.36684pt.
- [161 <./img/ch32/Fris.jpg>] [162 <./img/ch32/antennae.png>] <img/ch32/image-4.
-png, id=753, 632.3625pt x 346.29375pt>
-File: img/ch32/image-4.png Graphic file (type png)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1887 ...egraphics[width=\textwidth]{img/200fris}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use img/ch32/image-4.png>
-Package pdftex.def Info: img/ch32/image-4.png used on input line 1910.
-(pdftex.def)             Requested size: 269.67398pt x 147.6775pt.
- [163 <./img/ch32/image-4.png>]
-<img/ch32/Hilko2.jpg, id=758, 624.3325pt x 404.51125pt>
-File: img/ch32/Hilko2.jpg Graphic file (type jpg)
 
-<use img/ch32/Hilko2.jpg>
-Package pdftex.def Info: img/ch32/Hilko2.jpg used on input line 1929.
-(pdftex.def)             Requested size: 269.67398pt x 174.7265pt.
+! LaTeX Error: File `img/201husslage' not found.
 
-<img/ch32/image-5.png, id=759, 798.985pt x 466.74374pt>
-File: img/ch32/image-5.png Graphic file (type png)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1900 ...phics[width=\textwidth]{img/201husslage}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use img/ch32/image-5.png>
-Package pdftex.def Info: img/ch32/image-5.png used on input line 1936.
-(pdftex.def)             Requested size: 269.67398pt x 157.53702pt.
+[159]
 
-Underfull \vbox (badness 4686) has occurred while \output is active []
+! LaTeX Error: File `img/203relaistelefooncentrale' not found.
 
- [164]
-[165 <./img/ch32/Hilko2.jpg> <./img/ch32/image-5.png>]
-<img/ch33/image.png, id=768, 238.8925pt x 162.6075pt>
-File: img/ch33/image.png Graphic file (type png)
- <use img/ch33/image.png>
-Package pdftex.def Info: img/ch33/image.png used on input line 1950.
-(pdftex.def)             Requested size: 269.67398pt x 183.57065pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1915 ...extwidth]{img/203relaistelefooncentrale}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[166 <./img/ch33/image.png>]
-Underfull \vbox (badness 1342) has occurred while \output is active []
+[160]
 
- [167]
-<img/ch34/image.png, id=776, 228.855pt x 156.585pt>
-File: img/ch34/image.png Graphic file (type png)
- <use img/ch34/image.png>
-Package pdftex.def Info: img/ch34/image.png used on input line 1976.
-(pdftex.def)             Requested size: 269.67398pt x 184.5202pt.
+! LaTeX Error: File `img/204hilko' not found.
 
-Underfull \vbox (badness 1303) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1934 ...graphics[width=\textwidth]{img/204hilko}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- [168]
-[169 <./img/ch34/image.png>]
-File: img/ch34/image.png Graphic file (type png)
- <use img/ch34/image.png>
-Package pdftex.def Info: img/ch34/image.png used on input line 2001.
-(pdftex.def)             Requested size: 269.67398pt x 184.5202pt.
 
-<img/ch38/image.png, id=785, 250.9375pt x 189.70876pt>
+! LaTeX Error: File `img/205DEMM' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1941 ...egraphics[width=\textwidth]{img/205DEMM}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[161]
+
+! LaTeX Error: File `img/207AHA' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1955 ...degraphics[width=\textwidth]{img/207AHA}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[162]
+
+! LaTeX Error: File `img/208ponskaart' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1964 ...hics[width=\textwidth]{img/208ponskaart}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[163]
+
+! LaTeX Error: File `img/212pieterschoen' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1986 ...s[width=\textwidth]{img/212pieterschoen}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[164] [165]
+
+! LaTeX Error: File `img/216 van Heusden schoonmaak' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2011 ...xtwidth]{img/216 van Heusden schoonmaak}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 2011--2012
+\T1/jkp/m/n/10 (+20) van Heus-den schoon-maak.jpeg van Heus-den schoon-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 2011--2012
+\T1/jkp/m/n/10 (+20) maak.jbig2 van Heus-den schoon-maak.jb2 van Heus-den
+ []
+
+[166] <img/ch38/image.png, id=753, 250.9375pt x 189.70876pt>
 File: img/ch38/image.png Graphic file (type png)
 
 <use img/ch38/image.png>
-Package pdftex.def Info: img/ch38/image.png used on input line 2013.
+Package pdftex.def Info: img/ch38/image.png used on input line 2023.
 (pdftex.def)             Requested size: 269.67398pt x 203.8982pt.
- [170]
-<img/ch38/olga.jpeg, id=789, 460.72125pt x 475.7775pt>
+
+<img/ch38/olga.jpeg, id=754, 460.72125pt x 475.7775pt>
 File: img/ch38/olga.jpeg Graphic file (type jpg)
 
 <use img/ch38/olga.jpeg>
-Package pdftex.def Info: img/ch38/olga.jpeg used on input line 2020.
+Package pdftex.def Info: img/ch38/olga.jpeg used on input line 2030.
 (pdftex.def)             Requested size: 269.67398pt x 278.48479pt.
+ [167 <./img/ch38/image.png>] [168 <./img/ch38/olga.jpeg>]
 
-Underfull \vbox (badness 3229) has occurred while \output is active []
+! LaTeX Error: File `img/220 coentunnelweg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2047 ...width=\textwidth]{img/220 coentunnelweg}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2047--2048
+\T1/jkp/m/n/10 (+20) coen-tun-nel-weg.JPG coen-tun-nel-weg.JPEG coen-tun-nel-
+ []
+
+[169]
+
+! LaTeX Error: File `img/222 kraan' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2056 ...raphics[width=\textwidth]{img/222 kraan}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2056--2057
+[]\T1/jkp/m/n/10 (+20) kraan.png kraan.pdf kraan.jpg kraan.mps kraan.jpeg
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 2056--2057
+\T1/jkp/m/n/10 (+20) kraan.jbig2 kraan.jb2 kraan.PNG kraan.PDF kraan.JPG
+ []
+
+[170]
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
  [171]
-[172 <./img/ch38/image.png>] [173 <./img/ch38/olga.jpeg>]
-<img/ch38/coentunnel3.jpg, id=801, 250.9375pt x 189.70876pt>
-File: img/ch38/coentunnel3.jpg Graphic file (type jpg)
 
-<use img/ch38/coentunnel3.jpg>
-Package pdftex.def Info: img/ch38/coentunnel3.jpg used on input line 2037.
-(pdftex.def)             Requested size: 269.67398pt x 203.8982pt.
- [174 <./img/ch38/coentunnel3.jpg>]
-<img/ch38/joho_0011.jpg, id=805, 382.42876pt x 568.1225pt>
-File: img/ch38/joho_0011.jpg Graphic file (type jpg)
+! LaTeX Error: File `img/224spuitpijpen' not found.
 
-<use img/ch38/joho_0011.jpg>
-Package pdftex.def Info: img/ch38/joho_0011.jpg used on input line 2046.
-(pdftex.def)             Requested size: 269.67398pt x 400.6391pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2077 ...cs[width=\textwidth]{img/224spuitpijpen}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
+[172] <img/ch38/liebher.jpg, id=775, 259.97125pt x 194.7275pt>
+File: img/ch38/liebher.jpg Graphic file (type jpg)
 
-LaTeX Warning: Float too large for page by 15.40959pt on input line 2048.
+<use img/ch38/liebher.jpg>
+Package pdftex.def Info: img/ch38/liebher.jpg used on input line 2086.
+(pdftex.def)             Requested size: 269.67398pt x 201.9948pt.
+ [173 <./img/ch38/liebher.jpg>]
+
+! LaTeX Error: File `img/225 kan' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2095 ...egraphics[width=\textwidth]{img/225 kan}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[174]
+
+! LaTeX Error: File `img/227 Tandwiel' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2114 ...hics[width=\textwidth]{img/227 Tandwiel}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [175]
-[176 <./img/ch38/joho_0011.jpg>]
-Underfull \vbox (badness 2726) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [177]
-<img/ch38/liebher.jpg, id=816, 259.97125pt x 194.7275pt>
-File: img/ch38/liebher.jpg Graphic file (type jpg)
+ [176]
 
-<use img/ch38/liebher.jpg>
-Package pdftex.def Info: img/ch38/liebher.jpg used on input line 2071.
-(pdftex.def)             Requested size: 269.67398pt x 201.9948pt.
+! LaTeX Error: File `img/230 De Tijd' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2132 ...phics[width=\textwidth]{img/230 De Tijd}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[177] <img/ch39/Opmaak2.jpg, id=792, 516.93124pt x 387.4475pt>
+File: img/ch39/Opmaak2.jpg Graphic file (type jpg)
+
+<use img/ch39/Opmaak2.jpg>
+Package pdftex.def Info: img/ch39/Opmaak2.jpg used on input line 2153.
+(pdftex.def)             Requested size: 269.67398pt x 202.13008pt.
 
 Underfull \vbox (badness 1394) has occurred while \output is active []
 
  [178]
-<img/ch38/portaalkraan.jpg, id=820, 211.79124pt x 147.55125pt>
-File: img/ch38/portaalkraan.jpg Graphic file (type jpg)
-
-<use img/ch38/portaalkraan.jpg>
-Package pdftex.def Info: img/ch38/portaalkraan.jpg used on input line 2080.
-(pdftex.def)             Requested size: 269.67398pt x 187.8833pt.
- [179 <./img/ch38/liebher.jpg>] [180 <./img/ch38/portaalkraan.jpg>]
-
-LaTeX Warning: File `img/ch38/...' not found on input line 2099.
-
-
-! LaTeX Error: Unknown graphics extension: ....
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2099 ...graphics[width=\textwidth]{img/ch38/...}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[181] <img/ch39/image.png, id=830, 1204.5pt x 897.3525pt>
-File: img/ch39/image.png Graphic file (type png)
-
-<use img/ch39/image.png>
-Package pdftex.def Info: img/ch39/image.png used on input line 2117.
-(pdftex.def)             Requested size: 269.67398pt x 200.90973pt.
- [182]
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
- [183 <./img/ch39/image.png>]
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
- [184]
-<img/ch39/Opmaak2.jpg, id=841, 516.93124pt x 387.4475pt>
-File: img/ch39/Opmaak2.jpg Graphic file (type jpg)
-
-<use img/ch39/Opmaak2.jpg>
-Package pdftex.def Info: img/ch39/Opmaak2.jpg used on input line 2138.
-(pdftex.def)             Requested size: 269.67398pt x 202.13008pt.
- [185 <./img/ch39/Opmaak2.jpg>]
-<img/ch39/snurk.jpg, id=845, 1758.57pt x 1280.785pt>
+<img/ch39/snurk.jpg, id=796, 1758.57pt x 1280.785pt>
 File: img/ch39/snurk.jpg Graphic file (type jpg)
  <use img/ch39/snurk.jpg>
-Package pdftex.def Info: img/ch39/snurk.jpg used on input line 2149.
+Package pdftex.def Info: img/ch39/snurk.jpg used on input line 2164.
 (pdftex.def)             Requested size: 269.67398pt x 196.38942pt.
 
-<img/ch39/rustzacht.jpg, id=846, 1758.57pt x 1280.785pt>
+<img/ch39/rustzacht.jpg, id=797, 1758.57pt x 1280.785pt>
 File: img/ch39/rustzacht.jpg Graphic file (type jpg)
 
 <use img/ch39/rustzacht.jpg>
-Package pdftex.def Info: img/ch39/rustzacht.jpg used on input line 2154.
+Package pdftex.def Info: img/ch39/rustzacht.jpg used on input line 2169.
 (pdftex.def)             Requested size: 269.67398pt x 196.38942pt.
+ [179 <./img/ch39/Opmaak2.jpg>]
+Underfull \vbox (badness 1028) has occurred while \output is active []
 
-Underfull \vbox (badness 2012) has occurred while \output is active []
+ [180 <./img/ch39/snurk.jpg>] [181 <./img/ch39/rustzacht.jpg>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2197 ...[width=\textwidth]{img/236 barleus_0004}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- [186 <./img/ch39/snurk.jpg>] [187 <./img/ch39/rustzacht.jpg>] [188]
-<img/ch39/barleus1.jpg, id=856, 587.19376pt x 407.5225pt>
-File: img/ch39/barleus1.jpg Graphic file (type jpg)
 
-<use img/ch39/barleus1.jpg>
-Package pdftex.def Info: img/ch39/barleus1.jpg used on input line 2182.
-(pdftex.def)             Requested size: 269.67398pt x 187.15793pt.
+! LaTeX Error: File `img/236 barleus_0004' not found.
 
-<img/ch39/aschool001.jpg, id=857, 786.94pt x 476.78125pt>
-File: img/ch39/aschool001.jpg Graphic file (type jpg)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2197 ...[width=\textwidth]{img/236 barleus_0004}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use img/ch39/aschool001.jpg>
-Package pdftex.def Info: img/ch39/aschool001.jpg used on input line 2187.
-(pdftex.def)             Requested size: 269.67398pt x 163.38388pt.
- [189 <./img/ch39/barleus1.jpg>] [190 <./img/ch39/aschool001.jpg>] <img/ch40/21
-.jpg, id=865, 235.88126pt x 154.5775pt>
-File: img/ch40/21.jpg Graphic file (type jpg)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2197 ...[width=\textwidth]{img/236 barleus_0004}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-<use img/ch40/21.jpg>
-Package pdftex.def Info: img/ch40/21.jpg used on input line 2209.
-(pdftex.def)             Requested size: 269.67398pt x 176.7249pt.
- <img/ch40/kat_0002.jpg, id=866, 383.4325pt x 554.07pt>
-File: img/ch40/kat_0002.jpg Graphic file (type jpg)
 
-<use img/ch40/kat_0002.jpg>
-Package pdftex.def Info: img/ch40/kat_0002.jpg used on input line 2216.
-(pdftex.def)             Requested size: 269.67398pt x 389.70633pt.
- [191 <./img/ch40/21.jpg>]
-<img/ch40/molenvd.jpg, id=870, 1915.155pt x 1446.40375pt>
+Overfull \hbox (779.44911pt too wide) in paragraph at lines 2197--2198
+[]\T1/jkp/m/n/10 (-20) barleus$[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 png
+barleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 pdfbarleus[]\OT1/jkp/m/n/10
+ (-20) 004.\OML/jkp/m/it/10 jpgbarleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it
+/10 mpsbarleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 jpegbarleus[]\OT1/jk
+p/m/n/10 (-20) 004.\OML/jkp/m/it/10 jbig\OT1/jkp/m/n/10 (-20) 2\OML/jkp/m/it/10
+ barleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 jb\OT1/jkp/m/n/10 (-20) 2\
+OML/jkp/m/it/10 barleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 PNGbarleus[
+]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 PDFbarleus[]\OT1/jkp/m/n/10 (-20) 0
+04.\OML/jkp/m/it/10 JPGbarleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 JPEG
+barleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 JBIG\OT1/jkp/m/n/10 (-20) 2
+\OML/jkp/m/it/10 barleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/it/10 JB\OT1/jkp
+/m/n/10 (-20) 2\OML/jkp/m/it/10 barleus[]\OT1/jkp/m/n/10 (-20) 004.\OML/jkp/m/i
+t/10 eps$ 
+ []
+
+
+! LaTeX Error: File `img/237 aschool001' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2202 ...cs[width=\textwidth]{img/237 aschool001}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2202--2203
+[]\T1/jkp/m/n/10 (+20) aschool001.png aschool001.pdf aschool001.jpg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2202--2203
+\T1/jkp/m/n/10 (+20) aschool001.mps aschool001.jpeg aschool001.jbig2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2202--2203
+\T1/jkp/m/n/10 (+20) aschool001.jb2 aschool001.PNG aschool001.PDF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2202--2203
+\T1/jkp/m/n/10 (+20) aschool001.JPG aschool001.JPEG aschool001.JBIG2
+ []
+
+[182] [183]
+
+! LaTeX Error: File `img/240 zaanweg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2224 ...phics[width=\textwidth]{img/240 zaanweg}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 2224--2225
+\T1/jkp/m/n/10 (+20) weg.jpeg zaan-weg.jbig2 zaan-weg.jb2 zaan-weg.PNG zaan-
+ []
+
+
+! LaTeX Error: File `img/242 brommer' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 ...phics[width=\textwidth]{img/242 brommer}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[184] <img/ch40/molenvd.jpg, id=818, 1915.155pt x 1446.40375pt>
 File: img/ch40/molenvd.jpg Graphic file (type jpg)
 
 <use img/ch40/molenvd.jpg>
-Package pdftex.def Info: img/ch40/molenvd.jpg used on input line 2225.
+Package pdftex.def Info: img/ch40/molenvd.jpg used on input line 2240.
 (pdftex.def)             Requested size: 269.67398pt x 203.66487pt.
-
-<img/ch40/tekenz.jpg, id=871, 1402.23875pt x 1027.84pt>
+ [185 <./img/ch40/molenvd.jpg>]
+<img/ch40/tekenz.jpg, id=822, 1402.23875pt x 1027.84pt>
 File: img/ch40/tekenz.jpg Graphic file (type jpg)
 
 <use img/ch40/tekenz.jpg>
-Package pdftex.def Info: img/ch40/tekenz.jpg used on input line 2240.
+Package pdftex.def Info: img/ch40/tekenz.jpg used on input line 2255.
 (pdftex.def)             Requested size: 269.67398pt x 197.65984pt.
-
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
- [192]
-<img/ch41/stadt.jpg, id=875, 220.825pt x 166.6225pt>
+ <img/ch41/stadt.jpg, id=823, 220.825pt x 166.6225pt>
 File: img/ch41/stadt.jpg Graphic file (type jpg)
- <use img/ch41/stadt.jpg>
-Package pdftex.def Info: img/ch41/stadt.jpg used on input line 2252.
+
+<use img/ch41/stadt.jpg>
+Package pdftex.def Info: img/ch41/stadt.jpg used on input line 2267.
 (pdftex.def)             Requested size: 269.67398pt x 203.49016pt.
+ [186]
+Underfull \vbox (badness 1389) has occurred while \output is active []
 
-<img/ch41/ambachtschool.jpg, id=876, 234.8775pt x 148.555pt>
-File: img/ch41/ambachtschool.jpg Graphic file (type jpg)
+ [187 <./img/ch40/tekenz.jpg>]
 
-<use img/ch41/ambachtschool.jpg>
-Package pdftex.def Info: img/ch41/ambachtschool.jpg used on input line 2261.
-(pdftex.def)             Requested size: 269.67398pt x 170.56262pt.
- [193]
-<img/ch41/IMG_0002.jpg, id=880, 640.3925pt x 331.2375pt>
+! LaTeX Error: File `img/247 school' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2276 ...aphics[width=\textwidth]{img/247 school}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 2276--2277
+[]\T1/jkp/m/n/10 (+20) school.png school.pdf school.jpg school.mps school.jpeg
+ []
+
+[188 <./img/ch41/stadt.jpg>]
+<img/ch41/IMG_0002.jpg, id=833, 640.3925pt x 331.2375pt>
 File: img/ch41/IMG_0002.jpg Graphic file (type jpg)
 
 <use img/ch41/IMG_0002.jpg>
-Package pdftex.def Info: img/ch41/IMG_0002.jpg used on input line 2268.
+Package pdftex.def Info: img/ch41/IMG_0002.jpg used on input line 2283.
 (pdftex.def)             Requested size: 269.67398pt x 139.48775pt.
+ [189 <./img/ch41/IMG_0002.jpg>]
 
-Underfull \vbox (badness 1394) has occurred while \output is active []
+! LaTeX Error: File `img/249 huis' not found.
 
- [194]
-<img/ch41/Hogendijk.jpg, id=884, 1284.8pt x 951.555pt>
-File: img/ch41/Hogendijk.jpg Graphic file (type jpg)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2300 ...graphics[width=\textwidth]{img/249 huis}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use img/ch41/Hogendijk.jpg>
-Package pdftex.def Info: img/ch41/Hogendijk.jpg used on input line 2285.
-(pdftex.def)             Requested size: 269.67398pt x 199.7163pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1019) in paragraph at lines 2300--2301
+[]\T1/jkp/m/n/10 (+20) huis.png huis.pdf huis.jpg huis.mps huis.jpeg huis.jbig2
 
- [195]
-<img/ch42/soos01.jpg, id=889, 325.215pt x 323.2075pt>
+ []
+
+[190]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2309 ...[width=\textwidth]{img/brand pont_00021}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: File `img/brand pont_00021' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2309 ...[width=\textwidth]{img/brand pont_00021}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2309 ...[width=\textwidth]{img/brand pont_00021}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (677.8019pt too wide) in paragraph at lines 2309--2310
+[]\T1/jkp/m/n/10 (-20) pont$[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 pngpo
+nt[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 pdfpont[]\OT1/jkp/m/n/10 (-20) 
+0021.\OML/jkp/m/it/10 jpgpont[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 mpsp
+ont[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 jpegpont[]\OT1/jkp/m/n/10 (-20
+) 0021.\OML/jkp/m/it/10 jbig\OT1/jkp/m/n/10 (-20) 2\OML/jkp/m/it/10 pont[]\OT1/
+jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 jb\OT1/jkp/m/n/10 (-20) 2\OML/jkp/m/it/1
+0 pont[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 PNGpont[]\OT1/jkp/m/n/10 (-
+20) 0021.\OML/jkp/m/it/10 PDFpont[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 
+JPGpont[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 JPEGpont[]\OT1/jkp/m/n/10 
+(-20) 0021.\OML/jkp/m/it/10 JBIG\OT1/jkp/m/n/10 (-20) 2\OML/jkp/m/it/10 pont[]\
+OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 JB\OT1/jkp/m/n/10 (-20) 2\OML/jkp/m/
+it/10 pont[]\OT1/jkp/m/n/10 (-20) 0021.\OML/jkp/m/it/10 eps$ 
+ []
+
+<img/ch42/soos01.jpg, id=841, 325.215pt x 323.2075pt>
 File: img/ch42/soos01.jpg Graphic file (type jpg)
 
 <use img/ch42/soos01.jpg>
-Package pdftex.def Info: img/ch42/soos01.jpg used on input line 2301.
+Package pdftex.def Info: img/ch42/soos01.jpg used on input line 2321.
 (pdftex.def)             Requested size: 269.67398pt x 268.03036pt.
-
-<img/ch42/IMG_0001.jpg, id=890, 608.2725pt x 407.5225pt>
+ [191] [192 <./img/ch42/soos01.jpg>]
+<img/ch42/IMG_0001.jpg, id=848, 608.2725pt x 407.5225pt>
 File: img/ch42/IMG_0001.jpg Graphic file (type jpg)
 
 <use img/ch42/IMG_0001.jpg>
-Package pdftex.def Info: img/ch42/IMG_0001.jpg used on input line 2319.
+Package pdftex.def Info: img/ch42/IMG_0001.jpg used on input line 2339.
 (pdftex.def)             Requested size: 269.67398pt x 180.67847pt.
 
-<img/ch42/gem.jpg, id=891, 242.9075pt x 170.6375pt>
-File: img/ch42/gem.jpg Graphic file (type jpg)
- <use img/ch42/gem.jpg>
-Package pdftex.def Info: img/ch42/gem.jpg used on input line 2324.
-(pdftex.def)             Requested size: 269.67398pt x 189.43849pt.
 
-[196]
+! LaTeX Error: File `img/253 - 2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2344 ...egraphics[width=\textwidth]{img/253 - 2}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[193] [194 <./img/ch42/IMG_0001.jpg>]
+
+! LaTeX Error: File `img/256 tafel' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2363 ...raphics[width=\textwidth]{img/256 tafel}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[195]
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
- [197]
-<img/ch42/5-5-2009_011a.jpg, id=898, 1372.12625pt x 1096.095pt>
-File: img/ch42/5-5-2009_011a.jpg Graphic file (type jpg)
+ [196]
+<img/ch42/krant.png, id=862, 590.205pt x 639.38875pt>
+File: img/ch42/krant.png Graphic file (type png)
+ <use img/ch42/krant.png>
+Package pdftex.def Info: img/ch42/krant.png used on input line 2388.
+(pdftex.def)             Requested size: 269.67398pt x 292.15163pt.
 
-<use img/ch42/5-5-2009_011a.jpg>
-Package pdftex.def Info: img/ch42/5-5-2009_011a.jpg used on input line 2343.
-(pdftex.def)             Requested size: 269.67398pt x 215.41853pt.
- [198]
+[197] [198 <./img/ch42/krant.png>]
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [199]
-<img/ch42/krant.png, id=905, 590.205pt x 639.38875pt>
-File: img/ch42/krant.png Graphic file (type png)
- <use img/ch42/krant.png>
-Package pdftex.def Info: img/ch42/krant.png used on input line 2368.
-(pdftex.def)             Requested size: 269.67398pt x 292.15163pt.
 
-[200] <img/ch42/image.png, id=909, 158.5925pt x 211.79124pt>
-File: img/ch42/image.png Graphic file (type png)
+! LaTeX Error: File `img/260-261 pad' not found.
 
-<use img/ch42/image.png>
-Package pdftex.def Info: img/ch42/image.png used on input line 2385.
-(pdftex.def)             Requested size: 269.67398pt x 360.1987pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2405 ...phics[width=\textwidth]{img/260-261 pad}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
- [201]
-<img/ch42/woonwagenkamp1977.jpg, id=914, 241.90375pt x 178.6675pt>
+<img/ch42/woonwagenkamp1977.jpg, id=873, 241.90375pt x 178.6675pt>
 File: img/ch42/woonwagenkamp1977.jpg Graphic file (type jpg)
 
 <use img/ch42/woonwagenkamp1977.jpg>
-Package pdftex.def Info: img/ch42/woonwagenkamp1977.jpg used on input line 2396
+Package pdftex.def Info: img/ch42/woonwagenkamp1977.jpg used on input line 2416
 .
 (pdftex.def)             Requested size: 269.67398pt x 199.20111pt.
+ [200]
 
-<img/ch42/prinsenstraat.jpg, id=915, 220.825pt x 166.6225pt>
-File: img/ch42/prinsenstraat.jpg Graphic file (type jpg)
+! LaTeX Error: File `img/263 pstraat' not found.
 
-<use img/ch42/prinsenstraat.jpg>
-Package pdftex.def Info: img/ch42/prinsenstraat.jpg used on input line 2407.
-(pdftex.def)             Requested size: 269.67398pt x 203.49016pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2427 ...phics[width=\textwidth]{img/263 pstraat}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[201 <./img/ch42/woonwagenkamp1977.jpg>]
+Underfull \vbox (badness 2726) has occurred while \output is active []
+
  [202]
-<img/ch42/desoos_0004.jpeg, id=919, 499.1448pt x 345.4506pt>
+<img/ch42/desoos_0004.jpeg, id=884, 499.1448pt x 345.4506pt>
 File: img/ch42/desoos_0004.jpeg Graphic file (type jpg)
 
 <use img/ch42/desoos_0004.jpeg>
-Package pdftex.def Info: img/ch42/desoos_0004.jpeg used on input line 2424.
+Package pdftex.def Info: img/ch42/desoos_0004.jpeg used on input line 2444.
 (pdftex.def)             Requested size: 269.67398pt x 186.64069pt.
 
-Underfull \vbox (badness 2726) has occurred while \output is active []
+Underfull \vbox (badness 1648) has occurred while \output is active []
 
- [203]
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
- [204]
-<img/ch42/4-9-2009_002.jpg, id=926, 2531.4575pt x 1647.15375pt>
+ [203 <./img/ch42/desoos_0004.jpeg>]
+<img/ch42/4-9-2009_002.jpg, id=888, 2531.4575pt x 1647.15375pt>
 File: img/ch42/4-9-2009_002.jpg Graphic file (type jpg)
 
 <use img/ch42/4-9-2009_002.jpg>
-Package pdftex.def Info: img/ch42/4-9-2009_002.jpg used on input line 2441.
+Package pdftex.def Info: img/ch42/4-9-2009_002.jpg used on input line 2461.
 (pdftex.def)             Requested size: 269.67398pt x 175.45703pt.
 
-<img/ch43/hvo.jpg, id=927, 140.525pt x 104.39pt>
-File: img/ch43/hvo.jpg Graphic file (type jpg)
- <use img/ch43/hvo.jpg>
-Package pdftex.def Info: img/ch43/hvo.jpg used on input line 2453.
-(pdftex.def)             Requested size: 269.67398pt x 200.36276pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[205]
+ [204]
+[205 <./img/ch42/4-9-2009_002.jpg>]
 
-! LaTeX Error: Too many unprocessed floats.
+! LaTeX Error: File `img/268 roggeveen' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2466 \includegraphics
-                       [width=\textwidth]{img/ch43/hall}
-You've lost some text.  Try typing  <return>  to proceed.
+l.2473 ...ics[width=\textwidth]{img/268 roggeveen}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2466 \includegraphics
-                       [width=\textwidth]{img/ch43/hall}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2466 \includegraphics
-                       [width=\textwidth]{img/ch43/hall}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Underfull \hbox (badness 10000) in paragraph at lines 2473--2475
+\T1/jkp/m/n/10 (+20) rog-ge-veen.PDF rog-ge-veen.JPG rog-ge-veen.JPEG rog-ge-
+ []
 
-<img/ch43/hall.jpg, id=931, 789.95125pt x 503.8825pt>
+[206] <img/ch43/hall.jpg, id=898, 789.95125pt x 503.8825pt>
 File: img/ch43/hall.jpg Graphic file (type jpg)
- <use img/ch43/hall.jpg>
-Package pdftex.def Info: img/ch43/hall.jpg used on input line 2466.
+
+<use img/ch43/hall.jpg>
+Package pdftex.def Info: img/ch43/hall.jpg used on input line 2486.
 (pdftex.def)             Requested size: 269.67398pt x 172.01744pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2468 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \vbox (badness 1082) has occurred while \output is active []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2468 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2468 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2468 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2468 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra \else.
-\@memoldefloat ...a \penalty \@floatpenalty \else 
-                                                  \vadjust {\penalty -\@Miv ...
-l.2468 \end{figure}
-                   
-I'm ignoring this; it doesn't match any \if.
-
-! You can't use `\vadjust' in vertical mode.
-\@memoldefloat ...y \@floatpenalty \else \vadjust 
-                                                  {\penalty -\@Miv \vbox {}\...
-l.2468 \end{figure}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2468 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2468 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2475 \includegraphics
-                       [width=\textwidth]{img/ch43/group}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2475 \includegraphics
-                       [width=\textwidth]{img/ch43/group}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2475 \includegraphics
-                       [width=\textwidth]{img/ch43/group}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch43/group.png, id=932, 531.9072pt x 380.50156pt>
+ [207 <./img/ch43/hall.jpg>] <img/ch43/group.png, id=903, 531.9072pt x 380.5015
+6pt>
 File: img/ch43/group.png Graphic file (type png)
 
 <use img/ch43/group.png>
-Package pdftex.def Info: img/ch43/group.png used on input line 2475.
+Package pdftex.def Info: img/ch43/group.png used on input line 2495.
 (pdftex.def)             Requested size: 269.67398pt x 192.92105pt.
-
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \@elt 
-l.2477 \end{figure}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: This may be a LaTeX bug.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2477 \end{figure}
-                   
-Call for help
-
-! Undefined control sequence.
-\@addmarginpar ...a <\z@ \global \setbox \@marbox 
-                                                  \box \@currbox \fi \@tempd...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \box 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...advance \@tempdima \ht \@marbox 
-                                                  \ifdim \@tempdima >\z@ \@l...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Bad register code (-24175049).
-\@addmarginpar ...he \@tempdima }\else \@tempdima 
-                                                  \z@ \fi \global \@mparbott...
-l.2477 \end{figure}
-                   
-A register number must be between 0 and 32767.
-I changed this one to zero.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2477 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...vance \@mparbottom \dp \@marbox 
-                                                  \global \advance \@mparbot...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...dvance \@tempdima -\ht \@marbox 
-                                                  \global \setbox \@marbox \...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \global \setbox \@marbox 
-                                                  \vbox {\vskip \@tempdima \...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...\vskip \@tempdima \box \@marbox 
-                                                  }\global \ht \@marbox \z@ ...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ... \@marbox }\global \ht \@marbox 
-                                                  \z@ \global \dp \@marbox \...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2477 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \z@ \global \dp \@marbox 
-                                                  \z@ \kern -\@pagedp \noint...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \kern 
-l.2477 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...arginparwidth \fi \box \@marbox 
-                                                  \hss }\nointerlineskip \hb...
-l.2477 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hss 
-l.2477 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [206 <./img/ch43/group.png>]
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2489 \includegraphics
-                       [width=\textwidth]{img/ch44/NZVBwal_0006}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2489 \includegraphics
-                       [width=\textwidth]{img/ch44/NZVBwal_0006}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2489 \includegraphics
-                       [width=\textwidth]{img/ch44/NZVBwal_0006}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch44/NZVBwal_0006.jpg, id=937, 1501.61pt x 1031.855pt>
+ [208 <./img/ch43/group.png>]
+<img/ch44/NZVBwal_0006.jpg, id=908, 1501.61pt x 1031.855pt>
 File: img/ch44/NZVBwal_0006.jpg Graphic file (type jpg)
 
 <use img/ch44/NZVBwal_0006.jpg>
-Package pdftex.def Info: img/ch44/NZVBwal_0006.jpg used on input line 2489.
+Package pdftex.def Info: img/ch44/NZVBwal_0006.jpg used on input line 2509.
 (pdftex.def)             Requested size: 269.67398pt x 185.30077pt.
-
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2491 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2491 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2491 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2491 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2491 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra \else.
-\@memoldefloat ...a \penalty \@floatpenalty \else 
-                                                  \vadjust {\penalty -\@Miv ...
-l.2491 \end{figure}
-                   
-I'm ignoring this; it doesn't match any \if.
-
-! You can't use `\vadjust' in vertical mode.
-\@memoldefloat ...y \@floatpenalty \else \vadjust 
-                                                  {\penalty -\@Miv \vbox {}\...
-l.2491 \end{figure}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2491 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2491 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2500 \includegraphics
-                       [width=\textwidth]{img/ch44/9-25-2009_002}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2500 \includegraphics
-                       [width=\textwidth]{img/ch44/9-25-2009_002}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2500 \includegraphics
-                       [width=\textwidth]{img/ch44/9-25-2009_002}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch44/9-25-2009_002.jpg, id=938, 2601.72pt x 1686.3pt>
+ [209 <./img/ch44/NZVBwal_0006.jpg>]
+<img/ch44/9-25-2009_002.jpg, id=912, 2601.72pt x 1686.3pt>
 File: img/ch44/9-25-2009_002.jpg Graphic file (type jpg)
 
 <use img/ch44/9-25-2009_002.jpg>
-Package pdftex.def Info: img/ch44/9-25-2009_002.jpg used on input line 2500.
+Package pdftex.def Info: img/ch44/9-25-2009_002.jpg used on input line 2520.
 (pdftex.def)             Requested size: 269.67398pt x 174.78955pt.
 
 ! Undefined control sequence.
 <argument> \footnotesizePiet 
                              en de zondagsdienst
-l.2501 ...*{\footnotesizePiet en de zondagsdienst}
+l.2521 ...*{\footnotesizePiet en de zondagsdienst}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3901,7 +3680,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \footnotesizePiet 
                              en de zondagsdienst
-l.2501 ...*{\footnotesizePiet en de zondagsdienst}
+l.2521 ...*{\footnotesizePiet en de zondagsdienst}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3909,2221 +3688,106 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \@elt 
-l.2502 \end{figure}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: This may be a LaTeX bug.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2502 \end{figure}
-                   
-Call for help
-
-! Undefined control sequence.
-\@addmarginpar ...a <\z@ \global \setbox \@marbox 
-                                                  \box \@currbox \fi \@tempd...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \box 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...advance \@tempdima \ht \@marbox 
-                                                  \ifdim \@tempdima >\z@ \@l...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Bad register code (-30317249).
-\@addmarginpar ...he \@tempdima }\else \@tempdima 
-                                                  \z@ \fi \global \@mparbott...
-l.2502 \end{figure}
-                   
-A register number must be between 0 and 32767.
-I changed this one to zero.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2502 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...vance \@mparbottom \dp \@marbox 
-                                                  \global \advance \@mparbot...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...dvance \@tempdima -\ht \@marbox 
-                                                  \global \setbox \@marbox \...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \global \setbox \@marbox 
-                                                  \vbox {\vskip \@tempdima \...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...\vskip \@tempdima \box \@marbox 
-                                                  }\global \ht \@marbox \z@ ...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ... \@marbox }\global \ht \@marbox 
-                                                  \z@ \global \dp \@marbox \...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2502 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \z@ \global \dp \@marbox 
-                                                  \z@ \kern -\@pagedp \noint...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \kern 
-l.2502 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...arginparwidth \fi \box \@marbox 
-                                                  \hss }\nointerlineskip \hb...
-l.2502 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hss 
-l.2502 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[207]
+[210 <./img/ch44/9-25-2009_002.jpg>] [211] [212]
 Underfull \vbox (badness 1394) has occurred while \output is active []
 
- [208 <./img/ch44/9-25-2009_002.jpg>] [209]
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
- [210]
-[211]
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2554 \centering
-                 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2554 \centering
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2554 \centering
-                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch46/krant.png, id=955, 317.2653pt x 519.80197pt>
+ [213]
+[214] <img/ch46/krant.png, id=929, 317.2653pt x 519.80197pt>
 File: img/ch46/krant.png Graphic file (type png)
 
 <use img/ch46/krant.png>
-Package pdftex.def Info: img/ch46/krant.png used on input line 2555.
+Package pdftex.def Info: img/ch46/krant.png used on input line 2575.
 (pdftex.def)             Requested size: 188.77095pt x 309.28996pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2557 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2557 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2557 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2557 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2557 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra \else.
-\@memoldefloat ...a \penalty \@floatpenalty \else 
-                                                  \vadjust {\penalty -\@Miv ...
-l.2557 \end{figure}
-                   
-I'm ignoring this; it doesn't match any \if.
-
-! You can't use `\vadjust' in vertical mode.
-\@memoldefloat ...y \@floatpenalty \else \vadjust 
-                                                  {\penalty -\@Miv \vbox {}\...
-l.2557 \end{figure}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2557 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2557 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2560 \includegraphics
-                       [width=\textwidth]{img/ch46/crew}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2560 \includegraphics
-                       [width=\textwidth]{img/ch46/crew}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2560 \includegraphics
-                       [width=\textwidth]{img/ch46/crew}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch46/crew.jpeg, id=956, 1716.4125pt x 1167.36125pt>
+<img/ch46/crew.jpeg, id=930, 1716.4125pt x 1167.36125pt>
 File: img/ch46/crew.jpeg Graphic file (type jpg)
 
 <use img/ch46/crew.jpeg>
-Package pdftex.def Info: img/ch46/crew.jpeg used on input line 2560.
+Package pdftex.def Info: img/ch46/crew.jpeg used on input line 2580.
 (pdftex.def)             Requested size: 269.67398pt x 183.39725pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \@elt 
-l.2562 \end{figure}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: This may be a LaTeX bug.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2562 \end{figure}
-                   
-Call for help
-
-! Undefined control sequence.
-\@addmarginpar ...a <\z@ \global \setbox \@marbox 
-                                                  \box \@currbox \fi \@tempd...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \box 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...advance \@tempdima \ht \@marbox 
-                                                  \ifdim \@tempdima >\z@ \@l...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Bad register code (-15361720).
-\@addmarginpar ...he \@tempdima }\else \@tempdima 
-                                                  \z@ \fi \global \@mparbott...
-l.2562 \end{figure}
-                   
-A register number must be between 0 and 32767.
-I changed this one to zero.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2562 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...vance \@mparbottom \dp \@marbox 
-                                                  \global \advance \@mparbot...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...dvance \@tempdima -\ht \@marbox 
-                                                  \global \setbox \@marbox \...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \global \setbox \@marbox 
-                                                  \vbox {\vskip \@tempdima \...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...\vskip \@tempdima \box \@marbox 
-                                                  }\global \ht \@marbox \z@ ...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ... \@marbox }\global \ht \@marbox 
-                                                  \z@ \global \dp \@marbox \...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2562 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \z@ \global \dp \@marbox 
-                                                  \z@ \kern -\@pagedp \noint...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \kern 
-l.2562 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...arginparwidth \fi \box \@marbox 
-                                                  \hss }\nointerlineskip \hb...
-l.2562 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hss 
-l.2562 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [212 <./img/ch46/crew.jpeg>]
-Underfull \vbox (badness 6477) has occurred while \output is active []
-
- [213]
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2577 \includegraphics
-                       [width=\textwidth]{img/ch46/velse_0001}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2577 \includegraphics
-                       [width=\textwidth]{img/ch46/velse_0001}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2577 \includegraphics
-                       [width=\textwidth]{img/ch46/velse_0001}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch46/velse_0001.jpeg, id=964, 1039.885pt x 743.77875pt>
+ [215]
+[216 <./img/ch46/krant.png>] [217 <./img/ch46/crew.jpeg>]
+<img/ch46/velse_0001.jpeg, id=941, 1039.885pt x 743.77875pt>
 File: img/ch46/velse_0001.jpeg Graphic file (type jpg)
 
 <use img/ch46/velse_0001.jpeg>
-Package pdftex.def Info: img/ch46/velse_0001.jpeg used on input line 2577.
+Package pdftex.def Info: img/ch46/velse_0001.jpeg used on input line 2597.
 (pdftex.def)             Requested size: 269.67398pt x 192.87854pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2579 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2579 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2579 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2579 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2579 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra \else.
-\@memoldefloat ...a \penalty \@floatpenalty \else 
-                                                  \vadjust {\penalty -\@Miv ...
-l.2579 \end{figure}
-                   
-I'm ignoring this; it doesn't match any \if.
-
-! You can't use `\vadjust' in vertical mode.
-\@memoldefloat ...y \@floatpenalty \else \vadjust 
-                                                  {\penalty -\@Miv \vbox {}\...
-l.2579 \end{figure}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2579 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2579 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2592 \includegraphics
-                       [width=\textwidth]{img/ch46/velsen_0002}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2592 \includegraphics
-                       [width=\textwidth]{img/ch46/velsen_0002}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2592 \includegraphics
-                       [width=\textwidth]{img/ch46/velsen_0002}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch46/velsen_0002.jpeg, id=965, 590.205pt x 873.2625pt>
+ [218]
+[219 <./img/ch46/velse_0001.jpeg>]
+<img/ch46/velsen_0002.jpeg, id=949, 590.205pt x 873.2625pt>
 File: img/ch46/velsen_0002.jpeg Graphic file (type jpg)
 
 <use img/ch46/velsen_0002.jpeg>
-Package pdftex.def Info: img/ch46/velsen_0002.jpeg used on input line 2592.
+Package pdftex.def Info: img/ch46/velsen_0002.jpeg used on input line 2612.
 (pdftex.def)             Requested size: 269.67398pt x 399.01399pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \@elt 
-l.2594 \end{figure}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: This may be a LaTeX bug.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2594 \end{figure}
-                   
-Call for help
-
-! Undefined control sequence.
-\@addmarginpar ...advance \@tempdima \ht \@marbox 
-                                                  \ifdim \@tempdima >\z@ \@l...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Bad register code (-30230609).
-\@addmarginpar ...he \@tempdima }\else \@tempdima 
-                                                  \z@ \fi \global \@mparbott...
-l.2594 \end{figure}
-                   
-A register number must be between 0 and 32767.
-I changed this one to zero.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2594 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...vance \@mparbottom \dp \@marbox 
-                                                  \global \advance \@mparbot...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...dvance \@tempdima -\ht \@marbox 
-                                                  \global \setbox \@marbox \...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \global \setbox \@marbox 
-                                                  \vbox {\vskip \@tempdima \...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...\vskip \@tempdima \box \@marbox 
-                                                  }\global \ht \@marbox \z@ ...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ... \@marbox }\global \ht \@marbox 
-                                                  \z@ \global \dp \@marbox \...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2594 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \z@ \global \dp \@marbox 
-                                                  \z@ \kern -\@pagedp \noint...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \kern 
-l.2594 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...arginparwidth \fi \box \@marbox 
-                                                  \hss }\nointerlineskip \hb...
-l.2594 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hss 
-l.2594 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[214]
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2606 \includegraphics
-                       [width=\textwidth]{img/ch47/kerk}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2606 \includegraphics
-                       [width=\textwidth]{img/ch47/kerk}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2606 \includegraphics
-                       [width=\textwidth]{img/ch47/kerk}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch47/kerk.jpg, id=969, 200.75pt x 285.065pt>
+<img/ch47/kerk.jpg, id=950, 200.75pt x 285.065pt>
 File: img/ch47/kerk.jpg Graphic file (type jpg)
  <use img/ch47/kerk.jpg>
-Package pdftex.def Info: img/ch47/kerk.jpg used on input line 2606.
+Package pdftex.def Info: img/ch47/kerk.jpg used on input line 2626.
 (pdftex.def)             Requested size: 269.67398pt x 382.99425pt.
-
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2608 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2608 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2608 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [215 <./img/ch46/velsen_0002.jpeg>]
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2608 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2608 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra \else.
-\@memoldefloat ...a \penalty \@floatpenalty \else 
-                                                  \vadjust {\penalty -\@Miv ...
-l.2608 \end{figure}
-                   
-I'm ignoring this; it doesn't match any \if.
-
-! You can't use `\vadjust' in vertical mode.
-\@memoldefloat ...y \@floatpenalty \else \vadjust 
-                                                  {\penalty -\@Miv \vbox {}\...
-l.2608 \end{figure}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2608 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2608 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2623 \includegraphics
-                       [width=\textwidth]{img/ch47/afscheid}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2623 \includegraphics
-                       [width=\textwidth]{img/ch47/afscheid}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2623 \includegraphics
-                       [width=\textwidth]{img/ch47/afscheid}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch47/afscheid.jpg, id=973, 642.4pt x 481.8pt>
+ [220]
+[221 <./img/ch46/velsen_0002.jpeg>] [222 <./img/ch47/kerk.jpg>]
+<img/ch47/afscheid.jpg, id=961, 642.4pt x 481.8pt>
 File: img/ch47/afscheid.jpg Graphic file (type jpg)
  <use img/ch47/afscheid.jpg>
-Package pdftex.def Info: img/ch47/afscheid.jpg used on input line 2623.
+Package pdftex.def Info: img/ch47/afscheid.jpg used on input line 2643.
 (pdftex.def)             Requested size: 269.67398pt x 202.25903pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \@elt 
-l.2625 \end{figure}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: This may be a LaTeX bug.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2625 \end{figure}
-                   
-Call for help
-
-! Undefined control sequence.
-\@addmarginpar ...advance \@tempdima \ht \@marbox 
-                                                  \ifdim \@tempdima >\z@ \@l...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Bad register code (-28131264).
-\@addmarginpar ...he \@tempdima }\else \@tempdima 
-                                                  \z@ \fi \global \@mparbott...
-l.2625 \end{figure}
-                   
-A register number must be between 0 and 32767.
-I changed this one to zero.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2625 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...vance \@mparbottom \dp \@marbox 
-                                                  \global \advance \@mparbot...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...dvance \@tempdima -\ht \@marbox 
-                                                  \global \setbox \@marbox \...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \global \setbox \@marbox 
-                                                  \vbox {\vskip \@tempdima \...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...\vskip \@tempdima \box \@marbox 
-                                                  }\global \ht \@marbox \z@ ...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ... \@marbox }\global \ht \@marbox 
-                                                  \z@ \global \dp \@marbox \...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2625 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \z@ \global \dp \@marbox 
-                                                  \z@ \kern -\@pagedp \noint...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \kern 
-l.2625 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...arginparwidth \fi \box \@marbox 
-                                                  \hss }\nointerlineskip \hb...
-l.2625 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hss 
-l.2625 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[216]
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2628 \includegraphics
-                       [width=\textwidth]{img/ch47/haarlem}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2628 \includegraphics
-                       [width=\textwidth]{img/ch47/haarlem}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2628 \includegraphics
-                       [width=\textwidth]{img/ch47/haarlem}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch47/haarlem.jpeg, id=977, 256.96pt x 222.0295pt>
+[223] <img/ch47/haarlem.jpeg, id=965, 256.96pt x 222.0295pt>
 File: img/ch47/haarlem.jpeg Graphic file (type jpg)
 
 <use img/ch47/haarlem.jpeg>
-Package pdftex.def Info: img/ch47/haarlem.jpeg used on input line 2628.
+Package pdftex.def Info: img/ch47/haarlem.jpeg used on input line 2648.
 (pdftex.def)             Requested size: 269.67398pt x 233.03279pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2630 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2630 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2630 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2630 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2630 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra \else.
-\@memoldefloat ...a \penalty \@floatpenalty \else 
-                                                  \vadjust {\penalty -\@Miv ...
-l.2630 \end{figure}
-                   
-I'm ignoring this; it doesn't match any \if.
-
-! You can't use `\vadjust' in vertical mode.
-\@memoldefloat ...y \@floatpenalty \else \vadjust 
-                                                  {\penalty -\@Miv \vbox {}\...
-l.2630 \end{figure}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Argument of \@xnext has an extra }.
-<inserted text> 
-                \par 
-l.2630 \end{figure}
-                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@currbox \@currlist \ifnum \count \@currbox >\z@ \advance \@pageht \@pagedp \E
-TC.
-! Paragraph ended before \@xnext was complete.
-<to be read again> 
-                   \par 
-l.2630 \end{figure}
-                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Too many unprocessed floats.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2639 \includegraphics
-                       [width=\textwidth]{img/ch47/Stinie}
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\mem@old@xfloat ... \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.2639 \includegraphics
-                       [width=\textwidth]{img/ch47/Stinie}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2639 \includegraphics
-                       [width=\textwidth]{img/ch47/Stinie}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<img/ch47/Stinie.jpeg, id=978, 1606.0pt x 1204.5pt>
+<img/ch47/Stinie.jpeg, id=966, 1606.0pt x 1204.5pt>
 File: img/ch47/Stinie.jpeg Graphic file (type jpg)
  <use img/ch47/Stinie.jpeg>
-Package pdftex.def Info: img/ch47/Stinie.jpeg used on input line 2639.
+Package pdftex.def Info: img/ch47/Stinie.jpeg used on input line 2659.
 (pdftex.def)             Requested size: 269.67398pt x 202.24434pt.
 
-! Undefined control sequence.
-\@largefloatcheck ->\ifdim \ht \@currbox 
-                                         >\textheight \@tempdima -\textheigh...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \@elt 
-l.2641 \end{figure}
-                   
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \@elt 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: This may be a LaTeX bug.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2641 \end{figure}
-                   
-Call for help
-
-! Undefined control sequence.
-\@addmarginpar ...advance \@tempdima \ht \@marbox 
-                                                  \ifdim \@tempdima >\z@ \@l...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Bad register code (-10180415).
-\@addmarginpar ...he \@tempdima }\else \@tempdima 
-                                                  \z@ \fi \global \@mparbott...
-l.2641 \end{figure}
-                   
-A register number must be between 0 and 32767.
-I changed this one to zero.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2641 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...vance \@mparbottom \dp \@marbox 
-                                                  \global \advance \@mparbot...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...dvance \@tempdima -\ht \@marbox 
-                                                  \global \setbox \@marbox \...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \global \setbox \@marbox 
-                                                  \vbox {\vskip \@tempdima \...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...\vskip \@tempdima \box \@marbox 
-                                                  }\global \ht \@marbox \z@ ...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ... \@marbox }\global \ht \@marbox 
-                                                  \z@ \global \dp \@marbox \...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \global 
-l.2641 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...marbox \z@ \global \dp \@marbox 
-                                                  \z@ \kern -\@pagedp \noint...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \kern 
-l.2641 \end{figure}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\@addmarginpar ...arginparwidth \fi \box \@marbox 
-                                                  \hss }\nointerlineskip \hb...
-l.2641 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hss 
-l.2641 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 2643--2644
+Underfull \hbox (badness 2277) in paragraph at lines 2663--2664
 \T1/jkp/m/n/10 (+20) voor Ken-ne-mer-land. Ge-luk-kig wil-den de buren---een
  []
 
-[217 <./img/ch47/afscheid.jpg> <./img/ch47/Stinie.jpeg>] [218] [219 <./img/ch40
-/kat_0002.jpg>] [220 <./img/ch40/molenvd.jpg>] [221 <./img/ch40/tekenz.jpg>]
-[222 <./img/ch41/stadt.jpg>] [223 <./img/ch41/ambachtschool.jpg> <./img/ch41/IM
-G_0002.jpg>] [224 <./img/ch41/Hogendijk.jpg>] [225 <./img/ch42/soos01.jpg>]
-[226 <./img/ch42/IMG_0001.jpg> <./img/ch42/gem.jpg>] [227 <./img/ch42/5-5-2009_
-011a.jpg>] [228 <./img/ch42/krant.png>] [229 <./img/ch42/image.png>] [230 <./im
-g/ch42/woonwagenkamp1977.jpg>] [231 <./img/ch42/prinsenstraat.jpg>] [232 <./img
-/ch42/desoos_0004.jpeg>] [233 <./img/ch42/4-9-2009_002.jpg>] [234 <./img/ch43/h
-vo.jpg>]
+[224 <./img/ch47/afscheid.jpg>] [225 <./img/ch47/haarlem.jpeg>] [226 <./img/ch4
+7/Stinie.jpeg>] [227]
 \tf@toc=\write4
 \openout4 = `rm_verhaal.toc'.
 
- (./rm_verhaal.aux) )
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2630 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2608 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2579 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2557 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2491 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete)
-(\end occurred when \ifnum on line 2468 was incomplete) 
+ (./rm_verhaal.aux) ) 
 Here is how much of TeX's memory you used:
- 13660 strings out of 493089
- 201828 string characters out of 6134841
- 311217 words of memory out of 5000000
- 16329 multiletter control sequences out of 15000+600000
- 141869 words of font info for 374 fonts, out of 8000000 for 9000
+ 13554 strings out of 493089
+ 198713 string characters out of 6134841
+ 307182 words of memory out of 5000000
+ 16207 multiletter control sequences out of 15000+600000
+ 137041 words of font info for 375 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,92p,1274b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015
-/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fon
-ts/enc/dvips/kpfonts/kpfonts-expert.enc}</usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/kpfonts/jkpmite.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/kpfonts/jkpmn8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/kp
-fonts/jkpmne.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts
-/jkpssbn8a.pfb>
-Output written on rm_verhaal.pdf (238 pages, 37917598 bytes).
+ 55i,12n,92p,1274b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/kpfont
+s/kpfonts-expert.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb>
+Output written on rm_verhaal.pdf (231 pages, 36710333 bytes).
 PDF statistics:
- 1074 PDF objects out of 1200 (max. 8388607)
- 599 compressed objects within 6 object streams
+ 1015 PDF objects out of 1200 (max. 8388607)
+ 584 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 38784 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 38132 words of extra memory for PDF output out of 42996 (max. 10000000)
 

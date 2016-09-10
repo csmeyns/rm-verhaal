@@ -25,27 +25,27 @@
 \contentsline {section}{\numberline {1.22}Hof van Holland 40 (2)}{98}
 \contentsline {chapter}{\chapternumberline {2}Rock aan de Zaan}{101}
 \contentsline {section}{\numberline {2.1}Rockaandezaan}{101}
-\contentsline {section}{\numberline {2.2}Es geht loss}{105}
-\contentsline {section}{\numberline {2.3}Blue Rocking Strings}{108}
+\contentsline {section}{\numberline {2.2}Es geht loss}{106}
+\contentsline {section}{\numberline {2.3}Blue Rocking Strings}{107}
 \contentsline {section}{\numberline {2.4}The Rolling Four}{112}
 \contentsline {section}{\numberline {2.5}The Devotions}{118}
-\contentsline {section}{\numberline {2.6}Bioscoop Arena}{126}
-\contentsline {section}{\numberline {2.7}Duitsland}{129}
-\contentsline {section}{\numberline {2.8}The Shameless}{135}
-\contentsline {section}{\numberline {2.9}Waar we zoal naartoe gingen}{143}
+\contentsline {section}{\numberline {2.6}Rotterdam}{126}
+\contentsline {section}{\numberline {2.7}Duitsland}{127}
+\contentsline {section}{\numberline {2.8}The Shameless}{132}
+\contentsline {section}{\numberline {2.9}Waar we zoal naartoe gingen}{139}
 \contentsline {chapter}{\chapternumberline {3}Het Werk}{155}
 \contentsline {section}{\numberline {3.1}Werken, slapen, eten}{155}
-\contentsline {section}{\numberline {3.2}Apotheek Hulp Artsen}{166}
-\contentsline {section}{\numberline {3.3}Pieter Schoen}{168}
-\contentsline {section}{\numberline {3.4}Simon de Wit}{169}
-\contentsline {section}{\numberline {3.5}Schoonmaakbedrijf van Heusden}{170}
-\contentsline {section}{\numberline {3.6}Losse arbeid}{170}
-\contentsline {section}{\numberline {3.7}Dagblad De Tijd}{182}
-\contentsline {section}{\numberline {3.8}Van der Molen}{189}
-\contentsline {section}{\numberline {3.9}Uitkering(en)}{193}
-\contentsline {section}{\numberline {3.10}Sociale Zaken}{196}
+\contentsline {section}{\numberline {3.2}Apotheek Hulp Artsen}{162}
+\contentsline {section}{\numberline {3.3}Pieter Schoen}{164}
+\contentsline {section}{\numberline {3.4}Simon de Wit}{165}
+\contentsline {section}{\numberline {3.5}Schoonmaakbedrijf van Heusden}{165}
+\contentsline {section}{\numberline {3.6}Losse arbeid}{166}
+\contentsline {section}{\numberline {3.7}Dagblad De Tijd}{177}
+\contentsline {section}{\numberline {3.8}Van der Molen}{183}
+\contentsline {section}{\numberline {3.9}Uitkering(en)}{186}
+\contentsline {section}{\numberline {3.10}Sociale Zaken}{191}
 \contentsline {section}{\numberline {3.11}Hulp voor Onbehuisden (HVO)}{205}
-\contentsline {section}{\numberline {3.12}Scientology}{207}
-\contentsline {section}{\numberline {3.13}De Zaanlander}{209}
-\contentsline {section}{\numberline {3.14}Archief}{216}
-\contentsline {section}{\numberline {3.15}Vrijwilligerswerk}{218}
+\contentsline {section}{\numberline {3.12}Scientology}{209}
+\contentsline {section}{\numberline {3.13}De Zaanlander}{212}
+\contentsline {section}{\numberline {3.14}Archief}{223}
+\contentsline {section}{\numberline {3.15}Vrijwilligerswerk}{227}
