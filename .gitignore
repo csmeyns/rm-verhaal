@@ -43,3 +43,9 @@ rm_verhaal.toc
 *.log
 
 *.toc
+
+*.aux
+
+*.log
+
+*.toc
