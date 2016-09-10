@@ -19,7 +19,7 @@
 
 % \setlength\midchapskip{10pt}
 % \makechapterstyle{VZ23}{
-%   \renewcommand\chapternamenum{}
+%   \renewcommand\sectionnamenum{}
 % \renewcommand\printchaptername{}
 % \renewcommand\chapnumfont{\Huge\bfseries\centering}
 % \renewcommand\chaptitlefont{\Huge\scshape\centering}
@@ -39,7 +39,7 @@
 \usepackage[T1]{fontenc}
 \newcommand\numlifter[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
 \newcommand\numindent{\kern37pt}
-\newlength\chaptertitleboxheight
+\newlength\sectiontitleboxheight
 \makechapterstyle{hansen}{
   \renewcommand\printchaptername{\raggedleft}
   \renewcommand\printchapternum{%
@@ -73,10 +73,10 @@
     \bfseries%
     \raggedleft%
   }%
-  \settototalheight\chaptertitleboxheight{%
+  \settototalheight\sectiontitleboxheight{%
     \parbox{\textwidth}{\chaptitlefont \strut bg\\bg\strut}}
   \renewcommand\printchaptertitle[1]{%
-    \parbox[t][\chaptertitleboxheight][t]{\textwidth}{%
+    \parbox[t][\sectiontitleboxheight][t]{\textwidth}{%
       %\microtypesetup{protrusion=false}% add this if you use microtype
       \chaptitlefont\strut ##1\strut}%
 } }
@@ -165,7 +165,7 @@ Zaandam
 
 \let\cleardoublepage\clearpage
 \clearpage
-\setcounter{tocdepth}{-1}
+\setcounter{tocdepth}{0}
 \tableofcontents
 
 \clearpage
@@ -178,7 +178,7 @@ Zaandam
 
 
 \label{deel1}
-\part{Mijn Eerste Jaren}
+\chapter{Mijn Eerste Jaren}
 
 % \epigraph{\emph{Het leven is niet het leven dat je hebt geleefd,
 % maar dat je je herinnert en hoe je het je herinnert
@@ -194,7 +194,7 @@ Zaandam
 \end{flushright}
 
 \thispagestyle{empty}
-\chapter{Familie Meijns} % (fold)
+\section{Familie Meijns} % (fold)
 \label{cha:familie_meijns}
 
 
@@ -235,7 +235,7 @@ Op de TV---er was één kanaal---was een `Ballet der Lage Landen', waarop ome Ro
 
 
 
-\chapter{Opa Meijns} % (fold)
+\section{Opa Meijns} % (fold)
 \label{cha:opa_meijns}
 
 Opa Meijns leek op Drees. Een klein gedrongen mannetje, ook met zo’n snorretje. Hij had een aantal wandelstokken met ijzeren plaatjes van plekken waar hij had gewandeld, meestal in Duitsland of Zwitserland.
@@ -356,7 +356,7 @@ Zoals altijd bij een ruzie tussen volwassenen, de kinderen zijn meestal de dupe.
 
 % chapter opa_meijns (end)
 
-\chapter{Familie Kriek} % (fold)
+\section{Familie Kriek} % (fold)
 \label{cha:familie_kriek}
 
 
@@ -441,7 +441,7 @@ Als je blind zou zijn geweest zou je aan de geur weten waar je ongeveer was.
 \caption*{\footnotesize De gezusters: Lena, Sima, Rieka, Annie en Jo (en Opoe)}
 \end{figure}
 
-\chapter{Mijn ouders} % (fold)
+\section{Mijn ouders} % (fold)
 \label{cha:ouders}
 
 Mijn vader vertelde dat hij in Culemborg geboren was. Waarom in die uithoek is mij nooit duidelijk geworden. Mijn moeder is in Krommenie geboren. De eerste vrouw van mijn vader, en de moeder van Gerard, overleed al heel jong. Ik heb wat foto's bij elkaar gezocht uit hun jonge jaren, voor het beeld.
@@ -484,7 +484,7 @@ Mijn vader vertelde dat hij in Culemborg geboren was. Waarom in die uithoek is m
 \end{figure}
 
 
-\chapter{Rosmolenstraat 88} % (fold)
+\section{Rosmolenstraat 88} % (fold)
 \label{cha:rosmolenstraat}
 
 \begin{figure}
@@ -683,7 +683,7 @@ Eén keer heb ik in het Apollo Theater aan de Dam een voorstelling gezien van Sj
 \caption*{\footnotesize Het Apollo theater}
 \end{figure}
 
-\chapter{Kleuterschool} % (fold)
+\section{Kleuterschool} % (fold)
 \label{cha:kleuterschool}
 
 Gelukkig was de kleuterschool dichtbij. Vanuit huis liep ik er in twee minuten naartoe.
@@ -710,7 +710,7 @@ De poort naar de school was bevestigd aan twee stenen pilaren waar je op kon zit
 
 
 
-\chapter{Stegen en straten} % (fold)
+\section{Stegen en straten} % (fold)
 \label{cha:stegen_straten}
 
 In onze buurten waren de stegen erg belangrijk. Onze eigen buurtstegen waren een bron van veiligheid, omdat je precies wist waar ze naartoe leidden en wat je kon verwachten. Wat verder uit de buurt kon je weleens voor verrassingen komen te staan als je zomaar een steeg instoof. 
@@ -749,7 +749,7 @@ Toen Olga en ik later met Chris en Kelly in Drenthe vakantie vierden kwamen we l
 
 Boven gekomen gaan we nog wat drinken, dan hoor ik opeens: ``Hé Ruud Mainz''. Was het Wim Al die de eigenaar van deze uitspanning was. Hij sprak nog steeds Zaans.
 
-\chapter{Wat er door de straat kwam} % (fold)
+\section{Wat er door de straat kwam} % (fold)
 \label{cha:straat}
 
 De straat had nog het karakter van een openbare marktplaats. Van alles probeerde de waren huis aan huis te slijten: de melkboer, groentenboer, schillenboer, visboer, ijsboer, voddenman, ambulante handelaren \emph{und so weiter}. 
@@ -810,7 +810,7 @@ Bakkum was echt fantastisch en ik heb daar uitstekende herinneringen aan. Met on
 
 
 
-\chapter{Luilak} % (fold)
+\section{Luilak} % (fold)
 \label{cha:luilak}
 
 Luilak was sowieso een fantastische tijd waar veel over te vertellen valt. Als je klein bent loop je met je vader, broers en zijn vrienden, buren enzovoorts mee. Op elk kruispunt was wel een fik. Als je groter wordt ga je het zelf doen met leeftijdgenoten. 
@@ -843,7 +843,7 @@ De eigenaar van de motor is nog langs geweest om via de verzekering iets te rege
 
 Met luilak kon je ’s morgens al heel vroeg bij de bakker warme witte bollen kopen. Ik dacht altijd dat hij dan speciaal voor luilak zo vroeg open ging, maar hij was natuurlijk allang aan het bakken en deed alleen z’n winkel vroeger open. 
 
-\chapter{Vreemde zaken} % (fold)
+\section{Vreemde zaken} % (fold)
 \label{cha:vreemde_zaken}
 
 Er was een oude man in de Tolstraat die zich vanwege een handicap in een (nu) antieke rolstoel moest voortbewegen. Twee stangen dreven het apparaat vooruit. Je moest ze met de hand op en neer duwen. De bochten waren het moeilijkst, leek me, als je vaart moest houden en tegelijkertijd een bocht moestnemen. Ik heb er altijd met fascinatie naar gekeken. 
@@ -863,7 +863,7 @@ Mensen die slepen met een klompvoet. Eén voet normaal en de andere voorzien van
 
 In de Kopermolenstraat woonde een meisje, Beppie. Ze was klein, kleine handjes en voetjes en had een waterhoofd. Ik ken haar alleen maar als zittend in de deuropening met een schare kinderen om haar heen. Ze was niet mentaal gehandicapt, want ze kon goed met de kinderen om haar heen overweg. Maar dat hoofd, ik kon m’n ogen er niet vanaf houden.
 
-\chapter{Sport} % (fold)
+\section{Sport} % (fold)
 \label{cha:sport}
 
 Laatst dacht ik nog over de mooiste doelpunten die ik heb meegemaakt, naar aanleiding van een tv-uitzending. De mooiste waren de doelpunten bij ZFC thuis.Ook als je als kind speelde en niet keek en er steeg plotseling zo’n storm van geluid op dan kwam er zo’n heerlijk vreugdevol gevoel over ons allen. \emph{We} maakten een doelpunt en \emph{we} waren blij. In het seizoen 1958 werd ZFC kampioen van de Tweede divisie.
@@ -961,7 +961,7 @@ We woonden vlakbij het Veem en in het Konijnenpad en de Hoveniersstraat had je e
 
 Wij moesten weer naar school. Ik sprak laatst een oud brandweerman en die vertelde nog met liefde over de mooiste brand die hij ooit had meegemaakt. 
 
-\chapter{IJspret} % (fold)
+\section{IJspret} % (fold)
 \label{cha:ijspret}
 
 Ik heb als kind altijd veel geschaatst. Vooral op de Gouw, die toen de voor geoefende rijders een uitvalsbasis was naar verre oorden, zoals Marken.
@@ -988,7 +988,7 @@ M’n schaatsen werden te klein en ik stapte steeds met dooie voeten van het ijs
 \caption*{\footnotesize Hier met Pa in het park met op de achtergrond het bejaardenhuis Oostererf, gesloopt. Nu staat het ziekenhuis er.}
 \end{figure}
 
-\chapter{Jongensdorp} % (fold)
+\section{Jongensdorp} % (fold)
 \label{cha:jongensdrop}
 
 In de vroege jaren vijftig werd in de zomervakantie door de Zaanse Gemeenschap een zogenaamd `jongensdorp' georganiseerd. Dat gebeurde op een braak liggend stuk land achter het Noordzeekanaal. Het was dus voor jongens, die er een eigen dorp in elkaar timmerden. Ik mocht er ook een keer heen. 
@@ -1002,7 +1002,7 @@ Je moest eigen gereedschap meenemen. Omdat m’n vader timmerman was kreeg ik ee
 
 We bleven daar slapen. Hoelang weet ik niet meer. Er werd van alles georganiseerd, zogenaamd door de jongens zelf. Op de foto is zo’n aktiviteit te zien in het jaar 1953. Het kan zijn dat ik er toen bij was, want ik was toen al zeven jaar.
 
-\chapter{Scheepswerf} % (fold)
+\section{Scheepswerf} % (fold)
 \label{cha:scheepswerf}
 
 Mijn vader werkte bij scheepswerf Kraaijer, aan het eind van de Zuiddijk. Later werd dat scheepswerf De Beer. Bij Kraaijer had hij als scheepstimmerman gewerkt; later kon hij als magazijnchef aan de slag. Ik ging vaak mee en heb daar heel wat schepen te water zien gaan. Ik leerde ook veel mensen kennen die daar werkten. Er was een oud-Indiëganger die me Maleis probeerde te leren, en andere mannen die me meenamen onder de schepen. Ik zag hoe bij een tewaterlating de laatste blokken werden weggeslagen en hoe het schip de Zaan ingleed. 
@@ -1028,7 +1028,7 @@ Een heel groot schip was de Mary Nubel. Later werd gezegd dat het te groot was v
 
 De mooiste tewaterlating was de zijwaartse. Als het schip de helling afglijdt en het water raakt is het net alsof het om zal slaan, maar het richt zich toch weer op en drijft. De toeschouwers die op de kant van de haven stonden te kijken moesten dan uit de benen maken vanwege de enorme vloedgolf die op hen afkwam.
 
-\chapter{Muziek} % (fold)
+\section{Muziek} % (fold)
 \label{cha:muziek}
 
 Toen we nog geen eigen radio hadden ontvingen wij de wereld via de radiodistributie. Het had een eenvoudige knop met vijf of zes kanalen en een luidspreker. 
@@ -1086,7 +1086,7 @@ En hoe groot kan toeval zijn dat later Peter Baas in die winkel kwam te werken? 
 \end{figure}
 
 
-\chapter{Jaren '50} % (fold)
+\section{Jaren '50} % (fold)
 \label{cha:jaren50}
 
 Ik hoorde een uitzending met Gerrit Komrij en zijn donker getinte, maar toch heldere, analyse van het bestaan. Hij had het over hoe hij gevormd is door de jaren `40-`45 zonder er bij te zijn geweest. ``Ik wist precies wie de goeie en de slechte waren, kende de ontberingen, de heldenmoed van de onzen en de slechtheid van de anderen." Even later zie ik op de TV de oude heer Drees spreken over Buchenwald en zie na-oorlogse beelden. Bij het zien van Drees kreeg ik zelfs een brok in m’n keel, vanwege mijn eigen verleden dat al zo lang en breed is. Komrij memoreerde het beeld van iemand die vlak na de oorlog geboren werd en in een omgeving opgroeide waarin iedereen nog bezig was om die oorlog te verwerken. 
@@ -1133,7 +1133,7 @@ Over de oorlog van `40-`45 valt niet veel te vertellen, behalve wat ik van m’n
 
 Soms, bij alarm, vertrokken de mannen uit de buurt om met roeibootjes het Oostzijderveld in te trekken. Ze gingen richting Oostzaan tot het gevaar weer geweken was. Maar meer dan dat kon hij me niet vertellen. Later hoorde ik nog dat pa samen met Grootes in de Binnenlandse Strijdkrachten (BS) had gezeten.
 
-\chapter{Lagere school} % (fold)
+\section{Lagere school} % (fold)
 \label{cha:lagere_school}
 
 Mijn eerste juf op de Leeghwaterschool was juf de Boer. Ik hield haar voor de eerste drie jaar. Haar vader was de schilder Jan de Boer die in de Oostzijde woonde. 
@@ -1152,7 +1152,7 @@ Toevallig was m’n vader thuis en die stelde voor om met de brommer naar een bl
 \end{figure}
 
 
-\chapter{ULO} % (fold)
+\section{ULO} % (fold)
 \label{cha:ulo}
 
 Mijn verblijf in de ULO-school heeft drie jaar geduurd. Over de eerste klas deed ik twee jaar en ook de tweede dreigde ik te doubleren. 
@@ -1172,14 +1172,14 @@ De eerste schooldag na het overlijden van m’n vader was niet makkelijk. Nieman
 
 Henk zie ik overigens nog steeds en hij schijnt nu een relatie te hebben met het meisje rechtsonder met blond haar, Joekie (Jolanda). Het meisje links naast de leraar is Mieke waar ik mee liep en fietste, die nu als vrijwilliger in het Mennisterf werkt. Zo zie je maar.
 
-\chapter{Vader} % (fold)
+\section{Vader} % (fold)
 \label{cha:vader}
 
 Ik merk steeds meer hoe belangrijk m'n vader voor me was en hoe belangrijk het ontbreken van zijn aanwezigheid is geweest. Althans dat denk ik. Een psychologe zei eens: ``Moet je nagaan hoe belangrijk de aanwezigheid van je moeder voor je is geweest, positief of negatief''. Er zijn van die filmpjes waarin een vader met z'n zoon praat, naar kleinkinderen kijkt, enzovoort.
 
 Zoals ik kan genieten van Chrissy en Kelly, in wat ze zijn en worden, zo kan ik me voorstellen hoe hij van hen zou hebben kunnen genieten. Het duurde wel even voor ik Harry, Janny en Nel meer heb durven vragen over m'n vader. Dat was een hele stap, maar ook heel nodig omdat ik hem sinds zijn dood diep had weg gestopt. 
 
-\chapter{Brommers en auto's} % (fold)
+\section{Brommers en auto's} % (fold)
 \label{cha:brommers_autos}
 
 Uiteraard had iedereen een fiets, maar met het stijgen der welvaart konden sommigen al beschikken over een brommer. 
@@ -1203,7 +1203,7 @@ Ik kon al vroeg autorijden, met tien jaar al. Dat kwam zo. Een vriend van m'n va
 
 Nog weer later reed ik zo achteruit de loods in als het moest. Ik kan me mijn vreugde herinneren elke keer als ik zo'n ding naar binnen reed en m'n vader met ome Jan zag lachen dat ik zo makkelijk deed.
 
-\chapter{Hof van Holland 40} % (fold)
+\section{Hof van Holland 40} % (fold)
 \label{cha:hofvanholland}
 
 Omdat de bovenburen een voortdurende bron van ergernis bleven en m’n vader ernstig ziek werd---hartklachten, kanker---besloten we te verhuizen naar Hof van Holland. Dit was deel van een net gebouwde wijk, Hofwijk, gelegen achter het Smaal en de Oostzijde. 
@@ -1270,7 +1270,7 @@ Een rare avond en ook volgende dagen. Pa werd beneden in een kist opgebaard en a
 
 De begrafenis was aan de Zuiddijk tegenover z’n oude werkgever. Iedereen die wilde kreeg verlof om naar de begrafenis te gaan, dus stond het vol met ex-collega’s van de scheepswerf. 
 
-\chapter{Hof van Holland 40 (2)} % (fold)
+\section{Hof van Holland 40 (2)} % (fold)
 \label{cha:hofvanholland2}
 
 M’n tweede jeugd, na de Rosmolenstraat, heb ik doorgebracht in Hof van Holland tot en met de trouwerij met Olga. Want net als Harry en Jannie hebben wij daar de eerste jaren op een kamertje ingewoond.
@@ -1283,7 +1283,7 @@ M’n tweede jeugd, na de Rosmolenstraat, heb ik doorgebracht in Hof van Holland
 \clearpage
 ~
 \clearpage
-\part{Rock aan de Zaan}
+\chapter{Rock aan de Zaan}
 
 \thispagestyle{empty}
 \begin{flushright}
@@ -1292,7 +1292,7 @@ M’n tweede jeugd, na de Rosmolenstraat, heb ik doorgebracht in Hof van Holland
 \end{figure}
 \end{flushright}
 
-\chapter{Rockaandezaan}
+\section{Rockaandezaan}
 
 
 \noindent Geachte lezer, ik moet een bekentenis doen: Het optreden voor een publiek is het leukste wat ik ooit heb ervaren. Laten we beginnen.
@@ -1335,10 +1335,10 @@ Dat kan flink aankomen. Niemand van het korps merkte het, want met al dat lawaai
 
 Van een ander kaliber waren de straatmuzikanten. Zij probeerden hun inkomsten op te halen door langs de huizen te gaan. Het waren voornamelijk violisten, waarvan er één ‘de danser’ werd genoemd. Hij maakte dansjes terwijl hij speelde. Ik heb hem ook wel bij bouwwerken zien staan. Voor de bouwvakkers was hij een onderwerp van plezier en wat spot, in ieder geval een leuke onderbreking.
 
-% \chapter{De muziek in} % (fold)
+% \section{De muziek in} % (fold)
 % \label{cha:muziek_in}
 
-\chapter{Es geht loss} % (fold)
+\section{Es geht loss} % (fold)
 \label{cha:gehtloss}
 
 Hoe ik bij het gezelschap van Siem Vonk ben beland weet ik niet meer. Ik was wel bekend met Vonk omdat hij naast mijn tante Lena in de Czaar Peterstraat woonde. Mogelijk is die connectie van belang geweest. Ik kon meedoen met een variétéachtig gezelschap van jongeren onder leiding van Siem als dirigent. Een wonderlijk groepje. Een allegaartje van jongeren die iets speelden, met Siem ervoor als dirigent.
@@ -1365,7 +1365,7 @@ Een paar maal speelden we voor bejaarden. Dit gebeurde in samenwerking met de Co
 
 Via \emph{The Rollers}, volgens mij \emph{de} band van dat moment in de Zaanstreek, kon ik van Ed Vermeulen een overtollig drumstel kopen en was ik drummer. Gelukkig niet voor erg lang, want ik had dan wel ritmegevoel, maar absoluut geen techniek. Ik was altijd blij als een nummer afgelopen was. Doodmoe probeerde ik m'n armen te ontspannen, maar de tijd was altijd tekort. Siem Vonk had de gewoonte te dirigeren. Volgens ons droeg dat niets bij aan het succes. Wij wilden meer en een rockgroep met een dirigent vonden we niks, dus: uit elkaar. 
 
-\chapter{Blue Rocking Strings} % (fold)
+\section{Blue Rocking Strings} % (fold)
 \label{cha:bluerocking}
 
 Arnout Rol in het \emph{Noord Hollands Dagblad}: 
@@ -1403,7 +1403,7 @@ In die tijd zijn we ook nog op vakantie naar Frankrijk gegaan, dat wil zeggen Di
 
 We zijn tot Fécamp gekomen, meen ik. De eerste avond kwamen we laat op de camping aan, zetten de tent op en gingen het dorp in. De volgende morgen werd ik wakker en merkte dat m’n hoofd binnen en m'n lijf buiten de tent lag. We stonden op een hellinkje. Veel Benedictine gedronken, ruzie gekregen met een snackbarhouder die dacht dat we Duitsers waren. \emph{De} oorlog zat er daar nog goed in. (Het is allemaal goed gekomen.)
 
-\chapter{The Rolling Four} % (fold)
+\section{The Rolling Four} % (fold)
 \label{cha:rollingfour}
 
 In de periode daarna hebben we nog verschillende pogingen tot het vormen van een bandje gedaan. Enige tijd heb ik gekeken bij een groep die repeteerde bij Koert Groot thuis in de Oostzijde. Dat was vlakbij Hof van Holland, waar ik toen woonde. Wat ik me daarvan voornamelijk nog herinner is het nummer `I’m gonna knock on your door, ring on your bell' waarbij de drummer, Co Smit, een elektrische bel onder z’n drumstel had gemonteerd.
@@ -1468,7 +1468,7 @@ Ik werd meteen gepakt door het specifieke geluid van de merseybeat. De ritmische
 
 Later, toen Henny al in de Rolling Four zat, ben ik nog eens een weekeinde bij hem op Texel gaan logeren. Zijn ouders hadden daar een huisje gehuurd. Op de brommer naar Texel, verliefd geworden op een meisje uit Utrecht, haar nog eens opgezocht maar elkaar op het station al misgelopen. Geen goed voorteken, lijkt me.
 
-\chapter{The Devotions} % (fold)
+\section{The Devotions} % (fold)
 \label{cha:devotions}
 
 The Devotions zijn ontstaan uit leden van twee Zaanse bandjes: The Rolling Four en The Rolling Devotions. In maart 1965 spraken Jan Abbing en ik over het opzetten van een nieuwe band uit leden van beide groepjes. Jan had me gevraagd om in te vallen voor een gitarist die in dienst moest (een veel voorkomend euvel op die leeftijd). Vanuit de Rolling Four kwamen Henny van Wijngaarden, Ed Eijchenberger en ik over; Jan Abbing en Nico Bakker kwamen uit The Rolling Devotions. Vanwege het karakter van de band---een zanger met een band---werd gekozen voor de naam: `John Hatton and the Devotions'. (Jan Abbing was John Hatton. De rest van de naam is afgeleid van het Everly Brothers nummer `Devoted to You'.)
@@ -1543,7 +1543,7 @@ Gedurende enkele maanden hebben we 6 dagen per week gespeeld in dancing/nachtclu
 \end{quote} 
 
 
-\chapter{Bioscoop Arena} % (fold)
+\section{Bioscoop Arena} % (fold)
 \label{cha:arena}
 
 Toen we veel in Tudor speelden woonden we in Rotterdam in een pension tegenover de bioscoop Arena. We verbleven er voornamelijk van de vroege ochtend tot de late middag. Na het ontbijt gingen we in pyjama het nieuwe nummer voor die dag instuderen, even de stad in, eten in restaurant Shell (daar hadden ze lekkere gebakken lever en een leuke cheffin). Dan weer ruim voor openingstijd in de zaal om het nieuw ingestudeerde nummer nog gauw een paar keer te oefenen. 
@@ -1563,7 +1563,7 @@ Er kwam van alles in de Tudor Bodega. In een aangrenzend zaaltje, met veel pluch
 \caption*{\footnotesize Nieuwe Binnenweg met rechts een stukje Tudor Bar.}
 \end{figure}
 
-\chapter{Duitsland} % (fold)
+\section{Duitsland} % (fold)
 \label{cha:duitsland}
 
 Na Rotterdam vertrokken we naar Duitsland. In Soest, bij Dortmund, speelden we in de Oase, de club van Frau Krückel. Weer zes dagen per week, van 9 uur `s avonds tot 4 uur `s morgens. Je leerde niet alleen routine, maar ook behoorlijk innemen. Bij Frau Krückel woonden we in kamers boven de dancing. Op muren waren nog sporen van andere groepen te vinden, waaronder The Thielman Brothers. We voelden ons opgenomen in de wereld van de grote namen. Het had ook wel wat. Frau Krückel was een kleine, tanige tante. Als er gelazer was in de heren WC schrok ze er niet voor terug om daar naar binnen te stormen en de lastpakken bij hun nekvel te pakken en de zaak uit te gooien.
@@ -1620,7 +1620,7 @@ Achteraf gezien hadden we nooit in het nachtclubcircuit terecht moeten komen. Je
 \end{figure}
 
 
-\chapter{The Shameless} % (fold)
+\section{The Shameless} % (fold)
 \label{cha:shameless}
 
 Toen The Devotions stopten heb ik maar een baantje gezocht. Dat vond ik via bemiddeling van Henny Cornet, eigenaar van een kroeg in de Lage Horn. Ik kreeg werk als lasser en sloper bij een losse ploeg bij van Hattum en Blankenvoort in Spaarndam.
@@ -1692,7 +1692,7 @@ Ik vond het wel goed zo. De professionele gitaar heb ik aan de wilgen gehangen e
 \caption*{\footnotesize Mijn gitaar werd door de heer Thomson gemaakt.}
 \end{figure} 
 
-\chapter{Waar we zoal naartoe gingen} % (fold)
+\section{Waar we zoal naartoe gingen} % (fold)
 \label{cha:naartoegaan}
 
 Wat ik me als vroegste bezoek kan herinneren is Huize Negrijn op de Hogendijk, waar regelmatig Jazzconcerten werden gegeven. Soms was het Provadja waar alternatieve popmuziek te horen was en soms was het een Jazzclub. Ik heb er Theo Loevendie zien spelen.
@@ -1797,7 +1797,7 @@ Er waren enorme installaties met raderwerken van Tinguely. Dan moest je met een 
 \end{figure}
 
 
-\part{Het Werk}
+\chapter{Het Werk}
 
 \thispagestyle{empty}
 \begin{flushright}
@@ -1806,7 +1806,7 @@ Er waren enorme installaties met raderwerken van Tinguely. Dan moest je met een 
 \end{figure}
 \end{flushright}
 
-\chapter{Werken, slapen, eten} % (fold)
+\section{Werken, slapen, eten} % (fold)
 \label{cha:werkenslapen}
 
 Geld verdienen, werken om geld te verdienen. Er zijn er die werk aanbieden en er zijn er die het werk aannemen. De meeste mensen horen tot de laatste groep, ook mijn vader. Als kind zie je niets anders dan dat de vaders ’s morgens naar hun werk gaan en ’s avonds weer thuis komen van het werk. Alle vaders gingen naar hun werk. En als je broer oud genoeg was ging die ook naar z’n werk.
@@ -1941,7 +1941,7 @@ Geklooi met cilinders, carburator en in- en uitlaat. Hij had een Demm en nog een
 
 Als het markt was haalde een collega wel eens een trucje uit.  Dan begon hij met twee spijlen in z'n handen tegen het open raam naar het marktpubliek te schreeuwen: ``Help, help, ik wil eruit, ze houden me hier vast!''
 
-\chapter{Apotheek Hulp Artsen} % (fold)
+\section{Apotheek Hulp Artsen} % (fold)
 \label{cha:apotheek}
 
 Ik kwam bij op de administratie bij de Apotheek Hulp Artsen te werken.\footnote{CHECK klopt dat?} Daar was ene Ton de chef. Mijn andere collega's waren een jongen uit Westzaan en Margreet die later een boerderij in Nauerna opende waar ze speelgoed verkocht. 
@@ -1965,7 +1965,7 @@ Ik heb nooit enige \emph{feeling} gehad met boekhouden, maar wel met techniek. Z
 
 Toen er bij de technische dienst een vacature kwam, heb ik contact met de chef daar opgenomen en gesolliciteerd. Toen bleek dat dat niet mogelijk was. Je kon niet van kantoor naar de fabriek gaan, dat voelde voor hen als een degradatie. Exit dus.
 
-\chapter{Pieter Schoen} % (fold)
+\section{Pieter Schoen} % (fold)
 \label{cha:schoen}
 
 Henny van Wijngaarden werkte bij Pieter Schoen en via hem ben ik daar ook terecht gekomen. Mijn ervaring op de boekhouding van de Apotheek verdiende zich hier terug.
@@ -1985,12 +1985,12 @@ Toen het succes met de band niet meer tegen te houden was zijn Henny en ik vertr
 
 Maar het noodlot sloeg al snel toe. We werden belazerd en zaten aan de grond, zonder inkomen. Weer werk zoeken dus.
 
-\chapter{Simon de Wit} % (fold)
+\section{Simon de Wit} % (fold)
 \label{cha:wit}
 
 Simon de Wit was een grootgrutter zoals ook Albert Heijn er één was. Ik kwam terecht in de kaaspakkerij van Simon, aan de Simon de Witstraat in de Westzijde. De bedoeling was dat de kazen, in allerlei vormen, met handkracht in verpakbare eenheden werden gesneden. Het waren grote messen die op een plankier vastzaten; kaas eronder en het mes er doorheen. Daarna stond er iemand die de er folie omheen deed en dat weer door een sealmachine voerde. Zo kwamen de kazen in de winkel. Na korte tijd had ik er genoeg van.
 
-\chapter{Schoonmaakbedrijf van Heusden} % (fold)
+\section{Schoonmaakbedrijf van Heusden} % (fold)
 \label{cha:schoonmaakbedrijf}
 
 Er was meer te verdienen in de schoonmaak. Zo maakte ik kennis met van Heusden Schoonmaakbedrijf. Het bedrijf was nog klein. Twee broers en de kinderen, zoals zoon Rob. 
@@ -2004,7 +2004,7 @@ Met Rob begon ik te klussen. Winkels schoonmaken, na sluitingstijd natuurlijk. M
 
 Ik nam afscheid van de van Heusdens toen het begon te lopen met de muziek. We wonnen een concours, hadden een engagement in Rotterdam kregen en een platencontract. We werden beroeps. De Heusdens boden me aan om bij hen te blijven, want het klikte wel, maar er zat meer brood in de muziek. Dertig jaar later waren ze marktleider in Noord-Holland en was Rob de directeur.
 
-\chapter{Losse arbeid} % (fold)
+\section{Losse arbeid} % (fold)
 \label{cha:lossearbeid}
 
 Het eerste optreden dat we gaven na Duitsland was in café-danszaal \emph{De Lage Horn}, van Henny Cornet. Henny was daarnaast onder-aannemer van sloopwerk, havenwerk en andere dingen waar alleen over werd gefluisterd. 
@@ -2106,7 +2106,7 @@ Het waren altijd van die zogenaamde plagerijtjes, vervelende opmerkingen, die we
 
 Willem had er een handje van om van iemands tragiek, iemands ongeluk, gebruik te maken. Dat Toon technisch gezien meer wist moest hij bezuren door opmerkingen over z’n drankgebruik. Het werd er niet prettiger op. ’s Zomers was het te heet, ’s winters te koud, dus: de groeten.
 
-\chapter{Dagblad De Tijd} % (fold)
+\section{Dagblad De Tijd} % (fold)
 \label{cha:detijd}
 
 Ik zag m’n kans via een advertentie voor opmakers bij dagblad \emph{De Tijd}.
@@ -2192,7 +2192,7 @@ Vanwege mijn studie bij het Barleus (en andere dingen die ik me niet meer herinn
 
 Dagblad \emph{De Tijd} verdween in 1974, na 130 jaar op de markt.
 
-\chapter{Van der Molen} % (fold)
+\section{Van der Molen} % (fold)
 \label{cha:vandermolen}
 
 Technisch Bureau Van der Molen was gevestigd aan de Zaanweg te Wormerveer. De directeur was de heer van der Molen. Het bureau ontwikkelde fabrieken, bijvoorbeeld voor Coca Cola. Ook ontwikkelden ze wel installaties voor het maken en opslaan van producten, bijvoorbeeld het in flesjes doen van zoals Coca Cola. 
@@ -2241,7 +2241,7 @@ Als voorlopige werkoplossing mocht ik de boot van de baas opnieuw lakken (eerst 
 \caption*{\footnotesize Tekenzaal met Rob, op de rug Borgerhoff en Johan Baars.}
 \end{figure}
 
-\chapter{Uitkering(en)} % (fold)
+\section{Uitkering(en)} % (fold)
 \label{cha:uitkering_en}
 
 Een uitkering. Of eigenlijk uitkering\emph{en}, in het meervoud, omdat er een paar onderbrekingen inzitten. Je moet namelijk blijven solliciteren en soms is er gewoon niet onderuit te komen. 
@@ -2292,7 +2292,7 @@ Olga werkte bij sociale zaken en ik was thuis, deed de afwas en zorgde voor het 
 
 Dan wordt het echt tijd om weer wat te gaan doen. M'n avondschool was inmiddels achter de rug. Tijdens het afleveren van m'n werkbriefje bij sociale zaken kwam het gesprek op werk daar. Olga had me al verteld van de vacatures bij de sociale dienst. Het bleek dat ze hard mensen nodig hadden. Ik mocht op sollicitatie komen en werd aangenomen met het uitzicht op een HBO-opleiding aan de Sociale Academie onder werktijd. 
 
-\chapter{Sociale Zaken} % (fold)
+\section{Sociale Zaken} % (fold)
 \label{cha:socialezaken}
 
 Zo kwam ik aan de andere kant van de balie bij Sociale Zaken van de gemeente Zaandam terecht. Gerrit Bakker was hoofd van de afdeling Bijstand. Er was nog een directeur die langzaam kinds begon te worden en met een trommeltje door de gangen liep. 
@@ -2442,7 +2442,7 @@ Het eindigde ermee dat hij voortijdig vertrok omdat wij het met zijn meedogenloz
 \caption*{\footnotesize Ik sta er niet op omdat ik de foto nam. Max is de derde van links in ’t zwart. Voor hem in ’t zwart Liesbeth. Die grote blonde is Maarten, die in Amstelveen werkte. Joris ligt op de grond. Naast hem Nico. Max kwam ik in Haarlem nog wel eens tegen. Hij werkte daar voor de Reclassering. Nico heb ik wel eens in Amsterdam opgezocht.}
 \end{figure}
 
-\chapter{Hulp voor Onbehuisden (HVO)} % (fold)
+\section{Hulp voor Onbehuisden (HVO)} % (fold)
 \label{cha:hvo}
 
 De Roggeveen was een groot, oud gebouw dat diende als opvangcentrum voor vrouwen, kinderen en gezinnen in nood. De Roggeveen bood dagelijks hulp, onderdak, verzorging, ondersteuning, informatie en advies aan ongeveer tweehonderd mensen.
@@ -2480,7 +2480,7 @@ Ik kwam in contact met een echtpaar uit Nederland en hun dochter. Toen de period
 
 Na terugkeer zat de geest van Findhorn nog in mij en Olga. Ik had het werk bij de de Hulp voor Onbehuisden opgegeven. De tijd was rijp voor iets nieuws. Lee nodigde ons uit om mee te gaan naar Scientology in Amsterdam, waar zij een test had gedaan. We waren meteen verkocht. Na een tijdje besloot ik er te gaan werken en tekende een contract voor vijf jaar. 
 
-\chapter{Scientology} % (fold)
+\section{Scientology} % (fold)
 \label{cha:scientologu}
 
 Het beginnen bij Scientology was een stap in het onbekende. Olga deed cursussen en ik werkte er. Mijn eerste job was, na wat training, \emph{Course Admin}. 
@@ -2515,7 +2515,7 @@ In die tijd heb ik ook Brian Eno ontdekt. In de sauna werd prima muziek gedraaid
 
 Op de werkvloer van Scientology in Amsterdam was een grote saamhorigheid onderling. Die werd natuurlijk versterkt door de antipathie en tegenwerking van de buitenwacht. Maar de organisatie deugde niet. Ik had er genoeg van. Het had veel geld gekost en ik ging na die vijf jaar niet verder. Het was tijd om weer wat te gaan doen.
 
-\chapter{De Zaanlander} % (fold)
+\section{De Zaanlander} % (fold)
 \label{cha:zaanlander}
 
 In de krant las ik een oproep voor muziekrecensenten. Met mijn achtergrond van muzikant leek me dat wel wat. Een paar keer heb ik dat gedaan, maar het was helemaal niet leuk, want ik vind dat iedereen die op een podium gaat staan te bewonderen is. Dat gold ook voor toneelvoorstellingen. Toen kwam de vraag of ik overdag iets kon doen. Zo rolde ik bij \emph{De Zaanlander} binnen. 
@@ -2599,7 +2599,7 @@ Het grote probleem is de betrokkenheid bij de cliënten. Je komt bij iemand of b
 
 Het geluk was aan mijn kant toen de personeelsfunctionaris bij me langs kwam en vertelde dat er een vacature kwam bij de archiefdienst van de gemeente Velsen. Of ik daar interesse in had? Dat had ik zeker wel. Na een gesprek met het hoofd en de archivaris kon ik daar beginnen. Wel in Den Haag bij het Rijksarchief een cursus doen voor archiefmedewerker. 
 
-\chapter{Archief} % (fold)
+\section{Archief} % (fold)
 \label{cha:archief}
 
 \begin{figure}
@@ -2650,7 +2650,7 @@ Ik kreeg nog de gelegenheid om echt archivaris te worden via een opleiding van �
 
 Lichamelijke klachten deden ook al geen goed. Eerst met mijn rug en daarna de ogen. Tenslotte ben ik een keer finaal door m’n rug gegaan tijdens het verwerken van archief in het depot. Soms zit in een doos iets van tien gram en soms iets van twee kilo, dat weet je meestal niet op het moment dat je het pakt. In overleg is toen besloten er maar een eind aan te maken. Het kwam het archief goed uit en mij ook. Ik kreeg eervol ontslag, een afscheidsfeestje en dat was dat. Mooie tijd gehad.
 
-\chapter{Vrijwilligerswerk} % (fold)
+\section{Vrijwilligerswerk} % (fold)
 \label{cha:vrijwilligerswerk}
 
 Nadat ik bij Haarlem gestopt was ben ik vrijwilligerswerk gaan doen. Voor de de Patiëntenraad Zaanstreek zat ik onder andere in het bestuur van de GGZ, afdeling Zaandam, in de Westzijde in Zaandam. En namens Zaandam zat ik dan weer in het bestuur van de GGZ - Dijk en Duin regio Zaanstreek/Waterland Waterlandplein 1, 1441 RP Purmerend.\footnote{Dit snap ik niet helemaal - zijn dit twee aparte rollen of aparte taken binnen dezelfde rol?} 
