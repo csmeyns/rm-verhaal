@@ -1,10 +1,13 @@
-\documentclass[10pt,twoside, openright]{memoir}
+\documentclass[10pt,twoside, openright, draft]{memoir}
 % \documentclass[12pt,twoside,openright]{memoir}
 %\usepackage{createspace}
 %\usepackage[size=pocket,noicc]{createspace}
 \usepackage[paperwidth=14.81cm, paperheight=20.99cm,bindingoffset=0.5in]{geometry}
 %\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+
+\usepackage[section]{placeins}
+% \usepackage{flafter}
 
 \usepackage[dutch]{babel}
 \usepackage{mathpazo}
@@ -15,7 +18,7 @@
 %\usepackage{type1cm}
 %\usepackage{lettrine}
 \usepackage{xcolor,graphicx}
- \selectcolormodel{gray}
+\selectcolormodel{gray}
 
 % \setlength\midchapskip{10pt}
 % \makechapterstyle{VZ23}{
@@ -203,7 +206,8 @@ Onze familie is, voor zover ik me dat kan herinneren, geen familie-familie gewee
 Opa en oma Meijns woonden in een huisje in de Jasykoffstraat. Ik sta nog op foto’s met hen voor het huis, dus ik ben bij ze geweest. Maar de herinnering is vaag. Later, toen oma overleden was woonde opa Meijns bij tante Lena in de Czaar Peterstraat, waar de familie Duif een wasserij had. Ome Jaap Duif was al overleden. (Ik kan me geen begrafenissen herinneren.)
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch1/omaJasykofstr}
+\includegraphics{img/ch1/omaJasykofstr}
+\centering
 \caption*{\footnotesize Oma Meijns in de Jasykoffstraat}
 \end{figure}
 
@@ -211,8 +215,9 @@ Het is nooit een zonder meer hartelijke familie geweest. Ik logeerde wel eens bi
 
 De kwestie was al aanwezig toen ik ter wereld kwam. Ik heb altijd gedacht dat dat te maken had met de communistische overtuiging van mijn vader. Dat speelde later inderdaad een rol tijdens de Russische overval op de Hongaren in 1956 toen de familie bij monde van tante Rina liet weten, te breken met mijn vader, en dus met ons hoewel het persoonlijk aan mijn vader gericht was. Maar de oorspronkelijke wrok kwam door een erfkwestie over de sigarenzaak van opa aan de Zuiddijk, waarom ook niet? De kwestie is langzaam een beetje naar de achtergrond verdwenen, maar tegen die tijd waren oma en opa Meijns al overleden.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/ch1/famMeijns2}
+\begin{figure}
+\centering
+\includegraphics{img/ch1/famMeijns2}
 \caption*{\footnotesize Achter, moe, tante Lena, ome Cas, tante Nel en tante Riena. Zittend Pa met Harry, Oma en opa Meijns en voor Gerard, Elly Berends en Jaap. Harry is nog klein, dus deze is voor de Tweede Wereldoordlog genomen.}
 \end{figure}
 
@@ -296,7 +301,7 @@ Op een foto uit 1931 van het revuegezelschap `Voorwaarts' staat hij rechts voora
 
 
 % \begin{figure}
-% \includegraphics[width=\textwidth]{img/ch2/ch2-afb04}
+% \includegraphics[\textwidth]{img/ch2/ch2-afb04}
 % \caption*{\footnotesize Opa Meijns recht vooraan in het midden. Ome Cas staat tweede rij van boven, vierde van rechts. \textbf{controleren}}
 % \end{figure}
 
@@ -317,7 +322,7 @@ Ook vond ik advertenties, zoals ééntje uit 1939 waarin een `net meisje' wordt 
 
 
 
-% \begin{figure}[h!]
+% \begin{figure}
 % \includegraphics[width=0.5\textwidth]{img/ch2/ch2-afb07}
 % \caption*{\footnotesize Advertentie.}
 % \end{figure}
@@ -342,13 +347,13 @@ Bij de controverse tussen mijn vader en zijn vader zal de politiek mede een rol 
 Zoals altijd bij een ruzie tussen volwassenen, de kinderen zijn meestal de dupe. Het is niet anders. Maar ik ben toch blij dat ik dit allemaal heb gevonden.
 
 % \begin{figure}
-% \includegraphics[width=\textwidth]{img/ch2/ch2-afb11}
+% \includegraphics[\textwidth]{img/ch2/ch2-afb11}
 % \caption*{\footnotesize Gedempte Gracht}
 % \end{figure} 
 
 
 % \begin{figure}
-% \includegraphics[width=\textwidth]{img/ch2/ch2-afb13}
+% \includegraphics[\textwidth]{img/ch2/ch2-afb13}
 % \caption*{\footnotesize }
 % \end{figure}
 
@@ -384,7 +389,7 @@ Opa zat links voor het raam. Achter zich had hij een rekje met diverse pijpen en
 Op het erf stond naast de werkplaats van opa een houten WC die boven de sloot loosde. Je zat met je kont in een open gat en onder je was de sloot, simpel. Vooral bij zware bommen kon het voorkomen dat de plons zo hoog kwam dat ie je billen raakte. Met krantenpapier afvegen.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch3/opoekriek}
+\includegraphics[\textwidth]{img/ch3/opoekriek}
 \caption*{\footnotesize Opoe Kriek}
 \end{figure}
 
@@ -398,7 +403,7 @@ Opa was wat je nu loodgieter zou noemen, maar toen was het nog een blikslager. E
 In de voorkamer---de pronkkamer---stond een mooi dressoir met daarop foto’s van de ooms als worstelaars en de prijzen die ze hadden gewonnen. De mooiste foto was natuurlijk die waar ze allemaal opstonden met hun prijzen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch3/Louiscorfransfred}
+\includegraphics[width=0.7\textwidth]{img/ch3/Louiscorfransfred}
 \caption*{\footnotesize Louis, Cor, Frans, en Fred}
 \end{figure}
 
@@ -416,7 +421,7 @@ Toen opoe begon te dementeren zat ze vaak in een stoel voor het raam te kijken o
 Ze zette dan ook nog wel eens eten op, maar er kwam nooit meer iemand eten. Eén keer had ze het zo hoog opgezet dat de oliestelletjes begonnen te loeven. Het hele keukentje zag zwart. We zijn toen nog wezen schoonmaken en witten. Mij herkende ze toen al niet meer. Ik kwam er te weinig.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch3/opbezoek}
+\includegraphics[width=0.8\textwidth]{img/ch3/opbezoek}
 \caption*{\footnotesize Op bezoek met de familie bij Opoe Kriek. Ze keek altijd een beetje stuurs.}
 \end{figure}
 
@@ -427,17 +432,17 @@ In de Koog had je Honig, in Wormerveer Crok en Laan, en in Krommenie had je de L
 Als je blind zou zijn geweest zou je aan de geur weten waar je ongeveer was. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch3/vandebios}
+\includegraphics[\textwidth]{img/ch3/vandebios}
 \caption*{\footnotesize Opoe en Opa Kriek uit de bios weer naar huis. Ze hadden vaste plaatsen, zegt een bron.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch3/opoe82jr}
+\includegraphics[width=0.8\textwidth]{img/ch3/opoe82jr}
 \caption*{\footnotesize Moeder en dochter op het achtererf. Zie maar hoe een klein hokje het huis was.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch3/Zussen}
+\includegraphics[\textwidth]{img/ch3/Zussen}
 \caption*{\footnotesize De gezusters: Lena, Sima, Rieka, Annie en Jo (en Opoe)}
 \end{figure}
 
@@ -449,12 +454,12 @@ Mijn vader vertelde dat hij in Culemborg geboren was. Waarom in die uithoek is m
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/29Moe}
+\includegraphics[\textwidth]{img/29Moe}
 \caption*{\footnotesize }
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/29coppi}
+\includegraphics[\textwidth]{img/29coppi}
 \caption*{\footnotesize }
 \end{figure}
 
@@ -464,17 +469,17 @@ Mijn vader vertelde dat hij in Culemborg geboren was. Waarom in die uithoek is m
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/30lenasport2}
+\includegraphics[\textwidth]{img/30lenasport2}
 \caption*{\footnotesize }
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch4/opdebsa}
+\includegraphics[\textwidth]{img/ch4/opdebsa}
 % \caption*{\footnotesize }
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch2/ch2-afb12}
+\includegraphics[\textwidth]{img/ch2/ch2-afb12}
 \caption*{\footnotesize Bij de foto staat ‘huisje Bakkum’. Van links naar rechts, achterste rij: opa en oma Meijns, tante Lena (Duif), tante Nel, ome Jaap Duif, en een onbekende. Vooraan moe en pa Meijns, Gerard (of Harry), en ome Cas.}
 \end{figure}
 
@@ -503,7 +508,7 @@ Het was een blok van vier woningen, twee onder en twee boven, dat ingeklemd lag 
 Niemand van de familie kwam via de voordeur thuis. Alles ging achterom, de steeg in langs de schutting van onze buren---van der Schaaf---door de poort, langs de heg van buus de Jong, en je was achter op het erf. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/34Rosmstraat2}
+\includegraphics[\textwidth]{img/34Rosmstraat2}
 \caption*{\footnotesize Achter het huis en die kleine ben ik.}
 \end{figure}
 
@@ -521,7 +526,7 @@ Later werden ze gebraden op tafel opgevoerd maar niemand moest er natuurlijk iet
 Pa had het kippenhok gebouwd voor z’n baas, Kraaijer. Het had een Zaans motief. Moe zorgde voor de kippen, vooral als er één gepikt werd en ingesmeerd moest worden. We hebben die kippen in Krommenie gehaald. Op een groot omheind stuk grond liepen honderden kippen en wij mochten uitzoeken (Pa en ik). Ik liep in korte broek en die kippen maar in m’n kuiten pikken. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/kippenhok}
+\includegraphics[\textwidth]{img/ch5/kippenhok}
 \caption*{\footnotesize Het kippenhok}
 \end{figure}
 
@@ -531,7 +536,7 @@ Pa had het kippenhok gebouwd voor z’n baas, Kraaijer. Het had een Zaans motief
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/peterme}
+\includegraphics[width=0.8\textwidth]{img/ch5/peterme}
 \caption*{\footnotesize Zelfde karretje als dat met Harry, nu met Peter Baas. Volgens mij dezelfde manteltjes. Ik mocht zeker het karretje niet uit.}
 \end{figure}
 
@@ -546,7 +551,7 @@ Boven van der Schaaf woonde de familie Schaap. Met zoon Jaap zat ik in de klas e
 Toen de man een keer even thuis was en z'n truc in de straat parkeerde zei Jaap dat we er wel even in mochten. Door wat voor oorzaak dan ook startte de auto en reed heel langzaam vooruit. Van schrik sprongen we er beiden uit, maar als held ben ik er weer ingeklommen en pakte het stuur. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/indetuin}
+\includegraphics[\textwidth]{img/ch5/indetuin}
 \caption*{\footnotesize }
 \end{figure}
 
@@ -557,7 +562,7 @@ Schuin tegenover ons woonde een familie met een thuiswonende zoon die blindegele
 Tegenover ons op de eerste verdieping kwam familie de Licht te wonen, met Coby, de mooiste van de straat. Met haar heb ik veel gehoelahoept en doktertje gespeeld in een tent achter het huis. Tot we onraad hoorden en een hoofd de tent binnen keek. Zweten en een rooie kop van de spanning. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/Bakkum2}
+\includegraphics[\textwidth]{img/ch5/Bakkum2}
 \caption*{\footnotesize Kamp Bakkum}
 \end{figure} 
 
@@ -573,7 +578,7 @@ Maar normaal was er geen enkele animositeit. Onze vaders waren als oude vrienden
 Er werd nog wel eens gekeken of je wel met iemand vriendje mocht zijn. Toen er een nieuwe jongen in de straat kwam wonen moest hij eerst thuis vragen of hij vriendjes met mij mocht zijn. Het mocht, omdat ik bij ondervraging kon melden dat mijn vader Gerard Meijns was. ``Oh, Geer Meijns'', zei de vader. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/vanharte}
+\includegraphics[\textwidth]{img/ch5/vanharte}
 \caption*{\footnotesize }
 \end{figure} 
 
@@ -620,7 +625,7 @@ De kolen en de olie hebben beiden een aparte geur. Vlak bij school, in de Herder
 De Poortstraat was eigenlijk de opening naar de wereld. Door de steeg was je zo bij de Sparwinkel en bij mijn vrienden Jan Schoen, Leen Bakker en Peter Baas, die in het volgende plantsoen woonde. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/Spar-Poortstr}
+\includegraphics[\textwidth]{img/ch5/Spar-Poortstr}
 \caption*{\footnotesize }
 \end{figure}
 
@@ -630,7 +635,7 @@ Bij haar mocht ik graag vertoeven. Er hing een geur van oude gezelligheid, van d
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/poortstrsteeg}
+\includegraphics[\textwidth]{img/ch5/poortstrsteeg}
 \caption*{\footnotesize In de Poortstraat, links de ingang van de steeg en het huis van Buus de Jong.}
 \end{figure}
 
@@ -641,7 +646,7 @@ Vlak bij school had je banketbakkerij de Zeeuw. Als je daar de deur opendeed kwa
 Mijn broer Gerard was al jong de deur uit, naar Den Haag, waar hij bij de PTT werkte en een opleiding kreeg. Hij was dus al uit huis voordat ik me van hem bewust werd. Hij rookte Dr. Duskind, reed op een Vespa (scooter) en had een verloofde, Nel. Ze huurden een kamer in Amsterdam-West.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/gn0102}
+\includegraphics[width=0.8\textwidth]{img/ch5/gn0102}
 \caption*{\footnotesize Gerard en Nel [?].}
 \end{figure}
 
@@ -650,7 +655,7 @@ Onlangs kreeg ik wat fotootjes uit die tijd. Ik ben nog eens met m’n vader naa
 Hun huwelijksfeest werd gehouden in het Pontrestaurant in Amsterdam Noord, waar ik mee mocht helpen met de bediening. Als een echte ober liep ik met het dienblad rond. Als het restaurant niet gesloopt was, zouden ze het er nog over hebben, zo’n succes was dat.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch5/trouwengn}
+\includegraphics[\textwidth]{img/ch5/trouwengn}
 \caption*{\footnotesize Hier gaan we op weg bij Nel haar huis in Ransdorp. Kijk m’n pinkelhoutje? En natuurlijk korte broek.}
 \end{figure}
 
@@ -689,18 +694,18 @@ Eén keer heb ik in het Apollo Theater aan de Dam een voorstelling gezien van Sj
 Gelukkig was de kleuterschool dichtbij. Vanuit huis liep ik er in twee minuten naartoe.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch6/Frobelschool}
+\includegraphics[width=0.8\textwidth]{img/ch6/Frobelschool}
 \caption*{\footnotesize De man met de kar is Noë van de Poort-kruidenier, later De Spar.}
 \end{figure}
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch6/klschool53}
+\includegraphics[\textwidth]{img/ch6/klschool53}
 \caption*{\footnotesize Op deze foto van de kleuterklas staat m’n juf, Winsemius, waarmee ik als ik groot zou zijn zou gaan trouwen. Jan Schoen zit uiterst links, op het verhoginkje. Peter Baas zit op de tweede rij uiterst rechts vooraan. Die met het witte truitje is Lyda Hooyschuur. Rechts daarvan zit ik, met de zwarte galgjes.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch6/kleuterschool2}
+\includegraphics[\textwidth]{img/ch6/kleuterschool2}
 \caption*{\footnotesize We zullen ongetwijfeld veel knip- en plakwerk hebben verricht. We kijken hier allemaal verrast om. `Wat, een foto?'}
 \end{figure}
 
@@ -724,7 +729,7 @@ Toen ik onder de kluwen omhoog kwam stond er een ‘vijand’ te lachen ik heb h
 Kort daarna liep ik op de Heijermansstraat tussen de Poortstraat en Jan Bouwmeesterstraat toen ik plotseling tussen een stuk of tien Jan Bouwmeester-straters stond en met m’n rug tegen de buitenmuur van het laatste huis werd geduwd. Er was geen ontkomen aan en ik kreeg flinke klappen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch7/Bouwmeesterstraat}
+\includegraphics[\textwidth]{img/ch7/Bouwmeesterstraat}
 \caption*{\footnotesize Heijermansstraat met rechts de de muur waartegen ik de klappen ontving.}
 \end{figure}
 
@@ -752,7 +757,7 @@ Onze melkboer was Langelaar, die in onze straat z’n winkel had. Met z’n karr
 Ik mocht hem helpen en na z’n wijk te hebben gedaan moesten alle melkbussen en dergelijke schoongemaakt worden. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/64Rosmolenstraat-Langelaar-1966}
+\includegraphics[\textwidth]{img/64Rosmolenstraat-Langelaar-1966}
 \caption*{\footnotesize De buurtwinkel van Langelaar}
 \end{figure}
 
@@ -763,7 +768,7 @@ Met dat helpen heb ik me nog eens aardig bezeerd. Ik liep met de flessen van de 
 Van een groentenboer kan ik me niet zoveel herinneren. Van de aanverwante schillenboer meer, omdat die met een paard en wagen langs kwam. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/63schillenboer}
+\includegraphics[\textwidth]{img/63schillenboer}
 \caption*{\footnotesize Hier zit ik op het paard van de schillenboer.}
 \end{figure}
 
@@ -778,7 +783,7 @@ De ijsboeren waren een slag apart. Je had `de danser’ uit de Schoolmeesterstra
 De eerste werd `de danser' genoemd omdat hij door het gewicht van z’n ijskar, als die nog vol was, omhoog geduwd dreigde te worden en z’n kracht dus op het neerdrukken moest richten. Hij kon als het ware zwevend lopen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/66tempo}
+\includegraphics[\textwidth]{img/66tempo}
 \caption*{\footnotesize IJszaak Tempo}
 \end{figure}
 
@@ -809,7 +814,7 @@ Bakkum was echt fantastisch en ik heb daar uitstekende herinneringen aan. Met on
 Luilak was sowieso een fantastische tijd waar veel over te vertellen valt. Als je klein bent loop je met je vader, broers en zijn vrienden, buren enzovoorts mee. Op elk kruispunt was wel een fik. Als je groter wordt ga je het zelf doen met leeftijdgenoten. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch9/luilak1954}
+\includegraphics[\textwidth]{img/ch9/luilak1954}
 \caption*{\footnotesize Luilak, 1954}
 \end{figure}
 
@@ -826,7 +831,7 @@ Ik kwam thuis en vertelde m’n ouders van de fik. M’n vader zei: ``Ga maar te
 Na veel vragen ben ik naar voren gestapt en heb me aangegeven als de aanstichter. De motor werd in een zandwagen geladen en ik met de chauffeur (geen politie) naar het politiebureau. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch9/politburo}
+\includegraphics[\textwidth]{img/ch9/politburo}
 \caption*{\footnotesize Het politiebureau in de Vinkenstraat (nu weg).}
 \end{figure}
 
@@ -842,7 +847,7 @@ Met luilak kon je ’s morgens al heel vroeg bij de bakker warme witte bollen ko
 Er was een oude man in de Tolstraat die zich vanwege een handicap in een (nu) antieke rolstoel moest voortbewegen. Twee stangen dreven het apparaat vooruit. Je moest ze met de hand op en neer duwen. De bochten waren het moeilijkst, leek me, als je vaart moest houden en tegelijkertijd een bocht moestnemen. Ik heb er altijd met fascinatie naar gekeken. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch10/rolstoel}
+\includegraphics[\textwidth]{img/ch10/rolstoel}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -866,7 +871,7 @@ Mijn vader was een ZFC’er en ging de thuiswedstrijden altijd kijken. Hij had e
 De kinderen speelden rond het terrein. We probeerden dan gratis op de tribune te komen. Iemand gooide dan het kaartje langs de kant naar beneden en zo kregen we dan soms toegang. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/74zfc}
+\includegraphics[\textwidth]{img/74zfc}
 \caption*{\footnotesize Het ZFC-veld, we kijken naar de staantribune aan de Westzanerdijk.}
 \end{figure}
 
@@ -875,7 +880,7 @@ Onder de staantribune vonden we nog wel eens iets wat de mensen daarboven hadden
 Als het afgelopen was moest je eerst je fiets weer terugvinden. Die stonden in lange rekken op de Westzanerdijk. Daarna ging die grote slinger weer terug naar huis, veroorzaakte opstoppingen bij de smalle Wilhelminabrug. Naarmate de tocht naar huis vorderde, werd de groep steeds kleiner. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/75zfc2}
+\includegraphics[\textwidth]{img/75zfc2}
 \caption*{\footnotesize De fietsenstalling op de Westzanerdijk}
 \end{figure}
 
@@ -888,7 +893,7 @@ Soms moest je ook heel ver uit spelen. Een keer, bovendien de laatste keer, spee
 Toen ben ik maar op judo gegaan. Ik speelde bij Judoclub Zaandam, onder leiding van Siem Boering. Een strenge trainer, maar wel een goeie. Als hij zag dat je je voor een wedstrijdje met hem terug trok, dan haalde hij je eruit. Nooit terug trekken, vond hij. En terecht. We trainden in de Wilhelminaschool, aan de Gerhardstraat. Op die plaats staan nu woningen.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/76schooljudo}
+\includegraphics[\textwidth]{img/76schooljudo}
 \caption*{\footnotesize De Lindeboomschool-Wilhelminaschool }
 \end{figure}
 
@@ -899,7 +904,7 @@ Zwemmen heb ik geleerd in de vierde klas. Mijn moeder stond dan bij school te wa
 Dat was ook het bad waar we schoolzwemmen kregen. Het was een mooi bad, maar de kleedhokken beneden waren nat en koud. Ik vond het smerig daar, maar dat terzijde. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/77sportfondsenbad}
+\includegraphics[\textwidth]{img/77sportfondsenbad}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -921,14 +926,14 @@ Mijn begeleiders waren alweer vertrokken, zodat ik toch nog met een hersenschudd
 Toen ik een andere keer van het zwemmen naar huis reed kwam ter hoogte van de Jedelooschool en de toenmalige groentenboer m’n badtas tussen m’n voorwiel en dook ik over m’n stuur met m’n kin op de straatstenen. En zeer dat m’n kin deed. Pas toen de groenteman naar buiten kwam en me overeind wilde halen merkten we pas dat m’n kin open lag. Weer naar het ziekenhuis en krammetjes erin. En weer alleen op de fiets naar huis.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/80ZiekenhuisFrHallstr}
+\includegraphics[\textwidth]{img/80ZiekenhuisFrHallstr}
 \caption*{\footnotesize Het oude ziekenhuis}
 \end{figure}
 
 Bij het ziekenhuis stond de kraam van Cor Knikker. Cor had een lamme rechterhand. Als mijn moeder zag dat ik weer een lichaamsdeel met een elastiekje afknelde hield ze me voor dat Cor zo ook aan z’n verlamde hand was gekomen.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/79corknikker}
+\includegraphics[\textwidth]{img/79corknikker}
 \caption*{\footnotesize Cor met z'n lamme rechterhand}
 \end{figure}
 
@@ -939,14 +944,14 @@ Dat wielrennen heeft wel een tijdje mijn belangstelling gehad. Dat kwam omdat mi
 Bij de Paaskerk was Karel Appel net aan het schilderen en zag ik Freek de Jonge nog lopen. Hij zou er later uitvoerig over schrijven, maar mijn recordpoging heeft hij over het hoofd gezien. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/81paaskerk}
+\includegraphics[\textwidth]{img/81paaskerk}
 \caption*{\footnotesize Karel Appel in de paaskerk}
 \end{figure}
 
 Zoals Freek in zijn boek ook mijn aanwezigheid bij de brand in het Veem aan de Oostzijde onvermeld liet. De grootste brand die ik ooit gezien heb. We kwamen allemaal te laat op school. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/81veembrand}
+\includegraphics[\textwidth]{img/81veembrand}
 \caption*{\footnotesize De foto is vanuit de Hoveniersstraat genomen.}
 \end{figure}
 
@@ -960,7 +965,7 @@ Wij moesten weer naar school. Ik sprak laatst een oud brandweerman en die vertel
 Ik heb als kind altijd veel geschaatst. Vooral op de Gouw, die toen de voor geoefende rijders een uitvalsbasis was naar verre oorden, zoals Marken.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/84bruggouw}
+\includegraphics[\textwidth]{img/84bruggouw}
 \caption*{\footnotesize Brug over de Gouw.}
 \end{figure}
 
@@ -977,7 +982,7 @@ Later kreeg ik noren, met schoen. Dat was een raar gezicht, omdat ik in de zesde
 M’n schaatsen werden te klein en ik stapte steeds met dooie voeten van het ijs. Toen was het over en heb ik nooit meer geschaatst. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch13/metpa2}
+\includegraphics[\textwidth]{img/ch13/metpa2}
 \caption*{\footnotesize Hier met Pa in het park met op de achtergrond het bejaardenhuis Oostererf, gesloopt. Nu staat het ziekenhuis er.}
 \end{figure}
 
@@ -989,7 +994,7 @@ In de vroege jaren vijftig werd in de zomervakantie door de Zaanse Gemeenschap e
 Je moest eigen gereedschap meenemen. Omdat m’n vader timmerman was kreeg ik een hamer en een zaag mee. Die hamer heb ik nog. Er staat op getekend dat die van mij was, want in zo’n dorp kan makkelijk iets wegraken. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/87-88jongensdorp}
+\includegraphics[\textwidth]{img/87-88jongensdorp}
 \caption*{\footnotesize Jongensdorp, 1953}
 \end{figure}
 
@@ -1002,7 +1007,7 @@ Mijn vader werkte bij scheepswerf Kraaijer, aan het eind van de Zuiddijk. Later 
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/90deBeer}
+\includegraphics[\textwidth]{img/90deBeer}
 % \caption*{\footnotesize Mary Nubel}
 \end{figure}
 
@@ -1013,7 +1018,7 @@ Die oud-Indischman vertelde ook nog hoe je een mes kon maken van oude zaagbladen
 Dat litteken heb ik nog. Het mes niet meer, het werd in beslag genomen.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch15/schuttevaer12}
+\includegraphics[\textwidth]{img/ch15/schuttevaer12}
 \caption*{\footnotesize Mary Nubel}
 \end{figure}
 
@@ -1035,7 +1040,7 @@ Ik stond eens op de Hempont met m’n vader toen er een Duitse auto de pont opre
 Toen we eindelijk een eigen radio kregen werd er ook een platenwisselaar aangeschaft. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/93jeugdfotoos_0010A}
+\includegraphics[\textwidth]{img/93jeugdfotoos_0010A}
 % \caption*{\footnotesize Mary Nubel}
 \end{figure}
 
@@ -1047,8 +1052,8 @@ De aanschaf van een plaat was altijd een hele gebeurtenis. Er waren er ook zovee
 
 Daarna besloot je of je de plaat kocht. Bij het vallen was zo’n plaat direct kapot. Met de komst van vinyl kwamen Perry Como, Louis Prima. Hoewel mijn Engels niet best was zong ik toch alles mee. Favoriet was natuurlijk Louis Prima met z’n swingende `Buona Sera', waarmee ik regelmatig voor de familie een playbackvoorstelling gaf.
 
-% \begin{figure}[t]
-% \includegraphics[width=\textwidth]{img/...}
+% \begin{figure}
+% \includegraphics[\textwidth]{img/...}
 % \caption{Koopman op de Gracht}
 % \end{figure}
 
@@ -1063,7 +1068,7 @@ Gehandicapt door een klompvoet trachtte meneer Bakker ons enigszins in de richti
 M’n eerste LP was een uitvoering van \emph{Wassermusik} van Händel door het Concertgebouworkest, onder leiding van Eduard van Beinum. Toen ik vele jaren later een uitvoering van Trevor Pinnock hoorde geloofde ik niet dat het dezelfde muziek was. Gelukkig heb ik de uitvoering van Van Beinum kunnen terugvinden, zodat ik weer van m’n eigen watermuziek kon genieten. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/96watermusic}
+\includegraphics[\textwidth]{img/96watermusic}
 % \caption*{\footnotesize Mary Nubel}
 \end{figure}
 
@@ -1074,7 +1079,7 @@ Hans was een muziekliefhebber die anderen probeerde te interesseren voor muziek.
 En hoe groot kan toeval zijn dat later Peter Baas in die winkel kwam te werken? Zo was dat kringetje ook weer rond. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/97volmer}
+\includegraphics[\textwidth]{img/97volmer}
 \caption*{\footnotesize Muziekhandel Volmer}
 \end{figure}
 
@@ -1101,7 +1106,7 @@ We lazen de gelukkige berichten in het blad van de Vrienden van de USSR en we ho
 Een vergelijking met streng gelovigen doet zich al snel voor. Het geloof in het absolute ‘gelijk’ komt sterk overeen. Bij de communisten was het de partijleider, de \emph{Pravda}, het Centraal Comité; voor gereformeerden is dat het Oude Testament, Paulus. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch17/waarheid}
+\includegraphics[\textwidth]{img/ch17/waarheid}
 % \caption*{\footnotesize Muziekhandel Volmer}
 \end{figure}
 
@@ -1118,7 +1123,7 @@ Volgens mijn vader was het een Wormerveerder die daar vanuit Moskou ons toesprak
 De familie Meijns kwam zelfs vertellen dat ze nu alle banden met ons verbraken. \emph{De Waarheid} werd aangevallen en Felix Meritis belegerd. We hielden wel vol, onder andere door het Waarheidfestival, maar plots was alles niet zo zeker meer.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch17/Felix_Meritis1}
+\includegraphics[\textwidth]{img/ch17/Felix_Meritis1}
 \caption*{\footnotesize Op de foto de aanval op Felix Merites in ’51. De redactie van de Waarheid zat aan de Keizersgracht in Felix Meritus.}
 \end{figure}
 
@@ -1140,7 +1145,7 @@ De laatste klas deed ik bij meester Lefferman, die tevens hoofd der school was. 
 Toevallig was m’n vader thuis en die stelde voor om met de brommer naar een bloemencorso in Limmen te gaan. En zo reden we kort na het incident vrolijk toeterend langs de school richting Limmen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch18/lwschool}
+\includegraphics[\textwidth]{img/ch18/lwschool}
 \caption*{\footnotesize 1954 – Schoolfoto met Jan Schoen met het bord en dan ik en Peter Baas. Rechtsachter Juf de Boer en links meester Winter. Die grote in het midden is Jaap Schaap. Verder zie ik gezichten van Fred, Wim Weij en andere zonder dat ik er namen bij weet.}
 \end{figure}
 
@@ -1155,7 +1160,7 @@ Ik was niet geschikt om de hele dag binnen te zitten. In de tweede klas overleed
 De school was een ellende. Ik had er geen zin in, behalve natuurlijk in de vriendschap met Mieke en andere meisjes. Ook heb ik op de ULO een aantal vriendschappen opgedaan die later weer van pas kwamen. Henk van der Wissel, Henny Wijngaarden, Ed Eijchenberger. Maar het leren was niets. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch19/ULOSchool}
+\includegraphics[\textwidth]{img/ch19/ULOSchool}
 \caption*{\footnotesize Ik zit 2e rij, midden. Rechts voor mij Henk vd Wissel, rechts achter mij Siebe (blonde kuif) en achter hem Mieke. }
 \end{figure}
 
@@ -1178,7 +1183,7 @@ Zoals ik kan genieten van Chrissy en Kelly, in wat ze zijn en worden, zo kan ik 
 Uiteraard had iedereen een fiets, maar met het stijgen der welvaart konden sommigen al beschikken over een brommer. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch20/Typhoon2-55A}
+\includegraphics[\textwidth]{img/ch20/Typhoon2-55A}
 \caption*{\footnotesize Pa in de Poortstraat, nog met tuintjes, met de eerste Typhoon.}
 \end{figure}
 
@@ -1191,7 +1196,7 @@ Bij Wormerveer sloeg het onheil toe. Opeens lagen we languit op het rijwielpad. 
 Toen m'n vader getroffen werd door hartproblemen waren de fiets en brommer taboe en kwam er een auto. De eerste was een prachtig Fiatje, tweezitter met achterklep, waar ik net aan in kon zitten. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/111Fiat-Topolino.jpg}
+\includegraphics[\textwidth]{img/111Fiat-Topolino.jpg}
 \caption*{\footnotesize De Fiat Topolino, war is ie mooi}
 \end{figure}
 
@@ -1209,7 +1214,7 @@ Omdat de bovenburen een voortdurende bron van ergernis bleven en m’n vader ern
 Op de foto is goed te zien hoe nieuw alles nog was. Een nieuw huis met drie slaapkamers, douche en een zolder (een kleine zolder). 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch21/skoda}
+\includegraphics[\textwidth]{img/ch21/skoda}
 \caption*{\footnotesize Pa, Jannie en moe bij de Skoda 1200.}
 \end{figure}
 
@@ -1222,7 +1227,7 @@ Na het overlijden van m’n vader ben ik min of meer opgevangen door de familie 
 Met Jan als vriendje kwam ik daar al eerder over de vloer, maar na deze gebeurtenis hebben ze me liefdevol een warme plek geboden.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch21/luxvak}
+\includegraphics[\textwidth]{img/ch21/luxvak}
 \caption*{\footnotesize Foto’s vakantie Luxemburg met de familie Abbing}
 \end{figure}
 
@@ -1239,7 +1244,7 @@ Ik heb geen idee meer hoe ze heette, maar meestal op een zondagmiddag zagen wij 
 Jan’s ouders hebben me binnen gehaald. Als een stelletje aten we om de week bij hen en dan bij mij thuis. Ze hebben me ook meegenomen op vakantie naar Luxemburg. Daar hebben we, zoals de foto’s bewijzen, gekampeerd. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch21/gitarist}
+\includegraphics[\textwidth]{img/ch21/gitarist}
 \caption*{\footnotesize Mijn slaapkamer met teksten op de muur geschreven.}
 \end{figure}
 
@@ -1273,8 +1278,8 @@ De begrafenis was aan de Zuiddijk tegenover z’n oude werkgever. Iedereen die w
 
 M’n tweede jeugd, na de Rosmolenstraat, heb ik doorgebracht in Hof van Holland tot en met de trouwerij met Olga. Want net als Harry en Jannie hebben wij daar de eerste jaren op een kamertje ingewoond.
 
-\begin{figure}[h]
-\includegraphics[width=\textwidth]{img/ch22/joho_0001}
+\begin{figure}
+\includegraphics[\textwidth]{img/ch22/joho_0001}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -1298,7 +1303,7 @@ M’n tweede jeugd, na de Rosmolenstraat, heb ik doorgebracht in Hof van Holland
 Hoe kom je aan muzikaal- of ritmisch gevoel? Geen idee. Hoewel? Tijdens recent onderzoek kwam ik te weten dat mijn grootvader in de dertiger jaren in een aantal muziekgroepen zat. Veel muziek werd er thuis niet gespeeld. Wel platen, 78-toeren, zoals Edmundo Ross met `London is the Place for Me', of Johnnie Ray, een crooner met `Cry' en `Walking in the Rain'. De pianiste Winnifred Atwell kon er wat van, je kreeg veel piano voor je geld. Ik kan ze nog dromen. Gek hoeveel muziek je kunt onthouden. Als ik de beginmaten hoor kan ik zo verder fluiten, al is het zestig jaar terug. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/128-koopman}
+\includegraphics[\textwidth]{img/128-koopman}
 \caption*{\footnotesize Koopman op de Gracht}
 \end{figure}
 
@@ -1315,7 +1320,7 @@ Dit keer was ik niet de enige. In tegenstelling tot de privélessen bij ome Free
 Als eerste werden ons het C, F en G-akkoord geleerd. Op commando barstte “Faria, Faria, Faria”, vijftienvoudig door het kleine zaaltje. Wat een vreselijk lawaai, alles door elkaar. Dat was heel erg en ik heb het niet lang volgehouden. Nog even heb ik een periode les gehad bij de andere muziekhandel Eshuys, met lessen van moeder Eshuys. Ik heb de jonge Margriet nog wel om een hoekje zien kijken. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch23/Eshuijs}
+\includegraphics[\textwidth]{img/ch23/Eshuijs}
 \caption*{\footnotesize De winkel met scherm.}
 \end{figure}
 
@@ -1324,7 +1329,7 @@ Iets wat we nu niet meer kennen waren de openbare optredens van drum-, fanfare- 
 Ik vond het door de straat komen van zo’n harmonieorkest bijzonder opwindend. Zodra je het eerste geluid in de verte hoorde hoopte je dat ze ook door onze straat zouden komen. Zo’n tambour-maître die voor het spul uitloopt en de maat en de richting aangeeft, met dan het hele korps er in de maat achteraan. Dat massale geluid als ze allemaal gingen blazen ondersteund door het slagwerk. Als je dan, nadat je een tijdje had meegelopen, weer huiswaarts keerde, liep je nog in een marstempo.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/131CzPeter3.jpg}
+\includegraphics[\textwidth]{img/131CzPeter3.jpg}
 \caption*{\footnotesize Drumband Czaar Peter}
 \end{figure}
 
@@ -1350,14 +1355,14 @@ Onze manager/dirigent was Siem Vonk. We repeteerden in de voorkamer van de ouder
 Onder welke naam we speelden is mij ontschoten. We traden ook op voor weeskinderen van Oosterweide, waarbij we voor de stemming clowneske bewegingen en blokfluiten met talkpoeder tussen de muziek inlasten, met veel lawaai en vallen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/134-Oosterweide}
+\includegraphics[\textwidth]{img/134-Oosterweide}
 \caption*{\footnotesize Oosterweide}
 \end{figure}
 
 Een paar maal speelden we voor bejaarden. Dit gebeurde in samenwerking met de Coca-Cola, die dan voor zonnekleppen en versnaperingen zorgde. Als we opkwamen zagen we een zaal vol cola-zonnekleppen. De meeste sliepen al. Ik speelde eerst gitaar, maar door het wegvallen van de drummer werd ik als zodanig ingeschakeld. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/135-rollers-foto1}
+\includegraphics[\textwidth]{img/135-rollers-foto1}
 \caption*{\footnotesize The Rollers, Ed Vermeulen is de 2e van links}
 \end{figure}
 
@@ -1373,14 +1378,14 @@ In 1961 speelde ik klarinet in een bandje genaamd The Blue Rocking Strings. De a
 \end{quote}
  
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch25/bluerocking}
+\includegraphics[\textwidth]{img/ch25/bluerocking}
 \caption*{\footnotesize \emph{De Typhoon}, zaterdag 9 september 1961}
 \end{figure}
 
 \noindent Ik zat toen al niet meer op school, denk ik, maar ik kende iedereen van de ULO. Ed Eichenberger, Henny van Wijngaarden (later The Rolling Four), Henk van de Wissel (later de Rocking Idolaters), Marieke Schneider en Jolanda Vergouw zaten daar ook allemaal op, of hadden erop gezeten. Zo komen die bandjes bij elkaar.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch25/nico}
+\includegraphics[\textwidth]{img/ch25/nico}
 \caption*{\footnotesize Nico Bakker (met gitaar) in 1960 tijdens de IVO-school periode.}
 \end{figure}
 
@@ -1389,7 +1394,7 @@ Via de ULO vormde ik met vriend Ed en een buurjongen een tijdje The Flyland Four
 In deze samenstelling trokken we over de wereld en speelden de muziek die bij een stad paste. We eindigden in Amsterdam met `Aan de Amsterdamse grachten'. Enkelen van ons groepje waren bij Hawaï al achter een palmboom in slaap gevallen van de drank. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch25/ri-2}
+\includegraphics[\textwidth]{img/ch25/ri-2}
 \caption*{\footnotesize Rocking Idolaters, met Grard IJff en Henk van der Wissel}
 \end{figure}  
 
@@ -1407,7 +1412,7 @@ We zijn tot Fécamp gekomen, meen ik. De eerste avond kwamen we laat op de campi
 In de periode daarna hebben we nog verschillende pogingen tot het vormen van een bandje gedaan. Enige tijd heb ik gekeken bij een groep die repeteerde bij Koert Groot thuis in de Oostzijde. Dat was vlakbij Hof van Holland, waar ik toen woonde. Wat ik me daarvan voornamelijk nog herinner is het nummer `I’m gonna knock on your door, ring on your bell' waarbij de drummer, Co Smit, een elektrische bel onder z’n drumstel had gemonteerd.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/142-RF}
+\includegraphics[\textwidth]{img/142-RF}
 \caption*{\footnotesize Ed, Co, Piet van Petten, Gonnie Rijkers et moi.}
 \end{figure}
 
@@ -1415,8 +1420,8 @@ Ik ontmoette Co via mijn werk bij Apotheek Hulp Artsen, een pillenfabriek in Zaa
 
 Ze speelden topmuziek, goed geluid. Veel Cliff en The Shadows, inclusief de danspasjes. Ook deden ze Amerikaanse popmuziek. Vanuit deze groep vormde zich The Rolling Four. Ik verving Luc, waarom weet ik niet meer.
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/ch33/four}
+\begin{figure}
+\includegraphics[\textwidth]{img/ch33/four}
 \caption*{\footnotesize De eerste bezetting van The Rolling Four in actie met v.l.n.r. Piet van Petten, Koert de Groot, Luc Smit en Co Smit.}
 \end{figure}
 
@@ -1425,16 +1430,16 @@ Co was de oudste en was de leider van de groep. Hij woonde in de Javastraat in W
 Toen dat een beetje begon te lopen hebben we onze kledingkeuze in Amsterdam gemaakt bij Tip de Bruyn in de Kalverstraat. Een zwarte broek en jasjes in verschillende kleuren. We deden veel werk van The Shadows, keurig in een rijtje en dezelfde pasjes om het wat leuker te maken. De Four werden later uitgebreid met Gonnie Rijkers als zangeres. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch26/opel_olympia_big}
+\includegraphics[\textwidth]{img/ch26/opel_olympia_big}
 \caption*{\footnotesize Opel Olympia, ook al zo'n mooi karretje}
 \end{figure}
 
-We repeteerden bij de oma van Co in de Dubbele Buurt te Wormerveer\footnote{CHECK is dit hetzelfde als bij Koert thuis, Oostzijde?}. Met de brommer reden we (Ed, Henny\footnote{CHECK waar komen Ed & Henny hier vandaan?} en ik) van Zaandam naar de oefenruimte, door weer en wind. Een favoriet spelletje was dat de bemanning van de voorste brommer in de lucht spuugde en de tweede dat probeerde op te vangen. Tja...
+We repeteerden bij de oma van Co in de Dubbele Buurt te Wormerveer\footnote{CHECK is dit hetzelfde als bij Koert thuis, Oostzijde?}. Met de brommer reden we (Ed, Henny\footnote{CHECK waar komen Ed en Henny hier vandaan?} en ik) van Zaandam naar de oefenruimte, door weer en wind. Een favoriet spelletje was dat de bemanning van de voorste brommer in de lucht spuugde en de tweede dat probeerde op te vangen. Tja...
 
 We traden regelmatig op in onder andere Café Jongejans in Assendelft, in het Moriaanshoofd in Wormer. Een keer speelden we voor slechts een paar meiden, die hebben we ook nog met ruzie de deur uit hebben gewerkt. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch26/Moriaanshoofd}
+\includegraphics[\textwidth]{img/ch26/Moriaanshoofd}
 \caption*{\footnotesize Moriaanshoofd in Wormer}
 \end{figure}
 
@@ -1445,7 +1450,7 @@ In die tijd hebben we nog contact gehad met Bob Bouber, die toen zanger was bij 
 We hadden het idee dat we meer de popkant op wilden en minder de dansmuziek. Toen zijn we met z’n drieën verder gegaan; Henny van Wijngaarden kwam in de plaats van Co Smit. We hebben zelfs nog eens een groep gehad van zeven man.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch26/1965}
+\includegraphics[\textwidth]{img/ch26/1965}
 \caption*{\footnotesize We werden steeds groter, in ieder geval in aantal}
 \end{figure}
 
@@ -1460,7 +1465,7 @@ Ik werd meteen gepakt door het specifieke geluid van de merseybeat. De ritmische
 \end{quote}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/147-MoriaanA}
+\includegraphics[\textwidth]{img/147-MoriaanA}
 \caption*{\footnotesize In het Moriaanshoofd in Wormer. V.l.n.r. Piet van Pette, Ed Eichenberger, Henny van Wijngaarden, Ruud Meijns.}
 \end{figure}
 
@@ -1473,7 +1478,7 @@ The Devotions zijn ontstaan uit leden van twee Zaanse bandjes: The Rolling Four 
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch27/promo3a}
+\includegraphics[\textwidth]{img/ch27/promo3a}
 \caption*{\footnotesize The Devotions}
 \end{figure}
 
@@ -1489,7 +1494,7 @@ Dat laatste werd voor ons beslist, omdat de politie met motoren de trottoirs beg
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/152-duijn-stolk}
+\includegraphics[\textwidth]{img/152-duijn-stolk}
 \caption*{\footnotesize Voor het huis van Van Duijn. Links Roel van Duijn, 3e van rechts Rob Stolk, en helemaal rechts Rens Adelaar, ook uit Zaandam}
 \end{figure}
 
@@ -1500,7 +1505,7 @@ Die volgende ochtend zijn we naar Zaandam gereisd en ben ik naar Ed’s ouders g
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch27/aug65EdE}
+\includegraphics[\textwidth]{img/ch27/aug65EdE}
 \caption*{\footnotesize Een Provo-knipsel over het proces}
 \end{figure}
 
@@ -1511,7 +1516,7 @@ Intussen kwam er van allerlei kanten belangstelling voor het management van onze
 Wat de singletjes betreft kwamen we bij platenlabel Dureco terecht, met als producer Cees van Zijtvelt; een bekende dj van Veronica enzo. We mochten in de Decca-studio in Brussel de opnamen maken. Ter ondersteuning hadden we Carl Kalf voor op de trompet meegenomen. Uiteindelijk zijn er twee singles verschenen: \bf{[NAMEN]}. (Eigenlijk drie, want men had op één persing een verkeerd nummer gezet.) In Amsterdam werden bij studio Hartland professionele foto’s genomen voor de hoesjes. De bekende fotograaf Claude van Heye fotografeerde ons voor een blad bij het Krimp.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/4pieces}
+\includegraphics[\textwidth]{img/4pieces}
 \caption*{\footnotesize De singles en een onduidelijke foto uit Brussel}
 \end{figure}
 
@@ -1524,7 +1529,7 @@ Opvallend was in ieder geval dat vele organisatoren/zaaleigenaren ons steeds wee
 Ik herinner mij de zaal Groot in Medemblik, waar we na het optreden altijd uitgebreid onthaald werden met gebakken eieren en andere lekkernijen. Na zo'n optreden lustte je wel wat, want we gaven ons dan wel helemaal. De adrenaline gierde nog lang door je aderen. Ook herinner ik me nog Maasdijk in het Westland, waar we met een touringcar naar toe trokken, samen met zo'n vijftig fans. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/156-13 - Hartland3.jpg}
+\includegraphics[\textwidth]{img/156-13 - Hartland3.jpg}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -1556,7 +1561,7 @@ Door onze populariteit in de Tudor drongen allerlei mensen zich aan ons op. Zo k
 Er kwam van alles in de Tudor Bodega. In een aangrenzend zaaltje, met veel pluche, kwam Jan een dame tegen. Hij was helemaal verkikkerd. Wij kijken, gezellig aan het tafeltje met de dame zitten kletsen en toen weer terug. Zegt Ed of Henny: ``Heb je niet naar z’n handen gekeken? Dat is een vent.'' 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/tudor}
+\includegraphics[\textwidth]{img/tudor}
 \caption*{\footnotesize Nieuwe Binnenweg met rechts een stukje Tudor Bar.}
 \end{figure}
 
@@ -1566,7 +1571,7 @@ Er kwam van alles in de Tudor Bodega. In een aangrenzend zaaltje, met veel pluch
 Na Rotterdam vertrokken we naar Duitsland. In Soest, bij Dortmund, speelden we in de Oase, de club van Frau Krückel. Weer zes dagen per week, van 9 uur `s avonds tot 4 uur `s morgens. Je leerde niet alleen routine, maar ook behoorlijk innemen. Bij Frau Krückel woonden we in kamers boven de dancing. Op muren waren nog sporen van andere groepen te vinden, waaronder The Thielman Brothers. We voelden ons opgenomen in de wereld van de grote namen. Het had ook wel wat. Frau Krückel was een kleine, tanige tante. Als er gelazer was in de heren WC schrok ze er niet voor terug om daar naar binnen te stormen en de lastpakken bij hun nekvel te pakken en de zaak uit te gooien.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/double}
+\includegraphics[\textwidth]{img/double}
 \caption*{\footnotesize Oase-bar in Dortmund. Rechts: Pete, Tony en Webber}
 \end{figure}
 
@@ -1577,12 +1582,12 @@ Ook in deze zaak hadden we snel weer fans en aanhang. Vooral de soldaten kwamen 
 In Soest maakten we vrienden, gingen vaak Torten eten en haalden op de terugweg Bratwürsten bij het stalletje op het plein. We kookten zelf, en dronken des te meer. Frau Krückel moedigde ons aan om elke glaasje dat ons werd aangeboden ook aan te nemen en dat resulteerde al snel in een vorm van alcoholisme. Drank doet gekke dingen. Zo hebben we Nico eens in een kast opgesloten (geintje!) en hem daarna vergeten. Toen hij wakker werd kon hij bijna niet meer lopen van de kramp. Zelf ben ik eens wakker geworden, voelde om me heen en dacht ``Doperwten?'' M’n haar zat vol, maar ik had helemaal niets gemerkt. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/163-Soest1A}
+\includegraphics[\textwidth]{img/163-Soest1A}
 \caption*{\footnotesize Mijn bed.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/164beatclub}
+\includegraphics[\textwidth]{img/164beatclub}
 \caption*{\footnotesize Een schnabbel in de plaatselijke Beatclub}
 \end{figure}
 
@@ -1590,7 +1595,7 @@ En romances. Ik had een lokaal vriendinnetje, Anita. Geen idee wat ze overdag de
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/165-Soest1}
+\includegraphics[\textwidth]{img/165-Soest1}
 \caption*{\footnotesize Anita}
 \end{figure}
 
@@ -1612,7 +1617,7 @@ Achteraf gezien hadden we nooit in het nachtclubcircuit terecht moeten komen. Je
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch29/rockadzaan8}
+\includegraphics[\textwidth]{img/ch29/rockadzaan8}
 \caption*{\footnotesize Op de trap in het kantoor van dagblad de Typhoon waar Derk Peeters wat foto’s van ons nam voor een `Back in Town'- verhaal.}
 \end{figure}
 
@@ -1625,7 +1630,7 @@ Toen The Devotions stopten heb ik maar een baantje gezocht. Dat vond ik via bemi
 Ook probeerde ik weer een bandje te vinden. Enkele keren heb ik gerepeteerd bij The Rocking Idolaters (met Grad IJff, Henk van de Wissel), maar uiteindelijk werd het The Shameless met Jan en Jaap Stompé, Nico Way en Jan Visser (welke ook in de Skunks speelde). De manager was Joop Koekkoek. Joop deed in het begin alles nog op z’n brommer en tufte door heel het land. Later kreeg hij een behoorlijk groot theaterbureau. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/169JoopB}
+\includegraphics[\textwidth]{img/169JoopB}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -1634,7 +1639,7 @@ Vader Stompé reed de bus en wij hingen achterin. Soms gingen Olga en Annie, de 
 Voor m'n baan werd ik in die tijd rond half zeven opgehaald door Willem in z’n volkswagentje, waarin nog wat makkers van de ploeg zaten. Maar als je om drie uur thuiskomt van een avondje spelen en om zes uur weer op moet, ben je niet al te fris. Willem wist altijd wel waardoor dat kwam. ``Weer aan de pretsigaretjes gezeten zeker?''
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/170biljet}
+\includegraphics[\textwidth]{img/170biljet}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -1645,7 +1650,7 @@ Jan en ik namen de zang over en we speelden daarna veel ruiger dan wat ik in The
 Net als zoveel bandjes trokken we door het hele land en zelfs nog een enkele keer naar Duitsland. Natuurlijk speelden we ook veel in de Zaanstreek. Soms was het wel heel apart, zoals een weekend op Texel. We speelden daar in Sarasani, met onder andere de Bintangs en Cuby + Blizzards optraden. Verder was het elke week de bus in en ergens spelen. Lange reizen heen en terug.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch30/optournee2a}
+\includegraphics[\textwidth]{img/ch30/optournee2a}
 % \caption*{\footnotesize .}
 \end{figure}
 
@@ -1654,7 +1659,7 @@ Soms voel je je zo goed dat je denk alles te kunnen maken. Een keer in de Achter
 Maar een paar jongens uit het publiek pakten onze plaatsen in en deden dat ook de volgende pauze weer. Opeens had ik er zo genoeg van dat ik door de microfoon riep of die boeren eens plaats wilden maken. Dat was dom en onhandig. Het hele publiek keerde zich tegen ons. De meisjes snel achter het toneel en wij stonden klaar met de poten van de microfoon om ons te verdedigen. We zijn uiteindelijk onder begeleiding van de politie in ons busje afgevoerd.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch30/film}
+\includegraphics[\textwidth]{img/ch30/film}
 \caption*{\footnotesize Aankondiging \emph{Leve het Leven}}
 \end{figure}
 
@@ -1671,7 +1676,7 @@ Prachtig verhaal, echt iets voor Lau Ruyter.
 We trokken naar Duitsland voor een optreden in Hamm. De reis was al bijzonder. Vlak voor de grens ontdekte Jaap dat hij z’n paspoort vergeten was. Na rijp beraad besloten we hem in de aanhanger te verbergen en zo de grens over te gaan. Eerst alles eruit, Jaap achterin de aanhanger en daarna alles weer opgevuld. De grens was geen probleem en een paar kilometer in Duitsland hebben we Jaap er weer uit gehaald. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch30/optourneeAs}
+\includegraphics[\textwidth]{img/ch30/optourneeAs}
 \caption*{\footnotesize Ik tijdens een eetpauze op weg naar een optreden. Ik droeg toen m'n lasbrilletje}
 \end{figure}
 
@@ -1679,7 +1684,7 @@ We trokken naar Duitsland voor een optreden in Hamm. De reis was al bijzonder. V
 In Hamm moesten we spelen in een enorme hal. Herman Brood met The Moan waren hier eerder geweest. Ze probeerden ons als de band van de \emph{Provo’s aus Amsterdam} te slijten. Ik geloof dat we ze aardig plat hebben gespeeld.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch30/schamensich}
+\includegraphics[\textwidth]{img/ch30/schamensich}
 % \caption*{\footnotesize .}
 \end{figure}
 
@@ -1690,7 +1695,7 @@ Al die tijd zat ik overdag in de metaal in Spaarndam en dan in het weekend spele
 Ik vond het wel goed zo. De professionele gitaar heb ik aan de wilgen gehangen en ook nooit meer opgepakt. Er zijn nog wel verzoeken gekomen om opnieuw iets te formeren, maar voor mij was het genoeg. Enige jaren geleden heb ik nog een paar jaar klassiek les gehad. Veel leuke componisten leren kennen.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/Devotions.jpg}
+\includegraphics[\textwidth]{img/Devotions.jpg}
 \caption*{\footnotesize Mijn gitaar werd door de heer Thomson gemaakt.}
 \end{figure} 
 
@@ -1702,12 +1707,12 @@ Wat ik me als vroegste bezoek kan herinneren is Huize Negrijn op de Hogendijk, w
 Het eerste grote optreden waar Olga en ik samen naartoe gingen was Flight to Lowlands Paradise in Utrecht, 1968.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/180ohjeugd}
+\includegraphics[\textwidth]{img/180ohjeugd}
 % \caption*{\footnotesize Mijn gitaar werd door de heer Thomson gemaakt.}
 \end{figure} 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/181-flightutrecht}
+\includegraphics[\textwidth]{img/181-flightutrecht}
 \caption*{\footnotesize Flight to Lowlands Paradise Utrecht 1968}
 \end{figure}
 
@@ -1723,7 +1728,7 @@ In Ahoy, Rotterdam, zagen we hem op 27 november 1971 voor The Flo & Eddie tour. 
 Toen we eindelijk bij Ahoy aankwamen liepen we wat om het gebouw heen en kwamen we Eddie, één van de zangers, tegen. Wat gekletst en hij zei dat ik wel mee naar binnen mocht om wat foto's te maken. De band was nog aan het repeteren. Er is en wielerbaan in Ahoy en op die baan liep de saxofonist wat te toeteren. Een waanzinnig beeld van een muzikant op die steile wielerbaan. Geen gelukte foto. Zappa was druk bezig en ik kon m’n camera bijna niet vasthouden van de zenuwen. Gelukkig heb ik de repetitie nog gedaan en later wat van het concert.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch31/zappa}
+\includegraphics[\textwidth]{img/ch31/zappa}
 \caption*{\footnotesize Frank Zappa en band in Rotterdam}
 \end{figure} 
 
@@ -1733,7 +1738,7 @@ Na afloop kwam Frank nog even terug en begon in z’n eentje aan een solo-improv
 Ook zagen we Zappa nog een keer in Amsterdam. Soms weet ik niet meer precies waar het was, het Concertgebouw of de Stadschouwburg. Ik had Olga mee naar het podium genomen om haar samen met Zappa op de foto te krijgen. Kijk ‘m kijken. Mijn fantasieën zijn vaak opwindender dan de werkelijkheid.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch31/zappaolga}
+\includegraphics[\textwidth]{img/ch31/zappaolga}
 \caption*{\footnotesize Op deze foto is het haar van Olga links nog te zien.}
 \end{figure}
 
@@ -1746,7 +1751,7 @@ Een hele serie van groepen die allemaal tot Miles Davis terug te herleiden zijn 
 Rock'n'Roll Animal van Lou Reed was een heel ander optreden. Hij had kort wit haar, was volledig in het leer en volgens velen zwaar onder invloed. Mij overtuigde hij wel als rock'n'roll animal.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch31/reed}
+\includegraphics[\textwidth]{img/ch31/reed}
 \caption*{\footnotesize Lou Reed.}
 \end{figure}
 
@@ -1758,7 +1763,7 @@ Toen ik al lang gestopt was, maar Jan Visser nog volop in de race was, ging ik w
 We reden in de winter in z’n MG---linnen dak, kacheltje deed het niet---naar de studio. Tijdens de opname moest er nog een stukje sitar in. Er werd gebeld. Een uurtje later stapte Robbie van Leeuwen binnen, speelde wat hem gevraagd werd en verdween weer. Van Leeuwen was componist van ‘Venus’ en gitarist in Shocking Blue. Wat het plaatje gedaan heeft weet ik niet.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch31/ff}
+\includegraphics[\textwidth]{img/ch31/ff}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -1769,7 +1774,7 @@ In Den Haag zijn we naar Todd Rundgren geweest met z’n Utopia, een stuk dat al
 Niet onbelangrijk waren de concerten van Jan Pasveer op zaterdagmiddag met Bach in de Bullekerk. Altijd met een kleine inleiding van de dirigent. Zo kon je met zo’n prachtige cantate weer gerust het weekend in.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch31/Spandoek-cantate-klein}
+\includegraphics[\textwidth]{img/ch31/Spandoek-cantate-klein}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -1817,7 +1822,7 @@ Mijn vader werkte dus bij scheepswerf Kraaijer (later De Beer). Toen ik voor het
 Oudere mannen die je meenemen naar de werkplaats en je van alles laten zien. En vooral nergens aankomen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/196 de beer}
+\includegraphics[\textwidth]{img/196 de beer}
 \caption*{\footnotesize Scheepswerf De Beer}
 \end{figure}
 
@@ -1834,7 +1839,7 @@ Toen Harry ging werken ben ik ook nog wel eens met hem mee geweest naar verffabr
 Harry werkte op het laboratorium, maar interessanter was de fabriek zelf, waar grote drijfriemen door het gebouw liepen en het hele zaakje van energie voorzagen. In feite zoals het in oude molens ging.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch32/sabel}
+\includegraphics[\textwidth]{img/ch32/sabel}
 \caption*{\footnotesize Verffabriek A.W. Sabel}
 \end{figure}
 
@@ -1846,7 +1851,7 @@ Mijn moeder werkte in de avonduren (van 18.00 tot 19.30 uur) bij Het Hart en de 
 Op dat kantoor zat een oudere heer en ik mocht (tien jaar oud, denk ik) wat papier heen en weer schuiven. Ik vond het zo prachtig dat ik de hele dag liep te fluiten, tot de oude man in wanhoop uitriep: ``Hou nou toch ’s op met dat gefluit!''
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/197 scado}
+\includegraphics[\textwidth]{img/197 scado}
 \caption*{\footnotesize Het Hart en de Zwaan, later Scado NV}
 \end{figure}
 
@@ -1867,7 +1872,7 @@ Zo werd ik in het complot gezogen. Als het laatste zaagje of boortje uitgereikt 
 Op naar de Familie Perk, achter het postkantoor. Daar stond---zo ik veertig jaar later pas te weten kwam---een jonge aankomende verkoper, Hans Hollander. Met Hans heb ik later nog jaren ’s avonds in de Vrije School geklust. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/199 perk}
+\includegraphics[\textwidth]{img/199 perk}
 \caption*{\footnotesize Fa. Perk (achter het postkantoor)}
 \end{figure}
 
@@ -1880,7 +1885,7 @@ M’n gevoel zei me naar een andere baan uit te kijken, want dit zou nooit meer 
 De Familie Fris was een grote speciaalzaak in huishoudelijke artikelen met een afdeling voor reparatie achter de winkel. In die laatste kon ik beginnen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/200 fris}
+\includegraphics[\textwidth]{img/200 fris}
 \caption*{\footnotesize Fa. Fris op de Gedempte Gracht}
 \end{figure}
 
@@ -1893,7 +1898,7 @@ Naast de reparaties moest ik ook meehelpen met het wegbrengen van aangekochte of
 De jongen die de auto reed deed dat al heel lang en was zeer geraffineerd. Hij had speciale trucs om koffie te krijgen. Ik denk dat hij ook nog wel eens iets had met eenzame huisvrouwen. Sommigen gaven wel aanleiding, denk ik nu, want we werden soms ontvangen als ze nog niet aangekleed waren, of alsof ze zich net hadden uitgekleed. Ik had overigens ook wel fantasieën, maar het is nooit tot aktie gekomen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/201 husslage}
+\includegraphics[\textwidth]{img/201 husslage}
 \caption*{\footnotesize Het bedrijf van Familie Husslage was gevestigd in het witte gebouw rechts aan het eind van de straat.}
 \end{figure}
 
@@ -1908,7 +1913,7 @@ Omdat ik al wist hoe je draadjes aan iets vast moest maken, maar verder niets, b
 Het werk bestond voornamelijk uit het in elkaar zetten van communicatiesystemen. De schakelingen liepen toen nog mechanisch, zoals bij oude telefooncentrales. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/203 relais telefooncentrale}
+\includegraphics[\textwidth]{img/203 relais telefooncentrale}
 \caption*{\footnotesize Een zgn. ‘zoeker’.}
 \end{figure}
 
@@ -1927,14 +1932,14 @@ Ook kan ik me werk bij de Hilko aan de Oostzijde herinneren en bij de Honig in d
 Je drukt op een knopje, ergens anders klinkt een geluid, de ander drukt de antwoordknop in en je kunt praten.	
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/204 hilko}
+\includegraphics[\textwidth]{img/204 hilko}
 \caption*{\footnotesize Hilko}
 \end{figure}
 
 De brommergek op ons werk was Sjako. Tussen de middag zat Sjako z'n brommers op te voeren en kregen we allemaal het virus te pakken. Hij had veel verstand van motoren. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ DEMM}
+\includegraphics[\textwidth]{img/ DEMM}
 \caption*{\footnotesize DEM}
 \end{figure}
 
@@ -1948,7 +1953,7 @@ Als het markt was haalde een collega wel eens een trucje uit.  Dan begon hij met
 Ik kwam bij op de administratie bij de Apotheek Hulp Artsen te werken. Daar was ene Ton de chef. Mijn andere collega's waren een jongen uit Westzaan en Margreet die later een boerderij in Nauerna opende waar ze speelgoed verkocht. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/207 AHA}
+\includegraphics[\textwidth]{img/207 AHA}
 \caption*{\footnotesize Het witte gebouw is A.H.A.}
 \end{figure}
 
@@ -1957,7 +1962,7 @@ Bij de Apotheek Hulp Artsen was er een kantoor (voor de witte boorden), een fabr
 Dit was een periode waarin de `computer' in opkomst kwam. Op het kantoor werd nog gewerkt met een handboekhouding en tegelijkertijd met computerponskaarten voor de administratie. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/208 ponskaart}
+\includegraphics[\textwidth]{img/208 ponskaart}
 \caption*{\footnotesize Ponskaart}
 \end{figure}
 
@@ -1979,7 +1984,7 @@ Henny van Wijngaarden werkte bij Pieter Schoen en via hem ben ik daar ook terech
 Het was werk in de voorraadadministratie---geen idee wat ik er heb gedaan. Het was een enorm kantoor met tientallen mensen die papier heen en weer schoven. Ik had het geluk dat ik af en toe naar de fabriek mocht om cijfers op te halen en naar een apart magazijn dat verderop in de Oostzijde lag. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/212 pieter schoen}
+\includegraphics[\textwidth]{img/212 pieter schoen}
 \caption*{\footnotesize P. Schoen aan de Oostzijde}
 \end{figure}
 
@@ -2004,7 +2009,7 @@ Er was meer te verdienen in de schoonmaak. Zo maakte ik kennis met van Heusden S
 Met Rob begon ik te klussen. Winkels schoonmaken, na sluitingstijd natuurlijk. Maar ook nieuwe huizen voor oplevering. Een speciale klus vond ik die bij Albert Heijn waar we twee keer per week de cacaoafdeling in de fabriek schoonmaakten. In die afdeling werden de grote brokken cacao gekraakt, wat resulteerde in een cacaolaag op de vloer door alles wat er naast de machine viel. Het punt was om die laag los te bikken en af te voeren. Daarna moest je het met een spuit met gloeiend heet water schoonspuiten, nog wat schrobben hier en daar. Als laatste de dweilen eroverheen en klaar was Kees. Het was er altijd bloedheet vanwege de ovens. De man die in die snikhete fabriek die machines bediende was broodmager, werkte in z’n hemd en droop van het zweet. Toen ik vele jaren later een mevrouw interviewde stond er op een tafeltje een foto van de man van de chocolade, haar man. Op de foto ook zo broodmager, hij was inmiddels overleden.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/216 van Heusden schoonmaak}
+\includegraphics[\textwidth]{img/216 van Heusden schoonmaak}
 \caption*{\footnotesize Albert Heijn in de Oostzijde}
 \end{figure}
 
@@ -2016,14 +2021,14 @@ Ik nam afscheid van de van Heusdens toen het begon te lopen met de muziek. We wo
 Na de muziek weer werk zoeken. Ik hoorde dat de eigenaar van café-danszaal \emph{De Lage Horn}, Henny Cornet wel voor werk kon zorgen. Ons eerste optreden na Duitsland was bij hem geweest. Henny was daarnaast onder-aannemer van sloopwerk, havenwerk en andere dingen waar alleen over werd gefluisterd. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/218 Lage Horn 2}
+\includegraphics[\textwidth]{img/218 Lage Horn 2}
 \caption*{\footnotesize De Lage Horn: het witte gebouw rechts}
 \end{figure}
 
 Maar eerst nog even dit. Ergens in 1967 had de band twee optreden in de Zaanstreek in hetzelfde weekeinde. Zaterdag in de Volksbond en de volgende avond in de Lindenboomschool in de Koog. Op de zaterdag was Olga aanwezig en zag zij mij wel maar ik haar niet. De dag daarop zag ik haar wel, en hoe. Ik kon m'n ogen niet van haar afhouden. Ze was een opvallende verschijning met haar blonde haar. Het was aan en is niet meer uit gegaan. Ze heeft alles vanaf dat moment meegemaakt.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch38/olga}
+\includegraphics[\textwidth]{img/ch38/olga}
 \caption*{\footnotesize Olga}
 \end{figure}
 
@@ -2039,8 +2044,8 @@ Ik kwam in een groepje terecht rondom Joop, Willem (die op de Zuiddijk woonde), 
 
 Als lasser heb ik onder meer gewerkt aan de Coentunnelweg en aan de brug in Koog aan de Zaan. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/220 coentunnelweg}
+\begin{figure}
+\includegraphics[\textwidth]{img/220 coentunnelweg}
 \caption*{\footnotesize Hier zijn de spanten te zien die ik verlengde of verkortte}
 \end{figure}
 
@@ -2049,7 +2054,7 @@ Dat was mooi werk. Ik had een vaste plek op de brug en de stukken werd op maat v
 En maar pijpen repareren, schepen slopen, van alles construeren, van dinbalken tot damwanden. Ik zat ook veel op de kraan, een portaalkraan. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/222 kraan}
+\includegraphics[\textwidth]{img/222 kraan}
 \caption*{\footnotesize Mijn kraan met ‘Olga’ erop geschilderd. Met op de achtergrond scheepswerf Stapel, Spaarndam.}
 \end{figure}
 
@@ -2068,14 +2073,14 @@ De stof was wel interessant. Welke krachten spelen er als een brugklep omhoog ko
 Ons ploegje was een bijzonder zooitje. Je had bijvoorbeeld Toon Muusse, die wel geschoold was om tekeningen te lezen en dikke Willem die dat in de praktijk geleerd had. Altijd gebakkelij. Toon was een alcoholist die op dinsdag wat begon bij te komen van het weekend en er donderdag alweer naar begon te verlangen. Toon ben ik later bij de sociale dienst weer tegen gekomen. Hij woonde toen in het huisje van mijn tante Lena in de Czaar Peterstraat. Verder bestond onze groep ook nog uit Leen, een manusje van alles die vroeger in de walvisvaart had gewerkt, op het schip de Willem Barentsz. Daarnaast was er Theo Blankestein, kunstenaar, nog iemand uit Beverwijk die elke avond wel iets mee naar huis nam en ik. Omdat Theo en ik een beetje met elkaar optrokken werden we ook apart bekeken. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/224spuitpijpen}
+\includegraphics[\textwidth]{img/224spuitpijpen}
 \caption*{\footnotesize Spuitpijpen}
 \end{figure}
 
 We beheerden daar een enorm park met oud ijzer, dat wil zeggen, allerlei soorten ijzeren balken en pijpen die bij het opspuiten van land gebruikt werden. Balken en pijpen kwamen nadat ze gebruikt waren op de werf terug. Wij moesten alles wat stuk was repareren. Baggerwerk gaat soms met grof geweld gepaard en dat was ook wel aan de toestand van het materieel te zien. Als het gerepareerd werd dan kwam het in de opslag terecht, tot het weer afgeroepen werd voor een volgende klus. Daar waren de kranen voor nodig. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/223TheoenOlga.jpg}
+\includegraphics[\textwidth]{img/223TheoenOlga.jpg}
 \caption*{\footnotesize Theo en Olga}
 \end{figure}
 
@@ -2088,7 +2093,7 @@ Rondom Schiphol hebben een paar keer een kraan moeten optzetten. Tussen drukke w
 Het bedrijf verkocht ook een portaalkraan aan de familie Kan, een palenhandel in de Oostzijde. Met een sleepboot werd de dekschuit met alles erop via het Spaarne naar het Noordzeekanaal gevaren. Ten slotte de Zaan op, om bij Kan Palen aan de Oostzijde te komen. Ik was gelijk thuis, want Hof van Holland is daar om de hoek. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/225 kan}
+\includegraphics[\textwidth]{img/225 kan}
 \caption*{\footnotesize Links met dwarsbalk de verkochte portaalkraan.}
 \end{figure}
 
@@ -2107,7 +2112,7 @@ We tilden maar en tilden maar. Wat extra lading betekent dat je sneller klaar be
 Ik kreeg een klusje om een aantal gietijzeren tandwielen te slopen. Het waren enorme industriële tandwielen, misschien wel drie meter doorsnee. Met een karretje met zuurstof- en gasflessen ging ik er naartoe en begon. Gietijzer kun je niet echt branden, in de zin van doormidden snijden. Het is meer dat je het ijzer moet laten smelten en er zo doorheen gaat. Dat levert nog veel gespat en vonken op. Je moest oppassen dat je kleding niet in de brand vloog of dat er zo’n druppel gloeiend heet ijzer in je schoen valt (wat me wel eens is overkomen). Gietijzer slopen is een kwestie van doorgaan. Opeens zie ik iemand zwaaien. Ik steek m’n hand op, maar hij blijft zwaaien en komt hard aanrennen. Ik doe m’n kap omhoog om te zien wat er aan de hand is. Stonden de slangen van de gasflessen in de fik. Als die grote flessen ontploffen, geeft dat een behoorlijke knal en overleef je het niet. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/227 Tandwiel}
+\includegraphics[\textwidth]{img/227 Tandwiel}
 \caption*{\footnotesize Tandwiel van ongeveer de omvang als op de foto.}
 \end{figure}
 
@@ -2125,7 +2130,7 @@ Ik zag m’n kans via een advertentie voor opmakers bij dagblad \emph{De Tijd}.
 Ik kwam daar als leerling-opmaker te werken. Mijn oudcollega’s vonden het nogal hoog gegrepen en hoonden me als `intellectueel'.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/230 De Tijd}
+\includegraphics[\textwidth]{img/230 De Tijd}
 \caption*{\footnotesize Nieuwezijds Voorburgwal in Het Kasteel van Aemstel.}
 \end{figure}
 
@@ -2146,7 +2151,7 @@ Ik heb het altijd een zeer bijzondere periode gevonden. Het bezig zijn met het n
 Omdat de pagina een in opmaak in spiegelbeeld en met de bovenkant tegen je buik aan zit, lees je van boven naar beneden en van links naar rechts in het lood de stukken. Zo corrigeer je ook. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/232 opmaak.JPG}
+\includegraphics[\textwidth]{img/232 opmaak.JPG}
 \caption*{\footnotesize Opmaak aan het 'steen' - foto Martin Rep}
 \end{figure}
 
@@ -2157,12 +2162,12 @@ Ik voelde me in een intellectueel gebied binnen gekomen. Daarin hadden mijn oudc
 ’s Morgens vroeg als ik van de trein kwam liep ik eerst nog even een stukje door de stad en dan tref je weleens leuke taferelen aan, zoals nachtvolk. Sommige van de foto’s die ik heb gemaakt die zijn ook door de krant gebruikt. Ik had altijd een camera bij me.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/233 damslapers.png}
+\includegraphics[\textwidth]{img/233 damslapers.png}
 \caption*{\footnotesize De Damslapers dier wakker gemaakt worden door de Reiniging}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/23d slaap.png}
+\includegraphics[\textwidth]{img/23d slaap.png}
 \caption*{\footnotesize Iemand die op straat een slaapplaats vond en nog heerlijk lag te snurken terwijl het werkvolk langs hem liep}
 \end{figure}
 
@@ -2190,12 +2195,12 @@ Olga werkte toen bij de PTT in de hoofdstad. We hadden allebei geen diploma van 
 Die avondstudie bracht veel drukte met zich mee, maar desondanks was het een leuke tijd. Het was een sport om zonder te betalen met de tram te reizen. We maakten er kennis met veel verschillende mensen met wie het later best goed is gegaan, maar some ook heel slecht. Van werken bij de televisie tot heroïnejunk.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/236 barleus_0004}
+\includegraphics[\textwidth]{img/236 barleus_0004}
 \caption*{\footnotesize Olga krijgt haar diploma en bloemen omdat ze de hoogste score van alle examens had gehaald. Oei, kort rokje.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/237 aschool001}
+\includegraphics[\textwidth]{img/237 aschool001}
 \caption*{\footnotesize Olga van opzij, Babette Mossel die omhoog kijkt naar de docent Duits. Babette is een gevierd vertaalster geworden.}
 \end{figure}
 
@@ -2217,14 +2222,14 @@ Bij Van der Molen heb ik Rob de Boer leren kennen, die daar via constructiebedri
 In zo'n bedrijf wil men van alle tekeningen afdrukken hebben om het tekenproces te aanschouwen of om er opnieuw op te tekenen. Van de doorzichtige tekening werd dan een lichtdruk gemaakt. Soms klein, soms tot wel meters lang, indien nodig. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/240 zaanweg}
+\includegraphics[\textwidth]{img/240 zaanweg}
 \caption*{\footnotesize Links huis van de familie De Geer, Experts Electronica, De Zaanlander, van der Molen (wit), AMRO bank, Toby Interieur.}
 \end{figure}
 
 Wormerveer was wel gezellig om te werken, het was nog dorps. De administratieve benodigdheden haalde ik bij kantoorboekhandel Spaander in de Marktstraat. Ik werd goeie maatjes met de eigenaar. Koffie drinken en kletsen. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/242 brommer}
+\begin{figure}
+\includegraphics[\textwidth]{img/242 brommer}
 \caption*{\footnotesize Terug, op de Puch, van het werk.}
 \end{figure}
 
@@ -2232,8 +2237,8 @@ Ook bij de Albert Heijn verderop waren we goeie klanten. Bij Albert Heijn haalde
 
 Ik zat ook beneden, met weer naast mij het magazijn. Dat magazijn had een achteruitgang waardoor iedereen binnenkwam en weer wegging. Eén ging soms, nadat hij achter binnen was gekomen, de voordeur weer uit, liep door de steeg weer naar achteren, kwam weer binnen en vroeg: ``Is mijn tweelingbroer al binnen?"
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/ch40/molenvd}
+\begin{figure}
+\includegraphics[\textwidth]{img/ch40/molenvd}
 \caption*{\footnotesize Op de foto Constanze en Winnie en de entree waar ik ook nog al eens kon invallen bij ziekte of zeer.}
 \end{figure}
 
@@ -2247,8 +2252,8 @@ Mijn werkplek was het magazijn waar de lichtdrukmachines stonden en als men zag 
 
 Als voorlopige werkoplossing mocht ik de boot van de baas opnieuw lakken (eerst schuren natuurlijk). Daarna mocht ik ook wekelijks z’n tuin bijhouden. Ik dronk met mevrouw van der Molen altijd koffie. Maar toen ze op een keertje bezoek had mocht ik m’n koffie in de keuken opdrinken. Dat vond ik zo laag dat ik de baas vertelde ermee op te willen houden. Gelukkig regelde hij het zo dat ik een uitkering kon krijgen. 
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{img/244 kantoor.png}
+\begin{figure}
+\includegraphics[\textwidth]{img/244 kantoor.png}
 \caption*{\footnotesize Tekenzaal met Rob, op de rug Borgerhoff en Johan Baars.}
 \end{figure}
 
@@ -2260,7 +2265,7 @@ Een uitkering. Of eigenlijk uitkering\emph{en}, in het meervoud, omdat er een pa
 De eerste tijd moest ik m'n werklozen inschrijfkaart verlengen in het Van Raalte Centrum bij de bedrijfsvereniging. Na een tijdje ben ik gaan werken bij Van der Stadt. Dat was een winkel in huishoudelijke artikelen en sleutels in de Westzijde, nabij de Ambachtschool en tegenover bouwbedrijf Piet Schutte.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch41/stadt}
+\includegraphics[\textwidth]{img/ch41/stadt}
 \caption*{\footnotesize Op de foto zijn het de twee panden links. De ingang was uiterst links.}
 \end{figure}
 
@@ -2269,14 +2274,14 @@ Ik heb daar vooral veel over sleutels geleerd. Soms werd ik er wel op uitgestuur
 Als meneer van der Stadt zelf sleutels maakte hoorde je vaak een enorm gehoest. Hij rookte achter elkaar door en haalde z’n sigaret bijna nooit uit z’n mond. Overal lag as. Als hij eenmaal hoestte bleef hij aan de gang omdat hij telkens de rook weer inademde. Ik leerde daar ook een meisje kennen dat de huishoudelijke artikelen deed. Later leerde ze me hoe je geld kon verdienen door een lager bedrag aan te slaan dan het afgerekende bedrag en het verschil in je zak te steken. Later kom ik haar bij mijn volgende baan weer tegen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/247 school}
+\includegraphics[\textwidth]{img/247 school}
 \caption*{\footnotesize ?? picture here not sure -- secretariaat van het bestuur van de gezamenlijke technische scholen in de Zaanstreek met een secretaris (van het bestuur) en drie medewerkers voor de administratie}
 \end{figure}
 
 Ik kom te werken bij het secretariaat van het bestuur van de gezamenlijke technische scholen in de Zaanstreek. De secretaris, de heer Riemersma, leefde voor z'n werk. Hij was een kei; wist alles en regelde alles. Hij woonde nog thuis bij zijn moeder. Het hoofd van de boekhouding, meneer van Neerven, was net nieuw. Heel precies en hield van opera. Van thuis had hij een Revox recorder meegenomen waarop hij via enorme spoelen opera's afdraaide. Maar alleen als meneer Riemersma er niet was, want die hielt daar niet zo van.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch41/IMG_0002}
+\includegraphics[\textwidth]{img/ch41/IMG_0002}
 \caption*{\footnotesize Meneer van Neerven}
 \end{figure}
 
@@ -2293,7 +2298,7 @@ Een statige oude man, sympathiek. De verhouding tussen de secretaris en de voorz
 Ten tijde van mijn laatste werkloosheid woonden we op de Hogendijk 98, in de helft van het pand.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/249 huis}
+\includegraphics[\textwidth]{img/249 huis}
 \caption*{\footnotesize Hogendijk 98, helft van het woonhuis}
 \end{figure}
 
@@ -2302,7 +2307,7 @@ In die tijd maakten we ook kennis met Joke en Hilde, zij woonden verderop op de 
 Olga werkte bij sociale zaken en ik was thuis, deed de afwas en zorgde voor het eten. 's Morgens naar het koffiehuis voor de krant, koffie en dan wat huiswerk. Toen er een brand bij houthandel William Pont, uitbrak stond ook net uit het raam te kijken. Vlug m'n camera gepakt en foto's gemaakt.Toen ik op een dag daar weer ens uit het raam stond te kijken en een stroom mensen voorbij zag gaan vroeg ik  me af waar die allemaal heen gingen. Zou er iets aan de hand zijn? Nee, opeens drong het tot me door dat ik stond te kijken naar mensen die naar hun werk gingen. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/brand pont_00021}
+\includegraphics[\textwidth]{img/brand pont_00021}
 \caption*{\footnotesize De brand bij houthandel Pont, eigen foto}
 \end{figure}
 
@@ -2314,7 +2319,7 @@ Dan wordt het echt tijd om weer wat te gaan doen. M'n avondschool was inmiddels 
 Zo kwam ik aan de andere kant van de balie bij Sociale Zaken van de gemeente Zaandam terecht. Gerrit Bakker was hoofd van de afdeling Bijstand. Er was nog een directeur die langzaam kinds begon te worden en met een trommeltje door de gangen liep. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch42/soos01}
+\includegraphics[\textwidth]{img/ch42/soos01}
 \caption*{\footnotesize Op de foto Jan Wakker en Roel Jansma.}
 \end{figure}
 
@@ -2332,12 +2337,12 @@ We hadden inmiddels ook een inspecteur in dienst, een oud-politieman van wie je 
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch42/IMG_0001}
+\includegraphics[\textwidth]{img/ch42/IMG_0001}
 % \caption*{\footnotesize Op de foto mijn plekje in het hoekje naast de deur.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/253 - 2}
+\includegraphics[\textwidth]{img/253 - 2}
 \caption*{\footnotesize Op de foto mijn plekje in het hoekje naast de deur.}
 \end{figure}
 
@@ -2356,7 +2361,7 @@ Veel klanten zaten in de scene als gebruiker of dealer. Ze kwamen op kantoor om 
 Een jongen probeerde af te kicken omdat hij vader zou worden. Het meisje heb ik nadat ze bevallen was aan heroïne verslaafd zien worden, uit een vreemd soort solidariteit met haar vriend. Ze is nu nog steeds verslaafd. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/256 tafel}
+\includegraphics[\textwidth]{img/256 tafel}
 % \caption*{\footnotesize Op de foto mijn plekje in het hoekje naast de deur.}
 \end{figure}
 
@@ -2381,7 +2386,7 @@ Ik kom in Zaandam altijd weer een man tegen die naar me wuift, schreeuwt. Als we
 In het kader van al die activiteiten hield ik ook een spreekuur, 's avonds in het Drieluyck, zeg maar De Kade\footnote{Tegenwoordig De Flux.} van toen. Het leverde niet veel op, maar je staat weer eens in de krant met je werk. Dat viel wel goed bij de directie. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch42/krant}
+\includegraphics[\textwidth]{img/ch42/krant}
 \caption*{\footnotesize Het artikel in de krant. In het midden Harmen Schaap waarmee ik ook in het bestuur van JoJo zat. Een opvanghuis met begeleiding. Eerst in een flat en later in een woonhuis. Daar zaten ook artsen in de begeleidingsgroep. Ik was wel ontzettend mager, zo te zien.}
 \end{figure}
 
@@ -2392,7 +2397,7 @@ Z’n moeder was eigenlijk al een hele tijd dood. Hij woonde alleen in een houte
 Het werd het begin van een lange relatie, waarbij het voornaamste doel werd om hem in z’n huisje te houden, de zorg om hem heen---onder andere werk, buren, gezinshulp---te organiseren. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/259ReinRus.JPG}
+\includegraphics[\textwidth]{img/259ReinRus.JPG}
 \caption*{\footnotesize Rein}
 \end{figure}
 
@@ -2403,7 +2408,7 @@ Uiteindelijk is alles wel aardig op z’n pootjes terecht gekomen. Hij kon blijv
 Ik moest eens op bezoek bij twee broers, dik in de zeventig, die op het Hollandse Pad woonden. Het pad ligt naast de Verkadefabrieken aan de Westzijde. Ze woonden in zo’n typisch Zaans huisje. Bij binnenkomst in de kleine kamer mocht ik aan de tafel, met een dik kleed erop, gaan zitten. Kopje koffie gehad en nadat ik alle vragen voor de bijstand had ingevuld kon ik weer terug naar de dienst. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/260-261 pad}
+\includegraphics[\textwidth]{img/260-261 pad}
 \caption*{\footnotesize Hun woning aan het Hollandse Pad.}
 \end{figure}
 
@@ -2414,7 +2419,7 @@ Zigeuners! Kampers! Bij het horen van deze woorden sloeg menig hart een keertje 
 Dus mocht ik ook een keer naar het kamp---het oude kamp op een veldje achter Bruynzeel. Dat was rampzalig. Er stonden nog een paar wagens rondom een modderige poel, een vreselijke bende. Het was een schande zoals de gemeente dit had laten gaan. Het maakte wel duidelijk waarom er een nieuw kamp gebouwd werd. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch42/woonwagenkamp1977}
+\includegraphics[\textwidth]{img/ch42/woonwagenkamp1977}
 \caption*{\footnotesize Het oude kamp in 1977}
 \end{figure}
 
@@ -2425,7 +2430,7 @@ Harm en Ilse (schuilnamen) waren een typisch voorbeeld van een stel dat niet met
 Het begon altijd met een bezoek aan de dienst omdat een deurwaarder hen bezocht had. Geen geld, wel schulden, veel alcohol.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/263 pstraat}
+\includegraphics[\textwidth]{img/263 pstraat}
 \caption*{\footnotesize Het huis aan de Prinsenstraat toen de sloop begon.}
 \end{figure}
 
@@ -2442,7 +2447,7 @@ Ik achter hem aan om hem er weer uit te werken. Hij eerst naar boven de statige 
 Er kwam een nieuwe directeur. Peter Postma verdween en Harry van der Veen kwam. Met een nieuwe directie kwamen ook de nieuwe plannen. Na de overgang kwamen er hulpsecretarieën in elke deelgemeente. Maar de organisatie was te groot en te log. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch42/desoos_0004}
+\includegraphics[\textwidth]{img/ch42/desoos_0004}
 \caption*{\footnotesize We deden ook wel leuke dingen met elkaar, hier een weekeinde zeilen op het IJsselmeer.}
 \end{figure}
 
@@ -2459,7 +2464,7 @@ De psychotherapie waar we les in kregen---en welke we soms in de praktijk moeste
 Het eindigde ermee dat hij voortijdig vertrok omdat wij het met zijn meedogenloze wijze van optreden niet eens waren. Er werd gescholden, gejankt, nog net niet gevochten en op de tweede avond verdween hij.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch42/4-9-2009_002}
+\includegraphics[\textwidth]{img/ch42/4-9-2009_002}
 \caption*{\footnotesize Ik sta er niet op omdat ik de foto nam. Max is de derde van links in ’t zwart. Voor hem in ’t zwart Liesbeth. Die grote blonde is Maarten, die in Amstelveen werkte. Joris ligt op de grond. Naast hem Nico. Max kwam ik in Haarlem nog wel eens tegen. Hij werkte daar voor de Reclassering. Nico heb ik wel eens in Amsterdam opgezocht.}
 \end{figure}
 
@@ -2471,7 +2476,7 @@ De Roggeveen was een groot, oud gebouw dat diende als opvangcentrum voor vrouwen
 Daarnaast was er ook een crisisopvang in het gebouw. Een opvangvoorziening voor in een acute crisis verkerende vrouwen en één- of twee-oudergezinnen. Bij de crisisopvang bestaat het hulpaanbod uit het aanbieden van een tijdelijke opvangplek, het bezweren van de crisis en het creëren van veiligheid. Indien nodig wordt er ook op een vervolgtraject ingezet. De crisisopvang bestaat uit een unit voor vier à vijf personen.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/268 roggeveen}
+\includegraphics[\textwidth]{img/268 roggeveen}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -2484,7 +2489,7 @@ Na een jaar had ik er genoeg van en nam ontslag. Als intermezzo ging ik een paar
 Ik was nog maar net aangekomen toen er een vrachtwagen met een achterbak vol mensen voorbij reed. Ze riepen dat ze naar zee gingen, of er iemand mee wilde. Ik sprong er in en zo stonden we aan zee. Een groot deel sprong de zee in, dus ik in m’n onderbroek erachteraan. Maar wat was dat koud zeg. Volgens mij was het de Noordelijke IJszee. Op de terugweg moest iedereen zo veel mogelijk platte stenen van het strand meenemen naar huis. Daarmee werd dakbedekking gemaakt voor de grote hal die nog in aanbouw was. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch43/hall}
+\includegraphics[\textwidth]{img/ch43/hall}
 \caption*{\footnotesize Findhorn. De grote hal in aanbouw.}
 \end{figure}
 
@@ -2493,7 +2498,7 @@ Het waren aangename weken. Ik woonde als betalende gast in het kasteel, naast ee
 Een jongen uit Schotland was de hele wereld over geweest. India, Nepal, enzovoorts. Hij zei dat het wonderlijk was dat wat hij altijd had gezocht bijna in z’n achtertuin gevonden werd. Iedereen had wel iets waarvoor ze kwamen. Velen hadden belangstelling voor de wonderbaarlijke tuinen, anderen meer voor de spirituele ontwikkeling. In de werkuren heb ik een tuinhuisje geschilderd. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch43/group}
+\includegraphics[\textwidth]{img/ch43/group}
 \caption*{\footnotesize Onze groep. Ik zit tussen een echtpaar uit Nederland. Hun dochter staat recht achter mij.}
 \end{figure}
 
@@ -2507,7 +2512,7 @@ Na terugkeer zat de geest van Findhorn nog in mij en Olga. Ik had het werk bij d
 Het beginnen bij Scientology was een stap in het onbekende. Olga deed cursussen en ik werkte er. Mijn eerste job was, na wat training, \emph{Course Admin}. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch44/NZVBwal_0006}
+\includegraphics[\textwidth]{img/ch44/NZVBwal_0006}
 \caption*{\footnotesize Hier op de studiezaal}
 \end{figure}
 
@@ -2518,7 +2523,7 @@ Ik zorgde voor de materialen, repareerde ze ook, hielp studenten die vast liepen
 Voor de course admin-functie werd ik ook nog naar een cursus in Kopenhagen gestuurd waar de Sea Organization (kortweg `Sea Org') zat; een hogere organisatie. Bij de Sea Org lopen ze allemaal in uniform. Naast de studie werkte ik ook in het restaurant van Scientology, als afwasser.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch44/9-25-2009_002}
+\includegraphics[\textwidth]{img/ch44/9-25-2009_002}
 \caption*{\footnotesizePiet en de zondagsdienst}
 \end{figure}
 
@@ -2578,7 +2583,7 @@ Toen ik al lang iets anders deed heb ik de afloop van het verhaal gehoord. Ze kr
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch46/crew}
+\includegraphics[\textwidth]{img/ch46/crew}
 \caption*{\footnotesize Gemeentelijke Sociale Dienst (GSD) Velsen, juli 1984, team Carpe Diem (Pluk de Dag), met Guusta Wegman, Theo Hoek, ikzelf, Sietske ?, Hans van der Heijden. Syll Damave nam de foto.}
 \end{figure}
 
@@ -2595,7 +2600,7 @@ Het werd duidelijk dat als mensen niet aan het werk komen ze eeuwig in de bijsta
 Arbeidsbemiddeling bij de Sociale Dienst. Ik kreeg een kamertje, een PC en begon te inventariseren wat we allemaal aan niet-werkenden in huis hadden. De wethouders van IJmond gingen verder, ze wilden het regionaal aanpakken. We kregen vaste contacten met het arbeidsburo Beverwijk. De samenwerking moest geïntensiveerd worden. Zo werd besloten werd dat ik vanuit het arbeidsburo parttime zou gaan werken voor het project Ruimbaan.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch46/velse_0001}
+\includegraphics[\textwidth]{img/ch46/velse_0001}
 \caption*{\footnotesize Hier met Ron, m’n chef, op bezoek bij een project in Oud-IJmuiden.}
 \end{figure}
 
@@ -2610,7 +2615,7 @@ Ik deed alle werklozen die drie jaar of langer werkloos waren, via de Banenpool 
 In de tijd besloten veel gemeenten net om te gaan privatiseren. Er was een afspraak met de wethouder dat gemeentelijke diensten een taak hadden in het opnemen van langdurig werklozen. Er werkten er toen vier bij de Gemeente Reiniging, twee bij Sociale Zaken en een aantal als conciërge bij scholen. De medewerking van de gemeente stond op het spel. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch46/velsen_0002}
+\includegraphics[\textwidth]{img/ch46/velsen_0002}
 % \caption*{\footnotesize }
 \end{figure}
 
@@ -2624,7 +2629,7 @@ Het geluk was aan mijn kant toen de personeelsfunctionaris bij me langs kwam en 
 \label{cha:archief}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/285Janskerk.jpg}
+\includegraphics[\textwidth]{img/285Janskerk.jpg}
 \caption*{\footnotesize Janskerk, onder het dak met trapgeveltje was mijn werkplek}
 \end{figure}
 
@@ -2641,7 +2646,7 @@ Hoe meer je weet, hoe interessanter het wordt. Toen de gemeente Velsen plannen v
 Het werd het laatste. We gingen naar Haarlem! In vergelijking met Velsen was Haarlem een walhalla. Het is één van de oudste steden van Holland. Er is een rijke geschiedenis bewaard gebleven in het archief. Ook in de stad zelf is nog het één en ander uit vroeger tijd te bewonderen. Inspirerend om daar te werken. 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch47/afscheid}
+\includegraphics[\textwidth]{img/ch47/afscheid}
 \caption*{\footnotesize Afscheid in Velsen, hand en bloemen van de wethouder. Op de achtergrond Jan Suurmond, archivaris van Velsen.}
 \end{figure}
 
@@ -2652,7 +2657,7 @@ Stinie was verantwoordelijk voor de verhuizing uit Velsen als aparte klus. In Ha
 Het was een prima plek en prima collega’s waar ik met plezier heb gewerkt. (Overigens waren alle collega’s prima mensen.)
 
 \begin{figure}
-\includegraphics[width=\textwidth]{img/ch47/Stinie}
+\includegraphics[\textwidth]{img/ch47/Stinie}
 \caption*{\footnotesize Stinie met achter haar een wand met door mij gekozen foto's.}
 \end{figure}
 
