@@ -1,5 +1,5 @@
 \select@language {dutch}
 \contentsline {chapter}{Inhoudsopgave}{ii}
 \contentsline {chapter}{\chapternumberline {1}Mijn Eerste Jaren}{1}
-\contentsline {chapter}{\chapternumberline {2}Rock aan de Zaan}{113}
-\contentsline {chapter}{\chapternumberline {3}Het Werk}{171}
+\contentsline {chapter}{\chapternumberline {2}Rock aan de Zaan}{107}
+\contentsline {chapter}{\chapternumberline {3}Het Werk}{161}
