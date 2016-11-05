@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.23)  22 OCT 2016 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.23)  2 NOV 2016 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1992,12 +1992,12 @@ File: img/ch5/Bakkum2.png Graphic file (type png)
 Package pdftex.def Info: img/ch5/Bakkum2.png used on input line 829.
 (pdftex.def)             Requested size: 269.67398pt x 176.4776pt.
 
-[54] <img/Bakkumkranen.jpg, id=286, 250.0542pt x 166.221pt>
+[54] <img/Bakkumkranen.jpg, id=286, 498.86375pt x 323.2075pt>
 File: img/Bakkumkranen.jpg Graphic file (type jpg)
 
 <use img/Bakkumkranen.jpg>
 Package pdftex.def Info: img/Bakkumkranen.jpg used on input line 839.
-(pdftex.def)             Requested size: 269.67398pt x 179.27756pt.
+(pdftex.def)             Requested size: 269.67398pt x 174.72179pt.
  [55 <./img/Bakkumkranen.jpg>] [56]
 <img/ch9/luilak1954.jpg, id=293, 243.91125pt x 180.675pt>
 File: img/ch9/luilak1954.jpg Graphic file (type jpg)
@@ -3155,7 +3155,7 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb>
-Output written on rm_verhaal.pdf (251 pages, 44431950 bytes).
+Output written on rm_verhaal.pdf (251 pages, 44430813 bytes).
 PDF statistics:
  1114 PDF objects out of 1200 (max. 8388607)
  624 compressed objects within 7 object streams
