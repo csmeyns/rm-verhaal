@@ -69,3 +69,7 @@ rm_verhaal_2nov.pdf
 rm_verhaal_23-oktober.pdf
 
 rm_verhaal_concept.pdf
+
+*.aux
+
+*.log
