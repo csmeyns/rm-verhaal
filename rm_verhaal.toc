@@ -2,4 +2,8 @@
 \contentsline {chapter}{Inhoudsopgave}{iv}
 \contentsline {chapter}{\chapternumberline {1}Mijn Eerste Jaren}{1}
 \contentsline {chapter}{\chapternumberline {2}Rock aan de Zaan}{101}
+<<<<<<< HEAD
+\contentsline {chapter}{\chapternumberline {3}Het Werk}{155}
+=======
 \contentsline {chapter}{\chapternumberline {3}Het Werk}{157}
+>>>>>>> origin/master

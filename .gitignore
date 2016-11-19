@@ -73,3 +73,10 @@ rm_verhaal_concept.pdf
 *.aux
 
 *.log
+<<<<<<< HEAD
+=======
+
+*.tex
+
+*.toc
+>>>>>>> origin/master
