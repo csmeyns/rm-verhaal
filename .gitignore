@@ -80,3 +80,13 @@ rm_verhaal_concept.pdf
 
 *.toc
 >>>>>>> origin/master
+
+rm_verhaal.aux
+
+rm_verhaal.aux
+
+rm_verhaal.log
+
+rm_verhaal.toc
+
+*.toc
