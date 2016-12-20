@@ -90,3 +90,7 @@ rm_verhaal.log
 rm_verhaal.toc
 
 *.toc
+
+*.lb
+
+*.lb
