@@ -94,3 +94,7 @@ rm_verhaal.toc
 *.lb
 
 *.lb
+
+rm_verhaal.log
+
+*.log
