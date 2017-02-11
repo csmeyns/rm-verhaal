@@ -2,4 +2,4 @@
 \contentsline {chapter}{Inhoudsopgave}{iv}
 \contentsline {chapter}{\chapternumberline {1}Mijn Eerste Jaren}{1}
 \contentsline {chapter}{\chapternumberline {2}Rock aan de Zaan}{95}
-\contentsline {chapter}{\chapternumberline {3}Het Werk}{147}
+\contentsline {chapter}{\chapternumberline {3}Het Werk}{149}
